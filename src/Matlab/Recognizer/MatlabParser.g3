@@ -730,13 +730,13 @@ aspectGet : wGET LPAREN aspectIdentifier (COLON aspectFullSignature)? RPAREN -> 
 
 aspectSet : wSET LPAREN aspectIdentifier (COLON aspectFullSignature)? RPAREN -> ^(ASPECTSET aspectIdentifier (aspectFullSignature)?) ;
 
-aspectInput : (aspectFullSignature (COMMA aspectFullSignature)*)? -> ^(ASPECTINPUT (aspectFullSignature)*) ;
+aspectInput : (aspectFullSignature (COMMA aspectFullSignature)*)? -> (aspectFullSignature)* ;
 
-aspectOutput : (aspectFullSignature (COMMA aspectFullSignature)*)? -> ^(ASPECTOUTPUT (aspectFullSignature)*) ;
+aspectOutput : (aspectFullSignature (COMMA aspectFullSignature)*)? ->  (aspectFullSignature)* ;
 
-aspectCall : wCALL LPAREN aspectIdentifier LPAREN aspectInput RPAREN COLON aspectOutput RPAREN -> ^(ASPECTCALL aspectIdentifier aspectInput aspectOutput) ;
+aspectCall : wCALL LPAREN aspectIdentifier LPAREN aspectInput RPAREN (COLON aspectOutput)? RPAREN -> ^(ASPECTCALL aspectIdentifier ^(ASPECTINPUT (aspectInput)?) ^(ASPECTOUTPUT (aspectOutput)?)) ;
 
-aspectExecution : wEXECUTION LPAREN aspectIdentifier LPAREN aspectInput RPAREN COLON aspectOutput RPAREN -> ^(ASPECTEXECUTION aspectIdentifier aspectInput aspectOutput) ;
+aspectExecution : wEXECUTION LPAREN aspectIdentifier LPAREN aspectInput RPAREN (COLON aspectOutput)? RPAREN -> ^(ASPECTEXECUTION aspectIdentifier ^(ASPECTINPUT (aspectInput)?) ^(ASPECTOUTPUT (aspectOutput)?)) ;
 
 aspectMainExecution : wMAINEXECUTION LPAREN RPAREN -> ASPECTMAINEXECUTION ;
 
