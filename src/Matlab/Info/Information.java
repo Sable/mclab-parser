@@ -18,7 +18,7 @@ public class Information
 
     public static final String AllRightsReserved = "All rights reserved.";
 
-    public static final String Version = "1.0.0.0";
+    public static final String Version = "1.1.0.0";
 
     // endregion
 }

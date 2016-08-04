@@ -19,6 +19,8 @@ class TreeToNodeBuilder
 
         FileNode node = (FileNode)TreeToNodeBuilder.BuildNode(tree);
 
+        TreeToNodeBuilder.ComputeMinMaxIndex(node);
+
         node.SetPath(path);
 
         return node;
@@ -37,10 +39,6 @@ class TreeToNodeBuilder
             InternalNode internalNode = (InternalNode)node;
 
             internalNode.SetIndex((((CommonTree)tree).getToken() != null ? ((CommonTree)tree).getToken().getTokenIndex() : -1));
-
-            internalNode.SetMinIndex(tree.getTokenStartIndex());
-
-            internalNode.SetMaxIndex(tree.getTokenStopIndex());
 
             internalNode.SetLine(tree.getLine());
 
@@ -304,6 +302,66 @@ class TreeToNodeBuilder
             default:
                 throw new InternalException();
         }
+    }
+
+    // endregion
+
+    // region MIN-MAX METHODS:
+
+    private static void ComputeMinMaxIndex(INode node)
+    {
+        for (INode childNode : node.GetChildren())
+        {
+            TreeToNodeBuilder.ComputeMinMaxIndex(childNode);
+        }
+
+        if (node instanceof InternalNode)
+        {
+            TreeToNodeBuilder.SetMinMaxIndex((InternalNode)node);
+        }
+    }
+
+    private static void SetMinMaxIndex(InternalNode node)
+    {
+        int min = Integer.MAX_VALUE;
+
+        int max = Integer.MIN_VALUE;
+
+        for(INode childNode : node.GetChildren())
+        {
+            InternalNode internalChildNode = (InternalNode)childNode;
+
+            int internalChildNodeMin = internalChildNode.GetMinIndex();
+
+            int internalChildNodeMax = internalChildNode.GetMaxIndex();
+
+            if (internalChildNodeMin >= 0 && internalChildNodeMin < min)
+            {
+                min = internalChildNodeMin;
+            }
+
+            if (internalChildNodeMax >= 0 && internalChildNodeMax > max)
+            {
+                max = internalChildNodeMax;
+            }
+        }
+
+        int index = node.GetIndex();
+
+        if (index >= 0)
+        {
+            min = (index < min) ? index : min ;
+            max = (index > max) ? index : max ;
+        }
+        else
+        {
+            min = (min == Integer.MAX_VALUE) ? -1 : min ;
+            max = (max == Integer.MIN_VALUE) ? -1 : max ;
+        }
+
+        node.SetMinIndex(min);
+
+        node.SetMaxIndex(max);
     }
 
     // endregion

@@ -76,20 +76,11 @@ class NodeCommenter
 
     private static void InsertCommentNode(FileNode node, CommentNode commentNode)
     {
-        InternalNode internalNode = NodeCommenter.FindClosestInternalNodeToLeft(node, commentNode);
+        MNode parent = NodeCommenter.FindClosestParent(node, commentNode);
 
-        if (internalNode == null)
-        {
-            NodeCommenter.LocalInsertCommentNode((ICommentableNode)node, commentNode);
-        }
-        else
-        {
-            ICommentableNode commentableNode = NodeCommenter.FindClosestCommentableAncestor(internalNode);
+        ICommentableNode commentableNode = NodeCommenter.FindClosestCommentableAncestorOrSelf(parent);
 
-            if (commentableNode == null) { throw new InternalException(); }
-
-            NodeCommenter.LocalInsertCommentNode(commentableNode, commentNode);
-        }
+        NodeCommenter.LocalInsertCommentNode(commentableNode, commentNode);
     }
 
     private static void LocalInsertCommentNode(ICommentableNode containerNode, CommentNode commentNode)
@@ -113,13 +104,13 @@ class NodeCommenter
 
     // region FIND METHODS:
 
-    private static InternalNode FindClosestInternalNodeToLeft(MNode container, CommentNode commentNode)
+    private static MNode FindClosestParent(MNode container, CommentNode commentNode)
     {
         Iterable<InternalNode> toLeft = DotNetEnumerable.Where(DotNetEnumerable.Cast(container.GetChildren(), InternalNode.class), x -> x.GetMinIndex() < commentNode.GetIndex());
 
         if (DotNetEnumerable.Count(toLeft) == 0)
         {
-            return null;
+            return container;
         }
         else
         {
@@ -129,25 +120,23 @@ class NodeCommenter
 
             if (commentNode.GetIndex() < node.GetMaxIndex())
             {
-                return NodeCommenter.FindClosestInternalNodeToLeft(node, commentNode);
+                return NodeCommenter.FindClosestParent(node, commentNode);
             }
             else
             {
-                return node;
+                return container;
             }
         }
     }
 
-    private static ICommentableNode FindClosestCommentableAncestor(MNode node)
+    private static ICommentableNode FindClosestCommentableAncestorOrSelf(MNode node)
     {
-        MNode parent = (MNode)node.GetParent();
-
-        while (parent != null && !(parent instanceof ICommentableNode))
+        while (node != null && !(node instanceof ICommentableNode))
         {
-            parent = (MNode)parent.GetParent();
+            node = (MNode)node.GetParent();
         }
 
-        return (ICommentableNode)parent;
+        return (ICommentableNode)node;
     }
 
     // endregion

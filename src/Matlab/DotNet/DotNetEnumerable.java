@@ -244,6 +244,23 @@ public class DotNetEnumerable
         }
     }
 
+    public static <T> int IndexOf(Iterable<? extends T> collection, T element)
+    {
+        int index = 0;
+
+        for (T item : collection)
+        {
+            if ((item == null && element == null) || item.equals(element))
+            {
+                return index;
+            }
+
+            index++;
+        }
+
+        return -1;
+    }
+
     // endregion
 
     // endregion

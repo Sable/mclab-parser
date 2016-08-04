@@ -46,18 +46,17 @@ public class NodeToAstTransformer
 
             if (object instanceof ASTNode && node instanceof InternalNode)
             {
-                ASTNode ast = (ASTNode)object;
-
-                InternalNode internalNode = (InternalNode)node;
-
-                ast.setStartLine(internalNode.GetLine());
-
-                ast.setStartColumn(internalNode.GetColumn());
+                NodeToAstTransformer.CopyLineAndColumnFields((InternalNode)node, (ASTNode)object);
             }
 
             if (object instanceof ASTNode && node instanceof ICommentableNode)
             {
-                NodeToAstTransformer.IncorporateComments((ASTNode)object, (ICommentableNode)node);
+                NodeToAstTransformer.CopyCommentNodes((ICommentableNode)node, (ASTNode)object);
+            }
+
+            if (object instanceof ASTNode)
+            {
+                NodeToAstTransformer.CopyRelativeChildIndexField(node, (ASTNode)object);
             }
 
             return object;
@@ -66,74 +65,6 @@ public class NodeToAstTransformer
         {
             throw new RuntimeException(ex);
         }
-    }
-
-    private static void IncorporateComments(ASTNode ast, ICommentableNode node)
-    {
-        if (ast instanceof Script)
-        {
-            for(CommentNode commentNode : NodeToAstTransformer.GetHelpComments(node))
-            {
-                HelpComment helpComment = (HelpComment)NodeToAstTransformer.Process(commentNode);
-
-                ((Script)ast).addHelpComment(helpComment);
-            }
-        }
-
-        if (ast instanceof Function)
-        {
-            for(CommentNode commentNode : NodeToAstTransformer.GetHelpComments(node))
-            {
-                HelpComment helpComment = (HelpComment)NodeToAstTransformer.Process(commentNode);
-
-                ((Function)ast).addHelpComment(helpComment);
-            }
-        }
-
-        if (ast instanceof ClassDef)
-        {
-            for(CommentNode commentNode : NodeToAstTransformer.GetHelpComments(node))
-            {
-                HelpComment helpComment = (HelpComment)NodeToAstTransformer.Process(commentNode);
-
-                ((ClassDef)ast).addHelpComment(helpComment);
-            }
-        }
-
-        if (ast instanceof PropertyAccess)
-        {
-            for(CommentNode commentNode : NodeToAstTransformer.GetHelpComments(node))
-            {
-                HelpComment helpComment = (HelpComment)NodeToAstTransformer.Process(commentNode);
-
-                ((PropertyAccess)ast).addHelpComment(helpComment);
-            }
-        }
-
-        if (ast instanceof AspectDef)
-        {
-            for(CommentNode commentNode : NodeToAstTransformer.GetHelpComments(node))
-            {
-                HelpComment helpComment = (HelpComment)NodeToAstTransformer.Process(commentNode);
-
-                ((AspectDef)ast).addHelpComment(helpComment);
-            }
-        }
-    }
-
-    private static LinkedList<CommentNode> GetHelpComments(ICommentableNode node)
-    {
-        LinkedList<CommentNode> list = new LinkedList<CommentNode>();
-
-        for (INode child : node.GetChildren())
-        {
-            if (child instanceof CommentNode)
-            {
-                list.add((CommentNode)child);
-            }
-        }
-
-        return list;
     }
 
     // endregion
@@ -176,6 +107,8 @@ public class NodeToAstTransformer
 
         ClassDef classDef = (ClassDef)NodeToAstTransformer.Process(classNode);
 
+        NodeToAstTransformer.CopyRelativeChildIndexField(node, classDef);
+
         classDef.setFile(new FileFile(node.GetPath()));
 
         LinkedList<Function> functionLinkedList = new LinkedList<Function>();
@@ -188,6 +121,8 @@ public class NodeToAstTransformer
         }
 
         FunctionList functionList = new FunctionList();
+
+        NodeToAstTransformer.CopyRelativeChildIndexField(node, functionList);
 
         functionList.setFile(new FileFile(node.GetPath()));
 
@@ -310,6 +245,8 @@ public class NodeToAstTransformer
             superClass.setName(name2.getID());
 
             returnAst.addSuperClass(superClass);
+
+            NodeToAstTransformer.CopyRelativeChildIndexField(classRefNode, superClass);
         }
 
         for (SectionNode sectionNode : node.GetSections())
@@ -787,6 +724,8 @@ public class NodeToAstTransformer
 
         returnAst.setAssignStmt(assignStmt);
 
+        NodeToAstTransformer.CopyRelativeChildIndexField(node.GetVar(), assignStmt);
+
         for (StatementNode statementNode : node.GetStatements())
         {
             Stmt stmt = (Stmt)NodeToAstTransformer.Process(statementNode);
@@ -1040,11 +979,18 @@ public class NodeToAstTransformer
             returnAst.addTryStmt(stmt);
         }
 
+        NodeToAstTransformer.CopyCommentNodes(node.GetTryPart(), returnAst);
+
+        int childCountInTryPart = DotNetEnumerable.Count(node.GetChildren());
+
+        int commentCountInTryPart = DotNetEnumerable.Count(node.GetComments());
+
         if (node.GetCatchPart() != null)
         {
             Name name = (Name) NodeToAstTransformer.Process(node.GetCatchPart(), "VisitDirect");
 
-            if (name != null) {
+            if (name != null)
+            {
                 returnAst.setCatchName(name);
             }
 
@@ -1053,6 +999,20 @@ public class NodeToAstTransformer
             for (Stmt stmt : catchStatements)
             {
                 returnAst.addCatchStmt(stmt);
+            }
+
+            NodeToAstTransformer.CopyCommentNodes(node.GetCatchPart(), returnAst);
+
+            for (Stmt stmt : returnAst.getCatchStmts())
+            {
+                NodeToAstTransformer.CopyRelativeChildIndexField(stmt.GetRelativeChildIndex() + childCountInTryPart, stmt);
+            }
+
+            for (int i=commentCountInTryPart; i< returnAst.getComments().size(); i++)
+            {
+                HelpComment helpComment = (HelpComment)returnAst.getComments().get(i);
+
+                NodeToAstTransformer.CopyRelativeChildIndexField(helpComment.GetRelativeChildIndex() + childCountInTryPart, helpComment);
             }
         }
 
@@ -2465,6 +2425,90 @@ public class NodeToAstTransformer
     }
 
     // endregion
+
+    // endregion
+
+    // region COPY METHODS:
+
+    private static void CopyLineAndColumnFields(InternalNode node, ASTNode ast)
+    {
+        ast.setStartLine(node.GetLine());
+
+        ast.setStartColumn(node.GetColumn());
+    }
+
+    private static void CopyCommentNodes(ICommentableNode node, ASTNode ast)
+    {
+        for(CommentNode commentNode : NodeToAstTransformer.GetCommentNodes(node))
+        {
+            HelpComment helpComment = (HelpComment)NodeToAstTransformer.Process(commentNode);
+
+            ast.addComment(helpComment);
+        }
+
+        for (INode childNode : node.GetChildren())
+        {
+            if (childNode instanceof CommentNode)
+            {
+                HelpComment helpComment = (HelpComment)NodeToAstTransformer.Process((CommentNode)childNode);
+
+                if (ast instanceof Script)
+                {
+                    ((Script)ast).addHelpComment(helpComment);
+                }
+                else if (ast instanceof Function)
+                {
+                    ((Function)ast).addHelpComment(helpComment);
+                }
+                else if (ast instanceof ClassDef)
+                {
+                    ((ClassDef)ast).addHelpComment(helpComment);
+                }
+                else if (ast instanceof AspectDef)
+                {
+                    ((AspectDef)ast).addHelpComment(helpComment);
+                }
+                else
+                {
+                    break;
+                }
+            }
+            else
+            {
+                break;
+            }
+        }
+    }
+
+    private static LinkedList<CommentNode> GetCommentNodes(ICommentableNode node)
+    {
+        LinkedList<CommentNode> list = new LinkedList<CommentNode>();
+
+        for (INode child : node.GetChildren())
+        {
+            if (child instanceof CommentNode)
+            {
+                list.add((CommentNode)child);
+            }
+        }
+
+        return list;
+    }
+
+    private static void CopyRelativeChildIndexField(IMNode node, ASTNode ast)
+    {
+        if (node.GetParent() != null)
+        {
+            int indexInParent = DotNetEnumerable.IndexOf(node.GetParent().GetChildren(), node);
+
+            ast.SetRelativeChildIndex(indexInParent);
+        }
+    }
+
+    private static void CopyRelativeChildIndexField(int value, ASTNode ast)
+    {
+        ast.SetRelativeChildIndex(value);
+    }
 
     // endregion
 

@@ -6,7 +6,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
       </element>
-      <element id="file-copy" path="$PROJECT_DIR$/license/license.txt" />
+      <element id="file-copy" path="$PROJECT_DIR$/LICENSE.txt" />
     </root>
   </artifact>
 </component>
