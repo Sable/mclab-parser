@@ -157,7 +157,7 @@ public class MRecognizer
 
         if (report.GetIsOk() && buildTree)
         {
-            FileNode buildNode = TreeToNodeBuilder.Build(path, tree);
+            FileNode buildNode = TreeToNodeBuilder.Build(path, tokens, tree);
 
             NodeCommenter.InsertComments(buildNode, tokens);
 

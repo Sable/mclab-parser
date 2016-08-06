@@ -3,6 +3,7 @@ package Matlab.Recognizer;
 import Matlab.Aspect.Nodes.*;
 import Matlab.Utils.*;
 import Matlab.Nodes.*;
+import org.antlr.runtime.*;
 import org.antlr.runtime.tree.*;
 
 class TreeToNodeBuilder
@@ -11,15 +12,13 @@ class TreeToNodeBuilder
 
     // region MAIN METHODS:
 
-    public static FileNode Build(String path, Tree tree)
+    public static FileNode Build(String path, TokenStream tokens, Tree tree)
     {
         Checker.CheckNotNull(path);
 
         Checker.CheckNotNull(tree);
 
-        FileNode node = (FileNode)TreeToNodeBuilder.BuildNode(tree);
-
-        TreeToNodeBuilder.ComputeMinMaxIndex(node);
+        FileNode node = (FileNode)TreeToNodeBuilder.BuildNode(tokens, tree);
 
         node.SetPath(path);
 
@@ -30,7 +29,7 @@ class TreeToNodeBuilder
 
     // region BUILDER METHODS:
 
-    private static MNode BuildNode(Tree tree)
+    private static MNode BuildNode(TokenStream tokens, Tree tree)
     {
         MNode node = TreeToNodeBuilder.BuildNode(tree.getType());
 
@@ -39,6 +38,8 @@ class TreeToNodeBuilder
             InternalNode internalNode = (InternalNode)node;
 
             internalNode.SetIndex((((CommonTree)tree).getToken() != null ? ((CommonTree)tree).getToken().getTokenIndex() : -1));
+
+            TreeToNodeBuilder.SetMinMaxIndex(tokens, tree, internalNode);
 
             internalNode.SetLine(tree.getLine());
 
@@ -49,7 +50,7 @@ class TreeToNodeBuilder
 
         for (int i = 0; i < tree.getChildCount(); i++)
         {
-            MNode childNode = TreeToNodeBuilder.BuildNode(tree.getChild(i));
+            MNode childNode = TreeToNodeBuilder.BuildNode(tokens, tree.getChild(i));
 
             node.GetChildren().Add(childNode);
         }
@@ -308,55 +309,36 @@ class TreeToNodeBuilder
 
     // region MIN-MAX METHODS:
 
-    private static void ComputeMinMaxIndex(INode node)
+    private static void SetMinMaxIndex(TokenStream tokens, Tree tree, InternalNode node)
     {
-        for (INode childNode : node.GetChildren())
+        int min = tree.getTokenStartIndex();
+
+        int max = tree.getTokenStopIndex();
+
+        int defaultChannel = Channel.GetDefaultInt();
+
+        for (int i=min; i<=max; i++)
         {
-            TreeToNodeBuilder.ComputeMinMaxIndex(childNode);
-        }
-
-        if (node instanceof InternalNode)
-        {
-            TreeToNodeBuilder.SetMinMaxIndex((InternalNode)node);
-        }
-    }
-
-    private static void SetMinMaxIndex(InternalNode node)
-    {
-        int min = Integer.MAX_VALUE;
-
-        int max = Integer.MIN_VALUE;
-
-        for(INode childNode : node.GetChildren())
-        {
-            InternalNode internalChildNode = (InternalNode)childNode;
-
-            int internalChildNodeMin = internalChildNode.GetMinIndex();
-
-            int internalChildNodeMax = internalChildNode.GetMaxIndex();
-
-            if (internalChildNodeMin >= 0 && internalChildNodeMin < min)
+            if (tokens.get(i).getChannel() != defaultChannel || tokens.get(i).getType() == MatlabLexerReal.EOL)
             {
-                min = internalChildNodeMin;
+                min++;
             }
-
-            if (internalChildNodeMax >= 0 && internalChildNodeMax > max)
+            else
             {
-                max = internalChildNodeMax;
+                break;
             }
         }
 
-        int index = node.GetIndex();
-
-        if (index >= 0)
+        for (int i=max; i>=min; i--)
         {
-            min = (index < min) ? index : min ;
-            max = (index > max) ? index : max ;
-        }
-        else
-        {
-            min = (min == Integer.MAX_VALUE) ? -1 : min ;
-            max = (max == Integer.MIN_VALUE) ? -1 : max ;
+            if (tokens.get(i).getChannel() != defaultChannel || tokens.get(i).getType() == MatlabLexerReal.EOL)
+            {
+                max--;
+            }
+            else
+            {
+                break;
+            }
         }
 
         node.SetMinIndex(min);
