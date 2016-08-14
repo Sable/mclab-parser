@@ -3,7 +3,8 @@ In the "McLabCore" project (https://github.com/Sable/mclab-core), the following 
 
 - natlab.ast (modified)
 - natlabModifications.jadd (added)
-- natlabExtra.jadd (added)
+- natlabRelativeChildIndex.jadd (added)
+- natlabTryStmtCatchPartComments.jadd (added)
 - AST2XML.jrag (modified)
 
 The modifications and additions are backwards compatible to the best of my knowledge.

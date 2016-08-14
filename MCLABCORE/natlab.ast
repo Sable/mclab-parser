@@ -273,7 +273,11 @@ PatternLoopHead:Expr ::= [Type:Name] Identifier:Name ;
 
 PatternLoopBody:Expr ::= [Type:Name] Identifier:Name ;
 
-Selector ::= Element:Name* ;
+abstract Selector ;
+
+SelectorSimple:Selector ::= Element:Name ;
+
+SelectorCompound:Selector ::= Element:Name* ;
 
 PatternAnnotate:Expr ::= Identifier:Name Selector* ;
 

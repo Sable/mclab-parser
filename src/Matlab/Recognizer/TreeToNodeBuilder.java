@@ -297,8 +297,10 @@ class TreeToNodeBuilder
                 return new AspectInputNode();
             case MatlabParser.ASPECTOUTPUT:
                 return new AspectOutputNode();
-            case MatlabParser.ASPECTSELECTOR:
-                return new AspectSelectorNode();
+            case MatlabParser.ASPECTSELECTORSIMPLE:
+                return new AspectSelectorSimpleNode();
+            case MatlabParser.ASPECTSELECTORCOMPOUND:
+                return new AspectSelectorCompoundNode();
 
             default:
                 throw new InternalException();

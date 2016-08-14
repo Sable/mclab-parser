@@ -4,11 +4,22 @@
     <bookmark url="file://$PROJECT_DIR$/src/Matlab/Utils/INode.java" description="public interface INode&#10;{&#10;    public interface INod..." line="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3694519-9a9a-4855-9fc6-e78e94ed17a3" name="Default" comment="Comment-related bugs fixed, and some documentation added.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/ParserConfiguration.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/ParserConfiguration.xml" />
+    <list default="true" id="a3694519-9a9a-4855-9fc6-e78e94ed17a3" name="Default" comment="Fixed bugs i">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCLABCORE/natlabTryStmtCatchPartComments.jadd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectSelectorCompoundNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectSelectorSimpleNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/McLabCore.jar" afterPath="$PROJECT_DIR$/lib/McLabCore.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Matlab/Recognizer/MRecognizer.java" afterPath="$PROJECT_DIR$/src/Matlab/Recognizer/MRecognizer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MCLABCORE/AST2XML.jrag" afterPath="$PROJECT_DIR$/MCLABCORE/AST2XML.jrag" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MCLABCORE/README.txt" afterPath="$PROJECT_DIR$/MCLABCORE/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MCLABCORE/natlab.ast" afterPath="$PROJECT_DIR$/MCLABCORE/natlab.ast" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectSelectorNode.java" afterPath="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectSelectorNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Matlab/Recognizer/MatlabParser.g3" afterPath="$PROJECT_DIR$/src/Matlab/Recognizer/MatlabParser.g3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Matlab/Recognizer/MatlabParser.java" afterPath="$PROJECT_DIR$/src/Matlab/Recognizer/MatlabParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Matlab/Recognizer/MatlabParser.tokens" afterPath="$PROJECT_DIR$/src/Matlab/Recognizer/MatlabParser.tokens" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Matlab/Recognizer/TreeToNodeBuilder.java" afterPath="$PROJECT_DIR$/src/Matlab/Recognizer/TreeToNodeBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Matlab/Transformer/NodeToAstTransformer.java" afterPath="$PROJECT_DIR$/src/Matlab/Transformer/NodeToAstTransformer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MCLABCORE/natlabExtra.jadd" afterPath="$PROJECT_DIR$/MCLABCORE/natlabRelativeChildIndex.jadd" />
     </list>
     <ignored path="MatlabParser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,13 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectActionSectionNode.java" />
-        <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectPatternNode.java" />
-        <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectAtomicNode.java" />
-        <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectNameNode.java" />
-        <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectSelectorHeadNode.java" />
-        <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectSelectorPartNode.java" />
-        <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectActionNode.java" />
         <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectTargetNode.java" />
         <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectCompoundSignatureNode.java" />
         <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectSignatureNode.java" />
@@ -72,7 +76,6 @@
         <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectTypeSignatureNode.java" />
         <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectCompoundSelectorNode.java" />
         <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectDimensionSignatureNode.java" />
-        <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectSelectorNode.java" />
         <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectGetNode.java" />
         <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectFullSignatureNode.java" />
         <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectInputOutputNode.java" />
@@ -94,19 +97,27 @@
         <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectCallNode.java" />
         <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectExecutionNode.java" />
         <option value="$PROJECT_DIR$/readme/AST2XML.jrag" />
-        <option value="$PROJECT_DIR$/src/Matlab/Recognizer/MatlabParser.g3" />
         <option value="$PROJECT_DIR$/src/Matlab/Info/Information.java" />
         <option value="$PROJECT_DIR$/src/Matlab/Recognizer/NodeCommenter.java" />
         <option value="$PROJECT_DIR$/readme/readme.txt" />
         <option value="$PROJECT_DIR$/src/Matlab/DotNet/DotNetEnumerable.java" />
         <option value="$PROJECT_DIR$/readme/natlabExtra.jadd" />
-        <option value="$PROJECT_DIR$/src/Matlab/Transformer/NodeToAstTransformer.java" />
         <option value="$PROJECT_DIR$/src/Matlab/Recognizer/MatlabLexerReal.java" />
-        <option value="$PROJECT_DIR$/MCLABCORE/README.txt" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Matlab/Recognizer/MRecognizer.java" />
-        <option value="$PROJECT_DIR$/src/Matlab/Recognizer/TreeToNodeBuilder.java" />
         <option value="$PROJECT_DIR$/src/Matlab/Parser/Program.java" />
+        <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectSelectorSimpleNode.java" />
+        <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectSelectorCompoundNode.java" />
+        <option value="$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectSelectorNode.java" />
+        <option value="$PROJECT_DIR$/src/Matlab/Recognizer/MatlabParser.g3" />
+        <option value="$PROJECT_DIR$/src/Matlab/Recognizer/TreeToNodeBuilder.java" />
+        <option value="$PROJECT_DIR$/MCLABCORE/natlab.ast" />
+        <option value="$PROJECT_DIR$/MCLABCORE/AST2XML.jrag" />
+        <option value="$PROJECT_DIR$/MCLABCORE/natlabRelativeChildIndex.jadd" />
+        <option value="$PROJECT_DIR$/MCLABCORE/natlabTryStmtCatchComments.jadd" />
+        <option value="$PROJECT_DIR$/src/Matlab/Transformer/NodeToAstTransformer.java" />
+        <option value="$PROJECT_DIR$/MCLABCORE/natlabTryStmtCatchPartComments.jadd" />
+        <option value="$PROJECT_DIR$/MCLABCORE/README.txt" />
       </list>
     </option>
   </component>
@@ -156,6 +167,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -164,11 +178,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatlabParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatlabParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -691,7 +712,8 @@
       <workItem from="1470169110139" duration="594000" />
       <workItem from="1470327776034" duration="5603000" />
       <workItem from="1470422163427" duration="1004000" />
-      <workItem from="1470493747589" duration="4474000" />
+      <workItem from="1470493747589" duration="4584000" />
+      <workItem from="1471196741920" duration="6629000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed minor bug in aspect grammar.">
       <created>1467664767081</created>
@@ -714,11 +736,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470335480976</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed bug in comment placing algorithm.">
+      <created>1470499438722</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1470499438722</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="391465000" />
+    <option name="totallyTimeSpent" value="398204000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -745,7 +774,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3420622" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25945538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23903178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -777,7 +806,8 @@
     <MESSAGE value="Fixed minor bug in aspect grammar." />
     <MESSAGE value="README file updated." />
     <MESSAGE value="Comment-related bugs fixed, and some documentation added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Comment-related bugs fixed, and some documentation added." />
+    <MESSAGE value="Fixed bug in comment placing algorithm." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug in comment placing algorithm." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -793,41 +823,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectSelectorNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/McLabCore.jar!/ast/PatternExecution.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Matlab/Transformer/AstToXmlTransformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectInputNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectCallNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -898,13 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/McLabCore.jar!/beaver/Symbol.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-599">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Matlab/Nodes/FileNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -916,20 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MCLABCORE/natlab.ast">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="269" column="50" selection-start-line="269" selection-start-column="50" selection-end-line="269" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MCLABCORE/natlabModifications.jadd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -954,20 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MCLABCORE/natlabExtra.jadd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MCLABCORE/AST2XML.jrag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="177" column="3" selection-start-line="177" selection-start-column="3" selection-end-line="177" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Matlab/Nodes/InternalNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -979,13 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Matlab/Recognizer/MatlabParser.g3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10494">
-          <caret line="738" column="174" selection-start-line="738" selection-start-column="174" selection-end-line="738" selection-end-column="174" />
         </state>
       </provider>
     </entry>
@@ -1045,13 +998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MCLABCORE/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1066,30 +1012,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/McLabCore.jar!/ast/ASTNode.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="223" column="16" selection-start-line="223" selection-start-column="16" selection-end-line="223" selection-end-column="16" />
-          <folding>
-            <element signature="e#8555#8556#0" expanded="true" />
-            <element signature="e#8594#8595#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Matlab/Transformer/NodeToAstTransformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="2446" column="9" selection-start-line="2446" selection-start-column="9" selection-end-line="2446" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/antlr-3.5.2-runtime.jar!/org/antlr/runtime/TokenStream.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1097,10 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding>
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#1513#1514#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1108,7 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,7 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1124,7 +1044,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-357">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1132,7 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1768">
           <caret line="194" column="21" selection-start-line="194" selection-start-column="18" selection-end-line="194" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,10 +1080,282 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Matlab/Recognizer/TreeToNodeBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="317" column="53" selection-start-line="317" selection-start-column="53" selection-end-line="317" selection-end-column="53" />
+        <state relative-caret-position="5066">
+          <caret line="302" column="56" selection-start-line="302" selection-start-column="56" selection-end-line="302" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectSelectorNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding>
-            <element signature="method#BuildNode#1;class#TreeToNodeBuilder#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Matlab/Recognizer/MatlabParser.g3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="763" column="118" selection-start-line="763" selection-start-column="118" selection-end-line="763" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCLABCORE/natlab.ast">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="277" column="42" selection-start-line="277" selection-start-column="42" selection-end-line="277" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectSelectorSimpleNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#488#489#0" expanded="false" />
+            <element signature="e#511#512#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Matlab/Aspect/Nodes/AspectSelectorCompoundNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCLABCORE/AST2XML.jrag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="516" column="77" selection-start-line="516" selection-start-column="77" selection-end-line="516" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCLABCORE/natlabModifications.jadd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Matlab/Nodes/TryNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCLABCORE/natlabRelativeChildIndex.jadd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/McLabCore.jar!/ast/ASTNode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-629">
+          <caret line="56" column="49" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8555#8556#0" expanded="true" />
+            <element signature="e#8594#8595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/McLabCore.jar!/beaver/Symbol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCLABCORE/natlabTryStmtCatchPartComments.jadd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCLABCORE/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Matlab/Transformer/NodeToAstTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-503">
+          <caret line="635" column="4" selection-start-line="635" selection-start-column="4" selection-end-line="635" selection-end-column="4" />
+          <folding>
+            <element signature="e#368#391#0" expanded="false" />
+            <element signature="method#Transform#0;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="e#557#583#0" expanded="false" />
+            <element signature="e#1758#1783#0" expanded="false" />
+            <element signature="method#Visit#0;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#1;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#2;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#3;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="e#4520#4542#0" expanded="false" />
+            <element signature="method#Visit#4;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#5;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#6;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#7;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#8;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#9;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#10;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#11;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#12;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#13;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#VisitDirect#0;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#VisitDirect#1;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#14;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#15;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="e#17254#17280#0" expanded="false" />
+            <element signature="method#Visit#16;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#17;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#18;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#19;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#20;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#21;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#22;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#23;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#24;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#25;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#26;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#27;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#28;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="e#24789#24861#0" expanded="false" />
+            <element signature="method#Visit#29;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#30;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#31;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="e#29254#29275#0" expanded="false" />
+            <element signature="method#Visit#32;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#33;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#34;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#35;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#36;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#37;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#38;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#39;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#VisitDirect#2;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="e#32607#32634#0" expanded="false" />
+            <element signature="e#32640#32662#0" expanded="false" />
+            <element signature="method#Visit#40;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#41;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#42;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="e#34748#34771#0" expanded="false" />
+            <element signature="method#Visit#43;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#44;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#45;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#46;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#47;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#48;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#49;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#50;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#51;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#52;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#53;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#54;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#55;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#56;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#57;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#58;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#59;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#60;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#61;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#62;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#AddOperands#0;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="e#39016#39038#0" expanded="false" />
+            <element signature="method#Visit#63;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#64;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#65;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#66;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#67;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#AddOperand#0;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="e#40276#40299#0" expanded="false" />
+            <element signature="e#40305#40327#0" expanded="false" />
+            <element signature="method#Visit#70;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#71;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#72;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#73;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#TryParseInteger#0;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="e#42743#42765#0" expanded="false" />
+            <element signature="method#Visit#74;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#75;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="e#43675#43697#0" expanded="false" />
+            <element signature="method#Visit#76;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#77;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#78;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#79;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#80;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="e#46289#46314#0" expanded="false" />
+            <element signature="method#Visit#81;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#82;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="e#47087#47113#0" expanded="false" />
+            <element signature="method#Visit#83;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="e#47710#47734#0" expanded="false" />
+            <element signature="method#Visit#84;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="e#48280#48299#0" expanded="false" />
+            <element signature="method#Visit#85;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#86;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="e#48650#48677#0" expanded="false" />
+            <element signature="e#48888#48914#0" expanded="false" />
+            <element signature="e#49147#49171#0" expanded="false" />
+            <element signature="method#Visit#92;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="e#49703#49727#0" expanded="false" />
+            <element signature="method#Visit#93;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#94;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#95;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#96;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#97;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#98;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#99;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#100;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#101;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#102;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#103;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#104;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#105;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#106;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#107;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#108;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#109;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#110;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#111;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#112;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#113;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#114;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#115;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#116;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#117;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#118;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#119;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#Visit#120;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="e#63353#63376#0" expanded="false" />
+            <element signature="method#CopyLineAndColumnFields#0;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#CopyCommentNodes#0;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#GetCommentNodes#0;class#NodeToAstTransformer#0" expanded="false" />
+            <element signature="method#CopyRelativeChildIndexField#0;class#NodeToAstTransformer#0" expanded="false" />
           </folding>
         </state>
       </provider>

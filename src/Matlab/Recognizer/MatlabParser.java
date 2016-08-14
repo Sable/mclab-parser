@@ -1,4 +1,4 @@
-// $ANTLR 3.5.2 D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3 2016-07-04 16:34:33
+// $ANTLR 3.5.2 D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3 2016-08-14 14:03:57
 
 package Matlab.Recognizer;
 
@@ -34,15 +34,15 @@ public class MatlabParser extends MatlabParserBase {
 		"ASPECTDIMENSIONSIGNATURE", "ASPECTEXECUTION", "ASPECTFILE", "ASPECTFULLSIGNATURE", 
 		"ASPECTGET", "ASPECTINPUT", "ASPECTISTYPE", "ASPECTLOOP", "ASPECTLOOPBODY", 
 		"ASPECTLOOPHEAD", "ASPECTMAINEXECUTION", "ASPECTNAME", "ASPECTOPERATOR", 
-		"ASPECTOUTPUT", "ASPECTPATTERN", "ASPECTPATTERNSECTION", "ASPECTSELECTOR", 
-		"ASPECTSET", "ASPECTTYPESIGNATURE", "ASPECTWITHIN", "ATBASE", "ATTRIBUTE", 
-		"CELLARRAY", "CLASSFILE", "CLASSREF", "CURLYBRACE", "DOTEXPRESSION", "DOTNAME", 
-		"ENUMERATION", "ENUMERATIONSECTION", "EVENT", "EVENTSECTION", "EXTERNALMETHOD", 
-		"FUNCTIONFILE", "FUNCTIONHANDLE", "FUNCTIONREF", "HCAT", "IFELSE", "INPUT", 
-		"METHODSECTION", "NAME", "NEGATIVE", "NESTEDFUNCTION", "NOPRINT", "OUTPUT", 
-		"PARENTHESIS", "POSITIVE", "PRINT", "PROPERTY", "PROPERTYSECTION", "REGULARARRAY", 
-		"REGULARMETHOD", "SCRIPTFILE", "STORAGE", "SWITCHCASE", "TRYCATCH", "VAR", 
-		"VCAT"
+		"ASPECTOUTPUT", "ASPECTPATTERN", "ASPECTPATTERNSECTION", "ASPECTSELECTORCOMPOUND", 
+		"ASPECTSELECTORSIMPLE", "ASPECTSET", "ASPECTTYPESIGNATURE", "ASPECTWITHIN", 
+		"ATBASE", "ATTRIBUTE", "CELLARRAY", "CLASSFILE", "CLASSREF", "CURLYBRACE", 
+		"DOTEXPRESSION", "DOTNAME", "ENUMERATION", "ENUMERATIONSECTION", "EVENT", 
+		"EVENTSECTION", "EXTERNALMETHOD", "FUNCTIONFILE", "FUNCTIONHANDLE", "FUNCTIONREF", 
+		"HCAT", "IFELSE", "INPUT", "METHODSECTION", "NAME", "NEGATIVE", "NESTEDFUNCTION", 
+		"NOPRINT", "OUTPUT", "PARENTHESIS", "POSITIVE", "PRINT", "PROPERTY", "PROPERTYSECTION", 
+		"REGULARARRAY", "REGULARMETHOD", "SCRIPTFILE", "STORAGE", "SWITCHCASE", 
+		"TRYCATCH", "VAR", "VCAT"
 	};
 	public static final int EOF=-1;
 	public static final int AND=4;
@@ -164,48 +164,49 @@ public class MatlabParser extends MatlabParserBase {
 	public static final int ASPECTOUTPUT=120;
 	public static final int ASPECTPATTERN=121;
 	public static final int ASPECTPATTERNSECTION=122;
-	public static final int ASPECTSELECTOR=123;
-	public static final int ASPECTSET=124;
-	public static final int ASPECTTYPESIGNATURE=125;
-	public static final int ASPECTWITHIN=126;
-	public static final int ATBASE=127;
-	public static final int ATTRIBUTE=128;
-	public static final int CELLARRAY=129;
-	public static final int CLASSFILE=130;
-	public static final int CLASSREF=131;
-	public static final int CURLYBRACE=132;
-	public static final int DOTEXPRESSION=133;
-	public static final int DOTNAME=134;
-	public static final int ENUMERATION=135;
-	public static final int ENUMERATIONSECTION=136;
-	public static final int EVENT=137;
-	public static final int EVENTSECTION=138;
-	public static final int EXTERNALMETHOD=139;
-	public static final int FUNCTIONFILE=140;
-	public static final int FUNCTIONHANDLE=141;
-	public static final int FUNCTIONREF=142;
-	public static final int HCAT=143;
-	public static final int IFELSE=144;
-	public static final int INPUT=145;
-	public static final int METHODSECTION=146;
-	public static final int NAME=147;
-	public static final int NEGATIVE=148;
-	public static final int NESTEDFUNCTION=149;
-	public static final int NOPRINT=150;
-	public static final int OUTPUT=151;
-	public static final int PARENTHESIS=152;
-	public static final int POSITIVE=153;
-	public static final int PRINT=154;
-	public static final int PROPERTY=155;
-	public static final int PROPERTYSECTION=156;
-	public static final int REGULARARRAY=157;
-	public static final int REGULARMETHOD=158;
-	public static final int SCRIPTFILE=159;
-	public static final int STORAGE=160;
-	public static final int SWITCHCASE=161;
-	public static final int TRYCATCH=162;
-	public static final int VAR=163;
-	public static final int VCAT=164;
+	public static final int ASPECTSELECTORCOMPOUND=123;
+	public static final int ASPECTSELECTORSIMPLE=124;
+	public static final int ASPECTSET=125;
+	public static final int ASPECTTYPESIGNATURE=126;
+	public static final int ASPECTWITHIN=127;
+	public static final int ATBASE=128;
+	public static final int ATTRIBUTE=129;
+	public static final int CELLARRAY=130;
+	public static final int CLASSFILE=131;
+	public static final int CLASSREF=132;
+	public static final int CURLYBRACE=133;
+	public static final int DOTEXPRESSION=134;
+	public static final int DOTNAME=135;
+	public static final int ENUMERATION=136;
+	public static final int ENUMERATIONSECTION=137;
+	public static final int EVENT=138;
+	public static final int EVENTSECTION=139;
+	public static final int EXTERNALMETHOD=140;
+	public static final int FUNCTIONFILE=141;
+	public static final int FUNCTIONHANDLE=142;
+	public static final int FUNCTIONREF=143;
+	public static final int HCAT=144;
+	public static final int IFELSE=145;
+	public static final int INPUT=146;
+	public static final int METHODSECTION=147;
+	public static final int NAME=148;
+	public static final int NEGATIVE=149;
+	public static final int NESTEDFUNCTION=150;
+	public static final int NOPRINT=151;
+	public static final int OUTPUT=152;
+	public static final int PARENTHESIS=153;
+	public static final int POSITIVE=154;
+	public static final int PRINT=155;
+	public static final int PROPERTY=156;
+	public static final int PROPERTYSECTION=157;
+	public static final int REGULARARRAY=158;
+	public static final int REGULARMETHOD=159;
+	public static final int SCRIPTFILE=160;
+	public static final int STORAGE=161;
+	public static final int SWITCHCASE=162;
+	public static final int TRYCATCH=163;
+	public static final int VAR=164;
+	public static final int VCAT=165;
 
 	// delegates
 	public MatlabParserBase[] getDelegates() {
@@ -267,7 +268,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:57:15: scriptFile
 					{
-					pushFollow(FOLLOW_scriptFile_in_file387);
+					pushFollow(FOLLOW_scriptFile_in_file391);
 					scriptFile1=scriptFile();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -298,7 +299,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:58:6: functionFile
 					{
-					pushFollow(FOLLOW_functionFile_in_file398);
+					pushFollow(FOLLOW_functionFile_in_file402);
 					functionFile2=functionFile();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -329,7 +330,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:59:6: classFile
 					{
-					pushFollow(FOLLOW_classFile_in_file409);
+					pushFollow(FOLLOW_classFile_in_file413);
 					classFile3=classFile();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -360,7 +361,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 4 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:60:6: aspectFile
 					{
-					pushFollow(FOLLOW_aspectFile_in_file420);
+					pushFollow(FOLLOW_aspectFile_in_file424);
 					aspectFile4=aspectFile();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -436,12 +437,12 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:65:12: ( statements EOF -> ^( SCRIPTFILE[\"\"] ( statements )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:65:14: statements EOF
 			{
-			pushFollow(FOLLOW_statements_in_scriptFile438);
+			pushFollow(FOLLOW_statements_in_scriptFile442);
 			statements5=statements();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_statements.add(statements5.getTree());
-			EOF6=(Token)match(input,EOF,FOLLOW_EOF_in_scriptFile440); if (state.failed) return retval; 
+			EOF6=(Token)match(input,EOF,FOLLOW_EOF_in_scriptFile444); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_EOF.add(EOF6);
 
 			// AST REWRITE
@@ -574,7 +575,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:67:15: statement
 					{
-					pushFollow(FOLLOW_statement_in_statements462);
+					pushFollow(FOLLOW_statement_in_statements466);
 					statement7=statement();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -584,7 +585,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:67:27: xEOS
 					{
-					pushFollow(FOLLOW_xEOS_in_statements466);
+					pushFollow(FOLLOW_xEOS_in_statements470);
 					xEOS8=xEOS();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -702,7 +703,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:71:16: ( openFunctionFile )=> openFunctionFile
 					{
-					pushFollow(FOLLOW_openFunctionFile_in_functionFile491);
+					pushFollow(FOLLOW_openFunctionFile_in_functionFile495);
 					openFunctionFile9=openFunctionFile();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -733,7 +734,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:72:7: closeFunctionFile
 					{
-					pushFollow(FOLLOW_closeFunctionFile_in_functionFile503);
+					pushFollow(FOLLOW_closeFunctionFile_in_functionFile507);
 					closeFunctionFile10=closeFunctionFile();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -825,7 +826,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:77:21: EOL
 					{
-					EOL11=(Token)match(input,EOL,FOLLOW_EOL_in_openFunctionFile523); if (state.failed) return retval; 
+					EOL11=(Token)match(input,EOL,FOLLOW_EOL_in_openFunctionFile527); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_EOL.add(EOL11);
 
 					}
@@ -836,12 +837,12 @@ public class MatlabParser extends MatlabParserBase {
 				}
 			}
 
-			pushFollow(FOLLOW_openFunctions_in_openFunctionFile527);
+			pushFollow(FOLLOW_openFunctions_in_openFunctionFile531);
 			openFunctions12=openFunctions();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_openFunctions.add(openFunctions12.getTree());
-			EOF13=(Token)match(input,EOF,FOLLOW_EOF_in_openFunctionFile529); if (state.failed) return retval; 
+			EOF13=(Token)match(input,EOF,FOLLOW_EOF_in_openFunctionFile533); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_EOF.add(EOF13);
 
 			// AST REWRITE
@@ -931,7 +932,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:79:18: openFunction
 					{
-					pushFollow(FOLLOW_openFunction_in_openFunctions548);
+					pushFollow(FOLLOW_openFunction_in_openFunctions552);
 					openFunction14=openFunction();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -1026,15 +1027,15 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:81:14: ( FUNCTION functionSignature openBody -> ^( FUNCTION functionSignature ( openBody )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:81:16: FUNCTION functionSignature openBody
 			{
-			FUNCTION15=(Token)match(input,FUNCTION,FOLLOW_FUNCTION_in_openFunction566); if (state.failed) return retval; 
+			FUNCTION15=(Token)match(input,FUNCTION,FOLLOW_FUNCTION_in_openFunction570); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_FUNCTION.add(FUNCTION15);
 
-			pushFollow(FOLLOW_functionSignature_in_openFunction568);
+			pushFollow(FOLLOW_functionSignature_in_openFunction572);
 			functionSignature16=functionSignature();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_functionSignature.add(functionSignature16.getTree());
-			pushFollow(FOLLOW_openBody_in_openFunction570);
+			pushFollow(FOLLOW_openBody_in_openFunction574);
 			openBody17=openBody();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -1163,12 +1164,12 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:83:21: outputPortion functionName ( inputPortion )?
 					{
-					pushFollow(FOLLOW_outputPortion_in_functionSignature592);
+					pushFollow(FOLLOW_outputPortion_in_functionSignature596);
 					outputPortion18=outputPortion();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_outputPortion.add(outputPortion18.getTree());
-					pushFollow(FOLLOW_functionName_in_functionSignature594);
+					pushFollow(FOLLOW_functionName_in_functionSignature598);
 					functionName19=functionName();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -1183,7 +1184,7 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:83:49: inputPortion
 							{
-							pushFollow(FOLLOW_inputPortion_in_functionSignature597);
+							pushFollow(FOLLOW_inputPortion_in_functionSignature601);
 							inputPortion20=inputPortion();
 							state._fsp--;
 							if (state.failed) return retval;
@@ -1231,7 +1232,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:84:9: name ( inputPortion )?
 					{
-					pushFollow(FOLLOW_name_in_functionSignature623);
+					pushFollow(FOLLOW_name_in_functionSignature627);
 					name21=name();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -1246,7 +1247,7 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:84:15: inputPortion
 							{
-							pushFollow(FOLLOW_inputPortion_in_functionSignature626);
+							pushFollow(FOLLOW_inputPortion_in_functionSignature630);
 							inputPortion22=inputPortion();
 							state._fsp--;
 							if (state.failed) return retval;
@@ -1355,12 +1356,12 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:87:17: output ASSIGN
 					{
-					pushFollow(FOLLOW_output_in_outputPortion652);
+					pushFollow(FOLLOW_output_in_outputPortion656);
 					output23=output();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_output.add(output23.getTree());
-					ASSIGN24=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_outputPortion654); if (state.failed) return retval; 
+					ASSIGN24=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_outputPortion658); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_ASSIGN.add(ASSIGN24);
 
 					// AST REWRITE
@@ -1389,12 +1390,12 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:88:8: outputVector ASSIGN
 					{
-					pushFollow(FOLLOW_outputVector_in_outputPortion667);
+					pushFollow(FOLLOW_outputVector_in_outputPortion671);
 					outputVector25=outputVector();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_outputVector.add(outputVector25.getTree());
-					ASSIGN26=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_outputPortion669); if (state.failed) return retval; 
+					ASSIGN26=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_outputPortion673); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_ASSIGN.add(ASSIGN26);
 
 					// AST REWRITE
@@ -1470,7 +1471,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:91:8: ( name -> ^( OUTPUT[\"\"] name ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:91:10: name
 			{
-			pushFollow(FOLLOW_name_in_output690);
+			pushFollow(FOLLOW_name_in_output694);
 			name27=name();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -1548,7 +1549,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:93:6: ( xID -> ^( NAME[\"\"] xID ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:93:8: xID
 			{
-			pushFollow(FOLLOW_xID_in_name708);
+			pushFollow(FOLLOW_xID_in_name712);
 			xID28=xID();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -1632,7 +1633,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:95:14: ( LSQUARE ( vectorOutputs )? RSQUARE -> ( vectorOutputs )? )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:95:16: LSQUARE ( vectorOutputs )? RSQUARE
 			{
-			LSQUARE29=(Token)match(input,LSQUARE,FOLLOW_LSQUARE_in_outputVector726); if (state.failed) return retval; 
+			LSQUARE29=(Token)match(input,LSQUARE,FOLLOW_LSQUARE_in_outputVector730); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LSQUARE.add(LSQUARE29);
 
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:95:24: ( vectorOutputs )?
@@ -1645,7 +1646,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:95:25: vectorOutputs
 					{
-					pushFollow(FOLLOW_vectorOutputs_in_outputVector729);
+					pushFollow(FOLLOW_vectorOutputs_in_outputVector733);
 					vectorOutputs30=vectorOutputs();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -1655,7 +1656,7 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			RSQUARE31=(Token)match(input,RSQUARE,FOLLOW_RSQUARE_in_outputVector733); if (state.failed) return retval; 
+			RSQUARE31=(Token)match(input,RSQUARE,FOLLOW_RSQUARE_in_outputVector737); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RSQUARE.add(RSQUARE31);
 
 			// AST REWRITE
@@ -1733,7 +1734,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:97:15: ( vectorOutput ({...}? => ( COMMA )? vectorOutput )* -> ( vectorOutput )+ )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:97:17: vectorOutput ({...}? => ( COMMA )? vectorOutput )*
 			{
-			pushFollow(FOLLOW_vectorOutput_in_vectorOutputs749);
+			pushFollow(FOLLOW_vectorOutput_in_vectorOutputs753);
 			vectorOutput32=vectorOutput();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -1765,7 +1766,7 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:97:77: COMMA
 							{
-							COMMA33=(Token)match(input,COMMA,FOLLOW_COMMA_in_vectorOutputs756); if (state.failed) return retval; 
+							COMMA33=(Token)match(input,COMMA,FOLLOW_COMMA_in_vectorOutputs760); if (state.failed) return retval; 
 							if ( state.backtracking==0 ) stream_COMMA.add(COMMA33);
 
 							}
@@ -1773,7 +1774,7 @@ public class MatlabParser extends MatlabParserBase {
 
 					}
 
-					pushFollow(FOLLOW_vectorOutput_in_vectorOutputs760);
+					pushFollow(FOLLOW_vectorOutput_in_vectorOutputs764);
 					vectorOutput34=vectorOutput();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -1861,7 +1862,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:99:14: ( name ({...}? => filter )? -> ^( OUTPUT[\"\"] name ( filter )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:99:16: name ({...}? => filter )?
 			{
-			pushFollow(FOLLOW_name_in_vectorOutput778);
+			pushFollow(FOLLOW_name_in_vectorOutput782);
 			name35=name();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -1880,7 +1881,7 @@ public class MatlabParser extends MatlabParserBase {
 						if (state.backtracking>0) {state.failed=true; return retval;}
 						throw new FailedPredicateException(input, "vectorOutput", "Method_SignatureIsActive()");
 					}
-					pushFollow(FOLLOW_filter_in_vectorOutput784);
+					pushFollow(FOLLOW_filter_in_vectorOutput788);
 					filter36=filter();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -1972,10 +1973,10 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:101:8: ( AT classReference -> classReference )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:101:10: AT classReference
 			{
-			AT37=(Token)match(input,AT,FOLLOW_AT_in_filter809); if (state.failed) return retval; 
+			AT37=(Token)match(input,AT,FOLLOW_AT_in_filter813); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_AT.add(AT37);
 
-			pushFollow(FOLLOW_classReference_in_filter811);
+			pushFollow(FOLLOW_classReference_in_filter815);
 			classReference38=classReference();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -2046,7 +2047,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:103:14: ( xFUNCTIONID -> ^( NAME[\"\"] xFUNCTIONID ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:103:16: xFUNCTIONID
 			{
-			pushFollow(FOLLOW_xFUNCTIONID_in_functionName824);
+			pushFollow(FOLLOW_xFUNCTIONID_in_functionName828);
 			xFUNCTIONID39=xFUNCTIONID();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -2130,7 +2131,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:105:14: ( LPAREN ( parameters )? RPAREN -> ( parameters )? )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:105:16: LPAREN ( parameters )? RPAREN
 			{
-			LPAREN40=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_inputPortion842); if (state.failed) return retval; 
+			LPAREN40=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_inputPortion846); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN40);
 
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:105:23: ( parameters )?
@@ -2143,7 +2144,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:105:24: parameters
 					{
-					pushFollow(FOLLOW_parameters_in_inputPortion845);
+					pushFollow(FOLLOW_parameters_in_inputPortion849);
 					parameters41=parameters();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -2153,7 +2154,7 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			RPAREN42=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_inputPortion849); if (state.failed) return retval; 
+			RPAREN42=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_inputPortion853); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN42);
 
 			// AST REWRITE
@@ -2231,7 +2232,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:107:12: ( parameter ( COMMA parameter )* -> ( parameter )+ )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:107:14: parameter ( COMMA parameter )*
 			{
-			pushFollow(FOLLOW_parameter_in_parameters865);
+			pushFollow(FOLLOW_parameter_in_parameters869);
 			parameter43=parameter();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -2249,10 +2250,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:107:25: COMMA parameter
 					{
-					COMMA44=(Token)match(input,COMMA,FOLLOW_COMMA_in_parameters868); if (state.failed) return retval; 
+					COMMA44=(Token)match(input,COMMA,FOLLOW_COMMA_in_parameters872); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COMMA.add(COMMA44);
 
-					pushFollow(FOLLOW_parameter_in_parameters870);
+					pushFollow(FOLLOW_parameter_in_parameters874);
 					parameter45=parameter();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -2340,7 +2341,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:109:11: ( parameterName ({...}? => filter )? -> ^( INPUT[\"\"] parameterName ( filter )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:109:13: parameterName ({...}? => filter )?
 			{
-			pushFollow(FOLLOW_parameterName_in_parameter888);
+			pushFollow(FOLLOW_parameterName_in_parameter892);
 			parameterName46=parameterName();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -2359,7 +2360,7 @@ public class MatlabParser extends MatlabParserBase {
 						if (state.backtracking>0) {state.failed=true; return retval;}
 						throw new FailedPredicateException(input, "parameter", "Method_SignatureIsActive()");
 					}
-					pushFollow(FOLLOW_filter_in_parameter894);
+					pushFollow(FOLLOW_filter_in_parameter898);
 					filter47=filter();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -2448,7 +2449,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:111:15: ( xPARAMETERID -> ^( NAME[\"\"] xPARAMETERID ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:111:17: xPARAMETERID
 			{
-			pushFollow(FOLLOW_xPARAMETERID_in_parameterName919);
+			pushFollow(FOLLOW_xPARAMETERID_in_parameterName923);
 			xPARAMETERID48=xPARAMETERID();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -2538,12 +2539,12 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:113:13: xEOS openItems
 					{
-					pushFollow(FOLLOW_xEOS_in_openBody938);
+					pushFollow(FOLLOW_xEOS_in_openBody942);
 					xEOS49=xEOS();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_xEOS.add(xEOS49.getTree());
-					pushFollow(FOLLOW_openItems_in_openBody940);
+					pushFollow(FOLLOW_openItems_in_openBody944);
 					openItems50=openItems();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -2654,7 +2655,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:115:14: openItem
 					{
-					pushFollow(FOLLOW_openItem_in_openItems959);
+					pushFollow(FOLLOW_openItem_in_openItems963);
 					openItem51=openItem();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -2664,7 +2665,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:115:25: xEOS
 					{
-					pushFollow(FOLLOW_xEOS_in_openItems963);
+					pushFollow(FOLLOW_xEOS_in_openItems967);
 					xEOS52=xEOS();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -2748,7 +2749,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:117:10: ( statement -> statement )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:117:12: statement
 			{
-			pushFollow(FOLLOW_statement_in_openItem981);
+			pushFollow(FOLLOW_statement_in_openItem985);
 			statement53=statement();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -2840,7 +2841,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:121:22: EOL
 					{
-					EOL54=(Token)match(input,EOL,FOLLOW_EOL_in_closeFunctionFile997); if (state.failed) return retval; 
+					EOL54=(Token)match(input,EOL,FOLLOW_EOL_in_closeFunctionFile1001); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_EOL.add(EOL54);
 
 					}
@@ -2851,7 +2852,7 @@ public class MatlabParser extends MatlabParserBase {
 				}
 			}
 
-			pushFollow(FOLLOW_closeFunctions_in_closeFunctionFile1001);
+			pushFollow(FOLLOW_closeFunctions_in_closeFunctionFile1005);
 			closeFunctions55=closeFunctions();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -2869,7 +2870,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:121:44: EOL
 					{
-					EOL56=(Token)match(input,EOL,FOLLOW_EOL_in_closeFunctionFile1004); if (state.failed) return retval; 
+					EOL56=(Token)match(input,EOL,FOLLOW_EOL_in_closeFunctionFile1008); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_EOL.add(EOL56);
 
 					}
@@ -2880,7 +2881,7 @@ public class MatlabParser extends MatlabParserBase {
 				}
 			}
 
-			EOF57=(Token)match(input,EOF,FOLLOW_EOF_in_closeFunctionFile1008); if (state.failed) return retval; 
+			EOF57=(Token)match(input,EOF,FOLLOW_EOF_in_closeFunctionFile1012); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_EOF.add(EOF57);
 
 			// AST REWRITE
@@ -2960,7 +2961,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:123:16: ( closeFunction ( ( EOL )* closeFunction )* -> ( closeFunction )+ )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:123:18: closeFunction ( ( EOL )* closeFunction )*
 			{
-			pushFollow(FOLLOW_closeFunction_in_closeFunctions1026);
+			pushFollow(FOLLOW_closeFunction_in_closeFunctions1030);
 			closeFunction58=closeFunction();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -2987,7 +2988,7 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:123:34: EOL
 							{
-							EOL59=(Token)match(input,EOL,FOLLOW_EOL_in_closeFunctions1030); if (state.failed) return retval; 
+							EOL59=(Token)match(input,EOL,FOLLOW_EOL_in_closeFunctions1034); if (state.failed) return retval; 
 							if ( state.backtracking==0 ) stream_EOL.add(EOL59);
 
 							}
@@ -2998,7 +2999,7 @@ public class MatlabParser extends MatlabParserBase {
 						}
 					}
 
-					pushFollow(FOLLOW_closeFunction_in_closeFunctions1034);
+					pushFollow(FOLLOW_closeFunction_in_closeFunctions1038);
 					closeFunction60=closeFunction();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -3092,20 +3093,20 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:125:15: ( FUNCTION functionSignature closeBody END -> ^( FUNCTION functionSignature ( closeBody )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:125:17: FUNCTION functionSignature closeBody END
 			{
-			FUNCTION61=(Token)match(input,FUNCTION,FOLLOW_FUNCTION_in_closeFunction1052); if (state.failed) return retval; 
+			FUNCTION61=(Token)match(input,FUNCTION,FOLLOW_FUNCTION_in_closeFunction1056); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_FUNCTION.add(FUNCTION61);
 
-			pushFollow(FOLLOW_functionSignature_in_closeFunction1054);
+			pushFollow(FOLLOW_functionSignature_in_closeFunction1058);
 			functionSignature62=functionSignature();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_functionSignature.add(functionSignature62.getTree());
-			pushFollow(FOLLOW_closeBody_in_closeFunction1056);
+			pushFollow(FOLLOW_closeBody_in_closeFunction1060);
 			closeBody63=closeBody();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_closeBody.add(closeBody63.getTree());
-			END64=(Token)match(input,END,FOLLOW_END_in_closeFunction1058); if (state.failed) return retval; 
+			END64=(Token)match(input,END,FOLLOW_END_in_closeFunction1062); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_END.add(END64);
 
 			// AST REWRITE
@@ -3199,12 +3200,12 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:127:14: xEOS closeItems
 					{
-					pushFollow(FOLLOW_xEOS_in_closeBody1081);
+					pushFollow(FOLLOW_xEOS_in_closeBody1085);
 					xEOS65=xEOS();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_xEOS.add(xEOS65.getTree());
-					pushFollow(FOLLOW_closeItems_in_closeBody1083);
+					pushFollow(FOLLOW_closeItems_in_closeBody1087);
 					closeItems66=closeItems();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -3319,7 +3320,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:129:15: closeItem
 					{
-					pushFollow(FOLLOW_closeItem_in_closeItems1102);
+					pushFollow(FOLLOW_closeItem_in_closeItems1106);
 					closeItem67=closeItem();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -3329,7 +3330,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:129:27: xEOS
 					{
-					pushFollow(FOLLOW_xEOS_in_closeItems1106);
+					pushFollow(FOLLOW_xEOS_in_closeItems1110);
 					xEOS68=xEOS();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -3445,7 +3446,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:131:13: nestedFunction
 					{
-					pushFollow(FOLLOW_nestedFunction_in_closeItem1124);
+					pushFollow(FOLLOW_nestedFunction_in_closeItem1128);
 					nestedFunction69=nestedFunction();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -3476,7 +3477,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:132:13: statement
 					{
-					pushFollow(FOLLOW_statement_in_closeItem1142);
+					pushFollow(FOLLOW_statement_in_closeItem1146);
 					statement70=statement();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -3557,20 +3558,20 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:135:16: ( FUNCTION functionSignature closeBody END -> ^( NESTEDFUNCTION[$FUNCTION] functionSignature ( closeBody )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:135:18: FUNCTION functionSignature closeBody END
 			{
-			FUNCTION71=(Token)match(input,FUNCTION,FOLLOW_FUNCTION_in_nestedFunction1159); if (state.failed) return retval; 
+			FUNCTION71=(Token)match(input,FUNCTION,FOLLOW_FUNCTION_in_nestedFunction1163); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_FUNCTION.add(FUNCTION71);
 
-			pushFollow(FOLLOW_functionSignature_in_nestedFunction1161);
+			pushFollow(FOLLOW_functionSignature_in_nestedFunction1165);
 			functionSignature72=functionSignature();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_functionSignature.add(functionSignature72.getTree());
-			pushFollow(FOLLOW_closeBody_in_nestedFunction1163);
+			pushFollow(FOLLOW_closeBody_in_nestedFunction1167);
 			closeBody73=closeBody();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_closeBody.add(closeBody73.getTree());
-			END74=(Token)match(input,END,FOLLOW_END_in_nestedFunction1165); if (state.failed) return retval; 
+			END74=(Token)match(input,END,FOLLOW_END_in_nestedFunction1169); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_END.add(END74);
 
 			// AST REWRITE
@@ -3677,7 +3678,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:139:14: EOL
 					{
-					EOL75=(Token)match(input,EOL,FOLLOW_EOL_in_classFile1191); if (state.failed) return retval; 
+					EOL75=(Token)match(input,EOL,FOLLOW_EOL_in_classFile1195); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_EOL.add(EOL75);
 
 					}
@@ -3688,7 +3689,7 @@ public class MatlabParser extends MatlabParserBase {
 				}
 			}
 
-			pushFollow(FOLLOW_classDef_in_classFile1195);
+			pushFollow(FOLLOW_classDef_in_classFile1199);
 			classDef76=classDef();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -3706,7 +3707,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:139:30: EOL
 					{
-					EOL77=(Token)match(input,EOL,FOLLOW_EOL_in_classFile1198); if (state.failed) return retval; 
+					EOL77=(Token)match(input,EOL,FOLLOW_EOL_in_classFile1202); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_EOL.add(EOL77);
 
 					}
@@ -3727,7 +3728,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:139:37: closeFunctions ( EOL )*
 					{
-					pushFollow(FOLLOW_closeFunctions_in_classFile1203);
+					pushFollow(FOLLOW_closeFunctions_in_classFile1207);
 					closeFunctions78=closeFunctions();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -3745,7 +3746,7 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:139:53: EOL
 							{
-							EOL79=(Token)match(input,EOL,FOLLOW_EOL_in_classFile1206); if (state.failed) return retval; 
+							EOL79=(Token)match(input,EOL,FOLLOW_EOL_in_classFile1210); if (state.failed) return retval; 
 							if ( state.backtracking==0 ) stream_EOL.add(EOL79);
 
 							}
@@ -3761,7 +3762,7 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			EOF80=(Token)match(input,EOF,FOLLOW_EOF_in_classFile1212); if (state.failed) return retval; 
+			EOF80=(Token)match(input,EOF,FOLLOW_EOF_in_classFile1216); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_EOF.add(EOF80);
 
 			// AST REWRITE
@@ -3857,7 +3858,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:141:10: ( CLASSDEF ( annotationPortion )? name ( genealogyPortion )? xEOS sections END -> ^( CLASSDEF ( annotationPortion )? name ( genealogyPortion )? ( sections )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:141:12: CLASSDEF ( annotationPortion )? name ( genealogyPortion )? xEOS sections END
 			{
-			CLASSDEF81=(Token)match(input,CLASSDEF,FOLLOW_CLASSDEF_in_classDef1235); if (state.failed) return retval; 
+			CLASSDEF81=(Token)match(input,CLASSDEF,FOLLOW_CLASSDEF_in_classDef1239); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_CLASSDEF.add(CLASSDEF81);
 
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:141:21: ( annotationPortion )?
@@ -3870,7 +3871,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:141:22: annotationPortion
 					{
-					pushFollow(FOLLOW_annotationPortion_in_classDef1238);
+					pushFollow(FOLLOW_annotationPortion_in_classDef1242);
 					annotationPortion82=annotationPortion();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -3880,7 +3881,7 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			pushFollow(FOLLOW_name_in_classDef1242);
+			pushFollow(FOLLOW_name_in_classDef1246);
 			name83=name();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -3895,7 +3896,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:141:48: genealogyPortion
 					{
-					pushFollow(FOLLOW_genealogyPortion_in_classDef1245);
+					pushFollow(FOLLOW_genealogyPortion_in_classDef1249);
 					genealogyPortion84=genealogyPortion();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -3905,17 +3906,17 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			pushFollow(FOLLOW_xEOS_in_classDef1249);
+			pushFollow(FOLLOW_xEOS_in_classDef1253);
 			xEOS85=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_xEOS.add(xEOS85.getTree());
-			pushFollow(FOLLOW_sections_in_classDef1251);
+			pushFollow(FOLLOW_sections_in_classDef1255);
 			sections86=sections();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_sections.add(sections86.getTree());
-			END87=(Token)match(input,END,FOLLOW_END_in_classDef1253); if (state.failed) return retval; 
+			END87=(Token)match(input,END,FOLLOW_END_in_classDef1257); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_END.add(END87);
 
 			// AST REWRITE
@@ -4015,15 +4016,15 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:143:19: ( LPAREN attributes RPAREN -> attributes )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:143:21: LPAREN attributes RPAREN
 			{
-			LPAREN88=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_annotationPortion1285); if (state.failed) return retval; 
+			LPAREN88=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_annotationPortion1289); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN88);
 
-			pushFollow(FOLLOW_attributes_in_annotationPortion1287);
+			pushFollow(FOLLOW_attributes_in_annotationPortion1291);
 			attributes89=attributes();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_attributes.add(attributes89.getTree());
-			RPAREN90=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_annotationPortion1289); if (state.failed) return retval; 
+			RPAREN90=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_annotationPortion1293); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN90);
 
 			// AST REWRITE
@@ -4096,7 +4097,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:145:12: ( attribute ( COMMA attribute )* -> ( attribute )+ )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:145:14: attribute ( COMMA attribute )*
 			{
-			pushFollow(FOLLOW_attribute_in_attributes1302);
+			pushFollow(FOLLOW_attribute_in_attributes1306);
 			attribute91=attribute();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -4114,10 +4115,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:145:25: COMMA attribute
 					{
-					COMMA92=(Token)match(input,COMMA,FOLLOW_COMMA_in_attributes1305); if (state.failed) return retval; 
+					COMMA92=(Token)match(input,COMMA,FOLLOW_COMMA_in_attributes1309); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COMMA.add(COMMA92);
 
-					pushFollow(FOLLOW_attribute_in_attributes1307);
+					pushFollow(FOLLOW_attribute_in_attributes1311);
 					attribute93=attribute();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -4251,10 +4252,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:147:13: NOT name
 					{
-					NOT94=(Token)match(input,NOT,FOLLOW_NOT_in_attribute1325); if (state.failed) return retval; 
+					NOT94=(Token)match(input,NOT,FOLLOW_NOT_in_attribute1329); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_NOT.add(NOT94);
 
-					pushFollow(FOLLOW_name_in_attribute1327);
+					pushFollow(FOLLOW_name_in_attribute1331);
 					name95=name();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -4313,7 +4314,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:148:7: name
 					{
-					pushFollow(FOLLOW_name_in_attribute1359);
+					pushFollow(FOLLOW_name_in_attribute1363);
 					name96=name();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -4372,15 +4373,15 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:149:13: name ASSIGN expression
 					{
-					pushFollow(FOLLOW_name_in_attribute1397);
+					pushFollow(FOLLOW_name_in_attribute1401);
 					name97=name();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_name.add(name97.getTree());
-					ASSIGN98=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_attribute1399); if (state.failed) return retval; 
+					ASSIGN98=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_attribute1403); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_ASSIGN.add(ASSIGN98);
 
-					pushFollow(FOLLOW_expression_in_attribute1401);
+					pushFollow(FOLLOW_expression_in_attribute1405);
 					expression99=expression();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -4464,10 +4465,10 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:152:18: ( LT baseClasses -> baseClasses )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:152:20: LT baseClasses
 			{
-			LT100=(Token)match(input,LT,FOLLOW_LT_in_genealogyPortion1425); if (state.failed) return retval; 
+			LT100=(Token)match(input,LT,FOLLOW_LT_in_genealogyPortion1429); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LT.add(LT100);
 
-			pushFollow(FOLLOW_baseClasses_in_genealogyPortion1427);
+			pushFollow(FOLLOW_baseClasses_in_genealogyPortion1431);
 			baseClasses101=baseClasses();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -4542,7 +4543,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:154:13: ( classReference ( AND classReference )* -> ( classReference )+ )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:154:15: classReference ( AND classReference )*
 			{
-			pushFollow(FOLLOW_classReference_in_baseClasses1440);
+			pushFollow(FOLLOW_classReference_in_baseClasses1444);
 			classReference102=classReference();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -4560,10 +4561,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:154:31: AND classReference
 					{
-					AND103=(Token)match(input,AND,FOLLOW_AND_in_baseClasses1443); if (state.failed) return retval; 
+					AND103=(Token)match(input,AND,FOLLOW_AND_in_baseClasses1447); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_AND.add(AND103);
 
-					pushFollow(FOLLOW_classReference_in_baseClasses1445);
+					pushFollow(FOLLOW_classReference_in_baseClasses1449);
 					classReference104=classReference();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -4649,7 +4650,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:156:16: ( fullClassName -> ^( CLASSREF[\"\"] fullClassName ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:156:18: fullClassName
 			{
-			pushFollow(FOLLOW_fullClassName_in_classReference1463);
+			pushFollow(FOLLOW_fullClassName_in_classReference1467);
 			fullClassName105=fullClassName();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -4732,7 +4733,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:158:15: ( xID ({...}? => DOT xANYID )* -> ^( NAME[\"\"] xID ( xANYID )* ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:158:17: xID ({...}? => DOT xANYID )*
 			{
-			pushFollow(FOLLOW_xID_in_fullClassName1481);
+			pushFollow(FOLLOW_xID_in_fullClassName1485);
 			xID106=xID();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -4902,10 +4903,10 @@ public class MatlabParser extends MatlabParserBase {
 						if (state.backtracking>0) {state.failed=true; return retval;}
 						throw new FailedPredicateException(input, "fullClassName", "true");
 					}
-					DOT107=(Token)match(input,DOT,FOLLOW_DOT_in_fullClassName1487); if (state.failed) return retval; 
+					DOT107=(Token)match(input,DOT,FOLLOW_DOT_in_fullClassName1491); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_DOT.add(DOT107);
 
-					pushFollow(FOLLOW_xANYID_in_fullClassName1489);
+					pushFollow(FOLLOW_xANYID_in_fullClassName1493);
 					xANYID108=xANYID();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -5015,7 +5016,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:160:13: section
 					{
-					pushFollow(FOLLOW_section_in_sections1515);
+					pushFollow(FOLLOW_section_in_sections1519);
 					section109=section();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -5025,7 +5026,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:160:23: xEOS
 					{
-					pushFollow(FOLLOW_xEOS_in_sections1519);
+					pushFollow(FOLLOW_xEOS_in_sections1523);
 					xEOS110=xEOS();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -5149,7 +5150,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:162:11: eventSection
 					{
-					pushFollow(FOLLOW_eventSection_in_section1537);
+					pushFollow(FOLLOW_eventSection_in_section1541);
 					eventSection111=eventSection();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -5180,7 +5181,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:163:5: propertySection
 					{
-					pushFollow(FOLLOW_propertySection_in_section1547);
+					pushFollow(FOLLOW_propertySection_in_section1551);
 					propertySection112=propertySection();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -5211,7 +5212,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:164:5: methodSection
 					{
-					pushFollow(FOLLOW_methodSection_in_section1557);
+					pushFollow(FOLLOW_methodSection_in_section1561);
 					methodSection113=methodSection();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -5242,7 +5243,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 4 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:165:5: enumerationSection
 					{
-					pushFollow(FOLLOW_enumerationSection_in_section1567);
+					pushFollow(FOLLOW_enumerationSection_in_section1571);
 					enumerationSection114=enumerationSection();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -5322,7 +5323,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:170:14: ( xEVENTS ( annotationPortion )? events END -> ^( EVENTSECTION[$xEVENTS.start] ( annotationPortion )? ( events )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:170:16: xEVENTS ( annotationPortion )? events END
 			{
-			pushFollow(FOLLOW_xEVENTS_in_eventSection1584);
+			pushFollow(FOLLOW_xEVENTS_in_eventSection1588);
 			xEVENTS115=xEVENTS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -5337,7 +5338,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:170:25: annotationPortion
 					{
-					pushFollow(FOLLOW_annotationPortion_in_eventSection1587);
+					pushFollow(FOLLOW_annotationPortion_in_eventSection1591);
 					annotationPortion116=annotationPortion();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -5347,12 +5348,12 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			pushFollow(FOLLOW_events_in_eventSection1591);
+			pushFollow(FOLLOW_events_in_eventSection1595);
 			events117=events();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_events.add(events117.getTree());
-			END118=(Token)match(input,END,FOLLOW_END_in_eventSection1593); if (state.failed) return retval; 
+			END118=(Token)match(input,END,FOLLOW_END_in_eventSection1597); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_END.add(END118);
 
 			// AST REWRITE
@@ -5457,7 +5458,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:172:11: event
 					{
-					pushFollow(FOLLOW_event_in_events1620);
+					pushFollow(FOLLOW_event_in_events1624);
 					event119=event();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -5467,7 +5468,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:172:19: xEOS
 					{
-					pushFollow(FOLLOW_xEOS_in_events1624);
+					pushFollow(FOLLOW_xEOS_in_events1628);
 					xEOS120=xEOS();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -5553,12 +5554,12 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:174:7: ( name xEOS -> ^( EVENT[\"\"] name ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:174:9: name xEOS
 			{
-			pushFollow(FOLLOW_name_in_event1642);
+			pushFollow(FOLLOW_name_in_event1646);
 			name121=name();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_name.add(name121.getTree());
-			pushFollow(FOLLOW_xEOS_in_event1644);
+			pushFollow(FOLLOW_xEOS_in_event1648);
 			xEOS122=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -5643,7 +5644,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:178:17: ( xPROPERTIES ( annotationPortion )? properties END -> ^( PROPERTYSECTION[$xPROPERTIES.start] ( annotationPortion )? ( properties )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:178:19: xPROPERTIES ( annotationPortion )? properties END
 			{
-			pushFollow(FOLLOW_xPROPERTIES_in_propertySection1664);
+			pushFollow(FOLLOW_xPROPERTIES_in_propertySection1668);
 			xPROPERTIES123=xPROPERTIES();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -5658,7 +5659,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:178:32: annotationPortion
 					{
-					pushFollow(FOLLOW_annotationPortion_in_propertySection1667);
+					pushFollow(FOLLOW_annotationPortion_in_propertySection1671);
 					annotationPortion124=annotationPortion();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -5668,12 +5669,12 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			pushFollow(FOLLOW_properties_in_propertySection1671);
+			pushFollow(FOLLOW_properties_in_propertySection1675);
 			properties125=properties();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_properties.add(properties125.getTree());
-			END126=(Token)match(input,END,FOLLOW_END_in_propertySection1673); if (state.failed) return retval; 
+			END126=(Token)match(input,END,FOLLOW_END_in_propertySection1677); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_END.add(END126);
 
 			// AST REWRITE
@@ -5778,7 +5779,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:180:15: property
 					{
-					pushFollow(FOLLOW_property_in_properties1700);
+					pushFollow(FOLLOW_property_in_properties1704);
 					property127=property();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -5788,7 +5789,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:180:26: xEOS
 					{
-					pushFollow(FOLLOW_xEOS_in_properties1704);
+					pushFollow(FOLLOW_xEOS_in_properties1708);
 					xEOS128=xEOS();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -5879,7 +5880,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:182:10: ( name ( filter )? ( ASSIGN expression )? -> ^( PROPERTY[\"\"] name ( filter )? ( expression )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:182:12: name ( filter )? ( ASSIGN expression )?
 			{
-			pushFollow(FOLLOW_name_in_property1722);
+			pushFollow(FOLLOW_name_in_property1726);
 			name129=name();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -5894,7 +5895,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:182:18: filter
 					{
-					pushFollow(FOLLOW_filter_in_property1725);
+					pushFollow(FOLLOW_filter_in_property1729);
 					filter130=filter();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -5914,10 +5915,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:182:28: ASSIGN expression
 					{
-					ASSIGN131=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_property1730); if (state.failed) return retval; 
+					ASSIGN131=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_property1734); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_ASSIGN.add(ASSIGN131);
 
-					pushFollow(FOLLOW_expression_in_property1732);
+					pushFollow(FOLLOW_expression_in_property1736);
 					expression132=expression();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -6019,7 +6020,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:186:15: ( xMETHODS ( annotationPortion )? methods END -> ^( METHODSECTION[$xMETHODS.start] ( annotationPortion )? ( methods )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:186:17: xMETHODS ( annotationPortion )? methods END
 			{
-			pushFollow(FOLLOW_xMETHODS_in_methodSection1764);
+			pushFollow(FOLLOW_xMETHODS_in_methodSection1768);
 			xMETHODS133=xMETHODS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -6034,7 +6035,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:186:27: annotationPortion
 					{
-					pushFollow(FOLLOW_annotationPortion_in_methodSection1767);
+					pushFollow(FOLLOW_annotationPortion_in_methodSection1771);
 					annotationPortion134=annotationPortion();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -6044,12 +6045,12 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			pushFollow(FOLLOW_methods_in_methodSection1771);
+			pushFollow(FOLLOW_methods_in_methodSection1775);
 			methods135=methods();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_methods.add(methods135.getTree());
-			END136=(Token)match(input,END,FOLLOW_END_in_methodSection1773); if (state.failed) return retval; 
+			END136=(Token)match(input,END,FOLLOW_END_in_methodSection1777); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_END.add(END136);
 
 			// AST REWRITE
@@ -6154,7 +6155,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:188:12: method
 					{
-					pushFollow(FOLLOW_method_in_methods1800);
+					pushFollow(FOLLOW_method_in_methods1804);
 					method137=method();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -6164,7 +6165,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:188:21: xEOS
 					{
-					pushFollow(FOLLOW_xEOS_in_methods1804);
+					pushFollow(FOLLOW_xEOS_in_methods1808);
 					xEOS138=xEOS();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -6268,7 +6269,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:190:10: regularMethod
 					{
-					pushFollow(FOLLOW_regularMethod_in_method1822);
+					pushFollow(FOLLOW_regularMethod_in_method1826);
 					regularMethod139=regularMethod();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -6299,7 +6300,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:191:7: externalMethod
 					{
-					pushFollow(FOLLOW_externalMethod_in_method1834);
+					pushFollow(FOLLOW_externalMethod_in_method1838);
 					externalMethod140=externalMethod();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -6380,20 +6381,20 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:194:15: ( FUNCTION methodSignature closeBody END -> ^( REGULARMETHOD[$FUNCTION] methodSignature ( closeBody )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:194:17: FUNCTION methodSignature closeBody END
 			{
-			FUNCTION141=(Token)match(input,FUNCTION,FOLLOW_FUNCTION_in_regularMethod1851); if (state.failed) return retval; 
+			FUNCTION141=(Token)match(input,FUNCTION,FOLLOW_FUNCTION_in_regularMethod1855); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_FUNCTION.add(FUNCTION141);
 
-			pushFollow(FOLLOW_methodSignature_in_regularMethod1853);
+			pushFollow(FOLLOW_methodSignature_in_regularMethod1857);
 			methodSignature142=methodSignature();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_methodSignature.add(methodSignature142.getTree());
-			pushFollow(FOLLOW_closeBody_in_regularMethod1855);
+			pushFollow(FOLLOW_closeBody_in_regularMethod1859);
 			closeBody143=closeBody();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_closeBody.add(closeBody143.getTree());
-			END144=(Token)match(input,END,FOLLOW_END_in_regularMethod1857); if (state.failed) return retval; 
+			END144=(Token)match(input,END,FOLLOW_END_in_regularMethod1861); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_END.add(END144);
 
 			// AST REWRITE
@@ -6507,7 +6508,7 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:198:4: outputPortion
 							{
-							pushFollow(FOLLOW_outputPortion_in_methodSignature1888);
+							pushFollow(FOLLOW_outputPortion_in_methodSignature1892);
 							outputPortion145=outputPortion();
 							state._fsp--;
 							if (state.failed) return retval;
@@ -6517,7 +6518,7 @@ public class MatlabParser extends MatlabParserBase {
 
 					}
 
-					pushFollow(FOLLOW_methodName1_in_methodSignature1892);
+					pushFollow(FOLLOW_methodName1_in_methodSignature1896);
 					methodName1146=methodName1();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -6532,7 +6533,7 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:198:33: inputPortion
 							{
-							pushFollow(FOLLOW_inputPortion_in_methodSignature1895);
+							pushFollow(FOLLOW_inputPortion_in_methodSignature1899);
 							inputPortion147=inputPortion();
 							state._fsp--;
 							if (state.failed) return retval;
@@ -6580,12 +6581,12 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:199:3: outputPortion methodName2 ( inputPortion )?
 					{
-					pushFollow(FOLLOW_outputPortion_in_methodSignature1915);
+					pushFollow(FOLLOW_outputPortion_in_methodSignature1919);
 					outputPortion148=outputPortion();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_outputPortion.add(outputPortion148.getTree());
-					pushFollow(FOLLOW_methodName2_in_methodSignature1917);
+					pushFollow(FOLLOW_methodName2_in_methodSignature1921);
 					methodName2149=methodName2();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -6600,7 +6601,7 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:199:30: inputPortion
 							{
-							pushFollow(FOLLOW_inputPortion_in_methodSignature1920);
+							pushFollow(FOLLOW_inputPortion_in_methodSignature1924);
 							inputPortion150=inputPortion();
 							state._fsp--;
 							if (state.failed) return retval;
@@ -6648,7 +6649,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:200:3: methodName3 ( inputPortion )?
 					{
-					pushFollow(FOLLOW_methodName3_in_methodSignature1940);
+					pushFollow(FOLLOW_methodName3_in_methodSignature1944);
 					methodName3151=methodName3();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -6663,7 +6664,7 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:200:16: inputPortion
 							{
-							pushFollow(FOLLOW_inputPortion_in_methodSignature1943);
+							pushFollow(FOLLOW_inputPortion_in_methodSignature1947);
 							inputPortion152=inputPortion();
 							state._fsp--;
 							if (state.failed) return retval;
@@ -6753,15 +6754,15 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:204:13: ( xID DOT xFUNCTIONID -> ^( NAME[\"\"] xID xFUNCTIONID ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:204:15: xID DOT xFUNCTIONID
 			{
-			pushFollow(FOLLOW_xID_in_methodName11967);
+			pushFollow(FOLLOW_xID_in_methodName11971);
 			xID153=xID();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_xID.add(xID153.getTree());
-			DOT154=(Token)match(input,DOT,FOLLOW_DOT_in_methodName11969); if (state.failed) return retval; 
+			DOT154=(Token)match(input,DOT,FOLLOW_DOT_in_methodName11973); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_DOT.add(DOT154);
 
-			pushFollow(FOLLOW_xFUNCTIONID_in_methodName11971);
+			pushFollow(FOLLOW_xFUNCTIONID_in_methodName11975);
 			xFUNCTIONID155=xFUNCTIONID();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -6840,7 +6841,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:206:13: ( xFUNCTIONID -> ^( NAME[\"\"] xFUNCTIONID ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:206:15: xFUNCTIONID
 			{
-			pushFollow(FOLLOW_xFUNCTIONID_in_methodName21991);
+			pushFollow(FOLLOW_xFUNCTIONID_in_methodName21995);
 			xFUNCTIONID156=xFUNCTIONID();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -6918,7 +6919,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:208:13: ( xID -> ^( NAME[\"\"] xID ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:208:15: xID
 			{
-			pushFollow(FOLLOW_xID_in_methodName32009);
+			pushFollow(FOLLOW_xID_in_methodName32013);
 			xID157=xID();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -6998,12 +6999,12 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:210:16: ( methodSignature xEOS -> ^( EXTERNALMETHOD[\"\"] methodSignature ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:210:18: methodSignature xEOS
 			{
-			pushFollow(FOLLOW_methodSignature_in_externalMethod2027);
+			pushFollow(FOLLOW_methodSignature_in_externalMethod2031);
 			methodSignature158=methodSignature();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_methodSignature.add(methodSignature158.getTree());
-			pushFollow(FOLLOW_xEOS_in_externalMethod2029);
+			pushFollow(FOLLOW_xEOS_in_externalMethod2033);
 			xEOS159=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -7088,7 +7089,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:214:20: ( xENUMERATION ( annotationPortion )? enumerations END -> ^( ENUMERATIONSECTION[$xENUMERATION.start] ( annotationPortion )? ( enumerations )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:214:22: xENUMERATION ( annotationPortion )? enumerations END
 			{
-			pushFollow(FOLLOW_xENUMERATION_in_enumerationSection2049);
+			pushFollow(FOLLOW_xENUMERATION_in_enumerationSection2053);
 			xENUMERATION160=xENUMERATION();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -7103,7 +7104,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:214:36: annotationPortion
 					{
-					pushFollow(FOLLOW_annotationPortion_in_enumerationSection2052);
+					pushFollow(FOLLOW_annotationPortion_in_enumerationSection2056);
 					annotationPortion161=annotationPortion();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -7113,12 +7114,12 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			pushFollow(FOLLOW_enumerations_in_enumerationSection2056);
+			pushFollow(FOLLOW_enumerations_in_enumerationSection2060);
 			enumerations162=enumerations();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_enumerations.add(enumerations162.getTree());
-			END163=(Token)match(input,END,FOLLOW_END_in_enumerationSection2058); if (state.failed) return retval; 
+			END163=(Token)match(input,END,FOLLOW_END_in_enumerationSection2062); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_END.add(END163);
 
 			// AST REWRITE
@@ -7223,7 +7224,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:216:17: enumeration
 					{
-					pushFollow(FOLLOW_enumeration_in_enumerations2085);
+					pushFollow(FOLLOW_enumeration_in_enumerations2089);
 					enumeration164=enumeration();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -7233,7 +7234,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:216:31: xEOS
 					{
-					pushFollow(FOLLOW_xEOS_in_enumerations2089);
+					pushFollow(FOLLOW_xEOS_in_enumerations2093);
 					xEOS165=xEOS();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -7319,7 +7320,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:218:13: ( name ( call )? -> ^( ENUMERATION[\"\"] name ( call )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:218:15: name ( call )?
 			{
-			pushFollow(FOLLOW_name_in_enumeration2107);
+			pushFollow(FOLLOW_name_in_enumeration2111);
 			name166=name();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -7334,7 +7335,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:218:21: call
 					{
-					pushFollow(FOLLOW_call_in_enumeration2110);
+					pushFollow(FOLLOW_call_in_enumeration2114);
 					call167=call();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -7430,7 +7431,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:221:63: ( LPAREN ( expressions )? RPAREN -> ( expressions )? )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:222:1: LPAREN ( expressions )? RPAREN
 			{
-			LPAREN168=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_call2140); if (state.failed) return retval; 
+			LPAREN168=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_call2144); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN168);
 
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:222:8: ( expressions )?
@@ -7449,7 +7450,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:222:9: expressions
 					{
-					pushFollow(FOLLOW_expressions_in_call2143);
+					pushFollow(FOLLOW_expressions_in_call2147);
 					expressions169=expressions();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -7459,7 +7460,7 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			RPAREN170=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_call2147); if (state.failed) return retval; 
+			RPAREN170=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_call2151); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN170);
 
 			// AST REWRITE
@@ -7538,7 +7539,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:225:13: ( expression ( COMMA expression )* -> ( expression )+ )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:225:15: expression ( COMMA expression )*
 			{
-			pushFollow(FOLLOW_expression_in_expressions2167);
+			pushFollow(FOLLOW_expression_in_expressions2171);
 			expression171=expression();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -7556,10 +7557,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:225:27: COMMA expression
 					{
-					COMMA172=(Token)match(input,COMMA,FOLLOW_COMMA_in_expressions2170); if (state.failed) return retval; 
+					COMMA172=(Token)match(input,COMMA,FOLLOW_COMMA_in_expressions2174); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COMMA.add(COMMA172);
 
-					pushFollow(FOLLOW_expression_in_expressions2172);
+					pushFollow(FOLLOW_expression_in_expressions2176);
 					expression173=expression();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -7818,7 +7819,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:229:13: ( assignment )=> assignment
 					{
-					pushFollow(FOLLOW_assignment_in_statement2197);
+					pushFollow(FOLLOW_assignment_in_statement2201);
 					assignment174=assignment();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -7849,7 +7850,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:230:13: ( action )=> action
 					{
-					pushFollow(FOLLOW_action_in_statement2220);
+					pushFollow(FOLLOW_action_in_statement2224);
 					action175=action();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -7880,7 +7881,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:231:7: ( simpleCommand )=> simpleCommand
 					{
-					pushFollow(FOLLOW_simpleCommand_in_statement2237);
+					pushFollow(FOLLOW_simpleCommand_in_statement2241);
 					simpleCommand176=simpleCommand();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -7911,7 +7912,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 4 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:232:7: ( abortCommand )=> abortCommand
 					{
-					pushFollow(FOLLOW_abortCommand_in_statement2254);
+					pushFollow(FOLLOW_abortCommand_in_statement2258);
 					abortCommand177=abortCommand();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -7942,7 +7943,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 5 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:233:7: standardCommand
 					{
-					pushFollow(FOLLOW_standardCommand_in_statement2266);
+					pushFollow(FOLLOW_standardCommand_in_statement2270);
 					standardCommand178=standardCommand();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -7973,7 +7974,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 6 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:234:7: bang
 					{
-					pushFollow(FOLLOW_bang_in_statement2278);
+					pushFollow(FOLLOW_bang_in_statement2282);
 					bang179=bang();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -8004,7 +8005,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 7 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:235:13: breakDef
 					{
-					pushFollow(FOLLOW_breakDef_in_statement2296);
+					pushFollow(FOLLOW_breakDef_in_statement2300);
 					breakDef180=breakDef();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -8035,7 +8036,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 8 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:236:13: continueDef
 					{
-					pushFollow(FOLLOW_continueDef_in_statement2314);
+					pushFollow(FOLLOW_continueDef_in_statement2318);
 					continueDef181=continueDef();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -8066,7 +8067,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 9 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:237:13: forDef
 					{
-					pushFollow(FOLLOW_forDef_in_statement2332);
+					pushFollow(FOLLOW_forDef_in_statement2336);
 					forDef182=forDef();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -8097,7 +8098,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 10 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:238:13: global
 					{
-					pushFollow(FOLLOW_global_in_statement2350);
+					pushFollow(FOLLOW_global_in_statement2354);
 					global183=global();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -8128,7 +8129,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 11 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:239:13: ifDef
 					{
-					pushFollow(FOLLOW_ifDef_in_statement2368);
+					pushFollow(FOLLOW_ifDef_in_statement2372);
 					ifDef184=ifDef();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -8159,7 +8160,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 12 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:240:13: parfor
 					{
-					pushFollow(FOLLOW_parfor_in_statement2386);
+					pushFollow(FOLLOW_parfor_in_statement2390);
 					parfor185=parfor();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -8190,7 +8191,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 13 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:241:13: persistent
 					{
-					pushFollow(FOLLOW_persistent_in_statement2404);
+					pushFollow(FOLLOW_persistent_in_statement2408);
 					persistent186=persistent();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -8221,7 +8222,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 14 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:242:13: returnDef
 					{
-					pushFollow(FOLLOW_returnDef_in_statement2422);
+					pushFollow(FOLLOW_returnDef_in_statement2426);
 					returnDef187=returnDef();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -8252,7 +8253,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 15 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:243:7: spmd
 					{
-					pushFollow(FOLLOW_spmd_in_statement2434);
+					pushFollow(FOLLOW_spmd_in_statement2438);
 					spmd188=spmd();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -8283,7 +8284,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 16 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:244:13: switchDef
 					{
-					pushFollow(FOLLOW_switchDef_in_statement2452);
+					pushFollow(FOLLOW_switchDef_in_statement2456);
 					switchDef189=switchDef();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -8314,7 +8315,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 17 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:245:13: tryDef
 					{
-					pushFollow(FOLLOW_tryDef_in_statement2470);
+					pushFollow(FOLLOW_tryDef_in_statement2474);
 					tryDef190=tryDef();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -8345,7 +8346,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 18 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:246:13: whileDef
 					{
-					pushFollow(FOLLOW_whileDef_in_statement2488);
+					pushFollow(FOLLOW_whileDef_in_statement2492);
 					whileDef191=whileDef();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -8422,7 +8423,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "assignment", "True()");
 			}
-			pushFollow(FOLLOW_assignmentCore_in_assignment2516);
+			pushFollow(FOLLOW_assignmentCore_in_assignment2520);
 			assignmentCore192=assignmentCore();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -8524,20 +8525,20 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:253:18: chain ASSIGN expression xEOS
 					{
-					pushFollow(FOLLOW_chain_in_assignmentCore2529);
+					pushFollow(FOLLOW_chain_in_assignmentCore2533);
 					chain193=chain();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_chain.add(chain193.getTree());
-					ASSIGN194=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_assignmentCore2531); if (state.failed) return retval; 
+					ASSIGN194=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_assignmentCore2535); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_ASSIGN.add(ASSIGN194);
 
-					pushFollow(FOLLOW_expression_in_assignmentCore2533);
+					pushFollow(FOLLOW_expression_in_assignmentCore2537);
 					expression195=expression();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_expression.add(expression195.getTree());
-					pushFollow(FOLLOW_xEOS_in_assignmentCore2535);
+					pushFollow(FOLLOW_xEOS_in_assignmentCore2539);
 					xEOS196=xEOS();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -8577,20 +8578,20 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:254:9: storage ASSIGN expression xEOS
 					{
-					pushFollow(FOLLOW_storage_in_assignmentCore2557);
+					pushFollow(FOLLOW_storage_in_assignmentCore2561);
 					storage197=storage();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_storage.add(storage197.getTree());
-					ASSIGN198=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_assignmentCore2559); if (state.failed) return retval; 
+					ASSIGN198=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_assignmentCore2563); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_ASSIGN.add(ASSIGN198);
 
-					pushFollow(FOLLOW_expression_in_assignmentCore2561);
+					pushFollow(FOLLOW_expression_in_assignmentCore2565);
 					expression199=expression();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_expression.add(expression199.getTree());
-					pushFollow(FOLLOW_xEOS_in_assignmentCore2563);
+					pushFollow(FOLLOW_xEOS_in_assignmentCore2567);
 					xEOS200=xEOS();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -8684,7 +8685,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:258:44: ( LSQUARE ( COMMA )? slots ( COMMA )? RSQUARE -> ^( STORAGE[\"\"] slots ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:259:1: LSQUARE ( COMMA )? slots ( COMMA )? RSQUARE
 			{
-			LSQUARE201=(Token)match(input,LSQUARE,FOLLOW_LSQUARE_in_storage2595); if (state.failed) return retval; 
+			LSQUARE201=(Token)match(input,LSQUARE,FOLLOW_LSQUARE_in_storage2599); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LSQUARE.add(LSQUARE201);
 
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:259:9: ( COMMA )?
@@ -8697,7 +8698,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:259:10: COMMA
 					{
-					COMMA202=(Token)match(input,COMMA,FOLLOW_COMMA_in_storage2598); if (state.failed) return retval; 
+					COMMA202=(Token)match(input,COMMA,FOLLOW_COMMA_in_storage2602); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COMMA.add(COMMA202);
 
 					}
@@ -8705,7 +8706,7 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			pushFollow(FOLLOW_slots_in_storage2602);
+			pushFollow(FOLLOW_slots_in_storage2606);
 			slots203=slots();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -8720,7 +8721,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:259:25: COMMA
 					{
-					COMMA204=(Token)match(input,COMMA,FOLLOW_COMMA_in_storage2605); if (state.failed) return retval; 
+					COMMA204=(Token)match(input,COMMA,FOLLOW_COMMA_in_storage2609); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COMMA.add(COMMA204);
 
 					}
@@ -8728,7 +8729,7 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			RSQUARE205=(Token)match(input,RSQUARE,FOLLOW_RSQUARE_in_storage2609); if (state.failed) return retval; 
+			RSQUARE205=(Token)match(input,RSQUARE,FOLLOW_RSQUARE_in_storage2613); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RSQUARE.add(RSQUARE205);
 
 			// AST REWRITE
@@ -8809,7 +8810,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:262:7: ( slot ({...}? => ( COMMA )? slot )* -> ( slot )+ )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:262:9: slot ({...}? => ( COMMA )? slot )*
 			{
-			pushFollow(FOLLOW_slot_in_slots2631);
+			pushFollow(FOLLOW_slot_in_slots2635);
 			slot206=slot();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -8848,7 +8849,7 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:262:61: COMMA
 							{
-							COMMA207=(Token)match(input,COMMA,FOLLOW_COMMA_in_slots2638); if (state.failed) return retval; 
+							COMMA207=(Token)match(input,COMMA,FOLLOW_COMMA_in_slots2642); if (state.failed) return retval; 
 							if ( state.backtracking==0 ) stream_COMMA.add(COMMA207);
 
 							}
@@ -8856,7 +8857,7 @@ public class MatlabParser extends MatlabParserBase {
 
 					}
 
-					pushFollow(FOLLOW_slot_in_slots2642);
+					pushFollow(FOLLOW_slot_in_slots2646);
 					slot208=slot();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -8972,7 +8973,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:264:8: chain
 					{
-					pushFollow(FOLLOW_chain_in_slot2660);
+					pushFollow(FOLLOW_chain_in_slot2664);
 					chain209=chain();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -9003,7 +9004,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:265:5: metaclass
 					{
-					pushFollow(FOLLOW_metaclass_in_slot2670);
+					pushFollow(FOLLOW_metaclass_in_slot2674);
 					metaclass210=metaclass();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -9034,7 +9035,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:266:5: NOT
 					{
-					NOT211=(Token)match(input,NOT,FOLLOW_NOT_in_slot2680); if (state.failed) return retval; 
+					NOT211=(Token)match(input,NOT,FOLLOW_NOT_in_slot2684); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_NOT.add(NOT211);
 
 					// AST REWRITE
@@ -9125,12 +9126,12 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "action", "True()");
 			}
-			pushFollow(FOLLOW_expression_in_action2711);
+			pushFollow(FOLLOW_expression_in_action2715);
 			expression212=expression();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_expression.add(expression212.getTree());
-			pushFollow(FOLLOW_xEOS_in_action2713);
+			pushFollow(FOLLOW_xEOS_in_action2717);
 			xEOS213=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -9217,17 +9218,17 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "simpleCommand", "Command_IsEnabled()");
 			}
-			pushFollow(FOLLOW_var_in_simpleCommand2738);
+			pushFollow(FOLLOW_var_in_simpleCommand2742);
 			var214=var();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_var.add(var214.getTree());
-			pushFollow(FOLLOW_simpleTexts_in_simpleCommand2740);
+			pushFollow(FOLLOW_simpleTexts_in_simpleCommand2744);
 			simpleTexts215=simpleTexts();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_simpleTexts.add(simpleTexts215.getTree());
-			pushFollow(FOLLOW_xEOS_in_simpleCommand2742);
+			pushFollow(FOLLOW_xEOS_in_simpleCommand2746);
 			xEOS216=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -9315,7 +9316,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:277:13: ( simpleText ({...}? => simpleText )* -> ( simpleText )+ )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:277:15: simpleText ({...}? => simpleText )*
 			{
-			pushFollow(FOLLOW_simpleText_in_simpleTexts2769);
+			pushFollow(FOLLOW_simpleText_in_simpleTexts2773);
 			simpleText217=simpleText();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -9337,7 +9338,7 @@ public class MatlabParser extends MatlabParserBase {
 						if (state.backtracking>0) {state.failed=true; return retval;}
 						throw new FailedPredicateException(input, "simpleTexts", "Separator_SpacesPrecede()");
 					}
-					pushFollow(FOLLOW_simpleText_in_simpleTexts2775);
+					pushFollow(FOLLOW_simpleText_in_simpleTexts2779);
 					simpleText218=simpleText();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -9428,7 +9429,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:281:2: (x1= simpleBlock )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:281:2: x1= simpleBlock
 			{
-			pushFollow(FOLLOW_simpleBlock_in_simpleText2801);
+			pushFollow(FOLLOW_simpleBlock_in_simpleText2805);
 			x1=simpleBlock();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -9464,7 +9465,7 @@ public class MatlabParser extends MatlabParserBase {
 						if (state.backtracking>0) {state.failed=true; return retval;}
 						throw new FailedPredicateException(input, "simpleText", "!Separator_SpacesPrecede()");
 					}
-					pushFollow(FOLLOW_simpleBlock_in_simpleText2820);
+					pushFollow(FOLLOW_simpleBlock_in_simpleText2824);
 					x2=simpleBlock();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -9569,7 +9570,7 @@ public class MatlabParser extends MatlabParserBase {
 					root_0 = (Object)adaptor.nil();
 
 
-					x1=(Token)match(input,STRING,FOLLOW_STRING_in_simpleBlock2848); if (state.failed) return retval;
+					x1=(Token)match(input,STRING,FOLLOW_STRING_in_simpleBlock2852); if (state.failed) return retval;
 					if ( state.backtracking==0 ) {
 					x1_tree = (Object)adaptor.create(x1);
 					adaptor.addChild(root_0, x1_tree);
@@ -9649,7 +9650,7 @@ public class MatlabParser extends MatlabParserBase {
 				throw new FailedPredicateException(input, "abortCommand", "Command_IsEnabled()");
 			}
 			if ( state.backtracking==0 ) {Command_Mark();}
-			pushFollow(FOLLOW_var_in_abortCommand2926);
+			pushFollow(FOLLOW_var_in_abortCommand2930);
 			var219=var();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -9726,15 +9727,15 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:294:17: ( COMMAND standardTexts xEOS -> ^( ACTION[\"\"] ^( PARENTHESIS[\"\"] ^( VAR[\"\"] ^( NAME[\"\"] ID[$COMMAND] ) ) standardTexts ) xEOS ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:294:19: COMMAND standardTexts xEOS
 			{
-			COMMAND220=(Token)match(input,COMMAND,FOLLOW_COMMAND_in_standardCommand2943); if (state.failed) return retval; 
+			COMMAND220=(Token)match(input,COMMAND,FOLLOW_COMMAND_in_standardCommand2947); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_COMMAND.add(COMMAND220);
 
-			pushFollow(FOLLOW_standardTexts_in_standardCommand2945);
+			pushFollow(FOLLOW_standardTexts_in_standardCommand2949);
 			standardTexts221=standardTexts();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_standardTexts.add(standardTexts221.getTree());
-			pushFollow(FOLLOW_xEOS_in_standardCommand2947);
+			pushFollow(FOLLOW_xEOS_in_standardCommand2951);
 			xEOS222=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -9836,7 +9837,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:296:15: ( standardText ({...}? => standardText )* -> ( standardText )+ )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:296:17: standardText ({...}? => standardText )*
 			{
-			pushFollow(FOLLOW_standardText_in_standardTexts2985);
+			pushFollow(FOLLOW_standardText_in_standardTexts2989);
 			standardText223=standardText();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -9858,7 +9859,7 @@ public class MatlabParser extends MatlabParserBase {
 						if (state.backtracking>0) {state.failed=true; return retval;}
 						throw new FailedPredicateException(input, "standardTexts", "Separator_SpacesPrecede()");
 					}
-					pushFollow(FOLLOW_standardText_in_standardTexts2991);
+					pushFollow(FOLLOW_standardText_in_standardTexts2995);
 					standardText224=standardText();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -9949,7 +9950,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:300:2: (x1= standardBlock )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:300:2: x1= standardBlock
 			{
-			pushFollow(FOLLOW_standardBlock_in_standardText3017);
+			pushFollow(FOLLOW_standardBlock_in_standardText3021);
 			x1=standardBlock();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -9985,7 +9986,7 @@ public class MatlabParser extends MatlabParserBase {
 						if (state.backtracking>0) {state.failed=true; return retval;}
 						throw new FailedPredicateException(input, "standardText", "!Separator_SpacesPrecede()");
 					}
-					pushFollow(FOLLOW_standardBlock_in_standardText3036);
+					pushFollow(FOLLOW_standardBlock_in_standardText3040);
 					x2=standardBlock();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -10090,7 +10091,7 @@ public class MatlabParser extends MatlabParserBase {
 					root_0 = (Object)adaptor.nil();
 
 
-					x1=(Token)match(input,STRINGBLOCK,FOLLOW_STRINGBLOCK_in_standardBlock3065); if (state.failed) return retval;
+					x1=(Token)match(input,STRINGBLOCK,FOLLOW_STRINGBLOCK_in_standardBlock3069); if (state.failed) return retval;
 					if ( state.backtracking==0 ) {
 					x1_tree = (Object)adaptor.create(x1);
 					adaptor.addChild(root_0, x1_tree);
@@ -10105,7 +10106,7 @@ public class MatlabParser extends MatlabParserBase {
 					root_0 = (Object)adaptor.nil();
 
 
-					x2=(Token)match(input,DEFAULTBLOCK,FOLLOW_DEFAULTBLOCK_in_standardBlock3074); if (state.failed) return retval;
+					x2=(Token)match(input,DEFAULTBLOCK,FOLLOW_DEFAULTBLOCK_in_standardBlock3078); if (state.failed) return retval;
 					if ( state.backtracking==0 ) {
 					x2_tree = (Object)adaptor.create(x2);
 					adaptor.addChild(root_0, x2_tree);
@@ -10166,14 +10167,14 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:310:29: ( EXCLAMATION LINE xEOL -> ^( EXCLAMATION STRING[$LINE, line] xEOL ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:311:1: EXCLAMATION LINE xEOL
 			{
-			EXCLAMATION225=(Token)match(input,EXCLAMATION,FOLLOW_EXCLAMATION_in_bang3093); if (state.failed) return retval; 
+			EXCLAMATION225=(Token)match(input,EXCLAMATION,FOLLOW_EXCLAMATION_in_bang3097); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_EXCLAMATION.add(EXCLAMATION225);
 
-			LINE226=(Token)match(input,LINE,FOLLOW_LINE_in_bang3095); if (state.failed) return retval; 
+			LINE226=(Token)match(input,LINE,FOLLOW_LINE_in_bang3099); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LINE.add(LINE226);
 
 			if ( state.backtracking==0 ) {line = Text_QuoteString((LINE226!=null?LINE226.getText():null));}
-			pushFollow(FOLLOW_xEOL_in_bang3099);
+			pushFollow(FOLLOW_xEOL_in_bang3103);
 			xEOL227=xEOL();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -10255,10 +10256,10 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:315:10: ( BREAK xEOS -> ^( BREAK xEOS ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:315:12: BREAK xEOS
 			{
-			BREAK228=(Token)match(input,BREAK,FOLLOW_BREAK_in_breakDef3121); if (state.failed) return retval; 
+			BREAK228=(Token)match(input,BREAK,FOLLOW_BREAK_in_breakDef3125); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_BREAK.add(BREAK228);
 
-			pushFollow(FOLLOW_xEOS_in_breakDef3123);
+			pushFollow(FOLLOW_xEOS_in_breakDef3127);
 			xEOS229=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -10339,10 +10340,10 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:319:13: ( CONTINUE xEOS -> ^( CONTINUE xEOS ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:319:15: CONTINUE xEOS
 			{
-			CONTINUE230=(Token)match(input,CONTINUE,FOLLOW_CONTINUE_in_continueDef3142); if (state.failed) return retval; 
+			CONTINUE230=(Token)match(input,CONTINUE,FOLLOW_CONTINUE_in_continueDef3146); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_CONTINUE.add(CONTINUE230);
 
-			pushFollow(FOLLOW_xEOS_in_continueDef3144);
+			pushFollow(FOLLOW_xEOS_in_continueDef3148);
 			xEOS231=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -10430,23 +10431,23 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:323:8: ( FOR forHead statements END xEOS -> ^( FOR forHead ( statements )? xEOS ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:323:10: FOR forHead statements END xEOS
 			{
-			FOR232=(Token)match(input,FOR,FOLLOW_FOR_in_forDef3163); if (state.failed) return retval; 
+			FOR232=(Token)match(input,FOR,FOLLOW_FOR_in_forDef3167); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_FOR.add(FOR232);
 
-			pushFollow(FOLLOW_forHead_in_forDef3165);
+			pushFollow(FOLLOW_forHead_in_forDef3169);
 			forHead233=forHead();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_forHead.add(forHead233.getTree());
-			pushFollow(FOLLOW_statements_in_forDef3167);
+			pushFollow(FOLLOW_statements_in_forDef3171);
 			statements234=statements();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_statements.add(statements234.getTree());
-			END235=(Token)match(input,END,FOLLOW_END_in_forDef3169); if (state.failed) return retval; 
+			END235=(Token)match(input,END,FOLLOW_END_in_forDef3173); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_END.add(END235);
 
-			pushFollow(FOLLOW_xEOS_in_forDef3171);
+			pushFollow(FOLLOW_xEOS_in_forDef3175);
 			xEOS236=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -10564,15 +10565,15 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:325:11: var ASSIGN expression
 					{
-					pushFollow(FOLLOW_var_in_forHead3195);
+					pushFollow(FOLLOW_var_in_forHead3199);
 					var237=var();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_var.add(var237.getTree());
-					ASSIGN238=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_forHead3197); if (state.failed) return retval; 
+					ASSIGN238=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_forHead3201); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_ASSIGN.add(ASSIGN238);
 
-					pushFollow(FOLLOW_expression_in_forHead3199);
+					pushFollow(FOLLOW_expression_in_forHead3203);
 					expression239=expression();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -10604,23 +10605,23 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:326:5: LPAREN var ASSIGN expression RPAREN
 					{
-					LPAREN240=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_forHead3211); if (state.failed) return retval; 
+					LPAREN240=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_forHead3215); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN240);
 
-					pushFollow(FOLLOW_var_in_forHead3213);
+					pushFollow(FOLLOW_var_in_forHead3217);
 					var241=var();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_var.add(var241.getTree());
-					ASSIGN242=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_forHead3215); if (state.failed) return retval; 
+					ASSIGN242=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_forHead3219); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_ASSIGN.add(ASSIGN242);
 
-					pushFollow(FOLLOW_expression_in_forHead3217);
+					pushFollow(FOLLOW_expression_in_forHead3221);
 					expression243=expression();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_expression.add(expression243.getTree());
-					RPAREN244=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_forHead3219); if (state.failed) return retval; 
+					RPAREN244=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_forHead3223); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN244);
 
 					// AST REWRITE
@@ -10697,7 +10698,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:331:8: ( GLOBAL ( var )+ xEOS -> ^( GLOBAL ( var )+ xEOS ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:331:10: GLOBAL ( var )+ xEOS
 			{
-			GLOBAL245=(Token)match(input,GLOBAL,FOLLOW_GLOBAL_in_global3238); if (state.failed) return retval; 
+			GLOBAL245=(Token)match(input,GLOBAL,FOLLOW_GLOBAL_in_global3242); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_GLOBAL.add(GLOBAL245);
 
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:331:17: ( var )+
@@ -10714,7 +10715,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:331:18: var
 					{
-					pushFollow(FOLLOW_var_in_global3241);
+					pushFollow(FOLLOW_var_in_global3245);
 					var246=var();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -10731,7 +10732,7 @@ public class MatlabParser extends MatlabParserBase {
 				cnt71++;
 			}
 
-			pushFollow(FOLLOW_xEOS_in_global3245);
+			pushFollow(FOLLOW_xEOS_in_global3249);
 			xEOS247=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -10826,7 +10827,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:335:7: ( ifPart ( elseIfPart )* ( elsePart )? END xEOS -> ^( IFELSE[$ifPart.start] ifPart ( elseIfPart )* ( elsePart )? xEOS ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:335:9: ifPart ( elseIfPart )* ( elsePart )? END xEOS
 			{
-			pushFollow(FOLLOW_ifPart_in_ifDef3269);
+			pushFollow(FOLLOW_ifPart_in_ifDef3273);
 			ifPart248=ifPart();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -10844,7 +10845,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:335:17: elseIfPart
 					{
-					pushFollow(FOLLOW_elseIfPart_in_ifDef3272);
+					pushFollow(FOLLOW_elseIfPart_in_ifDef3276);
 					elseIfPart249=elseIfPart();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -10867,7 +10868,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:335:31: elsePart
 					{
-					pushFollow(FOLLOW_elsePart_in_ifDef3277);
+					pushFollow(FOLLOW_elsePart_in_ifDef3281);
 					elsePart250=elsePart();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -10877,10 +10878,10 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			END251=(Token)match(input,END,FOLLOW_END_in_ifDef3281); if (state.failed) return retval; 
+			END251=(Token)match(input,END,FOLLOW_END_in_ifDef3285); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_END.add(END251);
 
-			pushFollow(FOLLOW_xEOS_in_ifDef3283);
+			pushFollow(FOLLOW_xEOS_in_ifDef3287);
 			xEOS252=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -10976,15 +10977,15 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:337:8: ( IF expression statements -> ^( IF expression ( statements )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:337:10: IF expression statements
 			{
-			IF253=(Token)match(input,IF,FOLLOW_IF_in_ifPart3313); if (state.failed) return retval; 
+			IF253=(Token)match(input,IF,FOLLOW_IF_in_ifPart3317); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_IF.add(IF253);
 
-			pushFollow(FOLLOW_expression_in_ifPart3315);
+			pushFollow(FOLLOW_expression_in_ifPart3319);
 			expression254=expression();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_expression.add(expression254.getTree());
-			pushFollow(FOLLOW_statements_in_ifPart3317);
+			pushFollow(FOLLOW_statements_in_ifPart3321);
 			statements255=statements();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -11073,15 +11074,15 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:339:12: ( ELSEIF expression statements -> ^( ELSEIF expression ( statements )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:339:14: ELSEIF expression statements
 			{
-			ELSEIF256=(Token)match(input,ELSEIF,FOLLOW_ELSEIF_in_elseIfPart3339); if (state.failed) return retval; 
+			ELSEIF256=(Token)match(input,ELSEIF,FOLLOW_ELSEIF_in_elseIfPart3343); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ELSEIF.add(ELSEIF256);
 
-			pushFollow(FOLLOW_expression_in_elseIfPart3341);
+			pushFollow(FOLLOW_expression_in_elseIfPart3345);
 			expression257=expression();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_expression.add(expression257.getTree());
-			pushFollow(FOLLOW_statements_in_elseIfPart3343);
+			pushFollow(FOLLOW_statements_in_elseIfPart3347);
 			statements258=statements();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -11168,10 +11169,10 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:341:10: ( ELSE statements -> ^( ELSE ( statements )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:341:12: ELSE statements
 			{
-			ELSE259=(Token)match(input,ELSE,FOLLOW_ELSE_in_elsePart3365); if (state.failed) return retval; 
+			ELSE259=(Token)match(input,ELSE,FOLLOW_ELSE_in_elsePart3369); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ELSE.add(ELSE259);
 
-			pushFollow(FOLLOW_statements_in_elsePart3367);
+			pushFollow(FOLLOW_statements_in_elsePart3371);
 			statements260=statements();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -11264,23 +11265,23 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:345:8: ( PARFOR parforHead statements END xEOS -> ^( PARFOR parforHead ( statements )? xEOS ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:345:10: PARFOR parforHead statements END xEOS
 			{
-			PARFOR261=(Token)match(input,PARFOR,FOLLOW_PARFOR_in_parfor3389); if (state.failed) return retval; 
+			PARFOR261=(Token)match(input,PARFOR,FOLLOW_PARFOR_in_parfor3393); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_PARFOR.add(PARFOR261);
 
-			pushFollow(FOLLOW_parforHead_in_parfor3391);
+			pushFollow(FOLLOW_parforHead_in_parfor3395);
 			parforHead262=parforHead();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_parforHead.add(parforHead262.getTree());
-			pushFollow(FOLLOW_statements_in_parfor3393);
+			pushFollow(FOLLOW_statements_in_parfor3397);
 			statements263=statements();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_statements.add(statements263.getTree());
-			END264=(Token)match(input,END,FOLLOW_END_in_parfor3395); if (state.failed) return retval; 
+			END264=(Token)match(input,END,FOLLOW_END_in_parfor3399); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_END.add(END264);
 
-			pushFollow(FOLLOW_xEOS_in_parfor3397);
+			pushFollow(FOLLOW_xEOS_in_parfor3401);
 			xEOS265=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -11417,31 +11418,31 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:347:14: ( LPAREN var ASSIGN expression COMMA )=> LPAREN var ASSIGN expression COMMA expression RPAREN
 					{
-					LPAREN266=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_parforHead3434); if (state.failed) return retval; 
+					LPAREN266=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_parforHead3438); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN266);
 
-					pushFollow(FOLLOW_var_in_parforHead3436);
+					pushFollow(FOLLOW_var_in_parforHead3440);
 					var267=var();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_var.add(var267.getTree());
-					ASSIGN268=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_parforHead3438); if (state.failed) return retval; 
+					ASSIGN268=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_parforHead3442); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_ASSIGN.add(ASSIGN268);
 
-					pushFollow(FOLLOW_expression_in_parforHead3440);
+					pushFollow(FOLLOW_expression_in_parforHead3444);
 					expression269=expression();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_expression.add(expression269.getTree());
-					COMMA270=(Token)match(input,COMMA,FOLLOW_COMMA_in_parforHead3442); if (state.failed) return retval; 
+					COMMA270=(Token)match(input,COMMA,FOLLOW_COMMA_in_parforHead3446); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COMMA.add(COMMA270);
 
-					pushFollow(FOLLOW_expression_in_parforHead3444);
+					pushFollow(FOLLOW_expression_in_parforHead3448);
 					expression271=expression();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_expression.add(expression271.getTree());
-					RPAREN272=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_parforHead3446); if (state.failed) return retval; 
+					RPAREN272=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_parforHead3450); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN272);
 
 					// AST REWRITE
@@ -11478,23 +11479,23 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:348:8: LPAREN var ASSIGN expression RPAREN
 					{
-					LPAREN273=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_parforHead3464); if (state.failed) return retval; 
+					LPAREN273=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_parforHead3468); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN273);
 
-					pushFollow(FOLLOW_var_in_parforHead3466);
+					pushFollow(FOLLOW_var_in_parforHead3470);
 					var274=var();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_var.add(var274.getTree());
-					ASSIGN275=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_parforHead3468); if (state.failed) return retval; 
+					ASSIGN275=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_parforHead3472); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_ASSIGN.add(ASSIGN275);
 
-					pushFollow(FOLLOW_expression_in_parforHead3470);
+					pushFollow(FOLLOW_expression_in_parforHead3474);
 					expression276=expression();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_expression.add(expression276.getTree());
-					RPAREN277=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_parforHead3472); if (state.failed) return retval; 
+					RPAREN277=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_parforHead3476); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN277);
 
 					// AST REWRITE
@@ -11524,15 +11525,15 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:349:8: var ASSIGN expression
 					{
-					pushFollow(FOLLOW_var_in_parforHead3487);
+					pushFollow(FOLLOW_var_in_parforHead3491);
 					var278=var();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_var.add(var278.getTree());
-					ASSIGN279=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_parforHead3489); if (state.failed) return retval; 
+					ASSIGN279=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_parforHead3493); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_ASSIGN.add(ASSIGN279);
 
-					pushFollow(FOLLOW_expression_in_parforHead3491);
+					pushFollow(FOLLOW_expression_in_parforHead3495);
 					expression280=expression();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -11611,7 +11612,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:354:12: ( PERSISTENT ( var )+ xEOS -> ^( PERSISTENT ( var )+ xEOS ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:354:14: PERSISTENT ( var )+ xEOS
 			{
-			PERSISTENT281=(Token)match(input,PERSISTENT,FOLLOW_PERSISTENT_in_persistent3513); if (state.failed) return retval; 
+			PERSISTENT281=(Token)match(input,PERSISTENT,FOLLOW_PERSISTENT_in_persistent3517); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_PERSISTENT.add(PERSISTENT281);
 
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:354:25: ( var )+
@@ -11628,7 +11629,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:354:26: var
 					{
-					pushFollow(FOLLOW_var_in_persistent3516);
+					pushFollow(FOLLOW_var_in_persistent3520);
 					var282=var();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -11645,7 +11646,7 @@ public class MatlabParser extends MatlabParserBase {
 				cnt75++;
 			}
 
-			pushFollow(FOLLOW_xEOS_in_persistent3520);
+			pushFollow(FOLLOW_xEOS_in_persistent3524);
 			xEOS283=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -11734,10 +11735,10 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:358:11: ( RETURN xEOS -> ^( RETURN xEOS ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:358:13: RETURN xEOS
 			{
-			RETURN284=(Token)match(input,RETURN,FOLLOW_RETURN_in_returnDef3544); if (state.failed) return retval; 
+			RETURN284=(Token)match(input,RETURN,FOLLOW_RETURN_in_returnDef3548); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RETURN.add(RETURN284);
 
-			pushFollow(FOLLOW_xEOS_in_returnDef3546);
+			pushFollow(FOLLOW_xEOS_in_returnDef3550);
 			xEOS285=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -11825,7 +11826,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:362:6: ( SPMD ( options {greedy=true; } : spmdHead )? statements END xEOS -> ^( SPMD ( spmdHead )? ( statements )? xEOS ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:362:8: SPMD ( options {greedy=true; } : spmdHead )? statements END xEOS
 			{
-			SPMD286=(Token)match(input,SPMD,FOLLOW_SPMD_in_spmd3565); if (state.failed) return retval; 
+			SPMD286=(Token)match(input,SPMD,FOLLOW_SPMD_in_spmd3569); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_SPMD.add(SPMD286);
 
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:362:13: ( options {greedy=true; } : spmdHead )?
@@ -11841,7 +11842,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:362:38: spmdHead
 					{
-					pushFollow(FOLLOW_spmdHead_in_spmd3576);
+					pushFollow(FOLLOW_spmdHead_in_spmd3580);
 					spmdHead287=spmdHead();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -11851,15 +11852,15 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			pushFollow(FOLLOW_statements_in_spmd3580);
+			pushFollow(FOLLOW_statements_in_spmd3584);
 			statements288=statements();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_statements.add(statements288.getTree());
-			END289=(Token)match(input,END,FOLLOW_END_in_spmd3582); if (state.failed) return retval; 
+			END289=(Token)match(input,END,FOLLOW_END_in_spmd3586); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_END.add(END289);
 
-			pushFollow(FOLLOW_xEOS_in_spmd3584);
+			pushFollow(FOLLOW_xEOS_in_spmd3588);
 			xEOS290=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -11959,10 +11960,10 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:364:10: ( LPAREN expression ( COMMA expression )? RPAREN -> ( expression )+ )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:364:12: LPAREN expression ( COMMA expression )? RPAREN
 			{
-			LPAREN291=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_spmdHead3611); if (state.failed) return retval; 
+			LPAREN291=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_spmdHead3615); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN291);
 
-			pushFollow(FOLLOW_expression_in_spmdHead3613);
+			pushFollow(FOLLOW_expression_in_spmdHead3617);
 			expression292=expression();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -11977,10 +11978,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:364:31: COMMA expression
 					{
-					COMMA293=(Token)match(input,COMMA,FOLLOW_COMMA_in_spmdHead3616); if (state.failed) return retval; 
+					COMMA293=(Token)match(input,COMMA,FOLLOW_COMMA_in_spmdHead3620); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COMMA.add(COMMA293);
 
-					pushFollow(FOLLOW_expression_in_spmdHead3618);
+					pushFollow(FOLLOW_expression_in_spmdHead3622);
 					expression294=expression();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -11990,7 +11991,7 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			RPAREN295=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_spmdHead3622); if (state.failed) return retval; 
+			RPAREN295=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_spmdHead3626); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN295);
 
 			// AST REWRITE
@@ -12075,7 +12076,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:368:11: ( switchPart ( casePart )* ( otherwisePart )? END xEOS -> ^( SWITCHCASE[$switchPart.start] switchPart ( casePart )* ( otherwisePart )? xEOS ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:368:13: switchPart ( casePart )* ( otherwisePart )? END xEOS
 			{
-			pushFollow(FOLLOW_switchPart_in_switchDef3640);
+			pushFollow(FOLLOW_switchPart_in_switchDef3644);
 			switchPart296=switchPart();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -12093,7 +12094,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:368:25: casePart
 					{
-					pushFollow(FOLLOW_casePart_in_switchDef3643);
+					pushFollow(FOLLOW_casePart_in_switchDef3647);
 					casePart297=casePart();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -12116,7 +12117,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:368:37: otherwisePart
 					{
-					pushFollow(FOLLOW_otherwisePart_in_switchDef3648);
+					pushFollow(FOLLOW_otherwisePart_in_switchDef3652);
 					otherwisePart298=otherwisePart();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -12126,10 +12127,10 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			END299=(Token)match(input,END,FOLLOW_END_in_switchDef3652); if (state.failed) return retval; 
+			END299=(Token)match(input,END,FOLLOW_END_in_switchDef3656); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_END.add(END299);
 
-			pushFollow(FOLLOW_xEOS_in_switchDef3654);
+			pushFollow(FOLLOW_xEOS_in_switchDef3658);
 			xEOS300=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -12225,10 +12226,10 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:370:12: ( SWITCH expression ( xEOS )* -> ^( SWITCH expression ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:370:14: SWITCH expression ( xEOS )*
 			{
-			SWITCH301=(Token)match(input,SWITCH,FOLLOW_SWITCH_in_switchPart3684); if (state.failed) return retval; 
+			SWITCH301=(Token)match(input,SWITCH,FOLLOW_SWITCH_in_switchPart3688); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_SWITCH.add(SWITCH301);
 
-			pushFollow(FOLLOW_expression_in_switchPart3686);
+			pushFollow(FOLLOW_expression_in_switchPart3690);
 			expression302=expression();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -12246,7 +12247,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:370:33: xEOS
 					{
-					pushFollow(FOLLOW_xEOS_in_switchPart3689);
+					pushFollow(FOLLOW_xEOS_in_switchPart3693);
 					xEOS303=xEOS();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -12339,20 +12340,20 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:372:10: ( CASE expression xEOS statements -> ^( CASE expression ( statements )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:372:12: CASE expression xEOS statements
 			{
-			CASE304=(Token)match(input,CASE,FOLLOW_CASE_in_casePart3708); if (state.failed) return retval; 
+			CASE304=(Token)match(input,CASE,FOLLOW_CASE_in_casePart3712); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_CASE.add(CASE304);
 
-			pushFollow(FOLLOW_expression_in_casePart3710);
+			pushFollow(FOLLOW_expression_in_casePart3714);
 			expression305=expression();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_expression.add(expression305.getTree());
-			pushFollow(FOLLOW_xEOS_in_casePart3712);
+			pushFollow(FOLLOW_xEOS_in_casePart3716);
 			xEOS306=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_xEOS.add(xEOS306.getTree());
-			pushFollow(FOLLOW_statements_in_casePart3714);
+			pushFollow(FOLLOW_statements_in_casePart3718);
 			statements307=statements();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -12439,10 +12440,10 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:374:15: ( OTHERWISE statements -> ^( OTHERWISE ( statements )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:374:17: OTHERWISE statements
 			{
-			OTHERWISE308=(Token)match(input,OTHERWISE,FOLLOW_OTHERWISE_in_otherwisePart3736); if (state.failed) return retval; 
+			OTHERWISE308=(Token)match(input,OTHERWISE,FOLLOW_OTHERWISE_in_otherwisePart3740); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_OTHERWISE.add(OTHERWISE308);
 
-			pushFollow(FOLLOW_statements_in_otherwisePart3738);
+			pushFollow(FOLLOW_statements_in_otherwisePart3742);
 			statements309=statements();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -12532,7 +12533,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:378:8: ( tryPart ( catchPart )? END xEOS -> ^( TRYCATCH[$tryPart.start] tryPart ( catchPart )? xEOS ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:378:10: tryPart ( catchPart )? END xEOS
 			{
-			pushFollow(FOLLOW_tryPart_in_tryDef3760);
+			pushFollow(FOLLOW_tryPart_in_tryDef3764);
 			tryPart310=tryPart();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -12547,7 +12548,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:378:19: catchPart
 					{
-					pushFollow(FOLLOW_catchPart_in_tryDef3763);
+					pushFollow(FOLLOW_catchPart_in_tryDef3767);
 					catchPart311=catchPart();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -12557,10 +12558,10 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			END312=(Token)match(input,END,FOLLOW_END_in_tryDef3767); if (state.failed) return retval; 
+			END312=(Token)match(input,END,FOLLOW_END_in_tryDef3771); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_END.add(END312);
 
-			pushFollow(FOLLOW_xEOS_in_tryDef3769);
+			pushFollow(FOLLOW_xEOS_in_tryDef3773);
 			xEOS313=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -12648,10 +12649,10 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:380:9: ( TRY statements -> ^( TRY ( statements )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:380:11: TRY statements
 			{
-			TRY314=(Token)match(input,TRY,FOLLOW_TRY_in_tryPart3794); if (state.failed) return retval; 
+			TRY314=(Token)match(input,TRY,FOLLOW_TRY_in_tryPart3798); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_TRY.add(TRY314);
 
-			pushFollow(FOLLOW_statements_in_tryPart3796);
+			pushFollow(FOLLOW_statements_in_tryPart3800);
 			statements315=statements();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -12739,7 +12740,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:382:11: ( CATCH ( options {greedy=true; } :{...}? => capturePortion )? statements -> ^( CATCH ( capturePortion )? ( statements )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:382:13: CATCH ( options {greedy=true; } :{...}? => capturePortion )? statements
 			{
-			CATCH316=(Token)match(input,CATCH,FOLLOW_CATCH_in_catchPart3816); if (state.failed) return retval; 
+			CATCH316=(Token)match(input,CATCH,FOLLOW_CATCH_in_catchPart3820); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_CATCH.add(CATCH316);
 
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:382:19: ( options {greedy=true; } :{...}? => capturePortion )?
@@ -12774,7 +12775,7 @@ public class MatlabParser extends MatlabParserBase {
 						if (state.backtracking>0) {state.failed=true; return retval;}
 						throw new FailedPredicateException(input, "catchPart", "True()");
 					}
-					pushFollow(FOLLOW_capturePortion_in_catchPart3830);
+					pushFollow(FOLLOW_capturePortion_in_catchPart3834);
 					capturePortion317=capturePortion();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -12784,7 +12785,7 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			pushFollow(FOLLOW_statements_in_catchPart3834);
+			pushFollow(FOLLOW_statements_in_catchPart3838);
 			statements318=statements();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -12875,12 +12876,12 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:384:16: ( var xEOS -> var )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:384:18: var xEOS
 			{
-			pushFollow(FOLLOW_var_in_capturePortion3859);
+			pushFollow(FOLLOW_var_in_capturePortion3863);
 			var319=var();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_var.add(var319.getTree());
-			pushFollow(FOLLOW_xEOS_in_capturePortion3861);
+			pushFollow(FOLLOW_xEOS_in_capturePortion3865);
 			xEOS320=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -12961,23 +12962,23 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:388:10: ( WHILE expression statements END xEOS -> ^( WHILE expression ( statements )? xEOS ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:388:12: WHILE expression statements END xEOS
 			{
-			WHILE321=(Token)match(input,WHILE,FOLLOW_WHILE_in_whileDef3876); if (state.failed) return retval; 
+			WHILE321=(Token)match(input,WHILE,FOLLOW_WHILE_in_whileDef3880); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_WHILE.add(WHILE321);
 
-			pushFollow(FOLLOW_expression_in_whileDef3878);
+			pushFollow(FOLLOW_expression_in_whileDef3882);
 			expression322=expression();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_expression.add(expression322.getTree());
-			pushFollow(FOLLOW_statements_in_whileDef3880);
+			pushFollow(FOLLOW_statements_in_whileDef3884);
 			statements323=statements();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_statements.add(statements323.getTree());
-			END324=(Token)match(input,END,FOLLOW_END_in_whileDef3882); if (state.failed) return retval; 
+			END324=(Token)match(input,END,FOLLOW_END_in_whileDef3886); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_END.add(END324);
 
-			pushFollow(FOLLOW_xEOS_in_whileDef3884);
+			pushFollow(FOLLOW_xEOS_in_whileDef3888);
 			xEOS325=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -13062,7 +13063,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:392:12: ( expression11 -> expression11 )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:392:14: expression11
 			{
-			pushFollow(FOLLOW_expression11_in_expression3910);
+			pushFollow(FOLLOW_expression11_in_expression3914);
 			expression11326=expression11();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -13140,7 +13141,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:394:16: (x1= expression10 -> $x1)
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:394:17: x1= expression10
 			{
-			pushFollow(FOLLOW_expression10_in_expression113926);
+			pushFollow(FOLLOW_expression10_in_expression113930);
 			x1=expression10();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -13182,10 +13183,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:394:66: SHORTOR x2= expression10
 					{
-					SHORTOR327=(Token)match(input,SHORTOR,FOLLOW_SHORTOR_in_expression113943); if (state.failed) return retval; 
+					SHORTOR327=(Token)match(input,SHORTOR,FOLLOW_SHORTOR_in_expression113947); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_SHORTOR.add(SHORTOR327);
 
-					pushFollow(FOLLOW_expression10_in_expression113947);
+					pushFollow(FOLLOW_expression10_in_expression113951);
 					x2=expression10();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -13280,7 +13281,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:396:16: (x1= expression09 -> $x1)
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:396:17: x1= expression09
 			{
-			pushFollow(FOLLOW_expression09_in_expression103973);
+			pushFollow(FOLLOW_expression09_in_expression103977);
 			x1=expression09();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -13322,10 +13323,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:396:66: SHORTAND x2= expression09
 					{
-					SHORTAND328=(Token)match(input,SHORTAND,FOLLOW_SHORTAND_in_expression103990); if (state.failed) return retval; 
+					SHORTAND328=(Token)match(input,SHORTAND,FOLLOW_SHORTAND_in_expression103994); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_SHORTAND.add(SHORTAND328);
 
-					pushFollow(FOLLOW_expression09_in_expression103994);
+					pushFollow(FOLLOW_expression09_in_expression103998);
 					x2=expression09();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -13420,7 +13421,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:398:16: (x1= expression08 -> $x1)
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:398:17: x1= expression08
 			{
-			pushFollow(FOLLOW_expression08_in_expression094020);
+			pushFollow(FOLLOW_expression08_in_expression094024);
 			x1=expression08();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -13462,10 +13463,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:398:66: OR x2= expression08
 					{
-					OR329=(Token)match(input,OR,FOLLOW_OR_in_expression094037); if (state.failed) return retval; 
+					OR329=(Token)match(input,OR,FOLLOW_OR_in_expression094041); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_OR.add(OR329);
 
-					pushFollow(FOLLOW_expression08_in_expression094041);
+					pushFollow(FOLLOW_expression08_in_expression094045);
 					x2=expression08();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -13560,7 +13561,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:400:16: (x1= expression07 -> $x1)
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:400:17: x1= expression07
 			{
-			pushFollow(FOLLOW_expression07_in_expression084067);
+			pushFollow(FOLLOW_expression07_in_expression084071);
 			x1=expression07();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -13602,10 +13603,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:400:66: AND x2= expression07
 					{
-					AND330=(Token)match(input,AND,FOLLOW_AND_in_expression084084); if (state.failed) return retval; 
+					AND330=(Token)match(input,AND,FOLLOW_AND_in_expression084088); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_AND.add(AND330);
 
-					pushFollow(FOLLOW_expression07_in_expression084088);
+					pushFollow(FOLLOW_expression07_in_expression084092);
 					x2=expression07();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -13699,7 +13700,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:402:16: (x1= expression06 -> $x1)
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:402:17: x1= expression06
 			{
-			pushFollow(FOLLOW_expression06_in_expression074114);
+			pushFollow(FOLLOW_expression06_in_expression074118);
 			x1=expression06();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -13768,12 +13769,12 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:402:66: op= operator06 x2= expression06
 					{
-					pushFollow(FOLLOW_operator06_in_expression074133);
+					pushFollow(FOLLOW_operator06_in_expression074137);
 					op=operator06();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_operator06.add(op.getTree());
-					pushFollow(FOLLOW_expression06_in_expression074137);
+					pushFollow(FOLLOW_expression06_in_expression074141);
 					x2=expression06();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -13918,7 +13919,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:404:14: LT
 					{
-					LT331=(Token)match(input,LT,FOLLOW_LT_in_operator064161); if (state.failed) return retval; 
+					LT331=(Token)match(input,LT,FOLLOW_LT_in_operator064165); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_LT.add(LT331);
 
 					// AST REWRITE
@@ -13947,7 +13948,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:405:8: LTEQ
 					{
-					LTEQ332=(Token)match(input,LTEQ,FOLLOW_LTEQ_in_operator064174); if (state.failed) return retval; 
+					LTEQ332=(Token)match(input,LTEQ,FOLLOW_LTEQ_in_operator064178); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_LTEQ.add(LTEQ332);
 
 					// AST REWRITE
@@ -13976,7 +13977,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:406:8: GT
 					{
-					GT333=(Token)match(input,GT,FOLLOW_GT_in_operator064187); if (state.failed) return retval; 
+					GT333=(Token)match(input,GT,FOLLOW_GT_in_operator064191); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_GT.add(GT333);
 
 					// AST REWRITE
@@ -14005,7 +14006,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 4 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:407:8: GTEQ
 					{
-					GTEQ334=(Token)match(input,GTEQ,FOLLOW_GTEQ_in_operator064200); if (state.failed) return retval; 
+					GTEQ334=(Token)match(input,GTEQ,FOLLOW_GTEQ_in_operator064204); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_GTEQ.add(GTEQ334);
 
 					// AST REWRITE
@@ -14034,7 +14035,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 5 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:408:8: EQ
 					{
-					EQ335=(Token)match(input,EQ,FOLLOW_EQ_in_operator064213); if (state.failed) return retval; 
+					EQ335=(Token)match(input,EQ,FOLLOW_EQ_in_operator064217); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_EQ.add(EQ335);
 
 					// AST REWRITE
@@ -14063,7 +14064,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 6 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:409:8: NOTEQ
 					{
-					NOTEQ336=(Token)match(input,NOTEQ,FOLLOW_NOTEQ_in_operator064226); if (state.failed) return retval; 
+					NOTEQ336=(Token)match(input,NOTEQ,FOLLOW_NOTEQ_in_operator064230); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_NOTEQ.add(NOTEQ336);
 
 					// AST REWRITE
@@ -14141,7 +14142,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:412:16: (x1= expression05 -> $x1)
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:412:17: x1= expression05
 			{
-			pushFollow(FOLLOW_expression05_in_expression064247);
+			pushFollow(FOLLOW_expression05_in_expression064251);
 			x1=expression05();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -14194,10 +14195,10 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:412:91: COLON x2= expression05
 							{
-							COLON337=(Token)match(input,COLON,FOLLOW_COLON_in_expression064273); if (state.failed) return retval; 
+							COLON337=(Token)match(input,COLON,FOLLOW_COLON_in_expression064277); if (state.failed) return retval; 
 							if ( state.backtracking==0 ) stream_COLON.add(COLON337);
 
-							pushFollow(FOLLOW_expression05_in_expression064277);
+							pushFollow(FOLLOW_expression05_in_expression064281);
 							x2=expression05();
 							state._fsp--;
 							if (state.failed) return retval;
@@ -14305,7 +14306,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:414:16: (x1= expression04 -> $x1)
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:414:17: x1= expression04
 			{
-			pushFollow(FOLLOW_expression04_in_expression054304);
+			pushFollow(FOLLOW_expression04_in_expression054308);
 			x1=expression04();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -14362,12 +14363,12 @@ public class MatlabParser extends MatlabParserBase {
 						if (state.backtracking>0) {state.failed=true; return retval;}
 						throw new FailedPredicateException(input, "expression05", "!Balance_InCreationOrStore_SpacesOnLeftButNotOnRight()");
 					}
-					pushFollow(FOLLOW_operator04_in_expression054326);
+					pushFollow(FOLLOW_operator04_in_expression054330);
 					op=operator04();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_operator04.add(op.getTree());
-					pushFollow(FOLLOW_expression04_in_expression054330);
+					pushFollow(FOLLOW_expression04_in_expression054334);
 					x2=expression04();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -14478,7 +14479,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:416:14: PLUS
 					{
-					PLUS338=(Token)match(input,PLUS,FOLLOW_PLUS_in_operator044354); if (state.failed) return retval; 
+					PLUS338=(Token)match(input,PLUS,FOLLOW_PLUS_in_operator044358); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_PLUS.add(PLUS338);
 
 					// AST REWRITE
@@ -14507,7 +14508,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:417:8: MINUS
 					{
-					MINUS339=(Token)match(input,MINUS,FOLLOW_MINUS_in_operator044367); if (state.failed) return retval; 
+					MINUS339=(Token)match(input,MINUS,FOLLOW_MINUS_in_operator044371); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_MINUS.add(MINUS339);
 
 					// AST REWRITE
@@ -14584,7 +14585,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:420:16: (x1= expression03 -> $x1)
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:420:17: x1= expression03
 			{
-			pushFollow(FOLLOW_expression03_in_expression044388);
+			pushFollow(FOLLOW_expression03_in_expression044392);
 			x1=expression03();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -14653,12 +14654,12 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:420:66: op= operator03 x2= expression03
 					{
-					pushFollow(FOLLOW_operator03_in_expression044407);
+					pushFollow(FOLLOW_operator03_in_expression044411);
 					op=operator03();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_operator03.add(op.getTree());
-					pushFollow(FOLLOW_expression03_in_expression044411);
+					pushFollow(FOLLOW_expression03_in_expression044415);
 					x2=expression03();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -14803,7 +14804,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:422:14: TIMES
 					{
-					TIMES340=(Token)match(input,TIMES,FOLLOW_TIMES_in_operator034435); if (state.failed) return retval; 
+					TIMES340=(Token)match(input,TIMES,FOLLOW_TIMES_in_operator034439); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_TIMES.add(TIMES340);
 
 					// AST REWRITE
@@ -14832,7 +14833,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:423:8: RDIV
 					{
-					RDIV341=(Token)match(input,RDIV,FOLLOW_RDIV_in_operator034448); if (state.failed) return retval; 
+					RDIV341=(Token)match(input,RDIV,FOLLOW_RDIV_in_operator034452); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_RDIV.add(RDIV341);
 
 					// AST REWRITE
@@ -14861,7 +14862,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:424:8: LDIV
 					{
-					LDIV342=(Token)match(input,LDIV,FOLLOW_LDIV_in_operator034461); if (state.failed) return retval; 
+					LDIV342=(Token)match(input,LDIV,FOLLOW_LDIV_in_operator034465); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_LDIV.add(LDIV342);
 
 					// AST REWRITE
@@ -14890,7 +14891,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 4 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:425:8: MTIMES
 					{
-					MTIMES343=(Token)match(input,MTIMES,FOLLOW_MTIMES_in_operator034474); if (state.failed) return retval; 
+					MTIMES343=(Token)match(input,MTIMES,FOLLOW_MTIMES_in_operator034478); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_MTIMES.add(MTIMES343);
 
 					// AST REWRITE
@@ -14919,7 +14920,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 5 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:426:8: MRDIV
 					{
-					MRDIV344=(Token)match(input,MRDIV,FOLLOW_MRDIV_in_operator034487); if (state.failed) return retval; 
+					MRDIV344=(Token)match(input,MRDIV,FOLLOW_MRDIV_in_operator034491); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_MRDIV.add(MRDIV344);
 
 					// AST REWRITE
@@ -14948,7 +14949,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 6 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:427:8: MLDIV
 					{
-					MLDIV345=(Token)match(input,MLDIV,FOLLOW_MLDIV_in_operator034500); if (state.failed) return retval; 
+					MLDIV345=(Token)match(input,MLDIV,FOLLOW_MLDIV_in_operator034504); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_MLDIV.add(MLDIV345);
 
 					// AST REWRITE
@@ -15047,12 +15048,12 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:430:16: op= operator02 x1= expression03
 					{
-					pushFollow(FOLLOW_operator02_in_expression034520);
+					pushFollow(FOLLOW_operator02_in_expression034524);
 					op=operator02();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_operator02.add(op.getTree());
-					pushFollow(FOLLOW_expression03_in_expression034524);
+					pushFollow(FOLLOW_expression03_in_expression034528);
 					x1=expression03();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -15092,7 +15093,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:431:7: x2= expression02
 					{
-					pushFollow(FOLLOW_expression02_in_expression034544);
+					pushFollow(FOLLOW_expression02_in_expression034548);
 					x2=expression02();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -15198,7 +15199,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:434:14: PLUS
 					{
-					PLUS346=(Token)match(input,PLUS,FOLLOW_PLUS_in_operator024562); if (state.failed) return retval; 
+					PLUS346=(Token)match(input,PLUS,FOLLOW_PLUS_in_operator024566); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_PLUS.add(PLUS346);
 
 					// AST REWRITE
@@ -15227,7 +15228,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:435:8: MINUS
 					{
-					MINUS347=(Token)match(input,MINUS,FOLLOW_MINUS_in_operator024576); if (state.failed) return retval; 
+					MINUS347=(Token)match(input,MINUS,FOLLOW_MINUS_in_operator024580); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_MINUS.add(MINUS347);
 
 					// AST REWRITE
@@ -15256,7 +15257,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:436:8: NOT
 					{
-					NOT348=(Token)match(input,NOT,FOLLOW_NOT_in_operator024590); if (state.failed) return retval; 
+					NOT348=(Token)match(input,NOT,FOLLOW_NOT_in_operator024594); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_NOT.add(NOT348);
 
 					// AST REWRITE
@@ -15340,7 +15341,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:439:16: (x1= expression00 -> $x1)
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:439:17: x1= expression00
 			{
-			pushFollow(FOLLOW_expression00_in_expression024611);
+			pushFollow(FOLLOW_expression00_in_expression024615);
 			x1=expression00();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -15402,12 +15403,12 @@ public class MatlabParser extends MatlabParserBase {
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:441:9: (op= operator01 x2= expression01 -> ^( $op $expression02 $x2) )
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:441:10: op= operator01 x2= expression01
 					{
-					pushFollow(FOLLOW_operator01_in_expression024646);
+					pushFollow(FOLLOW_operator01_in_expression024650);
 					op=operator01();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_operator01.add(op.getTree());
-					pushFollow(FOLLOW_expression01_in_expression024650);
+					pushFollow(FOLLOW_expression01_in_expression024654);
 					x2=expression01();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -15453,7 +15454,7 @@ public class MatlabParser extends MatlabParserBase {
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:442:9: ( TRANS -> ^( TRANS $expression02) )
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:442:10: TRANS
 					{
-					TRANS349=(Token)match(input,TRANS,FOLLOW_TRANS_in_expression024675); if (state.failed) return retval; 
+					TRANS349=(Token)match(input,TRANS,FOLLOW_TRANS_in_expression024679); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_TRANS.add(TRANS349);
 
 					// AST REWRITE
@@ -15494,7 +15495,7 @@ public class MatlabParser extends MatlabParserBase {
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:443:9: ( CTRANS -> ^( CTRANS $expression02) )
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:443:10: CTRANS
 					{
-					CTRANS350=(Token)match(input,CTRANS,FOLLOW_CTRANS_in_expression024696); if (state.failed) return retval; 
+					CTRANS350=(Token)match(input,CTRANS,FOLLOW_CTRANS_in_expression024700); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_CTRANS.add(CTRANS350);
 
 					// AST REWRITE
@@ -15602,7 +15603,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:446:14: POW
 					{
-					POW351=(Token)match(input,POW,FOLLOW_POW_in_operator014724); if (state.failed) return retval; 
+					POW351=(Token)match(input,POW,FOLLOW_POW_in_operator014728); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_POW.add(POW351);
 
 					// AST REWRITE
@@ -15631,7 +15632,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:447:8: MPOW
 					{
-					MPOW352=(Token)match(input,MPOW,FOLLOW_MPOW_in_operator014737); if (state.failed) return retval; 
+					MPOW352=(Token)match(input,MPOW,FOLLOW_MPOW_in_operator014741); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_MPOW.add(MPOW352);
 
 					// AST REWRITE
@@ -15730,12 +15731,12 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:450:16: op= operator02 x1= expression01
 					{
-					pushFollow(FOLLOW_operator02_in_expression014757);
+					pushFollow(FOLLOW_operator02_in_expression014761);
 					op=operator02();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_operator02.add(op.getTree());
-					pushFollow(FOLLOW_expression01_in_expression014761);
+					pushFollow(FOLLOW_expression01_in_expression014765);
 					x1=expression01();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -15775,7 +15776,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:451:7: x2= expression00
 					{
-					pushFollow(FOLLOW_expression00_in_expression014781);
+					pushFollow(FOLLOW_expression00_in_expression014785);
 					x2=expression00();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -15849,7 +15850,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:454:14: ( atom -> atom )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:454:16: atom
 			{
-			pushFollow(FOLLOW_atom_in_expression004799);
+			pushFollow(FOLLOW_atom_in_expression004803);
 			atom353=atom();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -16002,7 +16003,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:458:8: chain
 					{
-					pushFollow(FOLLOW_chain_in_atom4814);
+					pushFollow(FOLLOW_chain_in_atom4818);
 					chain354=chain();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -16033,7 +16034,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:459:8: real
 					{
-					pushFollow(FOLLOW_real_in_atom4827);
+					pushFollow(FOLLOW_real_in_atom4831);
 					real355=real();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -16064,7 +16065,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:460:5: imaginary
 					{
-					pushFollow(FOLLOW_imaginary_in_atom4837);
+					pushFollow(FOLLOW_imaginary_in_atom4841);
 					imaginary356=imaginary();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -16095,7 +16096,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 4 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:461:5: stringDef
 					{
-					pushFollow(FOLLOW_stringDef_in_atom4847);
+					pushFollow(FOLLOW_stringDef_in_atom4851);
 					stringDef357=stringDef();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -16126,7 +16127,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 5 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:462:5: regularArray
 					{
-					pushFollow(FOLLOW_regularArray_in_atom4857);
+					pushFollow(FOLLOW_regularArray_in_atom4861);
 					regularArray358=regularArray();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -16157,7 +16158,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 6 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:463:5: cellArray
 					{
-					pushFollow(FOLLOW_cellArray_in_atom4867);
+					pushFollow(FOLLOW_cellArray_in_atom4871);
 					cellArray359=cellArray();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -16188,7 +16189,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 7 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:464:5: parenthesized
 					{
-					pushFollow(FOLLOW_parenthesized_in_atom4877);
+					pushFollow(FOLLOW_parenthesized_in_atom4881);
 					parenthesized360=parenthesized();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -16219,7 +16220,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 8 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:465:5: end
 					{
-					pushFollow(FOLLOW_end_in_atom4887);
+					pushFollow(FOLLOW_end_in_atom4891);
 					end361=end();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -16250,7 +16251,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 9 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:466:5: functionHandle
 					{
-					pushFollow(FOLLOW_functionHandle_in_atom4897);
+					pushFollow(FOLLOW_functionHandle_in_atom4901);
 					functionHandle362=functionHandle();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -16281,7 +16282,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 10 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:467:5: anonymousFunction
 					{
-					pushFollow(FOLLOW_anonymousFunction_in_atom4907);
+					pushFollow(FOLLOW_anonymousFunction_in_atom4911);
 					anonymousFunction363=anonymousFunction();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -16312,7 +16313,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 11 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:468:5: metaclass
 					{
-					pushFollow(FOLLOW_metaclass_in_atom4917);
+					pushFollow(FOLLOW_metaclass_in_atom4921);
 					metaclass364=metaclass();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -16399,7 +16400,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:475:2: (x1= var -> $x1)
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:475:2: x1= var
 			{
-			pushFollow(FOLLOW_var_in_chain4942);
+			pushFollow(FOLLOW_var_in_chain4946);
 			x1=var();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -16437,7 +16438,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:476:5: ( DOT LPAREN )=>x2= dotExpressionOperator
 					{
-					pushFollow(FOLLOW_dotExpressionOperator_in_chain4963);
+					pushFollow(FOLLOW_dotExpressionOperator_in_chain4967);
 					x2=dotExpressionOperator();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -16477,7 +16478,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:477:5: x3= dotNameOperator
 					{
-					pushFollow(FOLLOW_dotNameOperator_in_chain4984);
+					pushFollow(FOLLOW_dotNameOperator_in_chain4988);
 					x3=dotNameOperator();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -16517,7 +16518,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:478:5: x4= parenthesisOperator
 					{
-					pushFollow(FOLLOW_parenthesisOperator_in_chain5005);
+					pushFollow(FOLLOW_parenthesisOperator_in_chain5009);
 					x4=parenthesisOperator();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -16562,7 +16563,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 4 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:479:5: x5= curlyBraceOperator
 					{
-					pushFollow(FOLLOW_curlyBraceOperator_in_chain5029);
+					pushFollow(FOLLOW_curlyBraceOperator_in_chain5033);
 					x5=curlyBraceOperator();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -16602,7 +16603,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 5 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:480:5: x6= atBaseOperator
 					{
-					pushFollow(FOLLOW_atBaseOperator_in_chain5050);
+					pushFollow(FOLLOW_atBaseOperator_in_chain5054);
 					x6=atBaseOperator();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -16691,7 +16692,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:484:5: ( name -> ^( VAR[\"\"] name ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:484:7: name
 			{
-			pushFollow(FOLLOW_name_in_var5079);
+			pushFollow(FOLLOW_name_in_var5083);
 			name365=name();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -16783,18 +16784,18 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "dotExpressionOperator", "Chain_MayAddDotExpression()");
 			}
-			DOT366=(Token)match(input,DOT,FOLLOW_DOT_in_dotExpressionOperator5105); if (state.failed) return retval; 
+			DOT366=(Token)match(input,DOT,FOLLOW_DOT_in_dotExpressionOperator5109); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_DOT.add(DOT366);
 
-			LPAREN367=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_dotExpressionOperator5107); if (state.failed) return retval; 
+			LPAREN367=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_dotExpressionOperator5111); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN367);
 
-			pushFollow(FOLLOW_expression_in_dotExpressionOperator5109);
+			pushFollow(FOLLOW_expression_in_dotExpressionOperator5113);
 			expression368=expression();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_expression.add(expression368.getTree());
-			RPAREN369=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_dotExpressionOperator5111); if (state.failed) return retval; 
+			RPAREN369=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_dotExpressionOperator5115); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN369);
 
 			// AST REWRITE
@@ -16871,10 +16872,10 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "dotNameOperator", "Chain_MayAddDotName()");
 			}
-			DOT370=(Token)match(input,DOT,FOLLOW_DOT_in_dotNameOperator5131); if (state.failed) return retval; 
+			DOT370=(Token)match(input,DOT,FOLLOW_DOT_in_dotNameOperator5135); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_DOT.add(DOT370);
 
-			pushFollow(FOLLOW_anyName_in_dotNameOperator5133);
+			pushFollow(FOLLOW_anyName_in_dotNameOperator5137);
 			anyName371=anyName();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -16946,7 +16947,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:494:9: ( xANYID -> ^( NAME[\"\"] xANYID ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:494:11: xANYID
 			{
-			pushFollow(FOLLOW_xANYID_in_anyName5150);
+			pushFollow(FOLLOW_xANYID_in_anyName5154);
 			xANYID372=xANYID();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -17039,7 +17040,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "parenthesisOperator", "!Balance_InCreationOrStore_SpacesOnLeft()");
 			}
-			LPAREN373=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_parenthesisOperator5179); if (state.failed) return retval; 
+			LPAREN373=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_parenthesisOperator5183); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN373);
 
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:498:86: ( arguments )?
@@ -17058,7 +17059,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:498:87: arguments
 					{
-					pushFollow(FOLLOW_arguments_in_parenthesisOperator5182);
+					pushFollow(FOLLOW_arguments_in_parenthesisOperator5186);
 					arguments374=arguments();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -17068,7 +17069,7 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			RPAREN375=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_parenthesisOperator5186); if (state.failed) return retval; 
+			RPAREN375=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_parenthesisOperator5190); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN375);
 
 			// AST REWRITE
@@ -17147,7 +17148,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:501:11: ( argument ( COMMA argument )* -> ( argument )+ )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:501:13: argument ( COMMA argument )*
 			{
-			pushFollow(FOLLOW_argument_in_arguments5206);
+			pushFollow(FOLLOW_argument_in_arguments5210);
 			argument376=argument();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -17165,10 +17166,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:501:23: COMMA argument
 					{
-					COMMA377=(Token)match(input,COMMA,FOLLOW_COMMA_in_arguments5209); if (state.failed) return retval; 
+					COMMA377=(Token)match(input,COMMA,FOLLOW_COMMA_in_arguments5213); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COMMA.add(COMMA377);
 
-					pushFollow(FOLLOW_argument_in_arguments5211);
+					pushFollow(FOLLOW_argument_in_arguments5215);
 					argument378=argument();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -17281,7 +17282,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:503:12: expression
 					{
-					pushFollow(FOLLOW_expression_in_argument5229);
+					pushFollow(FOLLOW_expression_in_argument5233);
 					expression379=expression();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -17312,7 +17313,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:504:6: COLON
 					{
-					COLON380=(Token)match(input,COLON,FOLLOW_COLON_in_argument5240); if (state.failed) return retval; 
+					COLON380=(Token)match(input,COLON,FOLLOW_COLON_in_argument5244); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COLON.add(COLON380);
 
 					// AST REWRITE
@@ -17398,15 +17399,15 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "curlyBraceOperator", "!Balance_InCreationOrStore_SpacesOnLeft()");
 			}
-			LCURLY381=(Token)match(input,LCURLY,FOLLOW_LCURLY_in_curlyBraceOperator5268); if (state.failed) return retval; 
+			LCURLY381=(Token)match(input,LCURLY,FOLLOW_LCURLY_in_curlyBraceOperator5272); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LCURLY.add(LCURLY381);
 
-			pushFollow(FOLLOW_arguments_in_curlyBraceOperator5270);
+			pushFollow(FOLLOW_arguments_in_curlyBraceOperator5274);
 			arguments382=arguments();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_arguments.add(arguments382.getTree());
-			RCURLY383=(Token)match(input,RCURLY,FOLLOW_RCURLY_in_curlyBraceOperator5272); if (state.failed) return retval; 
+			RCURLY383=(Token)match(input,RCURLY,FOLLOW_RCURLY_in_curlyBraceOperator5276); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RCURLY.add(RCURLY383);
 
 			// AST REWRITE
@@ -17487,10 +17488,10 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "atBaseOperator", "!Balance_InCreationOrStore_SpacesOnLeft()");
 			}
-			AT384=(Token)match(input,AT,FOLLOW_AT_in_atBaseOperator5295); if (state.failed) return retval; 
+			AT384=(Token)match(input,AT,FOLLOW_AT_in_atBaseOperator5299); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_AT.add(AT384);
 
-			pushFollow(FOLLOW_classReference_in_atBaseOperator5297);
+			pushFollow(FOLLOW_classReference_in_atBaseOperator5301);
 			classReference385=classReference();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -17563,7 +17564,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:517:6: ( REAL -> REAL )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:517:8: REAL
 			{
-			REAL386=(Token)match(input,REAL,FOLLOW_REAL_in_real5316); if (state.failed) return retval; 
+			REAL386=(Token)match(input,REAL,FOLLOW_REAL_in_real5320); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_REAL.add(REAL386);
 
 			// AST REWRITE
@@ -17633,7 +17634,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:521:11: ( IMAGINARY -> IMAGINARY )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:521:13: IMAGINARY
 			{
-			IMAGINARY387=(Token)match(input,IMAGINARY,FOLLOW_IMAGINARY_in_imaginary5331); if (state.failed) return retval; 
+			IMAGINARY387=(Token)match(input,IMAGINARY,FOLLOW_IMAGINARY_in_imaginary5335); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_IMAGINARY.add(IMAGINARY387);
 
 			// AST REWRITE
@@ -17703,7 +17704,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:525:11: ( STRING -> STRING )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:525:13: STRING
 			{
-			STRING388=(Token)match(input,STRING,FOLLOW_STRING_in_stringDef5346); if (state.failed) return retval; 
+			STRING388=(Token)match(input,STRING,FOLLOW_STRING_in_stringDef5350); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_STRING.add(STRING388);
 
 			// AST REWRITE
@@ -17779,15 +17780,15 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:532:45: ( LSQUARE rows RSQUARE -> ^( REGULARARRAY[$LSQUARE] ^( VCAT[\"\"] rows ) ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:533:1: LSQUARE rows RSQUARE
 			{
-			LSQUARE389=(Token)match(input,LSQUARE,FOLLOW_LSQUARE_in_regularArray5368); if (state.failed) return retval; 
+			LSQUARE389=(Token)match(input,LSQUARE,FOLLOW_LSQUARE_in_regularArray5372); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LSQUARE.add(LSQUARE389);
 
-			pushFollow(FOLLOW_rows_in_regularArray5370);
+			pushFollow(FOLLOW_rows_in_regularArray5374);
 			rows390=rows();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_rows.add(rows390.getTree());
-			RSQUARE391=(Token)match(input,RSQUARE,FOLLOW_RSQUARE_in_regularArray5372); if (state.failed) return retval; 
+			RSQUARE391=(Token)match(input,RSQUARE,FOLLOW_RSQUARE_in_regularArray5376); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RSQUARE.add(RSQUARE391);
 
 			// AST REWRITE
@@ -17878,7 +17879,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:536:6: ( row ( ( SEMICOLON | EOL ) row )* -> ( row )+ )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:536:8: row ( ( SEMICOLON | EOL ) row )*
 			{
-			pushFollow(FOLLOW_row_in_rows5399);
+			pushFollow(FOLLOW_row_in_rows5403);
 			row392=row();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -17917,7 +17918,7 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:536:14: SEMICOLON
 							{
-							SEMICOLON393=(Token)match(input,SEMICOLON,FOLLOW_SEMICOLON_in_rows5403); if (state.failed) return retval; 
+							SEMICOLON393=(Token)match(input,SEMICOLON,FOLLOW_SEMICOLON_in_rows5407); if (state.failed) return retval; 
 							if ( state.backtracking==0 ) stream_SEMICOLON.add(SEMICOLON393);
 
 							}
@@ -17925,7 +17926,7 @@ public class MatlabParser extends MatlabParserBase {
 						case 2 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:536:26: EOL
 							{
-							EOL394=(Token)match(input,EOL,FOLLOW_EOL_in_rows5407); if (state.failed) return retval; 
+							EOL394=(Token)match(input,EOL,FOLLOW_EOL_in_rows5411); if (state.failed) return retval; 
 							if ( state.backtracking==0 ) stream_EOL.add(EOL394);
 
 							}
@@ -17933,7 +17934,7 @@ public class MatlabParser extends MatlabParserBase {
 
 					}
 
-					pushFollow(FOLLOW_row_in_rows5410);
+					pushFollow(FOLLOW_row_in_rows5414);
 					row395=row();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -18104,7 +18105,7 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:538:8: COMMA
 							{
-							COMMA396=(Token)match(input,COMMA,FOLLOW_COMMA_in_row5429); if (state.failed) return retval; 
+							COMMA396=(Token)match(input,COMMA,FOLLOW_COMMA_in_row5433); if (state.failed) return retval; 
 							if ( state.backtracking==0 ) stream_COMMA.add(COMMA396);
 
 							}
@@ -18112,7 +18113,7 @@ public class MatlabParser extends MatlabParserBase {
 
 					}
 
-					pushFollow(FOLLOW_columns_in_row5433);
+					pushFollow(FOLLOW_columns_in_row5437);
 					columns397=columns();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -18127,7 +18128,7 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:538:25: COMMA
 							{
-							COMMA398=(Token)match(input,COMMA,FOLLOW_COMMA_in_row5436); if (state.failed) return retval; 
+							COMMA398=(Token)match(input,COMMA,FOLLOW_COMMA_in_row5440); if (state.failed) return retval; 
 							if ( state.backtracking==0 ) stream_COMMA.add(COMMA398);
 
 							}
@@ -18168,7 +18169,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:539:4: COMMA
 					{
-					COMMA399=(Token)match(input,COMMA,FOLLOW_COMMA_in_row5452); if (state.failed) return retval; 
+					COMMA399=(Token)match(input,COMMA,FOLLOW_COMMA_in_row5456); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COMMA.add(COMMA399);
 
 					// AST REWRITE
@@ -18274,7 +18275,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:543:9: ( column ({...}? => ( COMMA )? column )* -> ( column )+ )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:543:11: column ({...}? => ( COMMA )? column )*
 			{
-			pushFollow(FOLLOW_column_in_columns5478);
+			pushFollow(FOLLOW_column_in_columns5482);
 			column400=column();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -18322,7 +18323,7 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:543:65: COMMA
 							{
-							COMMA401=(Token)match(input,COMMA,FOLLOW_COMMA_in_columns5485); if (state.failed) return retval; 
+							COMMA401=(Token)match(input,COMMA,FOLLOW_COMMA_in_columns5489); if (state.failed) return retval; 
 							if ( state.backtracking==0 ) stream_COMMA.add(COMMA401);
 
 							}
@@ -18330,7 +18331,7 @@ public class MatlabParser extends MatlabParserBase {
 
 					}
 
-					pushFollow(FOLLOW_column_in_columns5489);
+					pushFollow(FOLLOW_column_in_columns5493);
 					column402=column();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -18450,7 +18451,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:545:10: ( NOT ( COMMA | SEMICOLON | EOL | RSQUARE ) )=> NOT
 					{
-					NOT403=(Token)match(input,NOT,FOLLOW_NOT_in_column5528); if (state.failed) return retval; 
+					NOT403=(Token)match(input,NOT,FOLLOW_NOT_in_column5532); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_NOT.add(NOT403);
 
 					// AST REWRITE
@@ -18493,7 +18494,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:546:7: expression
 					{
-					pushFollow(FOLLOW_expression_in_column5551);
+					pushFollow(FOLLOW_expression_in_column5555);
 					expression404=expression();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -18573,15 +18574,15 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:552:44: ( LCURLY rows RCURLY -> ^( CELLARRAY[$LCURLY] ^( VCAT[\"\"] rows ) ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:553:1: LCURLY rows RCURLY
 			{
-			LCURLY405=(Token)match(input,LCURLY,FOLLOW_LCURLY_in_cellArray5575); if (state.failed) return retval; 
+			LCURLY405=(Token)match(input,LCURLY,FOLLOW_LCURLY_in_cellArray5579); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LCURLY.add(LCURLY405);
 
-			pushFollow(FOLLOW_rows_in_cellArray5577);
+			pushFollow(FOLLOW_rows_in_cellArray5581);
 			rows406=rows();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_rows.add(rows406.getTree());
-			RCURLY407=(Token)match(input,RCURLY,FOLLOW_RCURLY_in_cellArray5579); if (state.failed) return retval; 
+			RCURLY407=(Token)match(input,RCURLY,FOLLOW_RCURLY_in_cellArray5583); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RCURLY.add(RCURLY407);
 
 			// AST REWRITE
@@ -18672,15 +18673,15 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:559:37: ( LPAREN expression RPAREN -> expression )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:560:1: LPAREN expression RPAREN
 			{
-			LPAREN408=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_parenthesized5613); if (state.failed) return retval; 
+			LPAREN408=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_parenthesized5617); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN408);
 
-			pushFollow(FOLLOW_expression_in_parenthesized5615);
+			pushFollow(FOLLOW_expression_in_parenthesized5619);
 			expression409=expression();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_expression.add(expression409.getTree());
-			RPAREN410=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_parenthesized5617); if (state.failed) return retval; 
+			RPAREN410=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_parenthesized5621); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN410);
 
 			// AST REWRITE
@@ -18755,7 +18756,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "end", "Index_IsActive()");
 			}
-			END411=(Token)match(input,END,FOLLOW_END_in_end5639); if (state.failed) return retval; 
+			END411=(Token)match(input,END,FOLLOW_END_in_end5643); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_END.add(END411);
 
 			// AST REWRITE
@@ -18827,10 +18828,10 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:569:16: ( AT functionReference -> ^( FUNCTIONHANDLE[$AT] functionReference ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:569:18: AT functionReference
 			{
-			AT412=(Token)match(input,AT,FOLLOW_AT_in_functionHandle5654); if (state.failed) return retval; 
+			AT412=(Token)match(input,AT,FOLLOW_AT_in_functionHandle5658); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_AT.add(AT412);
 
-			pushFollow(FOLLOW_functionReference_in_functionHandle5656);
+			pushFollow(FOLLOW_functionReference_in_functionHandle5660);
 			functionReference413=functionReference();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -18908,7 +18909,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:571:19: ( fullFunctioName -> ^( FUNCTIONREF[\"\"] fullFunctioName ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:571:21: fullFunctioName
 			{
-			pushFollow(FOLLOW_fullFunctioName_in_functionReference5674);
+			pushFollow(FOLLOW_fullFunctioName_in_functionReference5678);
 			fullFunctioName414=fullFunctioName();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -18991,7 +18992,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:573:17: ( xID ( DOT xANYID )* -> ^( NAME[\"\"] xID ( xANYID )* ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:573:19: xID ( DOT xANYID )*
 			{
-			pushFollow(FOLLOW_xID_in_fullFunctioName5692);
+			pushFollow(FOLLOW_xID_in_fullFunctioName5696);
 			xID415=xID();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -19009,10 +19010,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:573:24: DOT xANYID
 					{
-					DOT416=(Token)match(input,DOT,FOLLOW_DOT_in_fullFunctioName5695); if (state.failed) return retval; 
+					DOT416=(Token)match(input,DOT,FOLLOW_DOT_in_fullFunctioName5699); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_DOT.add(DOT416);
 
-					pushFollow(FOLLOW_xANYID_in_fullFunctioName5697);
+					pushFollow(FOLLOW_xANYID_in_fullFunctioName5701);
 					xANYID417=xANYID();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -19109,15 +19110,15 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:577:19: ( AT inputPortion expression -> ^( ANONYMOUSFUNCTION[$AT] ( inputPortion )? expression ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:577:21: AT inputPortion expression
 			{
-			AT418=(Token)match(input,AT,FOLLOW_AT_in_anonymousFunction5724); if (state.failed) return retval; 
+			AT418=(Token)match(input,AT,FOLLOW_AT_in_anonymousFunction5728); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_AT.add(AT418);
 
-			pushFollow(FOLLOW_inputPortion_in_anonymousFunction5726);
+			pushFollow(FOLLOW_inputPortion_in_anonymousFunction5730);
 			inputPortion419=inputPortion();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_inputPortion.add(inputPortion419.getTree());
-			pushFollow(FOLLOW_expression_in_anonymousFunction5728);
+			pushFollow(FOLLOW_expression_in_anonymousFunction5732);
 			expression420=expression();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -19204,10 +19205,10 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:581:11: ( QUESTION classReference -> ^( QUESTION classReference ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:581:13: QUESTION classReference
 			{
-			QUESTION421=(Token)match(input,QUESTION,FOLLOW_QUESTION_in_metaclass5753); if (state.failed) return retval; 
+			QUESTION421=(Token)match(input,QUESTION,FOLLOW_QUESTION_in_metaclass5757); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_QUESTION.add(QUESTION421);
 
-			pushFollow(FOLLOW_classReference_in_metaclass5755);
+			pushFollow(FOLLOW_classReference_in_metaclass5759);
 			classReference422=classReference();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -19317,7 +19318,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:585:8: SEMICOLON
 					{
-					SEMICOLON423=(Token)match(input,SEMICOLON,FOLLOW_SEMICOLON_in_xEOS5774); if (state.failed) return retval; 
+					SEMICOLON423=(Token)match(input,SEMICOLON,FOLLOW_SEMICOLON_in_xEOS5778); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_SEMICOLON.add(SEMICOLON423);
 
 					// AST REWRITE
@@ -19346,7 +19347,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:586:5: COMMA
 					{
-					COMMA424=(Token)match(input,COMMA,FOLLOW_COMMA_in_xEOS5785); if (state.failed) return retval; 
+					COMMA424=(Token)match(input,COMMA,FOLLOW_COMMA_in_xEOS5789); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COMMA.add(COMMA424);
 
 					// AST REWRITE
@@ -19375,7 +19376,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:587:5: EOL
 					{
-					EOL425=(Token)match(input,EOL,FOLLOW_EOL_in_xEOS5796); if (state.failed) return retval; 
+					EOL425=(Token)match(input,EOL,FOLLOW_EOL_in_xEOS5800); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_EOL.add(EOL425);
 
 					// AST REWRITE
@@ -19447,7 +19448,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:590:6: ( EOL -> PRINT[$EOL] )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:590:8: EOL
 			{
-			EOL426=(Token)match(input,EOL,FOLLOW_EOL_in_xEOL5812); if (state.failed) return retval; 
+			EOL426=(Token)match(input,EOL,FOLLOW_EOL_in_xEOL5816); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_EOL.add(EOL426);
 
 			// AST REWRITE
@@ -19517,7 +19518,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:592:5: ( ID -> ID )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:592:7: ID
 			{
-			ID427=(Token)match(input,ID,FOLLOW_ID_in_xID5826); if (state.failed) return retval; 
+			ID427=(Token)match(input,ID,FOLLOW_ID_in_xID5830); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID427);
 
 			// AST REWRITE
@@ -19762,7 +19763,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:594:10: ID
 					{
-					ID428=(Token)match(input,ID,FOLLOW_ID_in_xANYID5839); if (state.failed) return retval; 
+					ID428=(Token)match(input,ID,FOLLOW_ID_in_xANYID5843); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_ID.add(ID428);
 
 					// AST REWRITE
@@ -19791,7 +19792,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:595:7: BREAK
 					{
-					BREAK429=(Token)match(input,BREAK,FOLLOW_BREAK_in_xANYID5851); if (state.failed) return retval; 
+					BREAK429=(Token)match(input,BREAK,FOLLOW_BREAK_in_xANYID5855); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_BREAK.add(BREAK429);
 
 					// AST REWRITE
@@ -19820,7 +19821,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:596:7: CASE
 					{
-					CASE430=(Token)match(input,CASE,FOLLOW_CASE_in_xANYID5864); if (state.failed) return retval; 
+					CASE430=(Token)match(input,CASE,FOLLOW_CASE_in_xANYID5868); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_CASE.add(CASE430);
 
 					// AST REWRITE
@@ -19849,7 +19850,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 4 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:597:7: CATCH
 					{
-					CATCH431=(Token)match(input,CATCH,FOLLOW_CATCH_in_xANYID5877); if (state.failed) return retval; 
+					CATCH431=(Token)match(input,CATCH,FOLLOW_CATCH_in_xANYID5881); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_CATCH.add(CATCH431);
 
 					// AST REWRITE
@@ -19878,7 +19879,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 5 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:598:7: CLASSDEF
 					{
-					CLASSDEF432=(Token)match(input,CLASSDEF,FOLLOW_CLASSDEF_in_xANYID5890); if (state.failed) return retval; 
+					CLASSDEF432=(Token)match(input,CLASSDEF,FOLLOW_CLASSDEF_in_xANYID5894); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_CLASSDEF.add(CLASSDEF432);
 
 					// AST REWRITE
@@ -19907,7 +19908,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 6 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:599:7: CONTINUE
 					{
-					CONTINUE433=(Token)match(input,CONTINUE,FOLLOW_CONTINUE_in_xANYID5903); if (state.failed) return retval; 
+					CONTINUE433=(Token)match(input,CONTINUE,FOLLOW_CONTINUE_in_xANYID5907); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_CONTINUE.add(CONTINUE433);
 
 					// AST REWRITE
@@ -19936,7 +19937,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 7 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:600:7: ELSE
 					{
-					ELSE434=(Token)match(input,ELSE,FOLLOW_ELSE_in_xANYID5916); if (state.failed) return retval; 
+					ELSE434=(Token)match(input,ELSE,FOLLOW_ELSE_in_xANYID5920); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_ELSE.add(ELSE434);
 
 					// AST REWRITE
@@ -19965,7 +19966,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 8 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:601:7: ELSEIF
 					{
-					ELSEIF435=(Token)match(input,ELSEIF,FOLLOW_ELSEIF_in_xANYID5929); if (state.failed) return retval; 
+					ELSEIF435=(Token)match(input,ELSEIF,FOLLOW_ELSEIF_in_xANYID5933); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_ELSEIF.add(ELSEIF435);
 
 					// AST REWRITE
@@ -19994,7 +19995,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 9 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:602:7: END
 					{
-					END436=(Token)match(input,END,FOLLOW_END_in_xANYID5942); if (state.failed) return retval; 
+					END436=(Token)match(input,END,FOLLOW_END_in_xANYID5946); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_END.add(END436);
 
 					// AST REWRITE
@@ -20023,7 +20024,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 10 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:603:7: FOR
 					{
-					FOR437=(Token)match(input,FOR,FOLLOW_FOR_in_xANYID5955); if (state.failed) return retval; 
+					FOR437=(Token)match(input,FOR,FOLLOW_FOR_in_xANYID5959); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_FOR.add(FOR437);
 
 					// AST REWRITE
@@ -20052,7 +20053,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 11 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:604:7: FUNCTION
 					{
-					FUNCTION438=(Token)match(input,FUNCTION,FOLLOW_FUNCTION_in_xANYID5968); if (state.failed) return retval; 
+					FUNCTION438=(Token)match(input,FUNCTION,FOLLOW_FUNCTION_in_xANYID5972); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_FUNCTION.add(FUNCTION438);
 
 					// AST REWRITE
@@ -20081,7 +20082,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 12 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:605:7: GLOBAL
 					{
-					GLOBAL439=(Token)match(input,GLOBAL,FOLLOW_GLOBAL_in_xANYID5981); if (state.failed) return retval; 
+					GLOBAL439=(Token)match(input,GLOBAL,FOLLOW_GLOBAL_in_xANYID5985); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_GLOBAL.add(GLOBAL439);
 
 					// AST REWRITE
@@ -20110,7 +20111,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 13 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:606:7: IF
 					{
-					IF440=(Token)match(input,IF,FOLLOW_IF_in_xANYID5994); if (state.failed) return retval; 
+					IF440=(Token)match(input,IF,FOLLOW_IF_in_xANYID5998); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_IF.add(IF440);
 
 					// AST REWRITE
@@ -20139,7 +20140,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 14 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:607:7: OTHERWISE
 					{
-					OTHERWISE441=(Token)match(input,OTHERWISE,FOLLOW_OTHERWISE_in_xANYID6007); if (state.failed) return retval; 
+					OTHERWISE441=(Token)match(input,OTHERWISE,FOLLOW_OTHERWISE_in_xANYID6011); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_OTHERWISE.add(OTHERWISE441);
 
 					// AST REWRITE
@@ -20168,7 +20169,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 15 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:608:7: PARFOR
 					{
-					PARFOR442=(Token)match(input,PARFOR,FOLLOW_PARFOR_in_xANYID6020); if (state.failed) return retval; 
+					PARFOR442=(Token)match(input,PARFOR,FOLLOW_PARFOR_in_xANYID6024); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_PARFOR.add(PARFOR442);
 
 					// AST REWRITE
@@ -20197,7 +20198,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 16 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:609:7: PERSISTENT
 					{
-					PERSISTENT443=(Token)match(input,PERSISTENT,FOLLOW_PERSISTENT_in_xANYID6033); if (state.failed) return retval; 
+					PERSISTENT443=(Token)match(input,PERSISTENT,FOLLOW_PERSISTENT_in_xANYID6037); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_PERSISTENT.add(PERSISTENT443);
 
 					// AST REWRITE
@@ -20226,7 +20227,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 17 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:610:7: RETURN
 					{
-					RETURN444=(Token)match(input,RETURN,FOLLOW_RETURN_in_xANYID6046); if (state.failed) return retval; 
+					RETURN444=(Token)match(input,RETURN,FOLLOW_RETURN_in_xANYID6050); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_RETURN.add(RETURN444);
 
 					// AST REWRITE
@@ -20255,7 +20256,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 18 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:611:7: SPMD
 					{
-					SPMD445=(Token)match(input,SPMD,FOLLOW_SPMD_in_xANYID6059); if (state.failed) return retval; 
+					SPMD445=(Token)match(input,SPMD,FOLLOW_SPMD_in_xANYID6063); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_SPMD.add(SPMD445);
 
 					// AST REWRITE
@@ -20284,7 +20285,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 19 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:612:7: SWITCH
 					{
-					SWITCH446=(Token)match(input,SWITCH,FOLLOW_SWITCH_in_xANYID6072); if (state.failed) return retval; 
+					SWITCH446=(Token)match(input,SWITCH,FOLLOW_SWITCH_in_xANYID6076); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_SWITCH.add(SWITCH446);
 
 					// AST REWRITE
@@ -20313,7 +20314,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 20 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:613:7: TRY
 					{
-					TRY447=(Token)match(input,TRY,FOLLOW_TRY_in_xANYID6085); if (state.failed) return retval; 
+					TRY447=(Token)match(input,TRY,FOLLOW_TRY_in_xANYID6089); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_TRY.add(TRY447);
 
 					// AST REWRITE
@@ -20342,7 +20343,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 21 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:614:7: WHILE
 					{
-					WHILE448=(Token)match(input,WHILE,FOLLOW_WHILE_in_xANYID6098); if (state.failed) return retval; 
+					WHILE448=(Token)match(input,WHILE,FOLLOW_WHILE_in_xANYID6102); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_WHILE.add(WHILE448);
 
 					// AST REWRITE
@@ -20435,7 +20436,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:617:15: ID
 					{
-					ID449=(Token)match(input,ID,FOLLOW_ID_in_xFUNCTIONID6116); if (state.failed) return retval; 
+					ID449=(Token)match(input,ID,FOLLOW_ID_in_xFUNCTIONID6120); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_ID.add(ID449);
 
 					// AST REWRITE
@@ -20464,7 +20465,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:618:6: END
 					{
-					END450=(Token)match(input,END,FOLLOW_END_in_xFUNCTIONID6127); if (state.failed) return retval; 
+					END450=(Token)match(input,END,FOLLOW_END_in_xFUNCTIONID6131); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_END.add(END450);
 
 					// AST REWRITE
@@ -20557,7 +20558,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:621:16: ID
 					{
-					ID451=(Token)match(input,ID,FOLLOW_ID_in_xPARAMETERID6144); if (state.failed) return retval; 
+					ID451=(Token)match(input,ID,FOLLOW_ID_in_xPARAMETERID6148); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_ID.add(ID451);
 
 					// AST REWRITE
@@ -20586,7 +20587,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:622:7: NOT
 					{
-					NOT452=(Token)match(input,NOT,FOLLOW_NOT_in_xPARAMETERID6156); if (state.failed) return retval; 
+					NOT452=(Token)match(input,NOT,FOLLOW_NOT_in_xPARAMETERID6160); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_NOT.add(NOT452);
 
 					// AST REWRITE
@@ -20662,7 +20663,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "xEVENTS", "Keyword_EventsIdFollows()");
 			}
-			ID453=(Token)match(input,ID,FOLLOW_ID_in_xEVENTS6177); if (state.failed) return retval; 
+			ID453=(Token)match(input,ID,FOLLOW_ID_in_xEVENTS6181); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID453);
 
 			// AST REWRITE
@@ -20736,7 +20737,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "xPROPERTIES", "Keyword_PropertiesIdFollows()");
 			}
-			ID454=(Token)match(input,ID,FOLLOW_ID_in_xPROPERTIES6193); if (state.failed) return retval; 
+			ID454=(Token)match(input,ID,FOLLOW_ID_in_xPROPERTIES6197); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID454);
 
 			// AST REWRITE
@@ -20810,7 +20811,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "xMETHODS", "Keyword_MethodsIdFollows()");
 			}
-			ID455=(Token)match(input,ID,FOLLOW_ID_in_xMETHODS6209); if (state.failed) return retval; 
+			ID455=(Token)match(input,ID,FOLLOW_ID_in_xMETHODS6213); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID455);
 
 			// AST REWRITE
@@ -20884,7 +20885,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "xENUMERATION", "Keyword_EnumerationIdFollows()");
 			}
-			ID456=(Token)match(input,ID,FOLLOW_ID_in_xENUMERATION6225); if (state.failed) return retval; 
+			ID456=(Token)match(input,ID,FOLLOW_ID_in_xENUMERATION6229); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID456);
 
 			// AST REWRITE
@@ -20974,7 +20975,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:635:15: EOL
 					{
-					EOL457=(Token)match(input,EOL,FOLLOW_EOL_in_aspectFile6241); if (state.failed) return retval; 
+					EOL457=(Token)match(input,EOL,FOLLOW_EOL_in_aspectFile6245); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_EOL.add(EOL457);
 
 					}
@@ -20985,7 +20986,7 @@ public class MatlabParser extends MatlabParserBase {
 				}
 			}
 
-			pushFollow(FOLLOW_aspectDef_in_aspectFile6245);
+			pushFollow(FOLLOW_aspectDef_in_aspectFile6249);
 			aspectDef458=aspectDef();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -21003,7 +21004,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:635:32: EOL
 					{
-					EOL459=(Token)match(input,EOL,FOLLOW_EOL_in_aspectFile6248); if (state.failed) return retval; 
+					EOL459=(Token)match(input,EOL,FOLLOW_EOL_in_aspectFile6252); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_EOL.add(EOL459);
 
 					}
@@ -21014,7 +21015,7 @@ public class MatlabParser extends MatlabParserBase {
 				}
 			}
 
-			EOF460=(Token)match(input,EOF,FOLLOW_EOF_in_aspectFile6252); if (state.failed) return retval; 
+			EOF460=(Token)match(input,EOF,FOLLOW_EOF_in_aspectFile6256); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_EOF.add(EOF460);
 
 			// AST REWRITE
@@ -21100,25 +21101,25 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:637:11: ( ASPECT name xEOS aspectSections END -> ^( ASPECTDEF name ( aspectSections )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:637:13: ASPECT name xEOS aspectSections END
 			{
-			ASPECT461=(Token)match(input,ASPECT,FOLLOW_ASPECT_in_aspectDef6270); if (state.failed) return retval; 
+			ASPECT461=(Token)match(input,ASPECT,FOLLOW_ASPECT_in_aspectDef6274); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ASPECT.add(ASPECT461);
 
-			pushFollow(FOLLOW_name_in_aspectDef6272);
+			pushFollow(FOLLOW_name_in_aspectDef6276);
 			name462=name();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_name.add(name462.getTree());
-			pushFollow(FOLLOW_xEOS_in_aspectDef6274);
+			pushFollow(FOLLOW_xEOS_in_aspectDef6278);
 			xEOS463=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_xEOS.add(xEOS463.getTree());
-			pushFollow(FOLLOW_aspectSections_in_aspectDef6276);
+			pushFollow(FOLLOW_aspectSections_in_aspectDef6280);
 			aspectSections464=aspectSections();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_aspectSections.add(aspectSections464.getTree());
-			END465=(Token)match(input,END,FOLLOW_END_in_aspectDef6278); if (state.failed) return retval; 
+			END465=(Token)match(input,END,FOLLOW_END_in_aspectDef6282); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_END.add(END465);
 
 			// AST REWRITE
@@ -21218,7 +21219,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:639:19: aspectSection
 					{
-					pushFollow(FOLLOW_aspectSection_in_aspectSections6301);
+					pushFollow(FOLLOW_aspectSection_in_aspectSections6305);
 					aspectSection466=aspectSection();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -21228,7 +21229,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:639:35: xEOS
 					{
-					pushFollow(FOLLOW_xEOS_in_aspectSections6305);
+					pushFollow(FOLLOW_xEOS_in_aspectSections6309);
 					xEOS467=xEOS();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -21362,7 +21363,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:641:17: eventSection
 					{
-					pushFollow(FOLLOW_eventSection_in_aspectSection6323);
+					pushFollow(FOLLOW_eventSection_in_aspectSection6327);
 					eventSection468=eventSection();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -21393,7 +21394,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:642:8: propertySection
 					{
-					pushFollow(FOLLOW_propertySection_in_aspectSection6336);
+					pushFollow(FOLLOW_propertySection_in_aspectSection6340);
 					propertySection469=propertySection();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -21424,7 +21425,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:643:11: methodSection
 					{
-					pushFollow(FOLLOW_methodSection_in_aspectSection6352);
+					pushFollow(FOLLOW_methodSection_in_aspectSection6356);
 					methodSection470=methodSection();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -21455,7 +21456,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 4 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:644:11: enumerationSection
 					{
-					pushFollow(FOLLOW_enumerationSection_in_aspectSection6368);
+					pushFollow(FOLLOW_enumerationSection_in_aspectSection6372);
 					enumerationSection471=enumerationSection();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -21486,7 +21487,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 5 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:645:8: aspectPatternSection
 					{
-					pushFollow(FOLLOW_aspectPatternSection_in_aspectSection6381);
+					pushFollow(FOLLOW_aspectPatternSection_in_aspectSection6385);
 					aspectPatternSection472=aspectPatternSection();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -21517,7 +21518,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 6 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:646:8: aspectActionSection
 					{
-					pushFollow(FOLLOW_aspectActionSection_in_aspectSection6394);
+					pushFollow(FOLLOW_aspectActionSection_in_aspectSection6398);
 					aspectActionSection473=aspectActionSection();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -21595,17 +21596,17 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:651:21: ( wACTIONS aspectActions END -> ^( ASPECTACTIONSECTION[$wACTIONS.start] ( aspectActions )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:651:23: wACTIONS aspectActions END
 			{
-			pushFollow(FOLLOW_wACTIONS_in_aspectActionSection6417);
+			pushFollow(FOLLOW_wACTIONS_in_aspectActionSection6421);
 			wACTIONS474=wACTIONS();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_wACTIONS.add(wACTIONS474.getTree());
-			pushFollow(FOLLOW_aspectActions_in_aspectActionSection6419);
+			pushFollow(FOLLOW_aspectActions_in_aspectActionSection6423);
 			aspectActions475=aspectActions();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_aspectActions.add(aspectActions475.getTree());
-			END476=(Token)match(input,END,FOLLOW_END_in_aspectActionSection6421); if (state.failed) return retval; 
+			END476=(Token)match(input,END,FOLLOW_END_in_aspectActionSection6425); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_END.add(END476);
 
 			// AST REWRITE
@@ -21704,7 +21705,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:653:18: aspectAction
 					{
-					pushFollow(FOLLOW_aspectAction_in_aspectActions6443);
+					pushFollow(FOLLOW_aspectAction_in_aspectActions6447);
 					aspectAction477=aspectAction();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -21714,7 +21715,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:653:33: xEOS
 					{
-					pushFollow(FOLLOW_xEOS_in_aspectActions6447);
+					pushFollow(FOLLOW_xEOS_in_aspectActions6451);
 					xEOS478=xEOS();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -21803,17 +21804,17 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:655:14: ( aspectActionSignature aspectActionBody END -> ^( ASPECTACTION aspectActionSignature ( aspectActionBody )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:655:16: aspectActionSignature aspectActionBody END
 			{
-			pushFollow(FOLLOW_aspectActionSignature_in_aspectAction6465);
+			pushFollow(FOLLOW_aspectActionSignature_in_aspectAction6469);
 			aspectActionSignature479=aspectActionSignature();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_aspectActionSignature.add(aspectActionSignature479.getTree());
-			pushFollow(FOLLOW_aspectActionBody_in_aspectAction6467);
+			pushFollow(FOLLOW_aspectActionBody_in_aspectAction6471);
 			aspectActionBody480=aspectActionBody();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_aspectActionBody.add(aspectActionBody480.getTree());
-			END481=(Token)match(input,END,FOLLOW_END_in_aspectAction6469); if (state.failed) return retval; 
+			END481=(Token)match(input,END,FOLLOW_END_in_aspectAction6473); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_END.add(END481);
 
 			// AST REWRITE
@@ -21908,15 +21909,15 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:657:23: ( name COLON aspectActionType ( COLON )? aspectExpression ( COLON inputPortion )? -> name aspectActionType aspectExpression ( inputPortion )? )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:657:25: name COLON aspectActionType ( COLON )? aspectExpression ( COLON inputPortion )?
 			{
-			pushFollow(FOLLOW_name_in_aspectActionSignature6490);
+			pushFollow(FOLLOW_name_in_aspectActionSignature6494);
 			name482=name();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_name.add(name482.getTree());
-			COLON483=(Token)match(input,COLON,FOLLOW_COLON_in_aspectActionSignature6492); if (state.failed) return retval; 
+			COLON483=(Token)match(input,COLON,FOLLOW_COLON_in_aspectActionSignature6496); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_COLON.add(COLON483);
 
-			pushFollow(FOLLOW_aspectActionType_in_aspectActionSignature6494);
+			pushFollow(FOLLOW_aspectActionType_in_aspectActionSignature6498);
 			aspectActionType484=aspectActionType();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -21931,7 +21932,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:657:54: COLON
 					{
-					COLON485=(Token)match(input,COLON,FOLLOW_COLON_in_aspectActionSignature6497); if (state.failed) return retval; 
+					COLON485=(Token)match(input,COLON,FOLLOW_COLON_in_aspectActionSignature6501); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COLON.add(COLON485);
 
 					}
@@ -21939,7 +21940,7 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			pushFollow(FOLLOW_aspectExpression_in_aspectActionSignature6501);
+			pushFollow(FOLLOW_aspectExpression_in_aspectActionSignature6505);
 			aspectExpression486=aspectExpression();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -21954,10 +21955,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:657:80: COLON inputPortion
 					{
-					COLON487=(Token)match(input,COLON,FOLLOW_COLON_in_aspectActionSignature6504); if (state.failed) return retval; 
+					COLON487=(Token)match(input,COLON,FOLLOW_COLON_in_aspectActionSignature6508); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COLON.add(COLON487);
 
-					pushFollow(FOLLOW_inputPortion_in_aspectActionSignature6506);
+					pushFollow(FOLLOW_inputPortion_in_aspectActionSignature6510);
 					inputPortion488=inputPortion();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -22076,7 +22077,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:659:20: wBEFORE
 					{
-					pushFollow(FOLLOW_wBEFORE_in_aspectActionType6530);
+					pushFollow(FOLLOW_wBEFORE_in_aspectActionType6534);
 					wBEFORE489=wBEFORE();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -22107,7 +22108,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:660:20: wAFTER
 					{
-					pushFollow(FOLLOW_wAFTER_in_aspectActionType6555);
+					pushFollow(FOLLOW_wAFTER_in_aspectActionType6559);
 					wAFTER490=wAFTER();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -22138,7 +22139,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:661:8: wAROUND
 					{
-					pushFollow(FOLLOW_wAROUND_in_aspectActionType6568);
+					pushFollow(FOLLOW_wAROUND_in_aspectActionType6572);
 					wAROUND491=wAROUND();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -22211,7 +22212,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:664:18: ( closeBody -> ( closeBody )? )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:664:20: closeBody
 			{
-			pushFollow(FOLLOW_closeBody_in_aspectActionBody6586);
+			pushFollow(FOLLOW_closeBody_in_aspectActionBody6590);
 			closeBody492=closeBody();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -22292,17 +22293,17 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:668:22: ( wPATTERNS aspectPatterns END -> ^( ASPECTPATTERNSECTION[$wPATTERNS.start] ( aspectPatterns )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:668:24: wPATTERNS aspectPatterns END
 			{
-			pushFollow(FOLLOW_wPATTERNS_in_aspectPatternSection6604);
+			pushFollow(FOLLOW_wPATTERNS_in_aspectPatternSection6608);
 			wPATTERNS493=wPATTERNS();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_wPATTERNS.add(wPATTERNS493.getTree());
-			pushFollow(FOLLOW_aspectPatterns_in_aspectPatternSection6606);
+			pushFollow(FOLLOW_aspectPatterns_in_aspectPatternSection6610);
 			aspectPatterns494=aspectPatterns();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_aspectPatterns.add(aspectPatterns494.getTree());
-			END495=(Token)match(input,END,FOLLOW_END_in_aspectPatternSection6608); if (state.failed) return retval; 
+			END495=(Token)match(input,END,FOLLOW_END_in_aspectPatternSection6612); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_END.add(END495);
 
 			// AST REWRITE
@@ -22401,7 +22402,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:670:19: aspectPattern
 					{
-					pushFollow(FOLLOW_aspectPattern_in_aspectPatterns6630);
+					pushFollow(FOLLOW_aspectPattern_in_aspectPatterns6634);
 					aspectPattern496=aspectPattern();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -22411,7 +22412,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:670:35: xEOS
 					{
-					pushFollow(FOLLOW_xEOS_in_aspectPatterns6634);
+					pushFollow(FOLLOW_xEOS_in_aspectPatterns6638);
 					xEOS497=xEOS();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -22502,20 +22503,20 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:672:15: ( name COLON aspectExpression xEOS -> ^( ASPECTPATTERN name aspectExpression ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:672:17: name COLON aspectExpression xEOS
 			{
-			pushFollow(FOLLOW_name_in_aspectPattern6652);
+			pushFollow(FOLLOW_name_in_aspectPattern6656);
 			name498=name();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_name.add(name498.getTree());
-			COLON499=(Token)match(input,COLON,FOLLOW_COLON_in_aspectPattern6654); if (state.failed) return retval; 
+			COLON499=(Token)match(input,COLON,FOLLOW_COLON_in_aspectPattern6658); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_COLON.add(COLON499);
 
-			pushFollow(FOLLOW_aspectExpression_in_aspectPattern6656);
+			pushFollow(FOLLOW_aspectExpression_in_aspectPattern6660);
 			aspectExpression500=aspectExpression();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_aspectExpression.add(aspectExpression500.getTree());
-			pushFollow(FOLLOW_xEOS_in_aspectPattern6658);
+			pushFollow(FOLLOW_xEOS_in_aspectPattern6662);
 			xEOS501=xEOS();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -22594,7 +22595,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:674:18: ( aspectExpression04 -> aspectExpression04 )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:674:20: aspectExpression04
 			{
-			pushFollow(FOLLOW_aspectExpression04_in_aspectExpression6677);
+			pushFollow(FOLLOW_aspectExpression04_in_aspectExpression6681);
 			aspectExpression04502=aspectExpression04();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -22672,7 +22673,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:676:22: (x1= aspectExpression03 -> $x1)
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:676:23: x1= aspectExpression03
 			{
-			pushFollow(FOLLOW_aspectExpression03_in_aspectExpression046693);
+			pushFollow(FOLLOW_aspectExpression03_in_aspectExpression046697);
 			x1=aspectExpression03();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -22714,10 +22715,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:676:78: OR x2= aspectExpression03
 					{
-					OR503=(Token)match(input,OR,FOLLOW_OR_in_aspectExpression046710); if (state.failed) return retval; 
+					OR503=(Token)match(input,OR,FOLLOW_OR_in_aspectExpression046714); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_OR.add(OR503);
 
-					pushFollow(FOLLOW_aspectExpression03_in_aspectExpression046714);
+					pushFollow(FOLLOW_aspectExpression03_in_aspectExpression046718);
 					x2=aspectExpression03();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -22812,7 +22813,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:678:22: (x1= aspectExpression02 -> $x1)
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:678:23: x1= aspectExpression02
 			{
-			pushFollow(FOLLOW_aspectExpression02_in_aspectExpression036740);
+			pushFollow(FOLLOW_aspectExpression02_in_aspectExpression036744);
 			x1=aspectExpression02();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -22854,10 +22855,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:678:78: AND x2= aspectExpression02
 					{
-					AND504=(Token)match(input,AND,FOLLOW_AND_in_aspectExpression036757); if (state.failed) return retval; 
+					AND504=(Token)match(input,AND,FOLLOW_AND_in_aspectExpression036761); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_AND.add(AND504);
 
-					pushFollow(FOLLOW_aspectExpression02_in_aspectExpression036761);
+					pushFollow(FOLLOW_aspectExpression02_in_aspectExpression036765);
 					x2=aspectExpression02();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -22968,10 +22969,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:680:22: NOT x1= aspectExpression02
 					{
-					NOT505=(Token)match(input,NOT,FOLLOW_NOT_in_aspectExpression026784); if (state.failed) return retval; 
+					NOT505=(Token)match(input,NOT,FOLLOW_NOT_in_aspectExpression026788); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_NOT.add(NOT505);
 
-					pushFollow(FOLLOW_aspectExpression02_in_aspectExpression026788);
+					pushFollow(FOLLOW_aspectExpression02_in_aspectExpression026792);
 					x1=aspectExpression02();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -23010,7 +23011,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:681:13: x2= aspectExpression01
 					{
-					pushFollow(FOLLOW_aspectExpression01_in_aspectExpression026813);
+					pushFollow(FOLLOW_aspectExpression01_in_aspectExpression026817);
 					x2=aspectExpression01();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -23084,7 +23085,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:684:20: ( aspectAtom -> aspectAtom )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:684:22: aspectAtom
 			{
-			pushFollow(FOLLOW_aspectAtom_in_aspectExpression016837);
+			pushFollow(FOLLOW_aspectAtom_in_aspectExpression016841);
 			aspectAtom506=aspectAtom();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -23187,7 +23188,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:686:14: aspectParenthesis
 					{
-					pushFollow(FOLLOW_aspectParenthesis_in_aspectAtom6850);
+					pushFollow(FOLLOW_aspectParenthesis_in_aspectAtom6854);
 					aspectParenthesis507=aspectParenthesis();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -23218,7 +23219,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:687:14: aspectName
 					{
-					pushFollow(FOLLOW_aspectName_in_aspectAtom6869);
+					pushFollow(FOLLOW_aspectName_in_aspectAtom6873);
 					aspectName508=aspectName();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -23249,7 +23250,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:688:14: aspectGet
 					{
-					pushFollow(FOLLOW_aspectGet_in_aspectAtom6888);
+					pushFollow(FOLLOW_aspectGet_in_aspectAtom6892);
 					aspectGet509=aspectGet();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -23280,7 +23281,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 4 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:689:14: aspectSet
 					{
-					pushFollow(FOLLOW_aspectSet_in_aspectAtom6907);
+					pushFollow(FOLLOW_aspectSet_in_aspectAtom6911);
 					aspectSet510=aspectSet();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -23311,7 +23312,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 5 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:690:14: aspectCall
 					{
-					pushFollow(FOLLOW_aspectCall_in_aspectAtom6926);
+					pushFollow(FOLLOW_aspectCall_in_aspectAtom6930);
 					aspectCall511=aspectCall();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -23342,7 +23343,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 6 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:691:14: aspectExecution
 					{
-					pushFollow(FOLLOW_aspectExecution_in_aspectAtom6945);
+					pushFollow(FOLLOW_aspectExecution_in_aspectAtom6949);
 					aspectExecution512=aspectExecution();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -23373,7 +23374,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 7 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:692:14: aspectMainExecution
 					{
-					pushFollow(FOLLOW_aspectMainExecution_in_aspectAtom6964);
+					pushFollow(FOLLOW_aspectMainExecution_in_aspectAtom6968);
 					aspectMainExecution513=aspectMainExecution();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -23404,7 +23405,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 8 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:693:14: aspectLoop
 					{
-					pushFollow(FOLLOW_aspectLoop_in_aspectAtom6983);
+					pushFollow(FOLLOW_aspectLoop_in_aspectAtom6987);
 					aspectLoop514=aspectLoop();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -23435,7 +23436,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 9 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:694:14: aspectLoopHead
 					{
-					pushFollow(FOLLOW_aspectLoopHead_in_aspectAtom7002);
+					pushFollow(FOLLOW_aspectLoopHead_in_aspectAtom7006);
 					aspectLoopHead515=aspectLoopHead();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -23466,7 +23467,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 10 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:695:14: aspectLoopBody
 					{
-					pushFollow(FOLLOW_aspectLoopBody_in_aspectAtom7021);
+					pushFollow(FOLLOW_aspectLoopBody_in_aspectAtom7025);
 					aspectLoopBody516=aspectLoopBody();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -23497,7 +23498,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 11 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:696:14: aspectAnnotate
 					{
-					pushFollow(FOLLOW_aspectAnnotate_in_aspectAtom7040);
+					pushFollow(FOLLOW_aspectAnnotate_in_aspectAtom7044);
 					aspectAnnotate517=aspectAnnotate();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -23528,7 +23529,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 12 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:697:14: aspectOperator
 					{
-					pushFollow(FOLLOW_aspectOperator_in_aspectAtom7059);
+					pushFollow(FOLLOW_aspectOperator_in_aspectAtom7063);
 					aspectOperator518=aspectOperator();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -23559,7 +23560,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 13 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:698:14: aspectWithin
 					{
-					pushFollow(FOLLOW_aspectWithin_in_aspectAtom7078);
+					pushFollow(FOLLOW_aspectWithin_in_aspectAtom7082);
 					aspectWithin519=aspectWithin();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -23590,7 +23591,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 14 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:699:14: aspectDimension
 					{
-					pushFollow(FOLLOW_aspectDimension_in_aspectAtom7097);
+					pushFollow(FOLLOW_aspectDimension_in_aspectAtom7101);
 					aspectDimension520=aspectDimension();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -23621,7 +23622,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 15 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:700:14: aspectIsType
 					{
-					pushFollow(FOLLOW_aspectIsType_in_aspectAtom7116);
+					pushFollow(FOLLOW_aspectIsType_in_aspectAtom7120);
 					aspectIsType521=aspectIsType();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -23700,15 +23701,15 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:703:19: ( LPAREN aspectExpression RPAREN -> aspectExpression )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:703:21: LPAREN aspectExpression RPAREN
 			{
-			LPAREN522=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectParenthesis7140); if (state.failed) return retval; 
+			LPAREN522=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectParenthesis7144); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN522);
 
-			pushFollow(FOLLOW_aspectExpression_in_aspectParenthesis7142);
+			pushFollow(FOLLOW_aspectExpression_in_aspectParenthesis7146);
 			aspectExpression523=aspectExpression();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_aspectExpression.add(aspectExpression523.getTree());
-			RPAREN524=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectParenthesis7144); if (state.failed) return retval; 
+			RPAREN524=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectParenthesis7148); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN524);
 
 			// AST REWRITE
@@ -23777,7 +23778,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:705:12: ( name -> ^( ASPECTNAME[\"\"] name ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:705:14: name
 			{
-			pushFollow(FOLLOW_name_in_aspectName7157);
+			pushFollow(FOLLOW_name_in_aspectName7161);
 			name525=name();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -23884,7 +23885,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:707:20: wID
 					{
-					pushFollow(FOLLOW_wID_in_aspectIdentifier7175);
+					pushFollow(FOLLOW_wID_in_aspectIdentifier7179);
 					wID526=wID();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -23915,7 +23916,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:708:20: wSTAR
 					{
-					pushFollow(FOLLOW_wSTAR_in_aspectIdentifier7200);
+					pushFollow(FOLLOW_wSTAR_in_aspectIdentifier7204);
 					wSTAR527=wSTAR();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -23946,7 +23947,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:709:20: wDOTDOT
 					{
-					pushFollow(FOLLOW_wDOTDOT_in_aspectIdentifier7225);
+					pushFollow(FOLLOW_wDOTDOT_in_aspectIdentifier7229);
 					wDOTDOT528=wDOTDOT();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -24048,7 +24049,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:712:23: wID
 					{
-					pushFollow(FOLLOW_wID_in_aspectTypeSignature7255);
+					pushFollow(FOLLOW_wID_in_aspectTypeSignature7259);
 					wID529=wID();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -24086,7 +24087,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:713:23: wSTAR
 					{
-					pushFollow(FOLLOW_wSTAR_in_aspectTypeSignature7287);
+					pushFollow(FOLLOW_wSTAR_in_aspectTypeSignature7291);
 					wSTAR530=wSTAR();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -24124,7 +24125,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:714:23: wDOTDOT
 					{
-					pushFollow(FOLLOW_wDOTDOT_in_aspectTypeSignature7319);
+					pushFollow(FOLLOW_wDOTDOT_in_aspectTypeSignature7323);
 					wDOTDOT531=wDOTDOT();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -24233,7 +24234,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:717:23: wREAL
 					{
-					pushFollow(FOLLOW_wREAL_in_aspectPartSignature7356);
+					pushFollow(FOLLOW_wREAL_in_aspectPartSignature7360);
 					wREAL532=wREAL();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -24264,7 +24265,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:718:23: wSTAR
 					{
-					pushFollow(FOLLOW_wSTAR_in_aspectPartSignature7384);
+					pushFollow(FOLLOW_wSTAR_in_aspectPartSignature7388);
 					wSTAR533=wSTAR();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -24295,7 +24296,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:719:23: wDOTDOT
 					{
-					pushFollow(FOLLOW_wDOTDOT_in_aspectPartSignature7412);
+					pushFollow(FOLLOW_wDOTDOT_in_aspectPartSignature7416);
 					wDOTDOT534=wDOTDOT();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -24378,7 +24379,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:722:26: ( LSQUARE ( aspectPartSignature ( COMMA aspectPartSignature )* )? RSQUARE -> ^( ASPECTDIMENSIONSIGNATURE ( aspectPartSignature )* ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:722:28: LSQUARE ( aspectPartSignature ( COMMA aspectPartSignature )* )? RSQUARE
 			{
-			LSQUARE535=(Token)match(input,LSQUARE,FOLLOW_LSQUARE_in_aspectDimensionSignature7445); if (state.failed) return retval; 
+			LSQUARE535=(Token)match(input,LSQUARE,FOLLOW_LSQUARE_in_aspectDimensionSignature7449); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LSQUARE.add(LSQUARE535);
 
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:722:36: ( aspectPartSignature ( COMMA aspectPartSignature )* )?
@@ -24391,7 +24392,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:722:37: aspectPartSignature ( COMMA aspectPartSignature )*
 					{
-					pushFollow(FOLLOW_aspectPartSignature_in_aspectDimensionSignature7448);
+					pushFollow(FOLLOW_aspectPartSignature_in_aspectDimensionSignature7452);
 					aspectPartSignature536=aspectPartSignature();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -24409,10 +24410,10 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:722:58: COMMA aspectPartSignature
 							{
-							COMMA537=(Token)match(input,COMMA,FOLLOW_COMMA_in_aspectDimensionSignature7451); if (state.failed) return retval; 
+							COMMA537=(Token)match(input,COMMA,FOLLOW_COMMA_in_aspectDimensionSignature7455); if (state.failed) return retval; 
 							if ( state.backtracking==0 ) stream_COMMA.add(COMMA537);
 
-							pushFollow(FOLLOW_aspectPartSignature_in_aspectDimensionSignature7453);
+							pushFollow(FOLLOW_aspectPartSignature_in_aspectDimensionSignature7457);
 							aspectPartSignature538=aspectPartSignature();
 							state._fsp--;
 							if (state.failed) return retval;
@@ -24430,7 +24431,7 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			RSQUARE539=(Token)match(input,RSQUARE,FOLLOW_RSQUARE_in_aspectDimensionSignature7459); if (state.failed) return retval; 
+			RSQUARE539=(Token)match(input,RSQUARE,FOLLOW_RSQUARE_in_aspectDimensionSignature7463); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RSQUARE.add(RSQUARE539);
 
 			// AST REWRITE
@@ -24605,7 +24606,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:724:23: aspectTypeSignature
 					{
-					pushFollow(FOLLOW_aspectTypeSignature_in_aspectFullSignature7479);
+					pushFollow(FOLLOW_aspectTypeSignature_in_aspectFullSignature7483);
 					aspectTypeSignature540=aspectTypeSignature();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -24643,12 +24644,12 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:725:23: aspectTypeSignature aspectDimensionSignature
 					{
-					pushFollow(FOLLOW_aspectTypeSignature_in_aspectFullSignature7511);
+					pushFollow(FOLLOW_aspectTypeSignature_in_aspectFullSignature7515);
 					aspectTypeSignature541=aspectTypeSignature();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_aspectTypeSignature.add(aspectTypeSignature541.getTree());
-					pushFollow(FOLLOW_aspectDimensionSignature_in_aspectFullSignature7513);
+					pushFollow(FOLLOW_aspectDimensionSignature_in_aspectFullSignature7517);
 					aspectDimensionSignature542=aspectDimensionSignature();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -24687,7 +24688,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:726:23: aspectDimensionSignature
 					{
-					pushFollow(FOLLOW_aspectDimensionSignature_in_aspectFullSignature7548);
+					pushFollow(FOLLOW_aspectDimensionSignature_in_aspectFullSignature7552);
 					aspectDimensionSignature543=aspectDimensionSignature();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -24780,15 +24781,15 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:729:11: ( wGET LPAREN aspectIdentifier ( COLON aspectFullSignature )? RPAREN -> ^( ASPECTGET aspectIdentifier ( aspectFullSignature )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:729:13: wGET LPAREN aspectIdentifier ( COLON aspectFullSignature )? RPAREN
 			{
-			pushFollow(FOLLOW_wGET_in_aspectGet7586);
+			pushFollow(FOLLOW_wGET_in_aspectGet7590);
 			wGET544=wGET();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_wGET.add(wGET544.getTree());
-			LPAREN545=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectGet7588); if (state.failed) return retval; 
+			LPAREN545=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectGet7592); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN545);
 
-			pushFollow(FOLLOW_aspectIdentifier_in_aspectGet7590);
+			pushFollow(FOLLOW_aspectIdentifier_in_aspectGet7594);
 			aspectIdentifier546=aspectIdentifier();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -24803,10 +24804,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:729:43: COLON aspectFullSignature
 					{
-					COLON547=(Token)match(input,COLON,FOLLOW_COLON_in_aspectGet7593); if (state.failed) return retval; 
+					COLON547=(Token)match(input,COLON,FOLLOW_COLON_in_aspectGet7597); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COLON.add(COLON547);
 
-					pushFollow(FOLLOW_aspectFullSignature_in_aspectGet7595);
+					pushFollow(FOLLOW_aspectFullSignature_in_aspectGet7599);
 					aspectFullSignature548=aspectFullSignature();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -24816,7 +24817,7 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			RPAREN549=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectGet7599); if (state.failed) return retval; 
+			RPAREN549=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectGet7603); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN549);
 
 			// AST REWRITE
@@ -24911,15 +24912,15 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:731:11: ( wSET LPAREN aspectIdentifier ( COLON aspectFullSignature )? RPAREN -> ^( ASPECTSET aspectIdentifier ( aspectFullSignature )? ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:731:13: wSET LPAREN aspectIdentifier ( COLON aspectFullSignature )? RPAREN
 			{
-			pushFollow(FOLLOW_wSET_in_aspectSet7621);
+			pushFollow(FOLLOW_wSET_in_aspectSet7625);
 			wSET550=wSET();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_wSET.add(wSET550.getTree());
-			LPAREN551=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectSet7623); if (state.failed) return retval; 
+			LPAREN551=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectSet7627); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN551);
 
-			pushFollow(FOLLOW_aspectIdentifier_in_aspectSet7625);
+			pushFollow(FOLLOW_aspectIdentifier_in_aspectSet7629);
 			aspectIdentifier552=aspectIdentifier();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -24934,10 +24935,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:731:43: COLON aspectFullSignature
 					{
-					COLON553=(Token)match(input,COLON,FOLLOW_COLON_in_aspectSet7628); if (state.failed) return retval; 
+					COLON553=(Token)match(input,COLON,FOLLOW_COLON_in_aspectSet7632); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COLON.add(COLON553);
 
-					pushFollow(FOLLOW_aspectFullSignature_in_aspectSet7630);
+					pushFollow(FOLLOW_aspectFullSignature_in_aspectSet7634);
 					aspectFullSignature554=aspectFullSignature();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -24947,7 +24948,7 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			RPAREN555=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectSet7634); if (state.failed) return retval; 
+			RPAREN555=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectSet7638); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN555);
 
 			// AST REWRITE
@@ -25043,7 +25044,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:733:16: aspectFullSignature ( COMMA aspectFullSignature )*
 					{
-					pushFollow(FOLLOW_aspectFullSignature_in_aspectInput7657);
+					pushFollow(FOLLOW_aspectFullSignature_in_aspectInput7661);
 					aspectFullSignature556=aspectFullSignature();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -25061,10 +25062,10 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:733:37: COMMA aspectFullSignature
 							{
-							COMMA557=(Token)match(input,COMMA,FOLLOW_COMMA_in_aspectInput7660); if (state.failed) return retval; 
+							COMMA557=(Token)match(input,COMMA,FOLLOW_COMMA_in_aspectInput7664); if (state.failed) return retval; 
 							if ( state.backtracking==0 ) stream_COMMA.add(COMMA557);
 
-							pushFollow(FOLLOW_aspectFullSignature_in_aspectInput7662);
+							pushFollow(FOLLOW_aspectFullSignature_in_aspectInput7666);
 							aspectFullSignature558=aspectFullSignature();
 							state._fsp--;
 							if (state.failed) return retval;
@@ -25167,7 +25168,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:735:17: aspectFullSignature ( COMMA aspectFullSignature )*
 					{
-					pushFollow(FOLLOW_aspectFullSignature_in_aspectOutput7683);
+					pushFollow(FOLLOW_aspectFullSignature_in_aspectOutput7687);
 					aspectFullSignature559=aspectFullSignature();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -25185,10 +25186,10 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:735:38: COMMA aspectFullSignature
 							{
-							COMMA560=(Token)match(input,COMMA,FOLLOW_COMMA_in_aspectOutput7686); if (state.failed) return retval; 
+							COMMA560=(Token)match(input,COMMA,FOLLOW_COMMA_in_aspectOutput7690); if (state.failed) return retval; 
 							if ( state.backtracking==0 ) stream_COMMA.add(COMMA560);
 
-							pushFollow(FOLLOW_aspectFullSignature_in_aspectOutput7688);
+							pushFollow(FOLLOW_aspectFullSignature_in_aspectOutput7692);
 							aspectFullSignature561=aspectFullSignature();
 							state._fsp--;
 							if (state.failed) return retval;
@@ -25296,28 +25297,28 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:737:12: ( wCALL LPAREN aspectIdentifier LPAREN aspectInput RPAREN ( COLON aspectOutput )? RPAREN -> ^( ASPECTCALL aspectIdentifier ^( ASPECTINPUT ( aspectInput )? ) ^( ASPECTOUTPUT ( aspectOutput )? ) ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:737:14: wCALL LPAREN aspectIdentifier LPAREN aspectInput RPAREN ( COLON aspectOutput )? RPAREN
 			{
-			pushFollow(FOLLOW_wCALL_in_aspectCall7709);
+			pushFollow(FOLLOW_wCALL_in_aspectCall7713);
 			wCALL562=wCALL();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_wCALL.add(wCALL562.getTree());
-			LPAREN563=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectCall7711); if (state.failed) return retval; 
+			LPAREN563=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectCall7715); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN563);
 
-			pushFollow(FOLLOW_aspectIdentifier_in_aspectCall7713);
+			pushFollow(FOLLOW_aspectIdentifier_in_aspectCall7717);
 			aspectIdentifier564=aspectIdentifier();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_aspectIdentifier.add(aspectIdentifier564.getTree());
-			LPAREN565=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectCall7715); if (state.failed) return retval; 
+			LPAREN565=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectCall7719); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN565);
 
-			pushFollow(FOLLOW_aspectInput_in_aspectCall7717);
+			pushFollow(FOLLOW_aspectInput_in_aspectCall7721);
 			aspectInput566=aspectInput();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_aspectInput.add(aspectInput566.getTree());
-			RPAREN567=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectCall7719); if (state.failed) return retval; 
+			RPAREN567=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectCall7723); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN567);
 
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:737:70: ( COLON aspectOutput )?
@@ -25330,10 +25331,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:737:71: COLON aspectOutput
 					{
-					COLON568=(Token)match(input,COLON,FOLLOW_COLON_in_aspectCall7722); if (state.failed) return retval; 
+					COLON568=(Token)match(input,COLON,FOLLOW_COLON_in_aspectCall7726); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COLON.add(COLON568);
 
-					pushFollow(FOLLOW_aspectOutput_in_aspectCall7724);
+					pushFollow(FOLLOW_aspectOutput_in_aspectCall7728);
 					aspectOutput569=aspectOutput();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -25343,7 +25344,7 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			RPAREN570=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectCall7728); if (state.failed) return retval; 
+			RPAREN570=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectCall7732); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN570);
 
 			// AST REWRITE
@@ -25464,28 +25465,28 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:739:17: ( wEXECUTION LPAREN aspectIdentifier LPAREN aspectInput RPAREN ( COLON aspectOutput )? RPAREN -> ^( ASPECTEXECUTION aspectIdentifier ^( ASPECTINPUT ( aspectInput )? ) ^( ASPECTOUTPUT ( aspectOutput )? ) ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:739:19: wEXECUTION LPAREN aspectIdentifier LPAREN aspectInput RPAREN ( COLON aspectOutput )? RPAREN
 			{
-			pushFollow(FOLLOW_wEXECUTION_in_aspectExecution7763);
+			pushFollow(FOLLOW_wEXECUTION_in_aspectExecution7767);
 			wEXECUTION571=wEXECUTION();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_wEXECUTION.add(wEXECUTION571.getTree());
-			LPAREN572=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectExecution7765); if (state.failed) return retval; 
+			LPAREN572=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectExecution7769); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN572);
 
-			pushFollow(FOLLOW_aspectIdentifier_in_aspectExecution7767);
+			pushFollow(FOLLOW_aspectIdentifier_in_aspectExecution7771);
 			aspectIdentifier573=aspectIdentifier();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_aspectIdentifier.add(aspectIdentifier573.getTree());
-			LPAREN574=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectExecution7769); if (state.failed) return retval; 
+			LPAREN574=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectExecution7773); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN574);
 
-			pushFollow(FOLLOW_aspectInput_in_aspectExecution7771);
+			pushFollow(FOLLOW_aspectInput_in_aspectExecution7775);
 			aspectInput575=aspectInput();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_aspectInput.add(aspectInput575.getTree());
-			RPAREN576=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectExecution7773); if (state.failed) return retval; 
+			RPAREN576=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectExecution7777); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN576);
 
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:739:80: ( COLON aspectOutput )?
@@ -25498,10 +25499,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:739:81: COLON aspectOutput
 					{
-					COLON577=(Token)match(input,COLON,FOLLOW_COLON_in_aspectExecution7776); if (state.failed) return retval; 
+					COLON577=(Token)match(input,COLON,FOLLOW_COLON_in_aspectExecution7780); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COLON.add(COLON577);
 
-					pushFollow(FOLLOW_aspectOutput_in_aspectExecution7778);
+					pushFollow(FOLLOW_aspectOutput_in_aspectExecution7782);
 					aspectOutput578=aspectOutput();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -25511,7 +25512,7 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			RPAREN579=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectExecution7782); if (state.failed) return retval; 
+			RPAREN579=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectExecution7786); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN579);
 
 			// AST REWRITE
@@ -25619,15 +25620,15 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:741:21: ( wMAINEXECUTION LPAREN RPAREN -> ASPECTMAINEXECUTION )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:741:23: wMAINEXECUTION LPAREN RPAREN
 			{
-			pushFollow(FOLLOW_wMAINEXECUTION_in_aspectMainExecution7817);
+			pushFollow(FOLLOW_wMAINEXECUTION_in_aspectMainExecution7821);
 			wMAINEXECUTION580=wMAINEXECUTION();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_wMAINEXECUTION.add(wMAINEXECUTION580.getTree());
-			LPAREN581=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectMainExecution7819); if (state.failed) return retval; 
+			LPAREN581=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectMainExecution7823); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN581);
 
-			RPAREN582=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectMainExecution7821); if (state.failed) return retval; 
+			RPAREN582=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectMainExecution7825); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN582);
 
 			// AST REWRITE
@@ -25732,7 +25733,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:743:18: wFOR
 					{
-					pushFollow(FOLLOW_wFOR_in_aspectLoopType7834);
+					pushFollow(FOLLOW_wFOR_in_aspectLoopType7838);
 					wFOR583=wFOR();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -25763,7 +25764,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:744:18: wWHILE
 					{
-					pushFollow(FOLLOW_wWHILE_in_aspectLoopType7857);
+					pushFollow(FOLLOW_wWHILE_in_aspectLoopType7861);
 					wWHILE584=wWHILE();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -25794,7 +25795,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:745:18: wSTAR
 					{
-					pushFollow(FOLLOW_wSTAR_in_aspectLoopType7880);
+					pushFollow(FOLLOW_wSTAR_in_aspectLoopType7884);
 					wSTAR585=wSTAR();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -25825,7 +25826,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 4 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:746:18: wDOTDOT
 					{
-					pushFollow(FOLLOW_wDOTDOT_in_aspectLoopType7903);
+					pushFollow(FOLLOW_wDOTDOT_in_aspectLoopType7907);
 					wDOTDOT586=wDOTDOT();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -25911,12 +25912,12 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:749:12: ( wLOOP LPAREN ( aspectLoopType COLON )? aspectIdentifier RPAREN -> ^( ASPECTLOOP ( aspectLoopType )? aspectIdentifier ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:749:14: wLOOP LPAREN ( aspectLoopType COLON )? aspectIdentifier RPAREN
 			{
-			pushFollow(FOLLOW_wLOOP_in_aspectLoop7931);
+			pushFollow(FOLLOW_wLOOP_in_aspectLoop7935);
 			wLOOP587=wLOOP();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_wLOOP.add(wLOOP587.getTree());
-			LPAREN588=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectLoop7933); if (state.failed) return retval; 
+			LPAREN588=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectLoop7937); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN588);
 
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:749:27: ( aspectLoopType COLON )?
@@ -25949,12 +25950,12 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:749:28: aspectLoopType COLON
 					{
-					pushFollow(FOLLOW_aspectLoopType_in_aspectLoop7936);
+					pushFollow(FOLLOW_aspectLoopType_in_aspectLoop7940);
 					aspectLoopType589=aspectLoopType();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_aspectLoopType.add(aspectLoopType589.getTree());
-					COLON590=(Token)match(input,COLON,FOLLOW_COLON_in_aspectLoop7938); if (state.failed) return retval; 
+					COLON590=(Token)match(input,COLON,FOLLOW_COLON_in_aspectLoop7942); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COLON.add(COLON590);
 
 					}
@@ -25962,12 +25963,12 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			pushFollow(FOLLOW_aspectIdentifier_in_aspectLoop7942);
+			pushFollow(FOLLOW_aspectIdentifier_in_aspectLoop7946);
 			aspectIdentifier591=aspectIdentifier();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_aspectIdentifier.add(aspectIdentifier591.getTree());
-			RPAREN592=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectLoop7944); if (state.failed) return retval; 
+			RPAREN592=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectLoop7948); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN592);
 
 			// AST REWRITE
@@ -26062,12 +26063,12 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:751:16: ( wLOOPBODY LPAREN ( aspectLoopType COLON )? aspectIdentifier RPAREN -> ^( ASPECTLOOPBODY ( aspectLoopType )? aspectIdentifier ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:751:18: wLOOPBODY LPAREN ( aspectLoopType COLON )? aspectIdentifier RPAREN
 			{
-			pushFollow(FOLLOW_wLOOPBODY_in_aspectLoopBody7965);
+			pushFollow(FOLLOW_wLOOPBODY_in_aspectLoopBody7969);
 			wLOOPBODY593=wLOOPBODY();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_wLOOPBODY.add(wLOOPBODY593.getTree());
-			LPAREN594=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectLoopBody7967); if (state.failed) return retval; 
+			LPAREN594=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectLoopBody7971); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN594);
 
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:751:35: ( aspectLoopType COLON )?
@@ -26100,12 +26101,12 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:751:36: aspectLoopType COLON
 					{
-					pushFollow(FOLLOW_aspectLoopType_in_aspectLoopBody7970);
+					pushFollow(FOLLOW_aspectLoopType_in_aspectLoopBody7974);
 					aspectLoopType595=aspectLoopType();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_aspectLoopType.add(aspectLoopType595.getTree());
-					COLON596=(Token)match(input,COLON,FOLLOW_COLON_in_aspectLoopBody7972); if (state.failed) return retval; 
+					COLON596=(Token)match(input,COLON,FOLLOW_COLON_in_aspectLoopBody7976); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COLON.add(COLON596);
 
 					}
@@ -26113,12 +26114,12 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			pushFollow(FOLLOW_aspectIdentifier_in_aspectLoopBody7976);
+			pushFollow(FOLLOW_aspectIdentifier_in_aspectLoopBody7980);
 			aspectIdentifier597=aspectIdentifier();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_aspectIdentifier.add(aspectIdentifier597.getTree());
-			RPAREN598=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectLoopBody7978); if (state.failed) return retval; 
+			RPAREN598=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectLoopBody7982); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN598);
 
 			// AST REWRITE
@@ -26213,12 +26214,12 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:753:16: ( wLOOPHEAD LPAREN ( aspectLoopType COLON )? aspectIdentifier RPAREN -> ^( ASPECTLOOPHEAD ( aspectLoopType )? aspectIdentifier ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:753:18: wLOOPHEAD LPAREN ( aspectLoopType COLON )? aspectIdentifier RPAREN
 			{
-			pushFollow(FOLLOW_wLOOPHEAD_in_aspectLoopHead7999);
+			pushFollow(FOLLOW_wLOOPHEAD_in_aspectLoopHead8003);
 			wLOOPHEAD599=wLOOPHEAD();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_wLOOPHEAD.add(wLOOPHEAD599.getTree());
-			LPAREN600=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectLoopHead8001); if (state.failed) return retval; 
+			LPAREN600=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectLoopHead8005); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN600);
 
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:753:35: ( aspectLoopType COLON )?
@@ -26251,12 +26252,12 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:753:36: aspectLoopType COLON
 					{
-					pushFollow(FOLLOW_aspectLoopType_in_aspectLoopHead8004);
+					pushFollow(FOLLOW_aspectLoopType_in_aspectLoopHead8008);
 					aspectLoopType601=aspectLoopType();
 					state._fsp--;
 					if (state.failed) return retval;
 					if ( state.backtracking==0 ) stream_aspectLoopType.add(aspectLoopType601.getTree());
-					COLON602=(Token)match(input,COLON,FOLLOW_COLON_in_aspectLoopHead8006); if (state.failed) return retval; 
+					COLON602=(Token)match(input,COLON,FOLLOW_COLON_in_aspectLoopHead8010); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COLON.add(COLON602);
 
 					}
@@ -26264,12 +26265,12 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			pushFollow(FOLLOW_aspectIdentifier_in_aspectLoopHead8010);
+			pushFollow(FOLLOW_aspectIdentifier_in_aspectLoopHead8014);
 			aspectIdentifier603=aspectIdentifier();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_aspectIdentifier.add(aspectIdentifier603.getTree());
-			RPAREN604=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectLoopHead8012); if (state.failed) return retval; 
+			RPAREN604=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectLoopHead8016); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN604);
 
 			// AST REWRITE
@@ -26403,7 +26404,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:755:22: wVAR
 					{
-					pushFollow(FOLLOW_wVAR_in_aspectPartSelector8033);
+					pushFollow(FOLLOW_wVAR_in_aspectPartSelector8037);
 					wVAR605=wVAR();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -26434,7 +26435,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:756:22: wSTR
 					{
-					pushFollow(FOLLOW_wSTR_in_aspectPartSelector8060);
+					pushFollow(FOLLOW_wSTR_in_aspectPartSelector8064);
 					wSTR606=wSTR();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -26465,7 +26466,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:757:22: wNUM
 					{
-					pushFollow(FOLLOW_wNUM_in_aspectPartSelector8087);
+					pushFollow(FOLLOW_wNUM_in_aspectPartSelector8091);
 					wNUM607=wNUM();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -26496,7 +26497,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 4 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:758:22: wSTAR
 					{
-					pushFollow(FOLLOW_wSTAR_in_aspectPartSelector8114);
+					pushFollow(FOLLOW_wSTAR_in_aspectPartSelector8118);
 					wSTAR608=wSTAR();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -26527,7 +26528,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 5 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:759:22: wDOTDOT
 					{
-					pushFollow(FOLLOW_wDOTDOT_in_aspectPartSelector8141);
+					pushFollow(FOLLOW_wDOTDOT_in_aspectPartSelector8145);
 					wDOTDOT609=wDOTDOT();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -26585,7 +26586,7 @@ public class MatlabParser extends MatlabParserBase {
 
 
 	// $ANTLR start "aspectSimpleSelector"
-	// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:762:1: aspectSimpleSelector : aspectPartSelector -> ^( ASPECTSELECTOR aspectPartSelector ) ;
+	// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:762:1: aspectSimpleSelector : aspectPartSelector -> ^( ASPECTSELECTORSIMPLE aspectPartSelector ) ;
 	public final MatlabParser.aspectSimpleSelector_return aspectSimpleSelector() throws RecognitionException {
 		MatlabParser.aspectSimpleSelector_return retval = new MatlabParser.aspectSimpleSelector_return();
 		retval.start = input.LT(1);
@@ -26597,10 +26598,10 @@ public class MatlabParser extends MatlabParserBase {
 		RewriteRuleSubtreeStream stream_aspectPartSelector=new RewriteRuleSubtreeStream(adaptor,"rule aspectPartSelector");
 
 		try {
-			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:762:22: ( aspectPartSelector -> ^( ASPECTSELECTOR aspectPartSelector ) )
+			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:762:22: ( aspectPartSelector -> ^( ASPECTSELECTORSIMPLE aspectPartSelector ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:762:24: aspectPartSelector
 			{
-			pushFollow(FOLLOW_aspectPartSelector_in_aspectSimpleSelector8173);
+			pushFollow(FOLLOW_aspectPartSelector_in_aspectSimpleSelector8177);
 			aspectPartSelector610=aspectPartSelector();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -26617,12 +26618,12 @@ public class MatlabParser extends MatlabParserBase {
 			RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.getTree():null);
 
 			root_0 = (Object)adaptor.nil();
-			// 762:43: -> ^( ASPECTSELECTOR aspectPartSelector )
+			// 762:43: -> ^( ASPECTSELECTORSIMPLE aspectPartSelector )
 			{
-				// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:762:46: ^( ASPECTSELECTOR aspectPartSelector )
+				// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:762:46: ^( ASPECTSELECTORSIMPLE aspectPartSelector )
 				{
 				Object root_1 = (Object)adaptor.nil();
-				root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(ASPECTSELECTOR, "ASPECTSELECTOR"), root_1);
+				root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(ASPECTSELECTORSIMPLE, "ASPECTSELECTORSIMPLE"), root_1);
 				adaptor.addChild(root_1, stream_aspectPartSelector.nextTree());
 				adaptor.addChild(root_0, root_1);
 				}
@@ -26663,7 +26664,7 @@ public class MatlabParser extends MatlabParserBase {
 
 
 	// $ANTLR start "aspectCompoundSelector"
-	// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:764:1: aspectCompoundSelector : LSQUARE ( aspectPartSelector ( COMMA aspectPartSelector )* )? RSQUARE -> ^( ASPECTSELECTOR ( aspectPartSelector )* ) ;
+	// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:764:1: aspectCompoundSelector : LSQUARE ( aspectPartSelector ( COMMA aspectPartSelector )* )? RSQUARE -> ^( ASPECTSELECTORCOMPOUND ( aspectPartSelector )* ) ;
 	public final MatlabParser.aspectCompoundSelector_return aspectCompoundSelector() throws RecognitionException {
 		MatlabParser.aspectCompoundSelector_return retval = new MatlabParser.aspectCompoundSelector_return();
 		retval.start = input.LT(1);
@@ -26685,10 +26686,10 @@ public class MatlabParser extends MatlabParserBase {
 		RewriteRuleSubtreeStream stream_aspectPartSelector=new RewriteRuleSubtreeStream(adaptor,"rule aspectPartSelector");
 
 		try {
-			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:764:24: ( LSQUARE ( aspectPartSelector ( COMMA aspectPartSelector )* )? RSQUARE -> ^( ASPECTSELECTOR ( aspectPartSelector )* ) )
+			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:764:24: ( LSQUARE ( aspectPartSelector ( COMMA aspectPartSelector )* )? RSQUARE -> ^( ASPECTSELECTORCOMPOUND ( aspectPartSelector )* ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:764:26: LSQUARE ( aspectPartSelector ( COMMA aspectPartSelector )* )? RSQUARE
 			{
-			LSQUARE611=(Token)match(input,LSQUARE,FOLLOW_LSQUARE_in_aspectCompoundSelector8190); if (state.failed) return retval; 
+			LSQUARE611=(Token)match(input,LSQUARE,FOLLOW_LSQUARE_in_aspectCompoundSelector8194); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LSQUARE.add(LSQUARE611);
 
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:764:34: ( aspectPartSelector ( COMMA aspectPartSelector )* )?
@@ -26704,7 +26705,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:764:35: aspectPartSelector ( COMMA aspectPartSelector )*
 					{
-					pushFollow(FOLLOW_aspectPartSelector_in_aspectCompoundSelector8193);
+					pushFollow(FOLLOW_aspectPartSelector_in_aspectCompoundSelector8197);
 					aspectPartSelector612=aspectPartSelector();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -26722,10 +26723,10 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:764:55: COMMA aspectPartSelector
 							{
-							COMMA613=(Token)match(input,COMMA,FOLLOW_COMMA_in_aspectCompoundSelector8196); if (state.failed) return retval; 
+							COMMA613=(Token)match(input,COMMA,FOLLOW_COMMA_in_aspectCompoundSelector8200); if (state.failed) return retval; 
 							if ( state.backtracking==0 ) stream_COMMA.add(COMMA613);
 
-							pushFollow(FOLLOW_aspectPartSelector_in_aspectCompoundSelector8198);
+							pushFollow(FOLLOW_aspectPartSelector_in_aspectCompoundSelector8202);
 							aspectPartSelector614=aspectPartSelector();
 							state._fsp--;
 							if (state.failed) return retval;
@@ -26743,7 +26744,7 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			RSQUARE615=(Token)match(input,RSQUARE,FOLLOW_RSQUARE_in_aspectCompoundSelector8204); if (state.failed) return retval; 
+			RSQUARE615=(Token)match(input,RSQUARE,FOLLOW_RSQUARE_in_aspectCompoundSelector8208); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RSQUARE.add(RSQUARE615);
 
 			// AST REWRITE
@@ -26758,13 +26759,13 @@ public class MatlabParser extends MatlabParserBase {
 			RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.getTree():null);
 
 			root_0 = (Object)adaptor.nil();
-			// 764:92: -> ^( ASPECTSELECTOR ( aspectPartSelector )* )
+			// 764:92: -> ^( ASPECTSELECTORCOMPOUND ( aspectPartSelector )* )
 			{
-				// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:764:95: ^( ASPECTSELECTOR ( aspectPartSelector )* )
+				// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:764:95: ^( ASPECTSELECTORCOMPOUND ( aspectPartSelector )* )
 				{
 				Object root_1 = (Object)adaptor.nil();
-				root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(ASPECTSELECTOR, "ASPECTSELECTOR"), root_1);
-				// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:764:112: ( aspectPartSelector )*
+				root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(ASPECTSELECTORCOMPOUND, "ASPECTSELECTORCOMPOUND"), root_1);
+				// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:764:120: ( aspectPartSelector )*
 				while ( stream_aspectPartSelector.hasNext() ) {
 					adaptor.addChild(root_1, stream_aspectPartSelector.nextTree());
 				}
@@ -26847,7 +26848,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:766:18: aspectSimpleSelector
 					{
-					pushFollow(FOLLOW_aspectSimpleSelector_in_aspectSelector8223);
+					pushFollow(FOLLOW_aspectSimpleSelector_in_aspectSelector8227);
 					aspectSimpleSelector616=aspectSimpleSelector();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -26878,7 +26879,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:767:18: aspectCompoundSelector
 					{
-					pushFollow(FOLLOW_aspectCompoundSelector_in_aspectSelector8246);
+					pushFollow(FOLLOW_aspectCompoundSelector_in_aspectSelector8250);
 					aspectCompoundSelector617=aspectCompoundSelector();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -26969,20 +26970,20 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:770:16: ( wANNOTATE LPAREN aspectIdentifier LPAREN ( aspectSelector ( COMMA aspectSelector )* )? RPAREN RPAREN -> ^( ASPECTANNOTATE aspectIdentifier ( aspectSelector )* ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:770:18: wANNOTATE LPAREN aspectIdentifier LPAREN ( aspectSelector ( COMMA aspectSelector )* )? RPAREN RPAREN
 			{
-			pushFollow(FOLLOW_wANNOTATE_in_aspectAnnotate8274);
+			pushFollow(FOLLOW_wANNOTATE_in_aspectAnnotate8278);
 			wANNOTATE618=wANNOTATE();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_wANNOTATE.add(wANNOTATE618.getTree());
-			LPAREN619=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectAnnotate8276); if (state.failed) return retval; 
+			LPAREN619=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectAnnotate8280); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN619);
 
-			pushFollow(FOLLOW_aspectIdentifier_in_aspectAnnotate8278);
+			pushFollow(FOLLOW_aspectIdentifier_in_aspectAnnotate8282);
 			aspectIdentifier620=aspectIdentifier();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_aspectIdentifier.add(aspectIdentifier620.getTree());
-			LPAREN621=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectAnnotate8280); if (state.failed) return retval; 
+			LPAREN621=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectAnnotate8284); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN621);
 
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:770:59: ( aspectSelector ( COMMA aspectSelector )* )?
@@ -26998,7 +26999,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:770:60: aspectSelector ( COMMA aspectSelector )*
 					{
-					pushFollow(FOLLOW_aspectSelector_in_aspectAnnotate8283);
+					pushFollow(FOLLOW_aspectSelector_in_aspectAnnotate8287);
 					aspectSelector622=aspectSelector();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -27016,10 +27017,10 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:770:76: COMMA aspectSelector
 							{
-							COMMA623=(Token)match(input,COMMA,FOLLOW_COMMA_in_aspectAnnotate8286); if (state.failed) return retval; 
+							COMMA623=(Token)match(input,COMMA,FOLLOW_COMMA_in_aspectAnnotate8290); if (state.failed) return retval; 
 							if ( state.backtracking==0 ) stream_COMMA.add(COMMA623);
 
-							pushFollow(FOLLOW_aspectSelector_in_aspectAnnotate8288);
+							pushFollow(FOLLOW_aspectSelector_in_aspectAnnotate8292);
 							aspectSelector624=aspectSelector();
 							state._fsp--;
 							if (state.failed) return retval;
@@ -27037,10 +27038,10 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			RPAREN625=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectAnnotate8294); if (state.failed) return retval; 
+			RPAREN625=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectAnnotate8298); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN625);
 
-			RPAREN626=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectAnnotate8296); if (state.failed) return retval; 
+			RPAREN626=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectAnnotate8300); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN626);
 
 			// AST REWRITE
@@ -27214,7 +27215,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:772:22: wPLUS
 					{
-					pushFollow(FOLLOW_wPLUS_in_aspectOperatorType8318);
+					pushFollow(FOLLOW_wPLUS_in_aspectOperatorType8322);
 					wPLUS627=wPLUS();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -27245,7 +27246,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:773:22: wMINUS
 					{
-					pushFollow(FOLLOW_wMINUS_in_aspectOperatorType8345);
+					pushFollow(FOLLOW_wMINUS_in_aspectOperatorType8349);
 					wMINUS628=wMINUS();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -27276,7 +27277,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:774:22: wMTIMES
 					{
-					pushFollow(FOLLOW_wMTIMES_in_aspectOperatorType8372);
+					pushFollow(FOLLOW_wMTIMES_in_aspectOperatorType8376);
 					wMTIMES629=wMTIMES();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -27307,7 +27308,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 4 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:775:22: wTIMES
 					{
-					pushFollow(FOLLOW_wTIMES_in_aspectOperatorType8399);
+					pushFollow(FOLLOW_wTIMES_in_aspectOperatorType8403);
 					wTIMES630=wTIMES();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -27338,7 +27339,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 5 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:776:22: wMRDIV
 					{
-					pushFollow(FOLLOW_wMRDIV_in_aspectOperatorType8426);
+					pushFollow(FOLLOW_wMRDIV_in_aspectOperatorType8430);
 					wMRDIV631=wMRDIV();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -27369,7 +27370,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 6 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:777:22: wRDIV
 					{
-					pushFollow(FOLLOW_wRDIV_in_aspectOperatorType8453);
+					pushFollow(FOLLOW_wRDIV_in_aspectOperatorType8457);
 					wRDIV632=wRDIV();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -27400,7 +27401,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 7 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:778:22: wMLDIV
 					{
-					pushFollow(FOLLOW_wMLDIV_in_aspectOperatorType8480);
+					pushFollow(FOLLOW_wMLDIV_in_aspectOperatorType8484);
 					wMLDIV633=wMLDIV();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -27431,7 +27432,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 8 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:779:22: wLDIV
 					{
-					pushFollow(FOLLOW_wLDIV_in_aspectOperatorType8507);
+					pushFollow(FOLLOW_wLDIV_in_aspectOperatorType8511);
 					wLDIV634=wLDIV();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -27462,7 +27463,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 9 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:780:22: wMPOW
 					{
-					pushFollow(FOLLOW_wMPOW_in_aspectOperatorType8534);
+					pushFollow(FOLLOW_wMPOW_in_aspectOperatorType8538);
 					wMPOW635=wMPOW();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -27493,7 +27494,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 10 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:781:22: wPOW
 					{
-					pushFollow(FOLLOW_wPOW_in_aspectOperatorType8561);
+					pushFollow(FOLLOW_wPOW_in_aspectOperatorType8565);
 					wPOW636=wPOW();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -27524,7 +27525,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 11 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:782:22: wCTRANS
 					{
-					pushFollow(FOLLOW_wCTRANS_in_aspectOperatorType8588);
+					pushFollow(FOLLOW_wCTRANS_in_aspectOperatorType8592);
 					wCTRANS637=wCTRANS();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -27555,7 +27556,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 12 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:783:22: wTRANS
 					{
-					pushFollow(FOLLOW_wTRANS_in_aspectOperatorType8615);
+					pushFollow(FOLLOW_wTRANS_in_aspectOperatorType8619);
 					wTRANS638=wTRANS();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -27645,15 +27646,15 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:786:16: ( wOPERATOR LPAREN aspectOperatorType ( COLON aspectFullSignature ( COMMA aspectFullSignature )* )? RPAREN -> ^( ASPECTOPERATOR aspectOperatorType ( aspectFullSignature )* ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:786:18: wOPERATOR LPAREN aspectOperatorType ( COLON aspectFullSignature ( COMMA aspectFullSignature )* )? RPAREN
 			{
-			pushFollow(FOLLOW_wOPERATOR_in_aspectOperator8647);
+			pushFollow(FOLLOW_wOPERATOR_in_aspectOperator8651);
 			wOPERATOR639=wOPERATOR();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_wOPERATOR.add(wOPERATOR639.getTree());
-			LPAREN640=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectOperator8649); if (state.failed) return retval; 
+			LPAREN640=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectOperator8653); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN640);
 
-			pushFollow(FOLLOW_aspectOperatorType_in_aspectOperator8651);
+			pushFollow(FOLLOW_aspectOperatorType_in_aspectOperator8655);
 			aspectOperatorType641=aspectOperatorType();
 			state._fsp--;
 			if (state.failed) return retval;
@@ -27668,10 +27669,10 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:786:55: COLON aspectFullSignature ( COMMA aspectFullSignature )*
 					{
-					COLON642=(Token)match(input,COLON,FOLLOW_COLON_in_aspectOperator8654); if (state.failed) return retval; 
+					COLON642=(Token)match(input,COLON,FOLLOW_COLON_in_aspectOperator8658); if (state.failed) return retval; 
 					if ( state.backtracking==0 ) stream_COLON.add(COLON642);
 
-					pushFollow(FOLLOW_aspectFullSignature_in_aspectOperator8656);
+					pushFollow(FOLLOW_aspectFullSignature_in_aspectOperator8660);
 					aspectFullSignature643=aspectFullSignature();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -27689,10 +27690,10 @@ public class MatlabParser extends MatlabParserBase {
 						case 1 :
 							// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:786:82: COMMA aspectFullSignature
 							{
-							COMMA644=(Token)match(input,COMMA,FOLLOW_COMMA_in_aspectOperator8659); if (state.failed) return retval; 
+							COMMA644=(Token)match(input,COMMA,FOLLOW_COMMA_in_aspectOperator8663); if (state.failed) return retval; 
 							if ( state.backtracking==0 ) stream_COMMA.add(COMMA644);
 
-							pushFollow(FOLLOW_aspectFullSignature_in_aspectOperator8661);
+							pushFollow(FOLLOW_aspectFullSignature_in_aspectOperator8665);
 							aspectFullSignature645=aspectFullSignature();
 							state._fsp--;
 							if (state.failed) return retval;
@@ -27710,7 +27711,7 @@ public class MatlabParser extends MatlabParserBase {
 
 			}
 
-			RPAREN646=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectOperator8667); if (state.failed) return retval; 
+			RPAREN646=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectOperator8671); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN646);
 
 			// AST REWRITE
@@ -27805,28 +27806,28 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:788:14: ( wWITHIN LPAREN aspectScopeType COLON aspectIdentifier RPAREN -> ^( ASPECTWITHIN aspectScopeType aspectIdentifier ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:788:16: wWITHIN LPAREN aspectScopeType COLON aspectIdentifier RPAREN
 			{
-			pushFollow(FOLLOW_wWITHIN_in_aspectWithin8689);
+			pushFollow(FOLLOW_wWITHIN_in_aspectWithin8693);
 			wWITHIN647=wWITHIN();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_wWITHIN.add(wWITHIN647.getTree());
-			LPAREN648=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectWithin8691); if (state.failed) return retval; 
+			LPAREN648=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectWithin8695); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN648);
 
-			pushFollow(FOLLOW_aspectScopeType_in_aspectWithin8693);
+			pushFollow(FOLLOW_aspectScopeType_in_aspectWithin8697);
 			aspectScopeType649=aspectScopeType();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_aspectScopeType.add(aspectScopeType649.getTree());
-			COLON650=(Token)match(input,COLON,FOLLOW_COLON_in_aspectWithin8695); if (state.failed) return retval; 
+			COLON650=(Token)match(input,COLON,FOLLOW_COLON_in_aspectWithin8699); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_COLON.add(COLON650);
 
-			pushFollow(FOLLOW_aspectIdentifier_in_aspectWithin8697);
+			pushFollow(FOLLOW_aspectIdentifier_in_aspectWithin8701);
 			aspectIdentifier651=aspectIdentifier();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_aspectIdentifier.add(aspectIdentifier651.getTree());
-			RPAREN652=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectWithin8699); if (state.failed) return retval; 
+			RPAREN652=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectWithin8703); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN652);
 
 			// AST REWRITE
@@ -27965,7 +27966,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 1 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:790:19: wFUNCTION
 					{
-					pushFollow(FOLLOW_wFUNCTION_in_aspectScopeType8718);
+					pushFollow(FOLLOW_wFUNCTION_in_aspectScopeType8722);
 					wFUNCTION653=wFUNCTION();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -27996,7 +27997,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 2 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:791:19: wSCRIPT
 					{
-					pushFollow(FOLLOW_wSCRIPT_in_aspectScopeType8742);
+					pushFollow(FOLLOW_wSCRIPT_in_aspectScopeType8746);
 					wSCRIPT654=wSCRIPT();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -28027,7 +28028,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 3 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:792:19: wCLASS
 					{
-					pushFollow(FOLLOW_wCLASS_in_aspectScopeType8766);
+					pushFollow(FOLLOW_wCLASS_in_aspectScopeType8770);
 					wCLASS655=wCLASS();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -28058,7 +28059,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 4 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:793:19: wASPECT
 					{
-					pushFollow(FOLLOW_wASPECT_in_aspectScopeType8790);
+					pushFollow(FOLLOW_wASPECT_in_aspectScopeType8794);
 					wASPECT656=wASPECT();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -28089,7 +28090,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 5 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:794:19: wLOOP
 					{
-					pushFollow(FOLLOW_wLOOP_in_aspectScopeType8814);
+					pushFollow(FOLLOW_wLOOP_in_aspectScopeType8818);
 					wLOOP657=wLOOP();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -28120,7 +28121,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 6 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:795:19: wSTAR
 					{
-					pushFollow(FOLLOW_wSTAR_in_aspectScopeType8838);
+					pushFollow(FOLLOW_wSTAR_in_aspectScopeType8842);
 					wSTAR658=wSTAR();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -28151,7 +28152,7 @@ public class MatlabParser extends MatlabParserBase {
 				case 7 :
 					// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:796:19: wDOTDOT
 					{
-					pushFollow(FOLLOW_wDOTDOT_in_aspectScopeType8862);
+					pushFollow(FOLLOW_wDOTDOT_in_aspectScopeType8866);
 					wDOTDOT659=wDOTDOT();
 					state._fsp--;
 					if (state.failed) return retval;
@@ -28232,20 +28233,20 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:799:17: ( wDIMENSION LPAREN aspectDimensionSignature RPAREN -> ^( ASPECTDIMENSION aspectDimensionSignature ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:799:19: wDIMENSION LPAREN aspectDimensionSignature RPAREN
 			{
-			pushFollow(FOLLOW_wDIMENSION_in_aspectDimension8891);
+			pushFollow(FOLLOW_wDIMENSION_in_aspectDimension8895);
 			wDIMENSION660=wDIMENSION();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_wDIMENSION.add(wDIMENSION660.getTree());
-			LPAREN661=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectDimension8893); if (state.failed) return retval; 
+			LPAREN661=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectDimension8897); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN661);
 
-			pushFollow(FOLLOW_aspectDimensionSignature_in_aspectDimension8895);
+			pushFollow(FOLLOW_aspectDimensionSignature_in_aspectDimension8899);
 			aspectDimensionSignature662=aspectDimensionSignature();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_aspectDimensionSignature.add(aspectDimensionSignature662.getTree());
-			RPAREN663=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectDimension8897); if (state.failed) return retval; 
+			RPAREN663=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectDimension8901); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN663);
 
 			// AST REWRITE
@@ -28329,20 +28330,20 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:801:14: ( wISTYPE LPAREN aspectTypeSignature RPAREN -> ^( ASPECTISTYPE aspectTypeSignature ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:801:16: wISTYPE LPAREN aspectTypeSignature RPAREN
 			{
-			pushFollow(FOLLOW_wISTYPE_in_aspectIsType8913);
+			pushFollow(FOLLOW_wISTYPE_in_aspectIsType8917);
 			wISTYPE664=wISTYPE();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_wISTYPE.add(wISTYPE664.getTree());
-			LPAREN665=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectIsType8915); if (state.failed) return retval; 
+			LPAREN665=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_aspectIsType8919); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LPAREN.add(LPAREN665);
 
-			pushFollow(FOLLOW_aspectTypeSignature_in_aspectIsType8917);
+			pushFollow(FOLLOW_aspectTypeSignature_in_aspectIsType8921);
 			aspectTypeSignature666=aspectTypeSignature();
 			state._fsp--;
 			if (state.failed) return retval;
 			if ( state.backtracking==0 ) stream_aspectTypeSignature.add(aspectTypeSignature666.getTree());
-			RPAREN667=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectIsType8919); if (state.failed) return retval; 
+			RPAREN667=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_aspectIsType8923); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RPAREN.add(RPAREN667);
 
 			// AST REWRITE
@@ -28419,7 +28420,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:805:5: ( ID -> ^( NAME[\"\"] ID ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:805:7: ID
 			{
-			ID668=(Token)match(input,ID,FOLLOW_ID_in_wID8938); if (state.failed) return retval; 
+			ID668=(Token)match(input,ID,FOLLOW_ID_in_wID8942); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID668);
 
 			// AST REWRITE
@@ -28496,7 +28497,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:807:7: ( REAL -> ^( NAME[\"\"] ID[$REAL] ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:807:9: REAL
 			{
-			REAL669=(Token)match(input,REAL,FOLLOW_REAL_in_wREAL8956); if (state.failed) return retval; 
+			REAL669=(Token)match(input,REAL,FOLLOW_REAL_in_wREAL8960); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_REAL.add(REAL669);
 
 			// AST REWRITE
@@ -28577,7 +28578,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wASPECT", "Keyword_IdFollows(\"aspect\")");
 			}
-			ID670=(Token)match(input,ID,FOLLOW_ID_in_wASPECT8978); if (state.failed) return retval; 
+			ID670=(Token)match(input,ID,FOLLOW_ID_in_wASPECT8982); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID670);
 
 			// AST REWRITE
@@ -28658,7 +28659,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wACTIONS", "Keyword_IdFollows(\"actions\")");
 			}
-			ID671=(Token)match(input,ID,FOLLOW_ID_in_wACTIONS8999); if (state.failed) return retval; 
+			ID671=(Token)match(input,ID,FOLLOW_ID_in_wACTIONS9003); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID671);
 
 			// AST REWRITE
@@ -28739,7 +28740,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wPATTERNS", "Keyword_IdFollows(\"patterns\")");
 			}
-			ID672=(Token)match(input,ID,FOLLOW_ID_in_wPATTERNS9020); if (state.failed) return retval; 
+			ID672=(Token)match(input,ID,FOLLOW_ID_in_wPATTERNS9024); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID672);
 
 			// AST REWRITE
@@ -28820,7 +28821,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wBEFORE", "Keyword_IdFollows(\"before\")");
 			}
-			ID673=(Token)match(input,ID,FOLLOW_ID_in_wBEFORE9041); if (state.failed) return retval; 
+			ID673=(Token)match(input,ID,FOLLOW_ID_in_wBEFORE9045); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID673);
 
 			// AST REWRITE
@@ -28901,7 +28902,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wAFTER", "Keyword_IdFollows(\"after\")");
 			}
-			ID674=(Token)match(input,ID,FOLLOW_ID_in_wAFTER9062); if (state.failed) return retval; 
+			ID674=(Token)match(input,ID,FOLLOW_ID_in_wAFTER9066); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID674);
 
 			// AST REWRITE
@@ -28982,7 +28983,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wAROUND", "Keyword_IdFollows(\"around\")");
 			}
-			ID675=(Token)match(input,ID,FOLLOW_ID_in_wAROUND9083); if (state.failed) return retval; 
+			ID675=(Token)match(input,ID,FOLLOW_ID_in_wAROUND9087); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID675);
 
 			// AST REWRITE
@@ -29063,7 +29064,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wGET", "Keyword_IdFollows(\"get\")");
 			}
-			ID676=(Token)match(input,ID,FOLLOW_ID_in_wGET9104); if (state.failed) return retval; 
+			ID676=(Token)match(input,ID,FOLLOW_ID_in_wGET9108); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID676);
 
 			// AST REWRITE
@@ -29144,7 +29145,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wSET", "Keyword_IdFollows(\"set\")");
 			}
-			ID677=(Token)match(input,ID,FOLLOW_ID_in_wSET9125); if (state.failed) return retval; 
+			ID677=(Token)match(input,ID,FOLLOW_ID_in_wSET9129); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID677);
 
 			// AST REWRITE
@@ -29225,7 +29226,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wCALL", "Keyword_IdFollows(\"call\")");
 			}
-			ID678=(Token)match(input,ID,FOLLOW_ID_in_wCALL9146); if (state.failed) return retval; 
+			ID678=(Token)match(input,ID,FOLLOW_ID_in_wCALL9150); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID678);
 
 			// AST REWRITE
@@ -29306,7 +29307,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wEXECUTION", "Keyword_IdFollows(\"execution\")");
 			}
-			ID679=(Token)match(input,ID,FOLLOW_ID_in_wEXECUTION9167); if (state.failed) return retval; 
+			ID679=(Token)match(input,ID,FOLLOW_ID_in_wEXECUTION9171); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID679);
 
 			// AST REWRITE
@@ -29387,7 +29388,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wMAINEXECUTION", "Keyword_IdFollows(\"mainexecution\")");
 			}
-			ID680=(Token)match(input,ID,FOLLOW_ID_in_wMAINEXECUTION9188); if (state.failed) return retval; 
+			ID680=(Token)match(input,ID,FOLLOW_ID_in_wMAINEXECUTION9192); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID680);
 
 			// AST REWRITE
@@ -29468,7 +29469,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wLOOP", "Keyword_IdFollows(\"loop\")");
 			}
-			ID681=(Token)match(input,ID,FOLLOW_ID_in_wLOOP9209); if (state.failed) return retval; 
+			ID681=(Token)match(input,ID,FOLLOW_ID_in_wLOOP9213); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID681);
 
 			// AST REWRITE
@@ -29549,7 +29550,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wLOOPBODY", "Keyword_IdFollows(\"loopbody\")");
 			}
-			ID682=(Token)match(input,ID,FOLLOW_ID_in_wLOOPBODY9230); if (state.failed) return retval; 
+			ID682=(Token)match(input,ID,FOLLOW_ID_in_wLOOPBODY9234); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID682);
 
 			// AST REWRITE
@@ -29630,7 +29631,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wLOOPHEAD", "Keyword_IdFollows(\"loophead\")");
 			}
-			ID683=(Token)match(input,ID,FOLLOW_ID_in_wLOOPHEAD9251); if (state.failed) return retval; 
+			ID683=(Token)match(input,ID,FOLLOW_ID_in_wLOOPHEAD9255); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID683);
 
 			// AST REWRITE
@@ -29711,7 +29712,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wANNOTATE", "Keyword_IdFollows(\"annotate\")");
 			}
-			ID684=(Token)match(input,ID,FOLLOW_ID_in_wANNOTATE9272); if (state.failed) return retval; 
+			ID684=(Token)match(input,ID,FOLLOW_ID_in_wANNOTATE9276); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID684);
 
 			// AST REWRITE
@@ -29792,7 +29793,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wOPERATOR", "Keyword_IdFollows(\"op\")");
 			}
-			ID685=(Token)match(input,ID,FOLLOW_ID_in_wOPERATOR9293); if (state.failed) return retval; 
+			ID685=(Token)match(input,ID,FOLLOW_ID_in_wOPERATOR9297); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID685);
 
 			// AST REWRITE
@@ -29873,7 +29874,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wWITHIN", "Keyword_IdFollows(\"within\")");
 			}
-			ID686=(Token)match(input,ID,FOLLOW_ID_in_wWITHIN9314); if (state.failed) return retval; 
+			ID686=(Token)match(input,ID,FOLLOW_ID_in_wWITHIN9318); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID686);
 
 			// AST REWRITE
@@ -29954,7 +29955,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wDIMENSION", "Keyword_IdFollows(\"dimension\")");
 			}
-			ID687=(Token)match(input,ID,FOLLOW_ID_in_wDIMENSION9335); if (state.failed) return retval; 
+			ID687=(Token)match(input,ID,FOLLOW_ID_in_wDIMENSION9339); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID687);
 
 			// AST REWRITE
@@ -30035,7 +30036,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wISTYPE", "Keyword_IdFollows(\"istype\")");
 			}
-			ID688=(Token)match(input,ID,FOLLOW_ID_in_wISTYPE9356); if (state.failed) return retval; 
+			ID688=(Token)match(input,ID,FOLLOW_ID_in_wISTYPE9360); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID688);
 
 			// AST REWRITE
@@ -30112,7 +30113,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:847:7: ( MTIMES -> ^( NAME[\"\"] ID[$MTIMES] ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:847:9: MTIMES
 			{
-			MTIMES689=(Token)match(input,MTIMES,FOLLOW_MTIMES_in_wSTAR9374); if (state.failed) return retval; 
+			MTIMES689=(Token)match(input,MTIMES,FOLLOW_MTIMES_in_wSTAR9378); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_MTIMES.add(MTIMES689);
 
 			// AST REWRITE
@@ -30189,7 +30190,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:849:11: ( FUNCTION -> ^( NAME[\"\"] ID[$FUNCTION] ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:849:13: FUNCTION
 			{
-			FUNCTION690=(Token)match(input,FUNCTION,FOLLOW_FUNCTION_in_wFUNCTION9393); if (state.failed) return retval; 
+			FUNCTION690=(Token)match(input,FUNCTION,FOLLOW_FUNCTION_in_wFUNCTION9397); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_FUNCTION.add(FUNCTION690);
 
 			// AST REWRITE
@@ -30270,7 +30271,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wSCRIPT", "Keyword_IdFollows(\"script\")");
 			}
-			ID691=(Token)match(input,ID,FOLLOW_ID_in_wSCRIPT9415); if (state.failed) return retval; 
+			ID691=(Token)match(input,ID,FOLLOW_ID_in_wSCRIPT9419); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID691);
 
 			// AST REWRITE
@@ -30351,7 +30352,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wLOOPS", "Keyword_IdFollows(\"loops\")");
 			}
-			ID692=(Token)match(input,ID,FOLLOW_ID_in_wLOOPS9436); if (state.failed) return retval; 
+			ID692=(Token)match(input,ID,FOLLOW_ID_in_wLOOPS9440); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID692);
 
 			// AST REWRITE
@@ -30432,7 +30433,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wCLASS", "Keyword_IdFollows(\"class\")");
 			}
-			ID693=(Token)match(input,ID,FOLLOW_ID_in_wCLASS9457); if (state.failed) return retval; 
+			ID693=(Token)match(input,ID,FOLLOW_ID_in_wCLASS9461); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID693);
 
 			// AST REWRITE
@@ -30509,7 +30510,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:857:9: ( DOTDOT -> ^( NAME[\"\"] ID[$DOTDOT] ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:857:11: DOTDOT
 			{
-			DOTDOT694=(Token)match(input,DOTDOT,FOLLOW_DOTDOT_in_wDOTDOT9475); if (state.failed) return retval; 
+			DOTDOT694=(Token)match(input,DOTDOT,FOLLOW_DOTDOT_in_wDOTDOT9479); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_DOTDOT.add(DOTDOT694);
 
 			// AST REWRITE
@@ -30586,7 +30587,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:859:6: ( FOR -> ^( NAME[\"\"] ID[$FOR] ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:859:8: FOR
 			{
-			FOR695=(Token)match(input,FOR,FOLLOW_FOR_in_wFOR9494); if (state.failed) return retval; 
+			FOR695=(Token)match(input,FOR,FOLLOW_FOR_in_wFOR9498); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_FOR.add(FOR695);
 
 			// AST REWRITE
@@ -30663,7 +30664,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:861:8: ( WHILE -> ^( NAME[\"\"] ID[$WHILE] ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:861:10: WHILE
 			{
-			WHILE696=(Token)match(input,WHILE,FOLLOW_WHILE_in_wWHILE9514); if (state.failed) return retval; 
+			WHILE696=(Token)match(input,WHILE,FOLLOW_WHILE_in_wWHILE9518); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_WHILE.add(WHILE696);
 
 			// AST REWRITE
@@ -30740,7 +30741,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:863:7: ( PLUS -> ^( NAME[\"\"] ID[$PLUS] ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:863:9: PLUS
 			{
-			PLUS697=(Token)match(input,PLUS,FOLLOW_PLUS_in_wPLUS9534); if (state.failed) return retval; 
+			PLUS697=(Token)match(input,PLUS,FOLLOW_PLUS_in_wPLUS9538); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_PLUS.add(PLUS697);
 
 			// AST REWRITE
@@ -30817,7 +30818,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:865:8: ( MINUS -> ^( NAME[\"\"] ID[$MINUS] ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:865:10: MINUS
 			{
-			MINUS698=(Token)match(input,MINUS,FOLLOW_MINUS_in_wMINUS9553); if (state.failed) return retval; 
+			MINUS698=(Token)match(input,MINUS,FOLLOW_MINUS_in_wMINUS9557); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_MINUS.add(MINUS698);
 
 			// AST REWRITE
@@ -30894,7 +30895,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:867:9: ( MTIMES -> ^( NAME[\"\"] ID[$MTIMES] ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:867:11: MTIMES
 			{
-			MTIMES699=(Token)match(input,MTIMES,FOLLOW_MTIMES_in_wMTIMES9572); if (state.failed) return retval; 
+			MTIMES699=(Token)match(input,MTIMES,FOLLOW_MTIMES_in_wMTIMES9576); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_MTIMES.add(MTIMES699);
 
 			// AST REWRITE
@@ -30971,7 +30972,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:869:8: ( TIMES -> ^( NAME[\"\"] ID[$TIMES] ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:869:10: TIMES
 			{
-			TIMES700=(Token)match(input,TIMES,FOLLOW_TIMES_in_wTIMES9591); if (state.failed) return retval; 
+			TIMES700=(Token)match(input,TIMES,FOLLOW_TIMES_in_wTIMES9595); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_TIMES.add(TIMES700);
 
 			// AST REWRITE
@@ -31048,7 +31049,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:871:8: ( MRDIV -> ^( NAME[\"\"] ID[$MRDIV] ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:871:10: MRDIV
 			{
-			MRDIV701=(Token)match(input,MRDIV,FOLLOW_MRDIV_in_wMRDIV9610); if (state.failed) return retval; 
+			MRDIV701=(Token)match(input,MRDIV,FOLLOW_MRDIV_in_wMRDIV9614); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_MRDIV.add(MRDIV701);
 
 			// AST REWRITE
@@ -31125,7 +31126,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:873:7: ( RDIV -> ^( NAME[\"\"] ID[$RDIV] ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:873:9: RDIV
 			{
-			RDIV702=(Token)match(input,RDIV,FOLLOW_RDIV_in_wRDIV9629); if (state.failed) return retval; 
+			RDIV702=(Token)match(input,RDIV,FOLLOW_RDIV_in_wRDIV9633); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_RDIV.add(RDIV702);
 
 			// AST REWRITE
@@ -31202,7 +31203,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:875:8: ( MLDIV -> ^( NAME[\"\"] ID[$MLDIV] ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:875:10: MLDIV
 			{
-			MLDIV703=(Token)match(input,MLDIV,FOLLOW_MLDIV_in_wMLDIV9648); if (state.failed) return retval; 
+			MLDIV703=(Token)match(input,MLDIV,FOLLOW_MLDIV_in_wMLDIV9652); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_MLDIV.add(MLDIV703);
 
 			// AST REWRITE
@@ -31279,7 +31280,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:877:7: ( LDIV -> ^( NAME[\"\"] ID[$LDIV] ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:877:9: LDIV
 			{
-			LDIV704=(Token)match(input,LDIV,FOLLOW_LDIV_in_wLDIV9667); if (state.failed) return retval; 
+			LDIV704=(Token)match(input,LDIV,FOLLOW_LDIV_in_wLDIV9671); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_LDIV.add(LDIV704);
 
 			// AST REWRITE
@@ -31356,7 +31357,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:879:7: ( MPOW -> ^( NAME[\"\"] ID[$MPOW] ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:879:9: MPOW
 			{
-			MPOW705=(Token)match(input,MPOW,FOLLOW_MPOW_in_wMPOW9686); if (state.failed) return retval; 
+			MPOW705=(Token)match(input,MPOW,FOLLOW_MPOW_in_wMPOW9690); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_MPOW.add(MPOW705);
 
 			// AST REWRITE
@@ -31433,7 +31434,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:881:6: ( POW -> ^( NAME[\"\"] ID[$POW] ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:881:8: POW
 			{
-			POW706=(Token)match(input,POW,FOLLOW_POW_in_wPOW9705); if (state.failed) return retval; 
+			POW706=(Token)match(input,POW,FOLLOW_POW_in_wPOW9709); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_POW.add(POW706);
 
 			// AST REWRITE
@@ -31510,7 +31511,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:883:8: ( TRANS -> ^( NAME[\"\"] ID[$TRANS] ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:883:10: TRANS
 			{
-			TRANS707=(Token)match(input,TRANS,FOLLOW_TRANS_in_wTRANS9724); if (state.failed) return retval; 
+			TRANS707=(Token)match(input,TRANS,FOLLOW_TRANS_in_wTRANS9728); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_TRANS.add(TRANS707);
 
 			// AST REWRITE
@@ -31587,7 +31588,7 @@ public class MatlabParser extends MatlabParserBase {
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:885:9: ( CTRANS -> ^( NAME[\"\"] ID[$CTRANS] ) )
 			// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:885:11: CTRANS
 			{
-			CTRANS708=(Token)match(input,CTRANS,FOLLOW_CTRANS_in_wCTRANS9743); if (state.failed) return retval; 
+			CTRANS708=(Token)match(input,CTRANS,FOLLOW_CTRANS_in_wCTRANS9747); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_CTRANS.add(CTRANS708);
 
 			// AST REWRITE
@@ -31668,7 +31669,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wVAR", "Keyword_IdFollows(\"var\")");
 			}
-			ID709=(Token)match(input,ID,FOLLOW_ID_in_wVAR9765); if (state.failed) return retval; 
+			ID709=(Token)match(input,ID,FOLLOW_ID_in_wVAR9769); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID709);
 
 			// AST REWRITE
@@ -31749,7 +31750,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wSTR", "Keyword_IdFollows(\"str\")");
 			}
-			ID710=(Token)match(input,ID,FOLLOW_ID_in_wSTR9786); if (state.failed) return retval; 
+			ID710=(Token)match(input,ID,FOLLOW_ID_in_wSTR9790); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID710);
 
 			// AST REWRITE
@@ -31830,7 +31831,7 @@ public class MatlabParser extends MatlabParserBase {
 				if (state.backtracking>0) {state.failed=true; return retval;}
 				throw new FailedPredicateException(input, "wNUM", "Keyword_IdFollows(\"num\")");
 			}
-			ID711=(Token)match(input,ID,FOLLOW_ID_in_wNUM9807); if (state.failed) return retval; 
+			ID711=(Token)match(input,ID,FOLLOW_ID_in_wNUM9811); if (state.failed) return retval; 
 			if ( state.backtracking==0 ) stream_ID.add(ID711);
 
 			// AST REWRITE
@@ -31887,7 +31888,7 @@ public class MatlabParser extends MatlabParserBase {
 		// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:71:16: ( openFunctionFile )
 		// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:71:17: openFunctionFile
 		{
-		pushFollow(FOLLOW_openFunctionFile_in_synpred1_MatlabParser487);
+		pushFollow(FOLLOW_openFunctionFile_in_synpred1_MatlabParser491);
 		openFunctionFile();
 		state._fsp--;
 		if (state.failed) return;
@@ -31902,7 +31903,7 @@ public class MatlabParser extends MatlabParserBase {
 		// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:229:13: ( assignment )
 		// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:229:14: assignment
 		{
-		pushFollow(FOLLOW_assignment_in_synpred2_MatlabParser2193);
+		pushFollow(FOLLOW_assignment_in_synpred2_MatlabParser2197);
 		assignment();
 		state._fsp--;
 		if (state.failed) return;
@@ -31917,7 +31918,7 @@ public class MatlabParser extends MatlabParserBase {
 		// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:230:13: ( action )
 		// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:230:14: action
 		{
-		pushFollow(FOLLOW_action_in_synpred3_MatlabParser2216);
+		pushFollow(FOLLOW_action_in_synpred3_MatlabParser2220);
 		action();
 		state._fsp--;
 		if (state.failed) return;
@@ -31932,7 +31933,7 @@ public class MatlabParser extends MatlabParserBase {
 		// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:231:7: ( simpleCommand )
 		// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:231:8: simpleCommand
 		{
-		pushFollow(FOLLOW_simpleCommand_in_synpred4_MatlabParser2233);
+		pushFollow(FOLLOW_simpleCommand_in_synpred4_MatlabParser2237);
 		simpleCommand();
 		state._fsp--;
 		if (state.failed) return;
@@ -31947,7 +31948,7 @@ public class MatlabParser extends MatlabParserBase {
 		// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:232:7: ( abortCommand )
 		// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:232:8: abortCommand
 		{
-		pushFollow(FOLLOW_abortCommand_in_synpred5_MatlabParser2250);
+		pushFollow(FOLLOW_abortCommand_in_synpred5_MatlabParser2254);
 		abortCommand();
 		state._fsp--;
 		if (state.failed) return;
@@ -31962,21 +31963,21 @@ public class MatlabParser extends MatlabParserBase {
 		// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:347:14: ( LPAREN var ASSIGN expression COMMA )
 		// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:347:15: LPAREN var ASSIGN expression COMMA
 		{
-		match(input,LPAREN,FOLLOW_LPAREN_in_synpred6_MatlabParser3422); if (state.failed) return;
+		match(input,LPAREN,FOLLOW_LPAREN_in_synpred6_MatlabParser3426); if (state.failed) return;
 
-		pushFollow(FOLLOW_var_in_synpred6_MatlabParser3424);
+		pushFollow(FOLLOW_var_in_synpred6_MatlabParser3428);
 		var();
 		state._fsp--;
 		if (state.failed) return;
 
-		match(input,ASSIGN,FOLLOW_ASSIGN_in_synpred6_MatlabParser3426); if (state.failed) return;
+		match(input,ASSIGN,FOLLOW_ASSIGN_in_synpred6_MatlabParser3430); if (state.failed) return;
 
-		pushFollow(FOLLOW_expression_in_synpred6_MatlabParser3428);
+		pushFollow(FOLLOW_expression_in_synpred6_MatlabParser3432);
 		expression();
 		state._fsp--;
 		if (state.failed) return;
 
-		match(input,COMMA,FOLLOW_COMMA_in_synpred6_MatlabParser3430); if (state.failed) return;
+		match(input,COMMA,FOLLOW_COMMA_in_synpred6_MatlabParser3434); if (state.failed) return;
 
 		}
 
@@ -31988,9 +31989,9 @@ public class MatlabParser extends MatlabParserBase {
 		// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:476:5: ( DOT LPAREN )
 		// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:476:6: DOT LPAREN
 		{
-		match(input,DOT,FOLLOW_DOT_in_synpred7_MatlabParser4955); if (state.failed) return;
+		match(input,DOT,FOLLOW_DOT_in_synpred7_MatlabParser4959); if (state.failed) return;
 
-		match(input,LPAREN,FOLLOW_LPAREN_in_synpred7_MatlabParser4957); if (state.failed) return;
+		match(input,LPAREN,FOLLOW_LPAREN_in_synpred7_MatlabParser4961); if (state.failed) return;
 
 		}
 
@@ -32002,7 +32003,7 @@ public class MatlabParser extends MatlabParserBase {
 		// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:545:10: ( NOT ( COMMA | SEMICOLON | EOL | RSQUARE ) )
 		// D:\\!USERS\\SAMUEL\\DOCUMENTS\\IdeaProjects\\MatlabParser\\src\\Matlab\\Recognizer\\MatlabParser.g3:545:11: NOT ( COMMA | SEMICOLON | EOL | RSQUARE )
 		{
-		match(input,NOT,FOLLOW_NOT_in_synpred8_MatlabParser5508); if (state.failed) return;
+		match(input,NOT,FOLLOW_NOT_in_synpred8_MatlabParser5512); if (state.failed) return;
 
 		if ( input.LA(1)==COMMA||input.LA(1)==EOL||(input.LA(1) >= RSQUARE && input.LA(1) <= SEMICOLON) ) {
 			input.consume();
@@ -35268,777 +35269,777 @@ public class MatlabParser extends MatlabParserBase {
 		}
 	}
 
-	public static final BitSet FOLLOW_scriptFile_in_file387 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_functionFile_in_file398 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_classFile_in_file409 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectFile_in_file420 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_statements_in_scriptFile438 = new BitSet(new long[]{0x0000000000000000L});
-	public static final BitSet FOLLOW_EOF_in_scriptFile440 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_statement_in_statements462 = new BitSet(new long[]{0x84C05CAB00058482L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_xEOS_in_statements466 = new BitSet(new long[]{0x84C05CAB00058482L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_openFunctionFile_in_functionFile491 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_closeFunctionFile_in_functionFile503 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_EOL_in_openFunctionFile523 = new BitSet(new long[]{0x0000004200000000L});
-	public static final BitSet FOLLOW_openFunctions_in_openFunctionFile527 = new BitSet(new long[]{0x0000000000000000L});
-	public static final BitSet FOLLOW_EOF_in_openFunctionFile529 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_openFunction_in_openFunctions548 = new BitSet(new long[]{0x0000004000000002L});
-	public static final BitSet FOLLOW_FUNCTION_in_openFunction566 = new BitSet(new long[]{0x0080040000000000L});
-	public static final BitSet FOLLOW_functionSignature_in_openFunction568 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_openBody_in_openFunction570 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_outputPortion_in_functionSignature592 = new BitSet(new long[]{0x0000040100000000L});
-	public static final BitSet FOLLOW_functionName_in_functionSignature594 = new BitSet(new long[]{0x0040000000000002L});
-	public static final BitSet FOLLOW_inputPortion_in_functionSignature597 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_name_in_functionSignature623 = new BitSet(new long[]{0x0040000000000002L});
-	public static final BitSet FOLLOW_inputPortion_in_functionSignature626 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_output_in_outputPortion652 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_ASSIGN_in_outputPortion654 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_outputVector_in_outputPortion667 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_ASSIGN_in_outputPortion669 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_name_in_output690 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_xID_in_name708 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LSQUARE_in_outputVector726 = new BitSet(new long[]{0x0000040000000000L,0x0000000000010000L});
-	public static final BitSet FOLLOW_vectorOutputs_in_outputVector729 = new BitSet(new long[]{0x0000000000000000L,0x0000000000010000L});
-	public static final BitSet FOLLOW_RSQUARE_in_outputVector733 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_vectorOutput_in_vectorOutputs749 = new BitSet(new long[]{0x0000040000008002L});
-	public static final BitSet FOLLOW_COMMA_in_vectorOutputs756 = new BitSet(new long[]{0x0000040000000000L});
-	public static final BitSet FOLLOW_vectorOutput_in_vectorOutputs760 = new BitSet(new long[]{0x0000040000008002L});
-	public static final BitSet FOLLOW_name_in_vectorOutput778 = new BitSet(new long[]{0x0000000000000082L});
-	public static final BitSet FOLLOW_filter_in_vectorOutput784 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_AT_in_filter809 = new BitSet(new long[]{0x0000040000000000L});
-	public static final BitSet FOLLOW_classReference_in_filter811 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_xFUNCTIONID_in_functionName824 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LPAREN_in_inputPortion842 = new BitSet(new long[]{0x8000040000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_parameters_in_inputPortion845 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_inputPortion849 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_parameter_in_parameters865 = new BitSet(new long[]{0x0000000000008002L});
-	public static final BitSet FOLLOW_COMMA_in_parameters868 = new BitSet(new long[]{0x8000040000000000L});
-	public static final BitSet FOLLOW_parameter_in_parameters870 = new BitSet(new long[]{0x0000000000008002L});
-	public static final BitSet FOLLOW_parameterName_in_parameter888 = new BitSet(new long[]{0x0000000000000082L});
-	public static final BitSet FOLLOW_filter_in_parameter894 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_xPARAMETERID_in_parameterName919 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_xEOS_in_openBody938 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_openItems_in_openBody940 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_openItem_in_openItems959 = new BitSet(new long[]{0x84C05CAB00058482L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_xEOS_in_openItems963 = new BitSet(new long[]{0x84C05CAB00058482L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_statement_in_openItem981 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_EOL_in_closeFunctionFile997 = new BitSet(new long[]{0x0000004200000000L});
-	public static final BitSet FOLLOW_closeFunctions_in_closeFunctionFile1001 = new BitSet(new long[]{0x0000000200000000L});
-	public static final BitSet FOLLOW_EOL_in_closeFunctionFile1004 = new BitSet(new long[]{0x0000000200000000L});
-	public static final BitSet FOLLOW_EOF_in_closeFunctionFile1008 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_closeFunction_in_closeFunctions1026 = new BitSet(new long[]{0x0000004200000002L});
-	public static final BitSet FOLLOW_EOL_in_closeFunctions1030 = new BitSet(new long[]{0x0000004200000000L});
-	public static final BitSet FOLLOW_closeFunction_in_closeFunctions1034 = new BitSet(new long[]{0x0000004200000002L});
-	public static final BitSet FOLLOW_FUNCTION_in_closeFunction1052 = new BitSet(new long[]{0x0080040000000000L});
-	public static final BitSet FOLLOW_functionSignature_in_closeFunction1054 = new BitSet(new long[]{0x0000000300008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_closeBody_in_closeFunction1056 = new BitSet(new long[]{0x0000000100000000L});
-	public static final BitSet FOLLOW_END_in_closeFunction1058 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_xEOS_in_closeBody1081 = new BitSet(new long[]{0x84C05CEB00058480L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_closeItems_in_closeBody1083 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_closeItem_in_closeItems1102 = new BitSet(new long[]{0x84C05CEB00058482L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_xEOS_in_closeItems1106 = new BitSet(new long[]{0x84C05CEB00058482L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_nestedFunction_in_closeItem1124 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_statement_in_closeItem1142 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_FUNCTION_in_nestedFunction1159 = new BitSet(new long[]{0x0080040000000000L});
-	public static final BitSet FOLLOW_functionSignature_in_nestedFunction1161 = new BitSet(new long[]{0x0000000300008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_closeBody_in_nestedFunction1163 = new BitSet(new long[]{0x0000000100000000L});
-	public static final BitSet FOLLOW_END_in_nestedFunction1165 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_EOL_in_classFile1191 = new BitSet(new long[]{0x0000000200002000L});
-	public static final BitSet FOLLOW_classDef_in_classFile1195 = new BitSet(new long[]{0x0000004200000000L});
-	public static final BitSet FOLLOW_EOL_in_classFile1198 = new BitSet(new long[]{0x0000004200000000L});
-	public static final BitSet FOLLOW_closeFunctions_in_classFile1203 = new BitSet(new long[]{0x0000000200000000L});
-	public static final BitSet FOLLOW_EOL_in_classFile1206 = new BitSet(new long[]{0x0000000200000000L});
-	public static final BitSet FOLLOW_EOF_in_classFile1212 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_CLASSDEF_in_classDef1235 = new BitSet(new long[]{0x0040040000000000L});
-	public static final BitSet FOLLOW_annotationPortion_in_classDef1238 = new BitSet(new long[]{0x0000040000000000L});
-	public static final BitSet FOLLOW_name_in_classDef1242 = new BitSet(new long[]{0x0100000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_genealogyPortion_in_classDef1245 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_classDef1249 = new BitSet(new long[]{0x0000040300008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_sections_in_classDef1251 = new BitSet(new long[]{0x0000000100000000L});
-	public static final BitSet FOLLOW_END_in_classDef1253 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LPAREN_in_annotationPortion1285 = new BitSet(new long[]{0x8000040000000000L});
-	public static final BitSet FOLLOW_attributes_in_annotationPortion1287 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_annotationPortion1289 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_attribute_in_attributes1302 = new BitSet(new long[]{0x0000000000008002L});
-	public static final BitSet FOLLOW_COMMA_in_attributes1305 = new BitSet(new long[]{0x8000040000000000L});
-	public static final BitSet FOLLOW_attribute_in_attributes1307 = new BitSet(new long[]{0x0000000000008002L});
-	public static final BitSet FOLLOW_NOT_in_attribute1325 = new BitSet(new long[]{0x0000040000000000L});
-	public static final BitSet FOLLOW_name_in_attribute1327 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_name_in_attribute1359 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_name_in_attribute1397 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_ASSIGN_in_attribute1399 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_attribute1401 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LT_in_genealogyPortion1425 = new BitSet(new long[]{0x0000040000000000L});
-	public static final BitSet FOLLOW_baseClasses_in_genealogyPortion1427 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_classReference_in_baseClasses1440 = new BitSet(new long[]{0x0000000000000012L});
-	public static final BitSet FOLLOW_AND_in_baseClasses1443 = new BitSet(new long[]{0x0000040000000000L});
-	public static final BitSet FOLLOW_classReference_in_baseClasses1445 = new BitSet(new long[]{0x0000000000000012L});
-	public static final BitSet FOLLOW_fullClassName_in_classReference1463 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_xID_in_fullClassName1481 = new BitSet(new long[]{0x0000000008000002L});
-	public static final BitSet FOLLOW_DOT_in_fullClassName1487 = new BitSet(new long[]{0x00000CE1C0043C00L,0x00000000A4404038L});
-	public static final BitSet FOLLOW_xANYID_in_fullClassName1489 = new BitSet(new long[]{0x0000000008000002L});
-	public static final BitSet FOLLOW_section_in_sections1515 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_sections1519 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
-	public static final BitSet FOLLOW_eventSection_in_section1537 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_propertySection_in_section1547 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_methodSection_in_section1557 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_enumerationSection_in_section1567 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_xEVENTS_in_eventSection1584 = new BitSet(new long[]{0x0040040300008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_annotationPortion_in_eventSection1587 = new BitSet(new long[]{0x0000040300008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_events_in_eventSection1591 = new BitSet(new long[]{0x0000000100000000L});
-	public static final BitSet FOLLOW_END_in_eventSection1593 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_event_in_events1620 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_events1624 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
-	public static final BitSet FOLLOW_name_in_event1642 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_event1644 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_xPROPERTIES_in_propertySection1664 = new BitSet(new long[]{0x0040040300008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_annotationPortion_in_propertySection1667 = new BitSet(new long[]{0x0000040300008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_properties_in_propertySection1671 = new BitSet(new long[]{0x0000000100000000L});
-	public static final BitSet FOLLOW_END_in_propertySection1673 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_property_in_properties1700 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_properties1704 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
-	public static final BitSet FOLLOW_name_in_property1722 = new BitSet(new long[]{0x00000000000000C2L});
-	public static final BitSet FOLLOW_filter_in_property1725 = new BitSet(new long[]{0x0000000000000042L});
-	public static final BitSet FOLLOW_ASSIGN_in_property1730 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_property1732 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_xMETHODS_in_methodSection1764 = new BitSet(new long[]{0x00C0044300008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_annotationPortion_in_methodSection1767 = new BitSet(new long[]{0x0080044300008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_methods_in_methodSection1771 = new BitSet(new long[]{0x0000000100000000L});
-	public static final BitSet FOLLOW_END_in_methodSection1773 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_method_in_methods1800 = new BitSet(new long[]{0x0080044200008002L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_methods1804 = new BitSet(new long[]{0x0080044200008002L,0x0000000000020000L});
-	public static final BitSet FOLLOW_regularMethod_in_method1822 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_externalMethod_in_method1834 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_FUNCTION_in_regularMethod1851 = new BitSet(new long[]{0x0080040000000000L});
-	public static final BitSet FOLLOW_methodSignature_in_regularMethod1853 = new BitSet(new long[]{0x0000000300008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_closeBody_in_regularMethod1855 = new BitSet(new long[]{0x0000000100000000L});
-	public static final BitSet FOLLOW_END_in_regularMethod1857 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_outputPortion_in_methodSignature1888 = new BitSet(new long[]{0x0000040000000000L});
-	public static final BitSet FOLLOW_methodName1_in_methodSignature1892 = new BitSet(new long[]{0x0040000000000002L});
-	public static final BitSet FOLLOW_inputPortion_in_methodSignature1895 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_outputPortion_in_methodSignature1915 = new BitSet(new long[]{0x0000040100000000L});
-	public static final BitSet FOLLOW_methodName2_in_methodSignature1917 = new BitSet(new long[]{0x0040000000000002L});
-	public static final BitSet FOLLOW_inputPortion_in_methodSignature1920 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_methodName3_in_methodSignature1940 = new BitSet(new long[]{0x0040000000000002L});
-	public static final BitSet FOLLOW_inputPortion_in_methodSignature1943 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_xID_in_methodName11967 = new BitSet(new long[]{0x0000000008000000L});
-	public static final BitSet FOLLOW_DOT_in_methodName11969 = new BitSet(new long[]{0x0000040100000000L});
-	public static final BitSet FOLLOW_xFUNCTIONID_in_methodName11971 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_xFUNCTIONID_in_methodName21991 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_xID_in_methodName32009 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_methodSignature_in_externalMethod2027 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_externalMethod2029 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_xENUMERATION_in_enumerationSection2049 = new BitSet(new long[]{0x0040040300008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_annotationPortion_in_enumerationSection2052 = new BitSet(new long[]{0x0000040300008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_enumerations_in_enumerationSection2056 = new BitSet(new long[]{0x0000000100000000L});
-	public static final BitSet FOLLOW_END_in_enumerationSection2058 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_enumeration_in_enumerations2085 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_enumerations2089 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
-	public static final BitSet FOLLOW_name_in_enumeration2107 = new BitSet(new long[]{0x0040000000000002L});
-	public static final BitSet FOLLOW_call_in_enumeration2110 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LPAREN_in_call2140 = new BitSet(new long[]{0x84C0540100000080L,0x000000000100A240L});
-	public static final BitSet FOLLOW_expressions_in_call2143 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_call2147 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_expression_in_expressions2167 = new BitSet(new long[]{0x0000000000008002L});
-	public static final BitSet FOLLOW_COMMA_in_expressions2170 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_expressions2172 = new BitSet(new long[]{0x0000000000008002L});
-	public static final BitSet FOLLOW_assignment_in_statement2197 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_action_in_statement2220 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_simpleCommand_in_statement2237 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_abortCommand_in_statement2254 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_standardCommand_in_statement2266 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_bang_in_statement2278 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_breakDef_in_statement2296 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_continueDef_in_statement2314 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_forDef_in_statement2332 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_global_in_statement2350 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ifDef_in_statement2368 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_parfor_in_statement2386 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_persistent_in_statement2404 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_returnDef_in_statement2422 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_spmd_in_statement2434 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_switchDef_in_statement2452 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_tryDef_in_statement2470 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_whileDef_in_statement2488 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_assignmentCore_in_assignment2516 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_chain_in_assignmentCore2529 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_ASSIGN_in_assignmentCore2531 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_assignmentCore2533 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_assignmentCore2535 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_storage_in_assignmentCore2557 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_ASSIGN_in_assignmentCore2559 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_assignmentCore2561 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_assignmentCore2563 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LSQUARE_in_storage2595 = new BitSet(new long[]{0x8000040000008000L,0x0000000000000200L});
-	public static final BitSet FOLLOW_COMMA_in_storage2598 = new BitSet(new long[]{0x8000040000000000L,0x0000000000000200L});
-	public static final BitSet FOLLOW_slots_in_storage2602 = new BitSet(new long[]{0x0000000000008000L,0x0000000000010000L});
-	public static final BitSet FOLLOW_COMMA_in_storage2605 = new BitSet(new long[]{0x0000000000000000L,0x0000000000010000L});
-	public static final BitSet FOLLOW_RSQUARE_in_storage2609 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_slot_in_slots2631 = new BitSet(new long[]{0x8000040000008002L,0x0000000000000200L});
-	public static final BitSet FOLLOW_COMMA_in_slots2638 = new BitSet(new long[]{0x8000040000000000L,0x0000000000000200L});
-	public static final BitSet FOLLOW_slot_in_slots2642 = new BitSet(new long[]{0x8000040000008002L,0x0000000000000200L});
-	public static final BitSet FOLLOW_chain_in_slot2660 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_metaclass_in_slot2670 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_NOT_in_slot2680 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_expression_in_action2711 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_action2713 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_var_in_simpleCommand2738 = new BitSet(new long[]{0xFF3FBFFDFFF77FF0L,0xFFFFFFFFEFFC73FFL,0x0000001FFFFFFFFFL});
-	public static final BitSet FOLLOW_simpleTexts_in_simpleCommand2740 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_simpleCommand2742 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_simpleText_in_simpleTexts2769 = new BitSet(new long[]{0xFF3FBFFDFFF77FF2L,0xFFFFFFFFEFFC73FFL,0x0000001FFFFFFFFFL});
-	public static final BitSet FOLLOW_simpleText_in_simpleTexts2775 = new BitSet(new long[]{0xFF3FBFFDFFF77FF2L,0xFFFFFFFFEFFC73FFL,0x0000001FFFFFFFFFL});
-	public static final BitSet FOLLOW_simpleBlock_in_simpleText2801 = new BitSet(new long[]{0xFF3FBFFDFFF77FF2L,0xFFFFFFFFEFFC73FFL,0x0000001FFFFFFFFFL});
-	public static final BitSet FOLLOW_simpleBlock_in_simpleText2820 = new BitSet(new long[]{0xFF3FBFFDFFF77FF2L,0xFFFFFFFFEFFC73FFL,0x0000001FFFFFFFFFL});
-	public static final BitSet FOLLOW_STRING_in_simpleBlock2848 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_set_in_simpleBlock2857 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_var_in_abortCommand2926 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_COMMAND_in_standardCommand2943 = new BitSet(new long[]{0x0000000000100000L,0x0000000002000000L});
-	public static final BitSet FOLLOW_standardTexts_in_standardCommand2945 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_standardCommand2947 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_standardText_in_standardTexts2985 = new BitSet(new long[]{0x0000000000100002L,0x0000000002000000L});
-	public static final BitSet FOLLOW_standardText_in_standardTexts2991 = new BitSet(new long[]{0x0000000000100002L,0x0000000002000000L});
-	public static final BitSet FOLLOW_standardBlock_in_standardText3017 = new BitSet(new long[]{0x0000000000100002L,0x0000000002000000L});
-	public static final BitSet FOLLOW_standardBlock_in_standardText3036 = new BitSet(new long[]{0x0000000000100002L,0x0000000002000000L});
-	public static final BitSet FOLLOW_STRINGBLOCK_in_standardBlock3065 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_DEFAULTBLOCK_in_standardBlock3074 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_EXCLAMATION_in_bang3093 = new BitSet(new long[]{0x0002000000000000L});
-	public static final BitSet FOLLOW_LINE_in_bang3095 = new BitSet(new long[]{0x0000000200000000L});
-	public static final BitSet FOLLOW_xEOL_in_bang3099 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_BREAK_in_breakDef3121 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_breakDef3123 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_CONTINUE_in_continueDef3142 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_continueDef3144 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_FOR_in_forDef3163 = new BitSet(new long[]{0x0040040000000000L});
-	public static final BitSet FOLLOW_forHead_in_forDef3165 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_statements_in_forDef3167 = new BitSet(new long[]{0x0000000100000000L});
-	public static final BitSet FOLLOW_END_in_forDef3169 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_forDef3171 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_var_in_forHead3195 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_ASSIGN_in_forHead3197 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_forHead3199 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LPAREN_in_forHead3211 = new BitSet(new long[]{0x0000040000000000L});
-	public static final BitSet FOLLOW_var_in_forHead3213 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_ASSIGN_in_forHead3215 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_forHead3217 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_forHead3219 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_GLOBAL_in_global3238 = new BitSet(new long[]{0x0000040000000000L});
-	public static final BitSet FOLLOW_var_in_global3241 = new BitSet(new long[]{0x0000040200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_global3245 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ifPart_in_ifDef3269 = new BitSet(new long[]{0x00000001C0000000L});
-	public static final BitSet FOLLOW_elseIfPart_in_ifDef3272 = new BitSet(new long[]{0x00000001C0000000L});
-	public static final BitSet FOLLOW_elsePart_in_ifDef3277 = new BitSet(new long[]{0x0000000100000000L});
-	public static final BitSet FOLLOW_END_in_ifDef3281 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_ifDef3283 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_IF_in_ifPart3313 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_ifPart3315 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_statements_in_ifPart3317 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ELSEIF_in_elseIfPart3339 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_elseIfPart3341 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_statements_in_elseIfPart3343 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ELSE_in_elsePart3365 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_statements_in_elsePart3367 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_PARFOR_in_parfor3389 = new BitSet(new long[]{0x0040040000000000L});
-	public static final BitSet FOLLOW_parforHead_in_parfor3391 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_statements_in_parfor3393 = new BitSet(new long[]{0x0000000100000000L});
-	public static final BitSet FOLLOW_END_in_parfor3395 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_parfor3397 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LPAREN_in_parforHead3434 = new BitSet(new long[]{0x0000040000000000L});
-	public static final BitSet FOLLOW_var_in_parforHead3436 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_ASSIGN_in_parforHead3438 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_parforHead3440 = new BitSet(new long[]{0x0000000000008000L});
-	public static final BitSet FOLLOW_COMMA_in_parforHead3442 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_parforHead3444 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_parforHead3446 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LPAREN_in_parforHead3464 = new BitSet(new long[]{0x0000040000000000L});
-	public static final BitSet FOLLOW_var_in_parforHead3466 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_ASSIGN_in_parforHead3468 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_parforHead3470 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_parforHead3472 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_var_in_parforHead3487 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_ASSIGN_in_parforHead3489 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_parforHead3491 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_PERSISTENT_in_persistent3513 = new BitSet(new long[]{0x0000040000000000L});
-	public static final BitSet FOLLOW_var_in_persistent3516 = new BitSet(new long[]{0x0000040200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_persistent3520 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_RETURN_in_returnDef3544 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_returnDef3546 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SPMD_in_spmd3565 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_spmdHead_in_spmd3576 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_statements_in_spmd3580 = new BitSet(new long[]{0x0000000100000000L});
-	public static final BitSet FOLLOW_END_in_spmd3582 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_spmd3584 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LPAREN_in_spmdHead3611 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_spmdHead3613 = new BitSet(new long[]{0x0000000000008000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_COMMA_in_spmdHead3616 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_spmdHead3618 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_spmdHead3622 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_switchPart_in_switchDef3640 = new BitSet(new long[]{0x0000000100000800L,0x0000000000000008L});
-	public static final BitSet FOLLOW_casePart_in_switchDef3643 = new BitSet(new long[]{0x0000000100000800L,0x0000000000000008L});
-	public static final BitSet FOLLOW_otherwisePart_in_switchDef3648 = new BitSet(new long[]{0x0000000100000000L});
-	public static final BitSet FOLLOW_END_in_switchDef3652 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_switchDef3654 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SWITCH_in_switchPart3684 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_switchPart3686 = new BitSet(new long[]{0x0000000200008002L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_switchPart3689 = new BitSet(new long[]{0x0000000200008002L,0x0000000000020000L});
-	public static final BitSet FOLLOW_CASE_in_casePart3708 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_casePart3710 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_casePart3712 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_statements_in_casePart3714 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_OTHERWISE_in_otherwisePart3736 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_statements_in_otherwisePart3738 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_tryPart_in_tryDef3760 = new BitSet(new long[]{0x0000000100001000L});
-	public static final BitSet FOLLOW_catchPart_in_tryDef3763 = new BitSet(new long[]{0x0000000100000000L});
-	public static final BitSet FOLLOW_END_in_tryDef3767 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_tryDef3769 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_TRY_in_tryPart3794 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_statements_in_tryPart3796 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_CATCH_in_catchPart3816 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_capturePortion_in_catchPart3830 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_statements_in_catchPart3834 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_var_in_capturePortion3859 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_capturePortion3861 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_WHILE_in_whileDef3876 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_whileDef3878 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
-	public static final BitSet FOLLOW_statements_in_whileDef3880 = new BitSet(new long[]{0x0000000100000000L});
-	public static final BitSet FOLLOW_END_in_whileDef3882 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_whileDef3884 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_expression11_in_expression3910 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_expression10_in_expression113926 = new BitSet(new long[]{0x0000000000000002L,0x0000000000080000L});
-	public static final BitSet FOLLOW_SHORTOR_in_expression113943 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression10_in_expression113947 = new BitSet(new long[]{0x0000000000000002L,0x0000000000080000L});
-	public static final BitSet FOLLOW_expression09_in_expression103973 = new BitSet(new long[]{0x0000000000000002L,0x0000000000040000L});
-	public static final BitSet FOLLOW_SHORTAND_in_expression103990 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression09_in_expression103994 = new BitSet(new long[]{0x0000000000000002L,0x0000000000040000L});
-	public static final BitSet FOLLOW_expression08_in_expression094020 = new BitSet(new long[]{0x0000000000000002L,0x0000000000000004L});
-	public static final BitSet FOLLOW_OR_in_expression094037 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression08_in_expression094041 = new BitSet(new long[]{0x0000000000000002L,0x0000000000000004L});
-	public static final BitSet FOLLOW_expression07_in_expression084067 = new BitSet(new long[]{0x0000000000000012L});
-	public static final BitSet FOLLOW_AND_in_expression084084 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression07_in_expression084088 = new BitSet(new long[]{0x0000000000000012L});
-	public static final BitSet FOLLOW_expression06_in_expression074114 = new BitSet(new long[]{0x0300030400000002L,0x0000000000000001L});
-	public static final BitSet FOLLOW_operator06_in_expression074133 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression06_in_expression074137 = new BitSet(new long[]{0x0300030400000002L,0x0000000000000001L});
-	public static final BitSet FOLLOW_LT_in_operator064161 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LTEQ_in_operator064174 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_GT_in_operator064187 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_GTEQ_in_operator064200 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_EQ_in_operator064213 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_NOTEQ_in_operator064226 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_expression05_in_expression064247 = new BitSet(new long[]{0x0000000000004002L});
-	public static final BitSet FOLLOW_COLON_in_expression064273 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression05_in_expression064277 = new BitSet(new long[]{0x0000000000004002L});
-	public static final BitSet FOLLOW_expression04_in_expression054304 = new BitSet(new long[]{0x0400000000000002L,0x0000000000000040L});
-	public static final BitSet FOLLOW_operator04_in_expression054326 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression04_in_expression054330 = new BitSet(new long[]{0x0400000000000002L,0x0000000000000040L});
-	public static final BitSet FOLLOW_PLUS_in_operator044354 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_MINUS_in_operator044367 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_expression03_in_expression044388 = new BitSet(new long[]{0x6800800000000002L,0x0000000008001000L});
-	public static final BitSet FOLLOW_operator03_in_expression044407 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression03_in_expression044411 = new BitSet(new long[]{0x6800800000000002L,0x0000000008001000L});
-	public static final BitSet FOLLOW_TIMES_in_operator034435 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_RDIV_in_operator034448 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LDIV_in_operator034461 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_MTIMES_in_operator034474 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_MRDIV_in_operator034487 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_MLDIV_in_operator034500 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_operator02_in_expression034520 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression03_in_expression034524 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_expression02_in_expression034544 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_PLUS_in_operator024562 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_MINUS_in_operator024576 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_NOT_in_operator024590 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_expression00_in_expression024611 = new BitSet(new long[]{0x1000000000080002L,0x0000000010000100L});
-	public static final BitSet FOLLOW_operator01_in_expression024646 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression01_in_expression024650 = new BitSet(new long[]{0x1000000000080002L,0x0000000010000100L});
-	public static final BitSet FOLLOW_TRANS_in_expression024675 = new BitSet(new long[]{0x1000000000080002L,0x0000000010000100L});
-	public static final BitSet FOLLOW_CTRANS_in_expression024696 = new BitSet(new long[]{0x1000000000080002L,0x0000000010000100L});
-	public static final BitSet FOLLOW_POW_in_operator014724 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_MPOW_in_operator014737 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_operator02_in_expression014757 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression01_in_expression014761 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_expression00_in_expression014781 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_atom_in_expression004799 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_chain_in_atom4814 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_real_in_atom4827 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_imaginary_in_atom4837 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_stringDef_in_atom4847 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_regularArray_in_atom4857 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_cellArray_in_atom4867 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_parenthesized_in_atom4877 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_end_in_atom4887 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_functionHandle_in_atom4897 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_anonymousFunction_in_atom4907 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_metaclass_in_atom4917 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_var_in_chain4942 = new BitSet(new long[]{0x0040400008000082L});
-	public static final BitSet FOLLOW_dotExpressionOperator_in_chain4963 = new BitSet(new long[]{0x0040400008000082L});
-	public static final BitSet FOLLOW_dotNameOperator_in_chain4984 = new BitSet(new long[]{0x0040400008000082L});
-	public static final BitSet FOLLOW_parenthesisOperator_in_chain5005 = new BitSet(new long[]{0x0040400008000082L});
-	public static final BitSet FOLLOW_curlyBraceOperator_in_chain5029 = new BitSet(new long[]{0x0040400008000082L});
-	public static final BitSet FOLLOW_atBaseOperator_in_chain5050 = new BitSet(new long[]{0x0040400008000082L});
-	public static final BitSet FOLLOW_name_in_var5079 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_DOT_in_dotExpressionOperator5105 = new BitSet(new long[]{0x0040000000000000L});
-	public static final BitSet FOLLOW_LPAREN_in_dotExpressionOperator5107 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_dotExpressionOperator5109 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_dotExpressionOperator5111 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_DOT_in_dotNameOperator5131 = new BitSet(new long[]{0x00000CE1C0043C00L,0x00000000A4404038L});
-	public static final BitSet FOLLOW_anyName_in_dotNameOperator5133 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_xANYID_in_anyName5150 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LPAREN_in_parenthesisOperator5179 = new BitSet(new long[]{0x84C0540100004080L,0x000000000100A240L});
-	public static final BitSet FOLLOW_arguments_in_parenthesisOperator5182 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_parenthesisOperator5186 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_argument_in_arguments5206 = new BitSet(new long[]{0x0000000000008002L});
-	public static final BitSet FOLLOW_COMMA_in_arguments5209 = new BitSet(new long[]{0x84C0540100004080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_argument_in_arguments5211 = new BitSet(new long[]{0x0000000000008002L});
-	public static final BitSet FOLLOW_expression_in_argument5229 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_COLON_in_argument5240 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LCURLY_in_curlyBraceOperator5268 = new BitSet(new long[]{0x84C0540100004080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_arguments_in_curlyBraceOperator5270 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000800L});
-	public static final BitSet FOLLOW_RCURLY_in_curlyBraceOperator5272 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_AT_in_atBaseOperator5295 = new BitSet(new long[]{0x0000040000000000L});
-	public static final BitSet FOLLOW_classReference_in_atBaseOperator5297 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_REAL_in_real5316 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_IMAGINARY_in_imaginary5331 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_STRING_in_stringDef5346 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LSQUARE_in_regularArray5368 = new BitSet(new long[]{0x84C0540300008080L,0x0000000001022240L});
-	public static final BitSet FOLLOW_rows_in_regularArray5370 = new BitSet(new long[]{0x0000000000000000L,0x0000000000010000L});
-	public static final BitSet FOLLOW_RSQUARE_in_regularArray5372 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_row_in_rows5399 = new BitSet(new long[]{0x0000000200000002L,0x0000000000020000L});
-	public static final BitSet FOLLOW_SEMICOLON_in_rows5403 = new BitSet(new long[]{0x84C0540300008080L,0x0000000001022240L});
-	public static final BitSet FOLLOW_EOL_in_rows5407 = new BitSet(new long[]{0x84C0540300008080L,0x0000000001022240L});
-	public static final BitSet FOLLOW_row_in_rows5410 = new BitSet(new long[]{0x0000000200000002L,0x0000000000020000L});
-	public static final BitSet FOLLOW_COMMA_in_row5429 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_columns_in_row5433 = new BitSet(new long[]{0x0000000000008002L});
-	public static final BitSet FOLLOW_COMMA_in_row5436 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_COMMA_in_row5452 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_column_in_columns5478 = new BitSet(new long[]{0x84C0540100008082L,0x0000000001002240L});
-	public static final BitSet FOLLOW_COMMA_in_columns5485 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_column_in_columns5489 = new BitSet(new long[]{0x84C0540100008082L,0x0000000001002240L});
-	public static final BitSet FOLLOW_NOT_in_column5528 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_expression_in_column5551 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LCURLY_in_cellArray5575 = new BitSet(new long[]{0x84C0540300008080L,0x0000000001022240L});
-	public static final BitSet FOLLOW_rows_in_cellArray5577 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000800L});
-	public static final BitSet FOLLOW_RCURLY_in_cellArray5579 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LPAREN_in_parenthesized5613 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_parenthesized5615 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_parenthesized5617 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_END_in_end5639 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_AT_in_functionHandle5654 = new BitSet(new long[]{0x0000040000000000L});
-	public static final BitSet FOLLOW_functionReference_in_functionHandle5656 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_fullFunctioName_in_functionReference5674 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_xID_in_fullFunctioName5692 = new BitSet(new long[]{0x0000000008000002L});
-	public static final BitSet FOLLOW_DOT_in_fullFunctioName5695 = new BitSet(new long[]{0x00000CE1C0043C00L,0x00000000A4404038L});
-	public static final BitSet FOLLOW_xANYID_in_fullFunctioName5697 = new BitSet(new long[]{0x0000000008000002L});
-	public static final BitSet FOLLOW_AT_in_anonymousFunction5724 = new BitSet(new long[]{0x0040000000000000L});
-	public static final BitSet FOLLOW_inputPortion_in_anonymousFunction5726 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_anonymousFunction5728 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_QUESTION_in_metaclass5753 = new BitSet(new long[]{0x0000040000000000L});
-	public static final BitSet FOLLOW_classReference_in_metaclass5755 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SEMICOLON_in_xEOS5774 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_COMMA_in_xEOS5785 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_EOL_in_xEOS5796 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_EOL_in_xEOL5812 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_xID5826 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_xANYID5839 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_BREAK_in_xANYID5851 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_CASE_in_xANYID5864 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_CATCH_in_xANYID5877 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_CLASSDEF_in_xANYID5890 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_CONTINUE_in_xANYID5903 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ELSE_in_xANYID5916 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ELSEIF_in_xANYID5929 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_END_in_xANYID5942 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_FOR_in_xANYID5955 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_FUNCTION_in_xANYID5968 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_GLOBAL_in_xANYID5981 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_IF_in_xANYID5994 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_OTHERWISE_in_xANYID6007 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_PARFOR_in_xANYID6020 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_PERSISTENT_in_xANYID6033 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_RETURN_in_xANYID6046 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SPMD_in_xANYID6059 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SWITCH_in_xANYID6072 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_TRY_in_xANYID6085 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_WHILE_in_xANYID6098 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_xFUNCTIONID6116 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_END_in_xFUNCTIONID6127 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_xPARAMETERID6144 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_NOT_in_xPARAMETERID6156 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_xEVENTS6177 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_xPROPERTIES6193 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_xMETHODS6209 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_xENUMERATION6225 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_EOL_in_aspectFile6241 = new BitSet(new long[]{0x0000000200000020L});
-	public static final BitSet FOLLOW_aspectDef_in_aspectFile6245 = new BitSet(new long[]{0x0000000200000000L});
-	public static final BitSet FOLLOW_EOL_in_aspectFile6248 = new BitSet(new long[]{0x0000000200000000L});
-	public static final BitSet FOLLOW_EOF_in_aspectFile6252 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ASPECT_in_aspectDef6270 = new BitSet(new long[]{0x0000040000000000L});
-	public static final BitSet FOLLOW_name_in_aspectDef6272 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_aspectDef6274 = new BitSet(new long[]{0x0000040300008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_aspectSections_in_aspectDef6276 = new BitSet(new long[]{0x0000000100000000L});
-	public static final BitSet FOLLOW_END_in_aspectDef6278 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectSection_in_aspectSections6301 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_aspectSections6305 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
-	public static final BitSet FOLLOW_eventSection_in_aspectSection6323 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_propertySection_in_aspectSection6336 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_methodSection_in_aspectSection6352 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_enumerationSection_in_aspectSection6368 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectPatternSection_in_aspectSection6381 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectActionSection_in_aspectSection6394 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wACTIONS_in_aspectActionSection6417 = new BitSet(new long[]{0x0000040300008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_aspectActions_in_aspectActionSection6419 = new BitSet(new long[]{0x0000000100000000L});
-	public static final BitSet FOLLOW_END_in_aspectActionSection6421 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectAction_in_aspectActions6443 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_aspectActions6447 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
-	public static final BitSet FOLLOW_aspectActionSignature_in_aspectAction6465 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_aspectActionBody_in_aspectAction6467 = new BitSet(new long[]{0x0000000100000000L});
-	public static final BitSet FOLLOW_END_in_aspectAction6469 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_name_in_aspectActionSignature6490 = new BitSet(new long[]{0x0000000000004000L});
-	public static final BitSet FOLLOW_COLON_in_aspectActionSignature6492 = new BitSet(new long[]{0x0000040000000000L});
-	public static final BitSet FOLLOW_aspectActionType_in_aspectActionSignature6494 = new BitSet(new long[]{0x8040040000004000L});
-	public static final BitSet FOLLOW_COLON_in_aspectActionSignature6497 = new BitSet(new long[]{0x8040040000000000L});
-	public static final BitSet FOLLOW_aspectExpression_in_aspectActionSignature6501 = new BitSet(new long[]{0x0000000000004002L});
-	public static final BitSet FOLLOW_COLON_in_aspectActionSignature6504 = new BitSet(new long[]{0x0040000000000000L});
-	public static final BitSet FOLLOW_inputPortion_in_aspectActionSignature6506 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wBEFORE_in_aspectActionType6530 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wAFTER_in_aspectActionType6555 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wAROUND_in_aspectActionType6568 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_closeBody_in_aspectActionBody6586 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wPATTERNS_in_aspectPatternSection6604 = new BitSet(new long[]{0x0000040300008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_aspectPatterns_in_aspectPatternSection6606 = new BitSet(new long[]{0x0000000100000000L});
-	public static final BitSet FOLLOW_END_in_aspectPatternSection6608 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectPattern_in_aspectPatterns6630 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_aspectPatterns6634 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
-	public static final BitSet FOLLOW_name_in_aspectPattern6652 = new BitSet(new long[]{0x0000000000004000L});
-	public static final BitSet FOLLOW_COLON_in_aspectPattern6654 = new BitSet(new long[]{0x8040040000000000L});
-	public static final BitSet FOLLOW_aspectExpression_in_aspectPattern6656 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
-	public static final BitSet FOLLOW_xEOS_in_aspectPattern6658 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectExpression04_in_aspectExpression6677 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectExpression03_in_aspectExpression046693 = new BitSet(new long[]{0x0000000000000002L,0x0000000000000004L});
-	public static final BitSet FOLLOW_OR_in_aspectExpression046710 = new BitSet(new long[]{0x8040040000000000L});
-	public static final BitSet FOLLOW_aspectExpression03_in_aspectExpression046714 = new BitSet(new long[]{0x0000000000000002L,0x0000000000000004L});
-	public static final BitSet FOLLOW_aspectExpression02_in_aspectExpression036740 = new BitSet(new long[]{0x0000000000000012L});
-	public static final BitSet FOLLOW_AND_in_aspectExpression036757 = new BitSet(new long[]{0x8040040000000000L});
-	public static final BitSet FOLLOW_aspectExpression02_in_aspectExpression036761 = new BitSet(new long[]{0x0000000000000012L});
-	public static final BitSet FOLLOW_NOT_in_aspectExpression026784 = new BitSet(new long[]{0x8040040000000000L});
-	public static final BitSet FOLLOW_aspectExpression02_in_aspectExpression026788 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectExpression01_in_aspectExpression026813 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectAtom_in_aspectExpression016837 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectParenthesis_in_aspectAtom6850 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectName_in_aspectAtom6869 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectGet_in_aspectAtom6888 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectSet_in_aspectAtom6907 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectCall_in_aspectAtom6926 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectExecution_in_aspectAtom6945 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectMainExecution_in_aspectAtom6964 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectLoop_in_aspectAtom6983 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectLoopHead_in_aspectAtom7002 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectLoopBody_in_aspectAtom7021 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectAnnotate_in_aspectAtom7040 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectOperator_in_aspectAtom7059 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectWithin_in_aspectAtom7078 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectDimension_in_aspectAtom7097 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectIsType_in_aspectAtom7116 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LPAREN_in_aspectParenthesis7140 = new BitSet(new long[]{0x8040040000000000L});
-	public static final BitSet FOLLOW_aspectExpression_in_aspectParenthesis7142 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_aspectParenthesis7144 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_name_in_aspectName7157 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wID_in_aspectIdentifier7175 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wSTAR_in_aspectIdentifier7200 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wDOTDOT_in_aspectIdentifier7225 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wID_in_aspectTypeSignature7255 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wSTAR_in_aspectTypeSignature7287 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wDOTDOT_in_aspectTypeSignature7319 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wREAL_in_aspectPartSignature7356 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wSTAR_in_aspectPartSignature7384 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wDOTDOT_in_aspectPartSignature7412 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LSQUARE_in_aspectDimensionSignature7445 = new BitSet(new long[]{0x4000000010000000L,0x0000000000012000L});
-	public static final BitSet FOLLOW_aspectPartSignature_in_aspectDimensionSignature7448 = new BitSet(new long[]{0x0000000000008000L,0x0000000000010000L});
-	public static final BitSet FOLLOW_COMMA_in_aspectDimensionSignature7451 = new BitSet(new long[]{0x4000000010000000L,0x0000000000002000L});
-	public static final BitSet FOLLOW_aspectPartSignature_in_aspectDimensionSignature7453 = new BitSet(new long[]{0x0000000000008000L,0x0000000000010000L});
-	public static final BitSet FOLLOW_RSQUARE_in_aspectDimensionSignature7459 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectTypeSignature_in_aspectFullSignature7479 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectTypeSignature_in_aspectFullSignature7511 = new BitSet(new long[]{0x0080000000000000L});
-	public static final BitSet FOLLOW_aspectDimensionSignature_in_aspectFullSignature7513 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectDimensionSignature_in_aspectFullSignature7548 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wGET_in_aspectGet7586 = new BitSet(new long[]{0x0040000000000000L});
-	public static final BitSet FOLLOW_LPAREN_in_aspectGet7588 = new BitSet(new long[]{0x4000040010000000L});
-	public static final BitSet FOLLOW_aspectIdentifier_in_aspectGet7590 = new BitSet(new long[]{0x0000000000004000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_COLON_in_aspectGet7593 = new BitSet(new long[]{0x4080040010000000L});
-	public static final BitSet FOLLOW_aspectFullSignature_in_aspectGet7595 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_aspectGet7599 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wSET_in_aspectSet7621 = new BitSet(new long[]{0x0040000000000000L});
-	public static final BitSet FOLLOW_LPAREN_in_aspectSet7623 = new BitSet(new long[]{0x4000040010000000L});
-	public static final BitSet FOLLOW_aspectIdentifier_in_aspectSet7625 = new BitSet(new long[]{0x0000000000004000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_COLON_in_aspectSet7628 = new BitSet(new long[]{0x4080040010000000L});
-	public static final BitSet FOLLOW_aspectFullSignature_in_aspectSet7630 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_aspectSet7634 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectFullSignature_in_aspectInput7657 = new BitSet(new long[]{0x0000000000008002L});
-	public static final BitSet FOLLOW_COMMA_in_aspectInput7660 = new BitSet(new long[]{0x4080040010000000L});
-	public static final BitSet FOLLOW_aspectFullSignature_in_aspectInput7662 = new BitSet(new long[]{0x0000000000008002L});
-	public static final BitSet FOLLOW_aspectFullSignature_in_aspectOutput7683 = new BitSet(new long[]{0x0000000000008002L});
-	public static final BitSet FOLLOW_COMMA_in_aspectOutput7686 = new BitSet(new long[]{0x4080040010000000L});
-	public static final BitSet FOLLOW_aspectFullSignature_in_aspectOutput7688 = new BitSet(new long[]{0x0000000000008002L});
-	public static final BitSet FOLLOW_wCALL_in_aspectCall7709 = new BitSet(new long[]{0x0040000000000000L});
-	public static final BitSet FOLLOW_LPAREN_in_aspectCall7711 = new BitSet(new long[]{0x4000040010000000L});
-	public static final BitSet FOLLOW_aspectIdentifier_in_aspectCall7713 = new BitSet(new long[]{0x0040000000000000L});
-	public static final BitSet FOLLOW_LPAREN_in_aspectCall7715 = new BitSet(new long[]{0x4080040010000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_aspectInput_in_aspectCall7717 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_aspectCall7719 = new BitSet(new long[]{0x0000000000004000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_COLON_in_aspectCall7722 = new BitSet(new long[]{0x4080040010000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_aspectOutput_in_aspectCall7724 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_aspectCall7728 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wEXECUTION_in_aspectExecution7763 = new BitSet(new long[]{0x0040000000000000L});
-	public static final BitSet FOLLOW_LPAREN_in_aspectExecution7765 = new BitSet(new long[]{0x4000040010000000L});
-	public static final BitSet FOLLOW_aspectIdentifier_in_aspectExecution7767 = new BitSet(new long[]{0x0040000000000000L});
-	public static final BitSet FOLLOW_LPAREN_in_aspectExecution7769 = new BitSet(new long[]{0x4080040010000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_aspectInput_in_aspectExecution7771 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_aspectExecution7773 = new BitSet(new long[]{0x0000000000004000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_COLON_in_aspectExecution7776 = new BitSet(new long[]{0x4080040010000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_aspectOutput_in_aspectExecution7778 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_aspectExecution7782 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wMAINEXECUTION_in_aspectMainExecution7817 = new BitSet(new long[]{0x0040000000000000L});
-	public static final BitSet FOLLOW_LPAREN_in_aspectMainExecution7819 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_aspectMainExecution7821 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wFOR_in_aspectLoopType7834 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wWHILE_in_aspectLoopType7857 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wSTAR_in_aspectLoopType7880 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wDOTDOT_in_aspectLoopType7903 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wLOOP_in_aspectLoop7931 = new BitSet(new long[]{0x0040000000000000L});
-	public static final BitSet FOLLOW_LPAREN_in_aspectLoop7933 = new BitSet(new long[]{0x4000042010000000L,0x0000000080000000L});
-	public static final BitSet FOLLOW_aspectLoopType_in_aspectLoop7936 = new BitSet(new long[]{0x0000000000004000L});
-	public static final BitSet FOLLOW_COLON_in_aspectLoop7938 = new BitSet(new long[]{0x4000040010000000L});
-	public static final BitSet FOLLOW_aspectIdentifier_in_aspectLoop7942 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_aspectLoop7944 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wLOOPBODY_in_aspectLoopBody7965 = new BitSet(new long[]{0x0040000000000000L});
-	public static final BitSet FOLLOW_LPAREN_in_aspectLoopBody7967 = new BitSet(new long[]{0x4000042010000000L,0x0000000080000000L});
-	public static final BitSet FOLLOW_aspectLoopType_in_aspectLoopBody7970 = new BitSet(new long[]{0x0000000000004000L});
-	public static final BitSet FOLLOW_COLON_in_aspectLoopBody7972 = new BitSet(new long[]{0x4000040010000000L});
-	public static final BitSet FOLLOW_aspectIdentifier_in_aspectLoopBody7976 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_aspectLoopBody7978 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wLOOPHEAD_in_aspectLoopHead7999 = new BitSet(new long[]{0x0040000000000000L});
-	public static final BitSet FOLLOW_LPAREN_in_aspectLoopHead8001 = new BitSet(new long[]{0x4000042010000000L,0x0000000080000000L});
-	public static final BitSet FOLLOW_aspectLoopType_in_aspectLoopHead8004 = new BitSet(new long[]{0x0000000000004000L});
-	public static final BitSet FOLLOW_COLON_in_aspectLoopHead8006 = new BitSet(new long[]{0x4000040010000000L});
-	public static final BitSet FOLLOW_aspectIdentifier_in_aspectLoopHead8010 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_aspectLoopHead8012 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wVAR_in_aspectPartSelector8033 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wSTR_in_aspectPartSelector8060 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wNUM_in_aspectPartSelector8087 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wSTAR_in_aspectPartSelector8114 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wDOTDOT_in_aspectPartSelector8141 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectPartSelector_in_aspectSimpleSelector8173 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LSQUARE_in_aspectCompoundSelector8190 = new BitSet(new long[]{0x4000040010000000L,0x0000000000010000L});
-	public static final BitSet FOLLOW_aspectPartSelector_in_aspectCompoundSelector8193 = new BitSet(new long[]{0x0000000000008000L,0x0000000000010000L});
-	public static final BitSet FOLLOW_COMMA_in_aspectCompoundSelector8196 = new BitSet(new long[]{0x4000040010000000L});
-	public static final BitSet FOLLOW_aspectPartSelector_in_aspectCompoundSelector8198 = new BitSet(new long[]{0x0000000000008000L,0x0000000000010000L});
-	public static final BitSet FOLLOW_RSQUARE_in_aspectCompoundSelector8204 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectSimpleSelector_in_aspectSelector8223 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_aspectCompoundSelector_in_aspectSelector8246 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wANNOTATE_in_aspectAnnotate8274 = new BitSet(new long[]{0x0040000000000000L});
-	public static final BitSet FOLLOW_LPAREN_in_aspectAnnotate8276 = new BitSet(new long[]{0x4000040010000000L});
-	public static final BitSet FOLLOW_aspectIdentifier_in_aspectAnnotate8278 = new BitSet(new long[]{0x0040000000000000L});
-	public static final BitSet FOLLOW_LPAREN_in_aspectAnnotate8280 = new BitSet(new long[]{0x4080040010000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_aspectSelector_in_aspectAnnotate8283 = new BitSet(new long[]{0x0000000000008000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_COMMA_in_aspectAnnotate8286 = new BitSet(new long[]{0x4080040010000000L});
-	public static final BitSet FOLLOW_aspectSelector_in_aspectAnnotate8288 = new BitSet(new long[]{0x0000000000008000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_aspectAnnotate8294 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_aspectAnnotate8296 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wPLUS_in_aspectOperatorType8318 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wMINUS_in_aspectOperatorType8345 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wMTIMES_in_aspectOperatorType8372 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wTIMES_in_aspectOperatorType8399 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wMRDIV_in_aspectOperatorType8426 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wRDIV_in_aspectOperatorType8453 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wMLDIV_in_aspectOperatorType8480 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wLDIV_in_aspectOperatorType8507 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wMPOW_in_aspectOperatorType8534 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wPOW_in_aspectOperatorType8561 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wCTRANS_in_aspectOperatorType8588 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wTRANS_in_aspectOperatorType8615 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wOPERATOR_in_aspectOperator8647 = new BitSet(new long[]{0x0040000000000000L});
-	public static final BitSet FOLLOW_LPAREN_in_aspectOperator8649 = new BitSet(new long[]{0x7C00800000080000L,0x0000000018001140L});
-	public static final BitSet FOLLOW_aspectOperatorType_in_aspectOperator8651 = new BitSet(new long[]{0x0000000000004000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_COLON_in_aspectOperator8654 = new BitSet(new long[]{0x4080040010000000L});
-	public static final BitSet FOLLOW_aspectFullSignature_in_aspectOperator8656 = new BitSet(new long[]{0x0000000000008000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_COMMA_in_aspectOperator8659 = new BitSet(new long[]{0x4080040010000000L});
-	public static final BitSet FOLLOW_aspectFullSignature_in_aspectOperator8661 = new BitSet(new long[]{0x0000000000008000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_aspectOperator8667 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wWITHIN_in_aspectWithin8689 = new BitSet(new long[]{0x0040000000000000L});
-	public static final BitSet FOLLOW_LPAREN_in_aspectWithin8691 = new BitSet(new long[]{0x4000044010000000L});
-	public static final BitSet FOLLOW_aspectScopeType_in_aspectWithin8693 = new BitSet(new long[]{0x0000000000004000L});
-	public static final BitSet FOLLOW_COLON_in_aspectWithin8695 = new BitSet(new long[]{0x4000040010000000L});
-	public static final BitSet FOLLOW_aspectIdentifier_in_aspectWithin8697 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_aspectWithin8699 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wFUNCTION_in_aspectScopeType8718 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wSCRIPT_in_aspectScopeType8742 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wCLASS_in_aspectScopeType8766 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wASPECT_in_aspectScopeType8790 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wLOOP_in_aspectScopeType8814 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wSTAR_in_aspectScopeType8838 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wDOTDOT_in_aspectScopeType8862 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wDIMENSION_in_aspectDimension8891 = new BitSet(new long[]{0x0040000000000000L});
-	public static final BitSet FOLLOW_LPAREN_in_aspectDimension8893 = new BitSet(new long[]{0x0080000000000000L});
-	public static final BitSet FOLLOW_aspectDimensionSignature_in_aspectDimension8895 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_aspectDimension8897 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_wISTYPE_in_aspectIsType8913 = new BitSet(new long[]{0x0040000000000000L});
-	public static final BitSet FOLLOW_LPAREN_in_aspectIsType8915 = new BitSet(new long[]{0x4000040010000000L});
-	public static final BitSet FOLLOW_aspectTypeSignature_in_aspectIsType8917 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-	public static final BitSet FOLLOW_RPAREN_in_aspectIsType8919 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wID8938 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_REAL_in_wREAL8956 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wASPECT8978 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wACTIONS8999 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wPATTERNS9020 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wBEFORE9041 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wAFTER9062 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wAROUND9083 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wGET9104 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wSET9125 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wCALL9146 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wEXECUTION9167 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wMAINEXECUTION9188 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wLOOP9209 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wLOOPBODY9230 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wLOOPHEAD9251 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wANNOTATE9272 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wOPERATOR9293 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wWITHIN9314 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wDIMENSION9335 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wISTYPE9356 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_MTIMES_in_wSTAR9374 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_FUNCTION_in_wFUNCTION9393 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wSCRIPT9415 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wLOOPS9436 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wCLASS9457 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_DOTDOT_in_wDOTDOT9475 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_FOR_in_wFOR9494 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_WHILE_in_wWHILE9514 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_PLUS_in_wPLUS9534 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_MINUS_in_wMINUS9553 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_MTIMES_in_wMTIMES9572 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_TIMES_in_wTIMES9591 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_MRDIV_in_wMRDIV9610 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_RDIV_in_wRDIV9629 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_MLDIV_in_wMLDIV9648 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LDIV_in_wLDIV9667 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_MPOW_in_wMPOW9686 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_POW_in_wPOW9705 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_TRANS_in_wTRANS9724 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_CTRANS_in_wCTRANS9743 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wVAR9765 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wSTR9786 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ID_in_wNUM9807 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_openFunctionFile_in_synpred1_MatlabParser487 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_assignment_in_synpred2_MatlabParser2193 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_action_in_synpred3_MatlabParser2216 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_simpleCommand_in_synpred4_MatlabParser2233 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_abortCommand_in_synpred5_MatlabParser2250 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_LPAREN_in_synpred6_MatlabParser3422 = new BitSet(new long[]{0x0000040000000000L});
-	public static final BitSet FOLLOW_var_in_synpred6_MatlabParser3424 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_ASSIGN_in_synpred6_MatlabParser3426 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
-	public static final BitSet FOLLOW_expression_in_synpred6_MatlabParser3428 = new BitSet(new long[]{0x0000000000008000L});
-	public static final BitSet FOLLOW_COMMA_in_synpred6_MatlabParser3430 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_DOT_in_synpred7_MatlabParser4955 = new BitSet(new long[]{0x0040000000000000L});
-	public static final BitSet FOLLOW_LPAREN_in_synpred7_MatlabParser4957 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_NOT_in_synpred8_MatlabParser5508 = new BitSet(new long[]{0x0000000200008000L,0x0000000000030000L});
-	public static final BitSet FOLLOW_set_in_synpred8_MatlabParser5510 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_scriptFile_in_file391 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_functionFile_in_file402 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_classFile_in_file413 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectFile_in_file424 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_statements_in_scriptFile442 = new BitSet(new long[]{0x0000000000000000L});
+	public static final BitSet FOLLOW_EOF_in_scriptFile444 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_statement_in_statements466 = new BitSet(new long[]{0x84C05CAB00058482L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_xEOS_in_statements470 = new BitSet(new long[]{0x84C05CAB00058482L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_openFunctionFile_in_functionFile495 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_closeFunctionFile_in_functionFile507 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_EOL_in_openFunctionFile527 = new BitSet(new long[]{0x0000004200000000L});
+	public static final BitSet FOLLOW_openFunctions_in_openFunctionFile531 = new BitSet(new long[]{0x0000000000000000L});
+	public static final BitSet FOLLOW_EOF_in_openFunctionFile533 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_openFunction_in_openFunctions552 = new BitSet(new long[]{0x0000004000000002L});
+	public static final BitSet FOLLOW_FUNCTION_in_openFunction570 = new BitSet(new long[]{0x0080040000000000L});
+	public static final BitSet FOLLOW_functionSignature_in_openFunction572 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_openBody_in_openFunction574 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_outputPortion_in_functionSignature596 = new BitSet(new long[]{0x0000040100000000L});
+	public static final BitSet FOLLOW_functionName_in_functionSignature598 = new BitSet(new long[]{0x0040000000000002L});
+	public static final BitSet FOLLOW_inputPortion_in_functionSignature601 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_name_in_functionSignature627 = new BitSet(new long[]{0x0040000000000002L});
+	public static final BitSet FOLLOW_inputPortion_in_functionSignature630 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_output_in_outputPortion656 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_ASSIGN_in_outputPortion658 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_outputVector_in_outputPortion671 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_ASSIGN_in_outputPortion673 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_name_in_output694 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_xID_in_name712 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LSQUARE_in_outputVector730 = new BitSet(new long[]{0x0000040000000000L,0x0000000000010000L});
+	public static final BitSet FOLLOW_vectorOutputs_in_outputVector733 = new BitSet(new long[]{0x0000000000000000L,0x0000000000010000L});
+	public static final BitSet FOLLOW_RSQUARE_in_outputVector737 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_vectorOutput_in_vectorOutputs753 = new BitSet(new long[]{0x0000040000008002L});
+	public static final BitSet FOLLOW_COMMA_in_vectorOutputs760 = new BitSet(new long[]{0x0000040000000000L});
+	public static final BitSet FOLLOW_vectorOutput_in_vectorOutputs764 = new BitSet(new long[]{0x0000040000008002L});
+	public static final BitSet FOLLOW_name_in_vectorOutput782 = new BitSet(new long[]{0x0000000000000082L});
+	public static final BitSet FOLLOW_filter_in_vectorOutput788 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_AT_in_filter813 = new BitSet(new long[]{0x0000040000000000L});
+	public static final BitSet FOLLOW_classReference_in_filter815 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_xFUNCTIONID_in_functionName828 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LPAREN_in_inputPortion846 = new BitSet(new long[]{0x8000040000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_parameters_in_inputPortion849 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_inputPortion853 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_parameter_in_parameters869 = new BitSet(new long[]{0x0000000000008002L});
+	public static final BitSet FOLLOW_COMMA_in_parameters872 = new BitSet(new long[]{0x8000040000000000L});
+	public static final BitSet FOLLOW_parameter_in_parameters874 = new BitSet(new long[]{0x0000000000008002L});
+	public static final BitSet FOLLOW_parameterName_in_parameter892 = new BitSet(new long[]{0x0000000000000082L});
+	public static final BitSet FOLLOW_filter_in_parameter898 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_xPARAMETERID_in_parameterName923 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_xEOS_in_openBody942 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_openItems_in_openBody944 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_openItem_in_openItems963 = new BitSet(new long[]{0x84C05CAB00058482L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_xEOS_in_openItems967 = new BitSet(new long[]{0x84C05CAB00058482L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_statement_in_openItem985 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_EOL_in_closeFunctionFile1001 = new BitSet(new long[]{0x0000004200000000L});
+	public static final BitSet FOLLOW_closeFunctions_in_closeFunctionFile1005 = new BitSet(new long[]{0x0000000200000000L});
+	public static final BitSet FOLLOW_EOL_in_closeFunctionFile1008 = new BitSet(new long[]{0x0000000200000000L});
+	public static final BitSet FOLLOW_EOF_in_closeFunctionFile1012 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_closeFunction_in_closeFunctions1030 = new BitSet(new long[]{0x0000004200000002L});
+	public static final BitSet FOLLOW_EOL_in_closeFunctions1034 = new BitSet(new long[]{0x0000004200000000L});
+	public static final BitSet FOLLOW_closeFunction_in_closeFunctions1038 = new BitSet(new long[]{0x0000004200000002L});
+	public static final BitSet FOLLOW_FUNCTION_in_closeFunction1056 = new BitSet(new long[]{0x0080040000000000L});
+	public static final BitSet FOLLOW_functionSignature_in_closeFunction1058 = new BitSet(new long[]{0x0000000300008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_closeBody_in_closeFunction1060 = new BitSet(new long[]{0x0000000100000000L});
+	public static final BitSet FOLLOW_END_in_closeFunction1062 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_xEOS_in_closeBody1085 = new BitSet(new long[]{0x84C05CEB00058480L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_closeItems_in_closeBody1087 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_closeItem_in_closeItems1106 = new BitSet(new long[]{0x84C05CEB00058482L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_xEOS_in_closeItems1110 = new BitSet(new long[]{0x84C05CEB00058482L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_nestedFunction_in_closeItem1128 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_statement_in_closeItem1146 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_FUNCTION_in_nestedFunction1163 = new BitSet(new long[]{0x0080040000000000L});
+	public static final BitSet FOLLOW_functionSignature_in_nestedFunction1165 = new BitSet(new long[]{0x0000000300008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_closeBody_in_nestedFunction1167 = new BitSet(new long[]{0x0000000100000000L});
+	public static final BitSet FOLLOW_END_in_nestedFunction1169 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_EOL_in_classFile1195 = new BitSet(new long[]{0x0000000200002000L});
+	public static final BitSet FOLLOW_classDef_in_classFile1199 = new BitSet(new long[]{0x0000004200000000L});
+	public static final BitSet FOLLOW_EOL_in_classFile1202 = new BitSet(new long[]{0x0000004200000000L});
+	public static final BitSet FOLLOW_closeFunctions_in_classFile1207 = new BitSet(new long[]{0x0000000200000000L});
+	public static final BitSet FOLLOW_EOL_in_classFile1210 = new BitSet(new long[]{0x0000000200000000L});
+	public static final BitSet FOLLOW_EOF_in_classFile1216 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_CLASSDEF_in_classDef1239 = new BitSet(new long[]{0x0040040000000000L});
+	public static final BitSet FOLLOW_annotationPortion_in_classDef1242 = new BitSet(new long[]{0x0000040000000000L});
+	public static final BitSet FOLLOW_name_in_classDef1246 = new BitSet(new long[]{0x0100000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_genealogyPortion_in_classDef1249 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_classDef1253 = new BitSet(new long[]{0x0000040300008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_sections_in_classDef1255 = new BitSet(new long[]{0x0000000100000000L});
+	public static final BitSet FOLLOW_END_in_classDef1257 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LPAREN_in_annotationPortion1289 = new BitSet(new long[]{0x8000040000000000L});
+	public static final BitSet FOLLOW_attributes_in_annotationPortion1291 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_annotationPortion1293 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_attribute_in_attributes1306 = new BitSet(new long[]{0x0000000000008002L});
+	public static final BitSet FOLLOW_COMMA_in_attributes1309 = new BitSet(new long[]{0x8000040000000000L});
+	public static final BitSet FOLLOW_attribute_in_attributes1311 = new BitSet(new long[]{0x0000000000008002L});
+	public static final BitSet FOLLOW_NOT_in_attribute1329 = new BitSet(new long[]{0x0000040000000000L});
+	public static final BitSet FOLLOW_name_in_attribute1331 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_name_in_attribute1363 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_name_in_attribute1401 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_ASSIGN_in_attribute1403 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_attribute1405 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LT_in_genealogyPortion1429 = new BitSet(new long[]{0x0000040000000000L});
+	public static final BitSet FOLLOW_baseClasses_in_genealogyPortion1431 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_classReference_in_baseClasses1444 = new BitSet(new long[]{0x0000000000000012L});
+	public static final BitSet FOLLOW_AND_in_baseClasses1447 = new BitSet(new long[]{0x0000040000000000L});
+	public static final BitSet FOLLOW_classReference_in_baseClasses1449 = new BitSet(new long[]{0x0000000000000012L});
+	public static final BitSet FOLLOW_fullClassName_in_classReference1467 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_xID_in_fullClassName1485 = new BitSet(new long[]{0x0000000008000002L});
+	public static final BitSet FOLLOW_DOT_in_fullClassName1491 = new BitSet(new long[]{0x00000CE1C0043C00L,0x00000000A4404038L});
+	public static final BitSet FOLLOW_xANYID_in_fullClassName1493 = new BitSet(new long[]{0x0000000008000002L});
+	public static final BitSet FOLLOW_section_in_sections1519 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_sections1523 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
+	public static final BitSet FOLLOW_eventSection_in_section1541 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_propertySection_in_section1551 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_methodSection_in_section1561 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_enumerationSection_in_section1571 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_xEVENTS_in_eventSection1588 = new BitSet(new long[]{0x0040040300008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_annotationPortion_in_eventSection1591 = new BitSet(new long[]{0x0000040300008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_events_in_eventSection1595 = new BitSet(new long[]{0x0000000100000000L});
+	public static final BitSet FOLLOW_END_in_eventSection1597 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_event_in_events1624 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_events1628 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
+	public static final BitSet FOLLOW_name_in_event1646 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_event1648 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_xPROPERTIES_in_propertySection1668 = new BitSet(new long[]{0x0040040300008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_annotationPortion_in_propertySection1671 = new BitSet(new long[]{0x0000040300008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_properties_in_propertySection1675 = new BitSet(new long[]{0x0000000100000000L});
+	public static final BitSet FOLLOW_END_in_propertySection1677 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_property_in_properties1704 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_properties1708 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
+	public static final BitSet FOLLOW_name_in_property1726 = new BitSet(new long[]{0x00000000000000C2L});
+	public static final BitSet FOLLOW_filter_in_property1729 = new BitSet(new long[]{0x0000000000000042L});
+	public static final BitSet FOLLOW_ASSIGN_in_property1734 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_property1736 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_xMETHODS_in_methodSection1768 = new BitSet(new long[]{0x00C0044300008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_annotationPortion_in_methodSection1771 = new BitSet(new long[]{0x0080044300008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_methods_in_methodSection1775 = new BitSet(new long[]{0x0000000100000000L});
+	public static final BitSet FOLLOW_END_in_methodSection1777 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_method_in_methods1804 = new BitSet(new long[]{0x0080044200008002L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_methods1808 = new BitSet(new long[]{0x0080044200008002L,0x0000000000020000L});
+	public static final BitSet FOLLOW_regularMethod_in_method1826 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_externalMethod_in_method1838 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_FUNCTION_in_regularMethod1855 = new BitSet(new long[]{0x0080040000000000L});
+	public static final BitSet FOLLOW_methodSignature_in_regularMethod1857 = new BitSet(new long[]{0x0000000300008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_closeBody_in_regularMethod1859 = new BitSet(new long[]{0x0000000100000000L});
+	public static final BitSet FOLLOW_END_in_regularMethod1861 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_outputPortion_in_methodSignature1892 = new BitSet(new long[]{0x0000040000000000L});
+	public static final BitSet FOLLOW_methodName1_in_methodSignature1896 = new BitSet(new long[]{0x0040000000000002L});
+	public static final BitSet FOLLOW_inputPortion_in_methodSignature1899 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_outputPortion_in_methodSignature1919 = new BitSet(new long[]{0x0000040100000000L});
+	public static final BitSet FOLLOW_methodName2_in_methodSignature1921 = new BitSet(new long[]{0x0040000000000002L});
+	public static final BitSet FOLLOW_inputPortion_in_methodSignature1924 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_methodName3_in_methodSignature1944 = new BitSet(new long[]{0x0040000000000002L});
+	public static final BitSet FOLLOW_inputPortion_in_methodSignature1947 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_xID_in_methodName11971 = new BitSet(new long[]{0x0000000008000000L});
+	public static final BitSet FOLLOW_DOT_in_methodName11973 = new BitSet(new long[]{0x0000040100000000L});
+	public static final BitSet FOLLOW_xFUNCTIONID_in_methodName11975 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_xFUNCTIONID_in_methodName21995 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_xID_in_methodName32013 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_methodSignature_in_externalMethod2031 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_externalMethod2033 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_xENUMERATION_in_enumerationSection2053 = new BitSet(new long[]{0x0040040300008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_annotationPortion_in_enumerationSection2056 = new BitSet(new long[]{0x0000040300008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_enumerations_in_enumerationSection2060 = new BitSet(new long[]{0x0000000100000000L});
+	public static final BitSet FOLLOW_END_in_enumerationSection2062 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_enumeration_in_enumerations2089 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_enumerations2093 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
+	public static final BitSet FOLLOW_name_in_enumeration2111 = new BitSet(new long[]{0x0040000000000002L});
+	public static final BitSet FOLLOW_call_in_enumeration2114 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LPAREN_in_call2144 = new BitSet(new long[]{0x84C0540100000080L,0x000000000100A240L});
+	public static final BitSet FOLLOW_expressions_in_call2147 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_call2151 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_expression_in_expressions2171 = new BitSet(new long[]{0x0000000000008002L});
+	public static final BitSet FOLLOW_COMMA_in_expressions2174 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_expressions2176 = new BitSet(new long[]{0x0000000000008002L});
+	public static final BitSet FOLLOW_assignment_in_statement2201 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_action_in_statement2224 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_simpleCommand_in_statement2241 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_abortCommand_in_statement2258 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_standardCommand_in_statement2270 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_bang_in_statement2282 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_breakDef_in_statement2300 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_continueDef_in_statement2318 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_forDef_in_statement2336 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_global_in_statement2354 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ifDef_in_statement2372 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_parfor_in_statement2390 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_persistent_in_statement2408 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_returnDef_in_statement2426 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_spmd_in_statement2438 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_switchDef_in_statement2456 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_tryDef_in_statement2474 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_whileDef_in_statement2492 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_assignmentCore_in_assignment2520 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_chain_in_assignmentCore2533 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_ASSIGN_in_assignmentCore2535 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_assignmentCore2537 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_assignmentCore2539 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_storage_in_assignmentCore2561 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_ASSIGN_in_assignmentCore2563 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_assignmentCore2565 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_assignmentCore2567 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LSQUARE_in_storage2599 = new BitSet(new long[]{0x8000040000008000L,0x0000000000000200L});
+	public static final BitSet FOLLOW_COMMA_in_storage2602 = new BitSet(new long[]{0x8000040000000000L,0x0000000000000200L});
+	public static final BitSet FOLLOW_slots_in_storage2606 = new BitSet(new long[]{0x0000000000008000L,0x0000000000010000L});
+	public static final BitSet FOLLOW_COMMA_in_storage2609 = new BitSet(new long[]{0x0000000000000000L,0x0000000000010000L});
+	public static final BitSet FOLLOW_RSQUARE_in_storage2613 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_slot_in_slots2635 = new BitSet(new long[]{0x8000040000008002L,0x0000000000000200L});
+	public static final BitSet FOLLOW_COMMA_in_slots2642 = new BitSet(new long[]{0x8000040000000000L,0x0000000000000200L});
+	public static final BitSet FOLLOW_slot_in_slots2646 = new BitSet(new long[]{0x8000040000008002L,0x0000000000000200L});
+	public static final BitSet FOLLOW_chain_in_slot2664 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_metaclass_in_slot2674 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_NOT_in_slot2684 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_expression_in_action2715 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_action2717 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_var_in_simpleCommand2742 = new BitSet(new long[]{0xFF3FBFFDFFF77FF0L,0xFFFFFFFFEFFC73FFL,0x0000003FFFFFFFFFL});
+	public static final BitSet FOLLOW_simpleTexts_in_simpleCommand2744 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_simpleCommand2746 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_simpleText_in_simpleTexts2773 = new BitSet(new long[]{0xFF3FBFFDFFF77FF2L,0xFFFFFFFFEFFC73FFL,0x0000003FFFFFFFFFL});
+	public static final BitSet FOLLOW_simpleText_in_simpleTexts2779 = new BitSet(new long[]{0xFF3FBFFDFFF77FF2L,0xFFFFFFFFEFFC73FFL,0x0000003FFFFFFFFFL});
+	public static final BitSet FOLLOW_simpleBlock_in_simpleText2805 = new BitSet(new long[]{0xFF3FBFFDFFF77FF2L,0xFFFFFFFFEFFC73FFL,0x0000003FFFFFFFFFL});
+	public static final BitSet FOLLOW_simpleBlock_in_simpleText2824 = new BitSet(new long[]{0xFF3FBFFDFFF77FF2L,0xFFFFFFFFEFFC73FFL,0x0000003FFFFFFFFFL});
+	public static final BitSet FOLLOW_STRING_in_simpleBlock2852 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_set_in_simpleBlock2861 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_var_in_abortCommand2930 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_COMMAND_in_standardCommand2947 = new BitSet(new long[]{0x0000000000100000L,0x0000000002000000L});
+	public static final BitSet FOLLOW_standardTexts_in_standardCommand2949 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_standardCommand2951 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_standardText_in_standardTexts2989 = new BitSet(new long[]{0x0000000000100002L,0x0000000002000000L});
+	public static final BitSet FOLLOW_standardText_in_standardTexts2995 = new BitSet(new long[]{0x0000000000100002L,0x0000000002000000L});
+	public static final BitSet FOLLOW_standardBlock_in_standardText3021 = new BitSet(new long[]{0x0000000000100002L,0x0000000002000000L});
+	public static final BitSet FOLLOW_standardBlock_in_standardText3040 = new BitSet(new long[]{0x0000000000100002L,0x0000000002000000L});
+	public static final BitSet FOLLOW_STRINGBLOCK_in_standardBlock3069 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_DEFAULTBLOCK_in_standardBlock3078 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_EXCLAMATION_in_bang3097 = new BitSet(new long[]{0x0002000000000000L});
+	public static final BitSet FOLLOW_LINE_in_bang3099 = new BitSet(new long[]{0x0000000200000000L});
+	public static final BitSet FOLLOW_xEOL_in_bang3103 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_BREAK_in_breakDef3125 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_breakDef3127 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_CONTINUE_in_continueDef3146 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_continueDef3148 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_FOR_in_forDef3167 = new BitSet(new long[]{0x0040040000000000L});
+	public static final BitSet FOLLOW_forHead_in_forDef3169 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_statements_in_forDef3171 = new BitSet(new long[]{0x0000000100000000L});
+	public static final BitSet FOLLOW_END_in_forDef3173 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_forDef3175 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_var_in_forHead3199 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_ASSIGN_in_forHead3201 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_forHead3203 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LPAREN_in_forHead3215 = new BitSet(new long[]{0x0000040000000000L});
+	public static final BitSet FOLLOW_var_in_forHead3217 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_ASSIGN_in_forHead3219 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_forHead3221 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_forHead3223 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_GLOBAL_in_global3242 = new BitSet(new long[]{0x0000040000000000L});
+	public static final BitSet FOLLOW_var_in_global3245 = new BitSet(new long[]{0x0000040200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_global3249 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ifPart_in_ifDef3273 = new BitSet(new long[]{0x00000001C0000000L});
+	public static final BitSet FOLLOW_elseIfPart_in_ifDef3276 = new BitSet(new long[]{0x00000001C0000000L});
+	public static final BitSet FOLLOW_elsePart_in_ifDef3281 = new BitSet(new long[]{0x0000000100000000L});
+	public static final BitSet FOLLOW_END_in_ifDef3285 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_ifDef3287 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_IF_in_ifPart3317 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_ifPart3319 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_statements_in_ifPart3321 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ELSEIF_in_elseIfPart3343 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_elseIfPart3345 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_statements_in_elseIfPart3347 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ELSE_in_elsePart3369 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_statements_in_elsePart3371 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_PARFOR_in_parfor3393 = new BitSet(new long[]{0x0040040000000000L});
+	public static final BitSet FOLLOW_parforHead_in_parfor3395 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_statements_in_parfor3397 = new BitSet(new long[]{0x0000000100000000L});
+	public static final BitSet FOLLOW_END_in_parfor3399 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_parfor3401 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LPAREN_in_parforHead3438 = new BitSet(new long[]{0x0000040000000000L});
+	public static final BitSet FOLLOW_var_in_parforHead3440 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_ASSIGN_in_parforHead3442 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_parforHead3444 = new BitSet(new long[]{0x0000000000008000L});
+	public static final BitSet FOLLOW_COMMA_in_parforHead3446 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_parforHead3448 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_parforHead3450 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LPAREN_in_parforHead3468 = new BitSet(new long[]{0x0000040000000000L});
+	public static final BitSet FOLLOW_var_in_parforHead3470 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_ASSIGN_in_parforHead3472 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_parforHead3474 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_parforHead3476 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_var_in_parforHead3491 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_ASSIGN_in_parforHead3493 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_parforHead3495 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_PERSISTENT_in_persistent3517 = new BitSet(new long[]{0x0000040000000000L});
+	public static final BitSet FOLLOW_var_in_persistent3520 = new BitSet(new long[]{0x0000040200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_persistent3524 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_RETURN_in_returnDef3548 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_returnDef3550 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SPMD_in_spmd3569 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_spmdHead_in_spmd3580 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_statements_in_spmd3584 = new BitSet(new long[]{0x0000000100000000L});
+	public static final BitSet FOLLOW_END_in_spmd3586 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_spmd3588 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LPAREN_in_spmdHead3615 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_spmdHead3617 = new BitSet(new long[]{0x0000000000008000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_COMMA_in_spmdHead3620 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_spmdHead3622 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_spmdHead3626 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_switchPart_in_switchDef3644 = new BitSet(new long[]{0x0000000100000800L,0x0000000000000008L});
+	public static final BitSet FOLLOW_casePart_in_switchDef3647 = new BitSet(new long[]{0x0000000100000800L,0x0000000000000008L});
+	public static final BitSet FOLLOW_otherwisePart_in_switchDef3652 = new BitSet(new long[]{0x0000000100000000L});
+	public static final BitSet FOLLOW_END_in_switchDef3656 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_switchDef3658 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SWITCH_in_switchPart3688 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_switchPart3690 = new BitSet(new long[]{0x0000000200008002L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_switchPart3693 = new BitSet(new long[]{0x0000000200008002L,0x0000000000020000L});
+	public static final BitSet FOLLOW_CASE_in_casePart3712 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_casePart3714 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_casePart3716 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_statements_in_casePart3718 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_OTHERWISE_in_otherwisePart3740 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_statements_in_otherwisePart3742 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_tryPart_in_tryDef3764 = new BitSet(new long[]{0x0000000100001000L});
+	public static final BitSet FOLLOW_catchPart_in_tryDef3767 = new BitSet(new long[]{0x0000000100000000L});
+	public static final BitSet FOLLOW_END_in_tryDef3771 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_tryDef3773 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_TRY_in_tryPart3798 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_statements_in_tryPart3800 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_CATCH_in_catchPart3820 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_capturePortion_in_catchPart3834 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_statements_in_catchPart3838 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_var_in_capturePortion3863 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_capturePortion3865 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_WHILE_in_whileDef3880 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_whileDef3882 = new BitSet(new long[]{0x84C05CAB00058480L,0x00000000A5426270L});
+	public static final BitSet FOLLOW_statements_in_whileDef3884 = new BitSet(new long[]{0x0000000100000000L});
+	public static final BitSet FOLLOW_END_in_whileDef3886 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_whileDef3888 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_expression11_in_expression3914 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_expression10_in_expression113930 = new BitSet(new long[]{0x0000000000000002L,0x0000000000080000L});
+	public static final BitSet FOLLOW_SHORTOR_in_expression113947 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression10_in_expression113951 = new BitSet(new long[]{0x0000000000000002L,0x0000000000080000L});
+	public static final BitSet FOLLOW_expression09_in_expression103977 = new BitSet(new long[]{0x0000000000000002L,0x0000000000040000L});
+	public static final BitSet FOLLOW_SHORTAND_in_expression103994 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression09_in_expression103998 = new BitSet(new long[]{0x0000000000000002L,0x0000000000040000L});
+	public static final BitSet FOLLOW_expression08_in_expression094024 = new BitSet(new long[]{0x0000000000000002L,0x0000000000000004L});
+	public static final BitSet FOLLOW_OR_in_expression094041 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression08_in_expression094045 = new BitSet(new long[]{0x0000000000000002L,0x0000000000000004L});
+	public static final BitSet FOLLOW_expression07_in_expression084071 = new BitSet(new long[]{0x0000000000000012L});
+	public static final BitSet FOLLOW_AND_in_expression084088 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression07_in_expression084092 = new BitSet(new long[]{0x0000000000000012L});
+	public static final BitSet FOLLOW_expression06_in_expression074118 = new BitSet(new long[]{0x0300030400000002L,0x0000000000000001L});
+	public static final BitSet FOLLOW_operator06_in_expression074137 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression06_in_expression074141 = new BitSet(new long[]{0x0300030400000002L,0x0000000000000001L});
+	public static final BitSet FOLLOW_LT_in_operator064165 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LTEQ_in_operator064178 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_GT_in_operator064191 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_GTEQ_in_operator064204 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_EQ_in_operator064217 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_NOTEQ_in_operator064230 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_expression05_in_expression064251 = new BitSet(new long[]{0x0000000000004002L});
+	public static final BitSet FOLLOW_COLON_in_expression064277 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression05_in_expression064281 = new BitSet(new long[]{0x0000000000004002L});
+	public static final BitSet FOLLOW_expression04_in_expression054308 = new BitSet(new long[]{0x0400000000000002L,0x0000000000000040L});
+	public static final BitSet FOLLOW_operator04_in_expression054330 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression04_in_expression054334 = new BitSet(new long[]{0x0400000000000002L,0x0000000000000040L});
+	public static final BitSet FOLLOW_PLUS_in_operator044358 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_MINUS_in_operator044371 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_expression03_in_expression044392 = new BitSet(new long[]{0x6800800000000002L,0x0000000008001000L});
+	public static final BitSet FOLLOW_operator03_in_expression044411 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression03_in_expression044415 = new BitSet(new long[]{0x6800800000000002L,0x0000000008001000L});
+	public static final BitSet FOLLOW_TIMES_in_operator034439 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_RDIV_in_operator034452 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LDIV_in_operator034465 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_MTIMES_in_operator034478 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_MRDIV_in_operator034491 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_MLDIV_in_operator034504 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_operator02_in_expression034524 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression03_in_expression034528 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_expression02_in_expression034548 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_PLUS_in_operator024566 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_MINUS_in_operator024580 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_NOT_in_operator024594 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_expression00_in_expression024615 = new BitSet(new long[]{0x1000000000080002L,0x0000000010000100L});
+	public static final BitSet FOLLOW_operator01_in_expression024650 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression01_in_expression024654 = new BitSet(new long[]{0x1000000000080002L,0x0000000010000100L});
+	public static final BitSet FOLLOW_TRANS_in_expression024679 = new BitSet(new long[]{0x1000000000080002L,0x0000000010000100L});
+	public static final BitSet FOLLOW_CTRANS_in_expression024700 = new BitSet(new long[]{0x1000000000080002L,0x0000000010000100L});
+	public static final BitSet FOLLOW_POW_in_operator014728 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_MPOW_in_operator014741 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_operator02_in_expression014761 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression01_in_expression014765 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_expression00_in_expression014785 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_atom_in_expression004803 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_chain_in_atom4818 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_real_in_atom4831 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_imaginary_in_atom4841 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_stringDef_in_atom4851 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_regularArray_in_atom4861 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_cellArray_in_atom4871 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_parenthesized_in_atom4881 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_end_in_atom4891 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_functionHandle_in_atom4901 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_anonymousFunction_in_atom4911 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_metaclass_in_atom4921 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_var_in_chain4946 = new BitSet(new long[]{0x0040400008000082L});
+	public static final BitSet FOLLOW_dotExpressionOperator_in_chain4967 = new BitSet(new long[]{0x0040400008000082L});
+	public static final BitSet FOLLOW_dotNameOperator_in_chain4988 = new BitSet(new long[]{0x0040400008000082L});
+	public static final BitSet FOLLOW_parenthesisOperator_in_chain5009 = new BitSet(new long[]{0x0040400008000082L});
+	public static final BitSet FOLLOW_curlyBraceOperator_in_chain5033 = new BitSet(new long[]{0x0040400008000082L});
+	public static final BitSet FOLLOW_atBaseOperator_in_chain5054 = new BitSet(new long[]{0x0040400008000082L});
+	public static final BitSet FOLLOW_name_in_var5083 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_DOT_in_dotExpressionOperator5109 = new BitSet(new long[]{0x0040000000000000L});
+	public static final BitSet FOLLOW_LPAREN_in_dotExpressionOperator5111 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_dotExpressionOperator5113 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_dotExpressionOperator5115 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_DOT_in_dotNameOperator5135 = new BitSet(new long[]{0x00000CE1C0043C00L,0x00000000A4404038L});
+	public static final BitSet FOLLOW_anyName_in_dotNameOperator5137 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_xANYID_in_anyName5154 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LPAREN_in_parenthesisOperator5183 = new BitSet(new long[]{0x84C0540100004080L,0x000000000100A240L});
+	public static final BitSet FOLLOW_arguments_in_parenthesisOperator5186 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_parenthesisOperator5190 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_argument_in_arguments5210 = new BitSet(new long[]{0x0000000000008002L});
+	public static final BitSet FOLLOW_COMMA_in_arguments5213 = new BitSet(new long[]{0x84C0540100004080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_argument_in_arguments5215 = new BitSet(new long[]{0x0000000000008002L});
+	public static final BitSet FOLLOW_expression_in_argument5233 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_COLON_in_argument5244 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LCURLY_in_curlyBraceOperator5272 = new BitSet(new long[]{0x84C0540100004080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_arguments_in_curlyBraceOperator5274 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000800L});
+	public static final BitSet FOLLOW_RCURLY_in_curlyBraceOperator5276 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_AT_in_atBaseOperator5299 = new BitSet(new long[]{0x0000040000000000L});
+	public static final BitSet FOLLOW_classReference_in_atBaseOperator5301 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_REAL_in_real5320 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_IMAGINARY_in_imaginary5335 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_STRING_in_stringDef5350 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LSQUARE_in_regularArray5372 = new BitSet(new long[]{0x84C0540300008080L,0x0000000001022240L});
+	public static final BitSet FOLLOW_rows_in_regularArray5374 = new BitSet(new long[]{0x0000000000000000L,0x0000000000010000L});
+	public static final BitSet FOLLOW_RSQUARE_in_regularArray5376 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_row_in_rows5403 = new BitSet(new long[]{0x0000000200000002L,0x0000000000020000L});
+	public static final BitSet FOLLOW_SEMICOLON_in_rows5407 = new BitSet(new long[]{0x84C0540300008080L,0x0000000001022240L});
+	public static final BitSet FOLLOW_EOL_in_rows5411 = new BitSet(new long[]{0x84C0540300008080L,0x0000000001022240L});
+	public static final BitSet FOLLOW_row_in_rows5414 = new BitSet(new long[]{0x0000000200000002L,0x0000000000020000L});
+	public static final BitSet FOLLOW_COMMA_in_row5433 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_columns_in_row5437 = new BitSet(new long[]{0x0000000000008002L});
+	public static final BitSet FOLLOW_COMMA_in_row5440 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_COMMA_in_row5456 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_column_in_columns5482 = new BitSet(new long[]{0x84C0540100008082L,0x0000000001002240L});
+	public static final BitSet FOLLOW_COMMA_in_columns5489 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_column_in_columns5493 = new BitSet(new long[]{0x84C0540100008082L,0x0000000001002240L});
+	public static final BitSet FOLLOW_NOT_in_column5532 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_expression_in_column5555 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LCURLY_in_cellArray5579 = new BitSet(new long[]{0x84C0540300008080L,0x0000000001022240L});
+	public static final BitSet FOLLOW_rows_in_cellArray5581 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000800L});
+	public static final BitSet FOLLOW_RCURLY_in_cellArray5583 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LPAREN_in_parenthesized5617 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_parenthesized5619 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_parenthesized5621 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_END_in_end5643 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_AT_in_functionHandle5658 = new BitSet(new long[]{0x0000040000000000L});
+	public static final BitSet FOLLOW_functionReference_in_functionHandle5660 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_fullFunctioName_in_functionReference5678 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_xID_in_fullFunctioName5696 = new BitSet(new long[]{0x0000000008000002L});
+	public static final BitSet FOLLOW_DOT_in_fullFunctioName5699 = new BitSet(new long[]{0x00000CE1C0043C00L,0x00000000A4404038L});
+	public static final BitSet FOLLOW_xANYID_in_fullFunctioName5701 = new BitSet(new long[]{0x0000000008000002L});
+	public static final BitSet FOLLOW_AT_in_anonymousFunction5728 = new BitSet(new long[]{0x0040000000000000L});
+	public static final BitSet FOLLOW_inputPortion_in_anonymousFunction5730 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_anonymousFunction5732 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_QUESTION_in_metaclass5757 = new BitSet(new long[]{0x0000040000000000L});
+	public static final BitSet FOLLOW_classReference_in_metaclass5759 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SEMICOLON_in_xEOS5778 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_COMMA_in_xEOS5789 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_EOL_in_xEOS5800 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_EOL_in_xEOL5816 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_xID5830 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_xANYID5843 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_BREAK_in_xANYID5855 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_CASE_in_xANYID5868 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_CATCH_in_xANYID5881 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_CLASSDEF_in_xANYID5894 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_CONTINUE_in_xANYID5907 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ELSE_in_xANYID5920 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ELSEIF_in_xANYID5933 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_END_in_xANYID5946 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_FOR_in_xANYID5959 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_FUNCTION_in_xANYID5972 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_GLOBAL_in_xANYID5985 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_IF_in_xANYID5998 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_OTHERWISE_in_xANYID6011 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_PARFOR_in_xANYID6024 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_PERSISTENT_in_xANYID6037 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_RETURN_in_xANYID6050 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SPMD_in_xANYID6063 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SWITCH_in_xANYID6076 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_TRY_in_xANYID6089 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_WHILE_in_xANYID6102 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_xFUNCTIONID6120 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_END_in_xFUNCTIONID6131 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_xPARAMETERID6148 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_NOT_in_xPARAMETERID6160 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_xEVENTS6181 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_xPROPERTIES6197 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_xMETHODS6213 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_xENUMERATION6229 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_EOL_in_aspectFile6245 = new BitSet(new long[]{0x0000000200000020L});
+	public static final BitSet FOLLOW_aspectDef_in_aspectFile6249 = new BitSet(new long[]{0x0000000200000000L});
+	public static final BitSet FOLLOW_EOL_in_aspectFile6252 = new BitSet(new long[]{0x0000000200000000L});
+	public static final BitSet FOLLOW_EOF_in_aspectFile6256 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ASPECT_in_aspectDef6274 = new BitSet(new long[]{0x0000040000000000L});
+	public static final BitSet FOLLOW_name_in_aspectDef6276 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_aspectDef6278 = new BitSet(new long[]{0x0000040300008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_aspectSections_in_aspectDef6280 = new BitSet(new long[]{0x0000000100000000L});
+	public static final BitSet FOLLOW_END_in_aspectDef6282 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectSection_in_aspectSections6305 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_aspectSections6309 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
+	public static final BitSet FOLLOW_eventSection_in_aspectSection6327 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_propertySection_in_aspectSection6340 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_methodSection_in_aspectSection6356 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_enumerationSection_in_aspectSection6372 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectPatternSection_in_aspectSection6385 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectActionSection_in_aspectSection6398 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wACTIONS_in_aspectActionSection6421 = new BitSet(new long[]{0x0000040300008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_aspectActions_in_aspectActionSection6423 = new BitSet(new long[]{0x0000000100000000L});
+	public static final BitSet FOLLOW_END_in_aspectActionSection6425 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectAction_in_aspectActions6447 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_aspectActions6451 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
+	public static final BitSet FOLLOW_aspectActionSignature_in_aspectAction6469 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_aspectActionBody_in_aspectAction6471 = new BitSet(new long[]{0x0000000100000000L});
+	public static final BitSet FOLLOW_END_in_aspectAction6473 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_name_in_aspectActionSignature6494 = new BitSet(new long[]{0x0000000000004000L});
+	public static final BitSet FOLLOW_COLON_in_aspectActionSignature6496 = new BitSet(new long[]{0x0000040000000000L});
+	public static final BitSet FOLLOW_aspectActionType_in_aspectActionSignature6498 = new BitSet(new long[]{0x8040040000004000L});
+	public static final BitSet FOLLOW_COLON_in_aspectActionSignature6501 = new BitSet(new long[]{0x8040040000000000L});
+	public static final BitSet FOLLOW_aspectExpression_in_aspectActionSignature6505 = new BitSet(new long[]{0x0000000000004002L});
+	public static final BitSet FOLLOW_COLON_in_aspectActionSignature6508 = new BitSet(new long[]{0x0040000000000000L});
+	public static final BitSet FOLLOW_inputPortion_in_aspectActionSignature6510 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wBEFORE_in_aspectActionType6534 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wAFTER_in_aspectActionType6559 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wAROUND_in_aspectActionType6572 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_closeBody_in_aspectActionBody6590 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wPATTERNS_in_aspectPatternSection6608 = new BitSet(new long[]{0x0000040300008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_aspectPatterns_in_aspectPatternSection6610 = new BitSet(new long[]{0x0000000100000000L});
+	public static final BitSet FOLLOW_END_in_aspectPatternSection6612 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectPattern_in_aspectPatterns6634 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_aspectPatterns6638 = new BitSet(new long[]{0x0000040200008002L,0x0000000000020000L});
+	public static final BitSet FOLLOW_name_in_aspectPattern6656 = new BitSet(new long[]{0x0000000000004000L});
+	public static final BitSet FOLLOW_COLON_in_aspectPattern6658 = new BitSet(new long[]{0x8040040000000000L});
+	public static final BitSet FOLLOW_aspectExpression_in_aspectPattern6660 = new BitSet(new long[]{0x0000000200008000L,0x0000000000020000L});
+	public static final BitSet FOLLOW_xEOS_in_aspectPattern6662 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectExpression04_in_aspectExpression6681 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectExpression03_in_aspectExpression046697 = new BitSet(new long[]{0x0000000000000002L,0x0000000000000004L});
+	public static final BitSet FOLLOW_OR_in_aspectExpression046714 = new BitSet(new long[]{0x8040040000000000L});
+	public static final BitSet FOLLOW_aspectExpression03_in_aspectExpression046718 = new BitSet(new long[]{0x0000000000000002L,0x0000000000000004L});
+	public static final BitSet FOLLOW_aspectExpression02_in_aspectExpression036744 = new BitSet(new long[]{0x0000000000000012L});
+	public static final BitSet FOLLOW_AND_in_aspectExpression036761 = new BitSet(new long[]{0x8040040000000000L});
+	public static final BitSet FOLLOW_aspectExpression02_in_aspectExpression036765 = new BitSet(new long[]{0x0000000000000012L});
+	public static final BitSet FOLLOW_NOT_in_aspectExpression026788 = new BitSet(new long[]{0x8040040000000000L});
+	public static final BitSet FOLLOW_aspectExpression02_in_aspectExpression026792 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectExpression01_in_aspectExpression026817 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectAtom_in_aspectExpression016841 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectParenthesis_in_aspectAtom6854 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectName_in_aspectAtom6873 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectGet_in_aspectAtom6892 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectSet_in_aspectAtom6911 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectCall_in_aspectAtom6930 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectExecution_in_aspectAtom6949 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectMainExecution_in_aspectAtom6968 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectLoop_in_aspectAtom6987 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectLoopHead_in_aspectAtom7006 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectLoopBody_in_aspectAtom7025 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectAnnotate_in_aspectAtom7044 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectOperator_in_aspectAtom7063 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectWithin_in_aspectAtom7082 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectDimension_in_aspectAtom7101 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectIsType_in_aspectAtom7120 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LPAREN_in_aspectParenthesis7144 = new BitSet(new long[]{0x8040040000000000L});
+	public static final BitSet FOLLOW_aspectExpression_in_aspectParenthesis7146 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_aspectParenthesis7148 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_name_in_aspectName7161 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wID_in_aspectIdentifier7179 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wSTAR_in_aspectIdentifier7204 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wDOTDOT_in_aspectIdentifier7229 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wID_in_aspectTypeSignature7259 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wSTAR_in_aspectTypeSignature7291 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wDOTDOT_in_aspectTypeSignature7323 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wREAL_in_aspectPartSignature7360 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wSTAR_in_aspectPartSignature7388 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wDOTDOT_in_aspectPartSignature7416 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LSQUARE_in_aspectDimensionSignature7449 = new BitSet(new long[]{0x4000000010000000L,0x0000000000012000L});
+	public static final BitSet FOLLOW_aspectPartSignature_in_aspectDimensionSignature7452 = new BitSet(new long[]{0x0000000000008000L,0x0000000000010000L});
+	public static final BitSet FOLLOW_COMMA_in_aspectDimensionSignature7455 = new BitSet(new long[]{0x4000000010000000L,0x0000000000002000L});
+	public static final BitSet FOLLOW_aspectPartSignature_in_aspectDimensionSignature7457 = new BitSet(new long[]{0x0000000000008000L,0x0000000000010000L});
+	public static final BitSet FOLLOW_RSQUARE_in_aspectDimensionSignature7463 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectTypeSignature_in_aspectFullSignature7483 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectTypeSignature_in_aspectFullSignature7515 = new BitSet(new long[]{0x0080000000000000L});
+	public static final BitSet FOLLOW_aspectDimensionSignature_in_aspectFullSignature7517 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectDimensionSignature_in_aspectFullSignature7552 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wGET_in_aspectGet7590 = new BitSet(new long[]{0x0040000000000000L});
+	public static final BitSet FOLLOW_LPAREN_in_aspectGet7592 = new BitSet(new long[]{0x4000040010000000L});
+	public static final BitSet FOLLOW_aspectIdentifier_in_aspectGet7594 = new BitSet(new long[]{0x0000000000004000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_COLON_in_aspectGet7597 = new BitSet(new long[]{0x4080040010000000L});
+	public static final BitSet FOLLOW_aspectFullSignature_in_aspectGet7599 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_aspectGet7603 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wSET_in_aspectSet7625 = new BitSet(new long[]{0x0040000000000000L});
+	public static final BitSet FOLLOW_LPAREN_in_aspectSet7627 = new BitSet(new long[]{0x4000040010000000L});
+	public static final BitSet FOLLOW_aspectIdentifier_in_aspectSet7629 = new BitSet(new long[]{0x0000000000004000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_COLON_in_aspectSet7632 = new BitSet(new long[]{0x4080040010000000L});
+	public static final BitSet FOLLOW_aspectFullSignature_in_aspectSet7634 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_aspectSet7638 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectFullSignature_in_aspectInput7661 = new BitSet(new long[]{0x0000000000008002L});
+	public static final BitSet FOLLOW_COMMA_in_aspectInput7664 = new BitSet(new long[]{0x4080040010000000L});
+	public static final BitSet FOLLOW_aspectFullSignature_in_aspectInput7666 = new BitSet(new long[]{0x0000000000008002L});
+	public static final BitSet FOLLOW_aspectFullSignature_in_aspectOutput7687 = new BitSet(new long[]{0x0000000000008002L});
+	public static final BitSet FOLLOW_COMMA_in_aspectOutput7690 = new BitSet(new long[]{0x4080040010000000L});
+	public static final BitSet FOLLOW_aspectFullSignature_in_aspectOutput7692 = new BitSet(new long[]{0x0000000000008002L});
+	public static final BitSet FOLLOW_wCALL_in_aspectCall7713 = new BitSet(new long[]{0x0040000000000000L});
+	public static final BitSet FOLLOW_LPAREN_in_aspectCall7715 = new BitSet(new long[]{0x4000040010000000L});
+	public static final BitSet FOLLOW_aspectIdentifier_in_aspectCall7717 = new BitSet(new long[]{0x0040000000000000L});
+	public static final BitSet FOLLOW_LPAREN_in_aspectCall7719 = new BitSet(new long[]{0x4080040010000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_aspectInput_in_aspectCall7721 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_aspectCall7723 = new BitSet(new long[]{0x0000000000004000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_COLON_in_aspectCall7726 = new BitSet(new long[]{0x4080040010000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_aspectOutput_in_aspectCall7728 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_aspectCall7732 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wEXECUTION_in_aspectExecution7767 = new BitSet(new long[]{0x0040000000000000L});
+	public static final BitSet FOLLOW_LPAREN_in_aspectExecution7769 = new BitSet(new long[]{0x4000040010000000L});
+	public static final BitSet FOLLOW_aspectIdentifier_in_aspectExecution7771 = new BitSet(new long[]{0x0040000000000000L});
+	public static final BitSet FOLLOW_LPAREN_in_aspectExecution7773 = new BitSet(new long[]{0x4080040010000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_aspectInput_in_aspectExecution7775 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_aspectExecution7777 = new BitSet(new long[]{0x0000000000004000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_COLON_in_aspectExecution7780 = new BitSet(new long[]{0x4080040010000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_aspectOutput_in_aspectExecution7782 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_aspectExecution7786 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wMAINEXECUTION_in_aspectMainExecution7821 = new BitSet(new long[]{0x0040000000000000L});
+	public static final BitSet FOLLOW_LPAREN_in_aspectMainExecution7823 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_aspectMainExecution7825 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wFOR_in_aspectLoopType7838 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wWHILE_in_aspectLoopType7861 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wSTAR_in_aspectLoopType7884 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wDOTDOT_in_aspectLoopType7907 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wLOOP_in_aspectLoop7935 = new BitSet(new long[]{0x0040000000000000L});
+	public static final BitSet FOLLOW_LPAREN_in_aspectLoop7937 = new BitSet(new long[]{0x4000042010000000L,0x0000000080000000L});
+	public static final BitSet FOLLOW_aspectLoopType_in_aspectLoop7940 = new BitSet(new long[]{0x0000000000004000L});
+	public static final BitSet FOLLOW_COLON_in_aspectLoop7942 = new BitSet(new long[]{0x4000040010000000L});
+	public static final BitSet FOLLOW_aspectIdentifier_in_aspectLoop7946 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_aspectLoop7948 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wLOOPBODY_in_aspectLoopBody7969 = new BitSet(new long[]{0x0040000000000000L});
+	public static final BitSet FOLLOW_LPAREN_in_aspectLoopBody7971 = new BitSet(new long[]{0x4000042010000000L,0x0000000080000000L});
+	public static final BitSet FOLLOW_aspectLoopType_in_aspectLoopBody7974 = new BitSet(new long[]{0x0000000000004000L});
+	public static final BitSet FOLLOW_COLON_in_aspectLoopBody7976 = new BitSet(new long[]{0x4000040010000000L});
+	public static final BitSet FOLLOW_aspectIdentifier_in_aspectLoopBody7980 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_aspectLoopBody7982 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wLOOPHEAD_in_aspectLoopHead8003 = new BitSet(new long[]{0x0040000000000000L});
+	public static final BitSet FOLLOW_LPAREN_in_aspectLoopHead8005 = new BitSet(new long[]{0x4000042010000000L,0x0000000080000000L});
+	public static final BitSet FOLLOW_aspectLoopType_in_aspectLoopHead8008 = new BitSet(new long[]{0x0000000000004000L});
+	public static final BitSet FOLLOW_COLON_in_aspectLoopHead8010 = new BitSet(new long[]{0x4000040010000000L});
+	public static final BitSet FOLLOW_aspectIdentifier_in_aspectLoopHead8014 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_aspectLoopHead8016 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wVAR_in_aspectPartSelector8037 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wSTR_in_aspectPartSelector8064 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wNUM_in_aspectPartSelector8091 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wSTAR_in_aspectPartSelector8118 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wDOTDOT_in_aspectPartSelector8145 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectPartSelector_in_aspectSimpleSelector8177 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LSQUARE_in_aspectCompoundSelector8194 = new BitSet(new long[]{0x4000040010000000L,0x0000000000010000L});
+	public static final BitSet FOLLOW_aspectPartSelector_in_aspectCompoundSelector8197 = new BitSet(new long[]{0x0000000000008000L,0x0000000000010000L});
+	public static final BitSet FOLLOW_COMMA_in_aspectCompoundSelector8200 = new BitSet(new long[]{0x4000040010000000L});
+	public static final BitSet FOLLOW_aspectPartSelector_in_aspectCompoundSelector8202 = new BitSet(new long[]{0x0000000000008000L,0x0000000000010000L});
+	public static final BitSet FOLLOW_RSQUARE_in_aspectCompoundSelector8208 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectSimpleSelector_in_aspectSelector8227 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_aspectCompoundSelector_in_aspectSelector8250 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wANNOTATE_in_aspectAnnotate8278 = new BitSet(new long[]{0x0040000000000000L});
+	public static final BitSet FOLLOW_LPAREN_in_aspectAnnotate8280 = new BitSet(new long[]{0x4000040010000000L});
+	public static final BitSet FOLLOW_aspectIdentifier_in_aspectAnnotate8282 = new BitSet(new long[]{0x0040000000000000L});
+	public static final BitSet FOLLOW_LPAREN_in_aspectAnnotate8284 = new BitSet(new long[]{0x4080040010000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_aspectSelector_in_aspectAnnotate8287 = new BitSet(new long[]{0x0000000000008000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_COMMA_in_aspectAnnotate8290 = new BitSet(new long[]{0x4080040010000000L});
+	public static final BitSet FOLLOW_aspectSelector_in_aspectAnnotate8292 = new BitSet(new long[]{0x0000000000008000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_aspectAnnotate8298 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_aspectAnnotate8300 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wPLUS_in_aspectOperatorType8322 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wMINUS_in_aspectOperatorType8349 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wMTIMES_in_aspectOperatorType8376 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wTIMES_in_aspectOperatorType8403 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wMRDIV_in_aspectOperatorType8430 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wRDIV_in_aspectOperatorType8457 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wMLDIV_in_aspectOperatorType8484 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wLDIV_in_aspectOperatorType8511 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wMPOW_in_aspectOperatorType8538 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wPOW_in_aspectOperatorType8565 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wCTRANS_in_aspectOperatorType8592 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wTRANS_in_aspectOperatorType8619 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wOPERATOR_in_aspectOperator8651 = new BitSet(new long[]{0x0040000000000000L});
+	public static final BitSet FOLLOW_LPAREN_in_aspectOperator8653 = new BitSet(new long[]{0x7C00800000080000L,0x0000000018001140L});
+	public static final BitSet FOLLOW_aspectOperatorType_in_aspectOperator8655 = new BitSet(new long[]{0x0000000000004000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_COLON_in_aspectOperator8658 = new BitSet(new long[]{0x4080040010000000L});
+	public static final BitSet FOLLOW_aspectFullSignature_in_aspectOperator8660 = new BitSet(new long[]{0x0000000000008000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_COMMA_in_aspectOperator8663 = new BitSet(new long[]{0x4080040010000000L});
+	public static final BitSet FOLLOW_aspectFullSignature_in_aspectOperator8665 = new BitSet(new long[]{0x0000000000008000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_aspectOperator8671 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wWITHIN_in_aspectWithin8693 = new BitSet(new long[]{0x0040000000000000L});
+	public static final BitSet FOLLOW_LPAREN_in_aspectWithin8695 = new BitSet(new long[]{0x4000044010000000L});
+	public static final BitSet FOLLOW_aspectScopeType_in_aspectWithin8697 = new BitSet(new long[]{0x0000000000004000L});
+	public static final BitSet FOLLOW_COLON_in_aspectWithin8699 = new BitSet(new long[]{0x4000040010000000L});
+	public static final BitSet FOLLOW_aspectIdentifier_in_aspectWithin8701 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_aspectWithin8703 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wFUNCTION_in_aspectScopeType8722 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wSCRIPT_in_aspectScopeType8746 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wCLASS_in_aspectScopeType8770 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wASPECT_in_aspectScopeType8794 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wLOOP_in_aspectScopeType8818 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wSTAR_in_aspectScopeType8842 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wDOTDOT_in_aspectScopeType8866 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wDIMENSION_in_aspectDimension8895 = new BitSet(new long[]{0x0040000000000000L});
+	public static final BitSet FOLLOW_LPAREN_in_aspectDimension8897 = new BitSet(new long[]{0x0080000000000000L});
+	public static final BitSet FOLLOW_aspectDimensionSignature_in_aspectDimension8899 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_aspectDimension8901 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_wISTYPE_in_aspectIsType8917 = new BitSet(new long[]{0x0040000000000000L});
+	public static final BitSet FOLLOW_LPAREN_in_aspectIsType8919 = new BitSet(new long[]{0x4000040010000000L});
+	public static final BitSet FOLLOW_aspectTypeSignature_in_aspectIsType8921 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+	public static final BitSet FOLLOW_RPAREN_in_aspectIsType8923 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wID8942 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_REAL_in_wREAL8960 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wASPECT8982 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wACTIONS9003 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wPATTERNS9024 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wBEFORE9045 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wAFTER9066 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wAROUND9087 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wGET9108 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wSET9129 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wCALL9150 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wEXECUTION9171 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wMAINEXECUTION9192 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wLOOP9213 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wLOOPBODY9234 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wLOOPHEAD9255 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wANNOTATE9276 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wOPERATOR9297 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wWITHIN9318 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wDIMENSION9339 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wISTYPE9360 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_MTIMES_in_wSTAR9378 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_FUNCTION_in_wFUNCTION9397 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wSCRIPT9419 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wLOOPS9440 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wCLASS9461 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_DOTDOT_in_wDOTDOT9479 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_FOR_in_wFOR9498 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_WHILE_in_wWHILE9518 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_PLUS_in_wPLUS9538 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_MINUS_in_wMINUS9557 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_MTIMES_in_wMTIMES9576 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_TIMES_in_wTIMES9595 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_MRDIV_in_wMRDIV9614 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_RDIV_in_wRDIV9633 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_MLDIV_in_wMLDIV9652 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LDIV_in_wLDIV9671 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_MPOW_in_wMPOW9690 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_POW_in_wPOW9709 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_TRANS_in_wTRANS9728 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_CTRANS_in_wCTRANS9747 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wVAR9769 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wSTR9790 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ID_in_wNUM9811 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_openFunctionFile_in_synpred1_MatlabParser491 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_assignment_in_synpred2_MatlabParser2197 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_action_in_synpred3_MatlabParser2220 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_simpleCommand_in_synpred4_MatlabParser2237 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_abortCommand_in_synpred5_MatlabParser2254 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_LPAREN_in_synpred6_MatlabParser3426 = new BitSet(new long[]{0x0000040000000000L});
+	public static final BitSet FOLLOW_var_in_synpred6_MatlabParser3428 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_ASSIGN_in_synpred6_MatlabParser3430 = new BitSet(new long[]{0x84C0540100000080L,0x0000000001002240L});
+	public static final BitSet FOLLOW_expression_in_synpred6_MatlabParser3432 = new BitSet(new long[]{0x0000000000008000L});
+	public static final BitSet FOLLOW_COMMA_in_synpred6_MatlabParser3434 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_DOT_in_synpred7_MatlabParser4959 = new BitSet(new long[]{0x0040000000000000L});
+	public static final BitSet FOLLOW_LPAREN_in_synpred7_MatlabParser4961 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_NOT_in_synpred8_MatlabParser5512 = new BitSet(new long[]{0x0000000200008000L,0x0000000000030000L});
+	public static final BitSet FOLLOW_set_in_synpred8_MatlabParser5514 = new BitSet(new long[]{0x0000000000000002L});
 }

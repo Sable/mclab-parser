@@ -40,7 +40,7 @@ tokens
 	ASPECTNAME ;
 	ASPECTGET ; ASPECTSET; ASPECTCALL ; ASPECTEXECUTION ; ASPECTMAINEXECUTION ; ASPECTLOOP ; ASPECTLOOPBODY ; ASPECTLOOPHEAD ; ASPECTANNOTATE ; ASPECTOPERATOR ; ASPECTWITHIN ; ASPECTDIMENSION ; ASPECTISTYPE ;
 	ASPECTINPUT ; ASPECTOUTPUT ;
-	ASPECTSELECTOR ;
+	ASPECTSELECTORSIMPLE ; ASPECTSELECTORCOMPOUND ;
 }
 
 // ACTIONS ============================================================================================================
@@ -759,9 +759,9 @@ aspectPartSelector : wVAR -> wVAR
                    | wDOTDOT -> wDOTDOT
                    ;
 
-aspectSimpleSelector : aspectPartSelector -> ^(ASPECTSELECTOR aspectPartSelector) ;
+aspectSimpleSelector : aspectPartSelector -> ^(ASPECTSELECTORSIMPLE aspectPartSelector) ;
 
-aspectCompoundSelector : LSQUARE (aspectPartSelector (COMMA aspectPartSelector)*)? RSQUARE -> ^(ASPECTSELECTOR (aspectPartSelector)*);
+aspectCompoundSelector : LSQUARE (aspectPartSelector (COMMA aspectPartSelector)*)? RSQUARE -> ^(ASPECTSELECTORCOMPOUND (aspectPartSelector)*);
 
 aspectSelector : aspectSimpleSelector -> aspectSimpleSelector
                | aspectCompoundSelector -> aspectCompoundSelector

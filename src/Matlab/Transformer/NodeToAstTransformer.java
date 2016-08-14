@@ -56,7 +56,7 @@ public class NodeToAstTransformer
 
             if (object instanceof ASTNode)
             {
-                NodeToAstTransformer.CopyRelativeChildIndexField(node, (ASTNode)object);
+                NodeToAstTransformer.CopyRelativeChildIndexField(node, (ASTNode) object);
             }
 
             return object;
@@ -1001,16 +1001,16 @@ public class NodeToAstTransformer
                 returnAst.addCatchStmt(stmt);
             }
 
-            NodeToAstTransformer.CopyCommentNodes(node.GetCatchPart(), returnAst);
+            NodeToAstTransformer.CopyCommentNodesCatchPart(node.GetCatchPart(), returnAst);
 
             for (Stmt stmt : returnAst.getCatchStmts())
             {
                 NodeToAstTransformer.CopyRelativeChildIndexField(stmt.GetRelativeChildIndex() + childCountInTryPart, stmt);
             }
 
-            for (int i=commentCountInTryPart; i< returnAst.getComments().size(); i++)
+            for (int i=0; i< returnAst.getCommentsCatchPart().size(); i++)
             {
-                HelpComment helpComment = (HelpComment)returnAst.getComments().get(i);
+                HelpComment helpComment = (HelpComment)returnAst.getCommentsCatchPart().get(i);
 
                 NodeToAstTransformer.CopyRelativeChildIndexField(helpComment.GetRelativeChildIndex() + childCountInTryPart, helpComment);
             }
@@ -2117,9 +2117,22 @@ public class NodeToAstTransformer
         return returnAst;
     }
 
-    private static Selector Visit(AspectSelectorNode node)
+    private static SelectorSimple Visit(AspectSelectorSimpleNode node)
     {
-        Selector returnAst = new Selector();
+        SelectorSimple returnAst = new SelectorSimple();
+
+        NameNode nameNode = node.GetElement();
+
+        Name name = (Name) NodeToAstTransformer.Process(nameNode);
+
+        returnAst.setElement(name);
+
+        return returnAst;
+    }
+
+    private static SelectorCompound Visit(AspectSelectorCompoundNode node)
+    {
+        SelectorCompound returnAst = new SelectorCompound();
 
         for(NameNode nameNode : node.GetElements())
         {
@@ -2477,6 +2490,16 @@ public class NodeToAstTransformer
             {
                 break;
             }
+        }
+    }
+
+    private static void CopyCommentNodesCatchPart(CatchPartNode node, TryStmt ast)
+    {
+        for(CommentNode commentNode : NodeToAstTransformer.GetCommentNodes(node))
+        {
+            HelpComment helpComment = (HelpComment)NodeToAstTransformer.Process(commentNode);
+
+            ast.addCommentCatchPart(helpComment);
         }
     }
 

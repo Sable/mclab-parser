@@ -512,7 +512,12 @@ aspect ASTtoXML {
         addChildrenXml(doc, e, Arrays.asList(getExpr()));
     }
 
-    public void Selector.getXML(Document doc, Element parent)
+    public void SelectorSimple.getXML(Document doc, Element parent)
+    {
+        Element e = createXmlElement(doc, parent, Arrays.asList(getElement()));
+    }
+
+    public void SelectorCompound.getXML(Document doc, Element parent)
     {
         Element e = createXmlElement(doc, parent, getElements());
     }

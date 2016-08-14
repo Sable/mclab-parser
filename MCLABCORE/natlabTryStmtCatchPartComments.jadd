@@ -1,0 +1,38 @@
+// =========================================================================== //
+//                                                                             //
+//   Copyright 2016 Samuel Suffos.                                             //
+//   This file is needed to handle catch-part comments in TryStmt.             //
+//                                                                             //
+// =========================================================================== //
+
+aspect natlabTryStmtCatchPartComments
+{
+  private java.util.List<HelpComment> TryStmt.commentsCatchPart = new ArrayList<HelpComment>();
+
+  public void TryStmt.setCommentsCatchPart(java.util.List<HelpComment> var1)
+  {
+        if(var1 != null)
+        {
+            this.commentsCatchPart = new ArrayList<HelpComment>(var1);
+        }
+        else
+        {
+            this.commentsCatchPart = new ArrayList<HelpComment>();
+        }
+    }
+
+    public java.util.List<HelpComment> TryStmt.getCommentsCatchPart()
+    {
+        return Collections.unmodifiableList(this.commentsCatchPart);
+    }
+
+    public boolean TryStmt.hasCommentsCatchPart()
+    {
+        return !this.commentsCatchPart.isEmpty();
+    }
+
+    public void TryStmt.addCommentCatchPart(HelpComment var1)
+    {
+        this.commentsCatchPart.add(var1);
+    }
+}
