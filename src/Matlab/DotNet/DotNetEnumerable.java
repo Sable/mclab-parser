@@ -202,6 +202,41 @@ public class DotNetEnumerable
         }
     }
 
+    public static int Min(Iterable<Integer> collection)
+    {
+        int count = 0;
+
+        int min = Integer.MAX_VALUE;
+
+        for (Integer integer: collection)
+        {
+            count++;
+
+            if (count == 1)
+            {
+                min = integer.intValue();
+            }
+            else
+            {
+                int newInt = integer.intValue();
+
+                if (newInt < min)
+                {
+                    min = newInt;
+                }
+            }
+        }
+
+        if (count == 0)
+        {
+            throw new DotNetArgumentException();
+        }
+        else
+        {
+            return min;
+        }
+    }
+
     public static <T1, T2> Iterable<T2> Select(Iterable<T1> collection, Function<T1, T2> function)
     {
         LinkedList<T2> linkedList = new LinkedList<T2>();

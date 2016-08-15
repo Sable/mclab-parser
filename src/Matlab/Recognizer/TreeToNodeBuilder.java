@@ -3,6 +3,7 @@ package Matlab.Recognizer;
 import Matlab.Aspect.Nodes.*;
 import Matlab.Utils.*;
 import Matlab.Nodes.*;
+import Matlab.DotNet.*;
 import org.antlr.runtime.*;
 import org.antlr.runtime.tree.*;
 
@@ -33,6 +34,13 @@ class TreeToNodeBuilder
     {
         MNode node = TreeToNodeBuilder.BuildNode(tree.getType());
 
+        for (int i = 0; i < tree.getChildCount(); i++)
+        {
+            MNode childNode = TreeToNodeBuilder.BuildNode(tokens, tree.getChild(i));
+
+            node.GetChildren().Add(childNode);
+        }
+
         if (node instanceof InternalNode)
         {
             InternalNode internalNode = (InternalNode)node;
@@ -46,13 +54,6 @@ class TreeToNodeBuilder
             internalNode.SetColumn(tree.getCharPositionInLine() + 1);
 
             internalNode.SetText(tree.getText());
-        }
-
-        for (int i = 0; i < tree.getChildCount(); i++)
-        {
-            MNode childNode = TreeToNodeBuilder.BuildNode(tokens, tree.getChild(i));
-
-            node.GetChildren().Add(childNode);
         }
 
         return node;
@@ -319,27 +320,46 @@ class TreeToNodeBuilder
 
         int defaultChannel = Channel.GetDefaultInt();
 
-        for (int i=min; i<=max; i++)
+        if (min < 0 && !node.GetChildren().GetIsEmpty())
         {
-            if (tokens.get(i).getChannel() != defaultChannel || tokens.get(i).getType() == MatlabLexerReal.EOL)
-            {
-                min++;
-            }
-            else
-            {
-                break;
-            }
+            min = DotNetEnumerable.Min(DotNetEnumerable.Select(DotNetEnumerable.OfType(node.GetChildren(), InternalNode.class), x->x.GetMinIndex()));
         }
 
-        for (int i=max; i>=min; i--)
+        if (max < 0 && !node.GetChildren().GetIsEmpty())
         {
-            if (tokens.get(i).getChannel() != defaultChannel || tokens.get(i).getType() == MatlabLexerReal.EOL)
+            max = DotNetEnumerable.Max(DotNetEnumerable.Select(DotNetEnumerable.OfType(node.GetChildren(), InternalNode.class), x->x.GetMaxIndex()));
+        }
+
+        if (min < 0 || max < 0)
+        {
+            min = tokens.size()-1;
+
+            max = 0;
+        }
+        else
+        {
+            for (int i = min; i <= max; i++)
             {
-                max--;
+                if (tokens.get(i).getChannel() != defaultChannel || tokens.get(i).getType() == MatlabLexerReal.EOL)
+                {
+                    min++;
+                }
+                else
+                {
+                    break;
+                }
             }
-            else
+
+            for (int i = max; i >= min; i--)
             {
-                break;
+                if (tokens.get(i).getChannel() != defaultChannel || tokens.get(i).getType() == MatlabLexerReal.EOL)
+                {
+                    max--;
+                }
+                else
+                {
+                    break;
+                }
             }
         }
 
