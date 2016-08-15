@@ -1204,20 +1204,13 @@ public class NodeToAstTransformer
 
             returnAst.setUpper(upper);
         }
-        else if (count >= 3)
+        else if (count == 3)
         {
             Expr lower = (Expr)NodeToAstTransformer.Process((MNode)((NodeCollection)node.GetChildren()).GetIndex(0));
 
-            for (int i=1; i<count-2; i++)
-            {
-                Expr other = (Expr)NodeToAstTransformer.Process((MNode)((NodeCollection)node.GetChildren()).GetIndex(i));
+            Expr incr = (Expr)NodeToAstTransformer.Process((MNode)((NodeCollection)node.GetChildren()).GetIndex(1));
 
-                returnAst.addOther(other);
-            }
-
-            Expr incr = (Expr)NodeToAstTransformer.Process((MNode)((NodeCollection)node.GetChildren()).GetIndex(count-2));
-
-            Expr upper = (Expr)NodeToAstTransformer.Process((MNode)((NodeCollection)node.GetChildren()).GetIndex(count-1));
+            Expr upper = (Expr)NodeToAstTransformer.Process((MNode)((NodeCollection)node.GetChildren()).GetIndex(2));
 
             returnAst.setLower(lower);
 

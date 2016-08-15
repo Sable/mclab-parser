@@ -204,7 +204,7 @@ NEExpr:BinaryExpr ;
 
 // ------------------------------
 
-RangeExpr:Expr ::= Lower:Expr [Incr:Expr] Upper:Expr Other:Expr* ; // CHANGED
+RangeExpr:Expr ::= Lower:Expr [Incr:Expr] Upper:Expr ;
  
 ColonExpr:Expr ;
 

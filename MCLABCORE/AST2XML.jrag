@@ -353,17 +353,16 @@ aspect ASTtoXML {
     }
   }
 
-  // CHANGED
-  public void RangeExpr.getXML(Document doc, Element parent) {
-
-    Element e = null;
-    if (hasIncr()) {
-      e = createXmlElement(doc, parent, Arrays.asList(getLower(), getIncr(), getUpper()));
-    } else {
-      e = createXmlElement(doc, parent, Arrays.asList(getLower(), getUpper()));
+  public void RangeExpr.getXML(Document doc, Element parent)
+  {
+    if (hasIncr())
+    {
+      createXmlElement(doc, parent, Arrays.asList(getLower(), getIncr(), getUpper()));
     }
-
-    addChildrenXml(doc, e, "Others", getOthers());
+    else
+    {
+      createXmlElement(doc, parent, Arrays.asList(getLower(), getUpper()));
+    }
   }
 
   public void ColonExpr.getXML(Document doc, Element parent) {

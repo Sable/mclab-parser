@@ -22,11 +22,6 @@ aspect natlabModifications
     this(attributes, signature, propertyAccesses, functions, new List<PropertyAccessSignature>()); 
   }  
 
-  public RangeExpr.RangeExpr(Expr lower, Opt<Expr> incr, Expr upper)
-  {
-    this(lower, incr, upper, new List<Expr>());
-  }
- 	
   public TryStmt.TryStmt(List<Stmt> tryStmts, List<Stmt> catchStmts)
   {
     this(tryStmts, catchStmts, new Opt<Name>());
